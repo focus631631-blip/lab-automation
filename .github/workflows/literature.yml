@@ -1,0 +1,21 @@
+name: 文献日报
+on:
+  schedule:
+    - cron: '0 0 * * *'   # UTC 00:00 = 北京时间 8:00
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  literature:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install requests
+      - name: Run literature monitor
+        env:
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: python github-actions/literature_monitor_gh.py

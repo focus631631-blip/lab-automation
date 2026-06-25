@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+"""GitHub Actions 版文献监控 — 每天 8:00 UTC+8 触发
+与旧 Mac 版的区别：
+- 密钥从环境变量读取（GitHub Secrets）
+- 推送历史用 GitHub Actions cache（跨运行持久化）
+- 不生成 digest 文件（纯推送）
+"""
+import os, sys, json, time, xml.etree.ElementTree as ET, requests, re
+from datetime import datetime, timedelta
+
+# ========== 从环境变量读取 ==========
+PUSHPLUS_TOKEN = os.environ["PUSHPLUS_TOKEN"]
+DEEPSEEK_KEY = os.environ["DEEPSEEK_KEY"]
+SEARCH_KEYWORDS_JSON = os.environ.get("LIT_KEYWORDS", "")
+if SEARCH_KEYWORDS_JSON:
+    SEARCH_KEYWORDS = json.loads(SEARCH_KEYWORDS_JSON)
+else:
+    SEARCH_KEYWORDS = [
+        "Neonatal Surgery", "Necrotizing Enterocolitis", "Biliary Atresia",
+        "Anorectal Malformations", "Hirschsprung Disease", "Esophageal Atresia",
+        "Intestinal Atresia", "Congenital Pulmonary Airway Malformation",
+        "Congenital Diaphragmatic Hernia", "Intestinal Malrotation",
+        "Hirschsprung Allied Disorders", "Neonatal Ovarian Cyst",
+        "Annular Pancreas", "Choledochal Cyst",
+    ]
+SEARCH_DAYS = int(os.environ.get("SEARCH_DAYS", "7"))
+MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", "100"))
+
+# ========== GitHub Actions cache 持久化 history ==========
+CACHE_FILE = "/tmp/pushed_history.json"
+
+def load_history():
+    if os.path.exists(CACHE_FILE):
+        try:
+            return json.loads(open(CACHE_FILE).read())
+        except Exception:
+            pass
+    # Fallback: 尝试从 Actions cache 恢复
+    cache_path = os.environ.get("ACTIONS_CACHE_PATH", "")
+    if cache_path and os.path.exists(cache_path + "/pushed_history.json"):
+        try:
+            data = json.loads(open(cache_path + "/pushed_history.json").read())
+            open(CACHE_FILE, "w").write(json.dumps(data))
+            return data
+        except Exception:
+            pass
+    return []
+
+def save_history(history):
+    open(CACHE_FILE, "w").write(json.dumps(history, ensure_ascii=False))
+    # 写入 cache 路径（Actions 用）
+    cache_path = os.environ.get("ACTIONS_CACHE_OUT", "")
+    if cache_path:
+        try:
+            os.makedirs(cache_path, exist_ok=True)
+            open(cache_path + "/pushed_history.json", "w").write(json.dumps(history, ensure_ascii=False))
+        except Exception:
+            pass
+
+# ========== 日志 ==========
+def log(msg):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{ts}] {msg}", flush=True)
+
+# ========== PubMed ==========
+def search_pubmed(keyword, days=7, max_results=5):
+    base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+    date_from = (datetime.now() - timedelta(days=days)).strftime("%Y/%m/%d")
+    date_to = datetime.now().strftime("%Y/%m/%d")
+    r = requests.get(base_url, params={
+        "db": "pubmed", "term": keyword, "retmax": max_results,
+        "sort": "date", "datetype": "pdat",
+        "mindate": date_from, "maxdate": date_to, "retmode": "json",
+    }, timeout=30)
+    return r.json().get("esearchresult", {}).get("idlist", [])
+
+def fetch_article_details(pmids):
+    if not pmids:
+        return []
+    r = requests.get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi", params={
+        "db": "pubmed", "id": ",".join(pmids), "retmode": "xml",
+    }, timeout=30)
+    root = ET.fromstring(r.text)
+    articles = []
+    for article in root.findall(".//PubmedArticle"):
+        try:
+            title_elem = article.find(".//ArticleTitle")
+            title = title_elem.text if title_elem is not None else "No Title"
+            abstract_parts = article.findall(".//AbstractText")
+            abstract = " ".join(p.text for p in abstract_parts if p.text) if abstract_parts else ""
+            doi = ""
+            for id_elem in article.findall(".//ArticleId"):
+                if id_elem.get("IdType") == "doi":
+                    doi = id_elem.text
+                    break
+            pmid_elem = article.find(".//PMID")
+            pmid = pmid_elem.text if pmid_elem is not None else ""
+            if title and abstract:
+                articles.append({"pmid": pmid, "title": title, "abstract": abstract, "doi": doi or "未提供"})
+        except Exception:
+            continue
+    return articles
+
+# ========== medRxiv ==========
+def fetch_medrxiv_recent(days=7):
+    date_from = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    date_to = datetime.now().strftime("%Y-%m-%d")
+    all_papers = []
+    cursor = 0
+    while True:
+        try:
+            r = requests.get(f"https://api.biorxiv.org/details/medrxiv/{date_from}/{date_to}/{cursor}", timeout=30)
+            data = r.json()
+        except Exception as e:
+            log(f"  medRxiv 拉取失败 cursor={cursor}: {e}")
+            break
+        batch = data.get("collection", [])
+        if not batch:
+            break
+        all_papers.extend(batch)
+        meta = data.get("messages", [{}])[0]
+        total = int(meta.get("total", 0))
+        if cursor + len(batch) >= total or cursor > 5000:
+            break
+        cursor += len(batch)
+        time.sleep(0.5)
+    log(f"  medRxiv 共拉取 {len(all_papers)} 篇预印本")
+    return all_papers
+
+def search_medrxiv(papers, keyword, max_results=5):
+    kw = keyword.lower()
+    matched = []
+    for it in papers:
+        if kw in (it.get("title") or "").lower() or kw in (it.get("abstract") or "").lower():
+            doi = it.get("doi", "")
+            matched.append({
+                "pmid": f"medrxiv_{doi}", "title": it.get("title", ""),
+                "abstract": it.get("abstract", ""), "doi": doi or "未提供",
+                "source": "medRxiv (preprint)", "date": it.get("date", ""),
+            })
+            if len(matched) >= max_results:
+                break
+    return matched
+
+# ========== AI ==========
+def generate_summary(title, abstract):
+    prompt = f"""你是一位新生儿外科领域的医学专家。请阅读以下英文文献的标题和摘要，用中文生成结构化总结。
+
+【标题】: {title}
+【摘要】: {abstract}
+
+请严格按以下格式输出（不要加任何额外内容）：
+- 研究目的：（一句话概括）
+- 核心发现/数据：（2-3句话，包含关键数据）
+- 临床启示：（1-2句话，对临床实践的意义）"""
+    try:
+        r = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
+            json={"model": "deepseek-chat", "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]},
+            timeout=60,
+        )
+        data = r.json()
+        if data.get("choices") and data["choices"][0].get("message"):
+            return data["choices"][0]["message"]["content"]
+    except Exception as e:
+        log(f"  AI 失败: {e}")
+    return "- 研究目的：AI 摘要生成失败\n- 核心发现/数据：请手动查看原文\n- 临床启示：N/A"
+
+# ========== 推送 ==========
+def push(title, content):
+    r = requests.post("http://www.pushplus.plus/send", json={
+        "token": PUSHPLUS_TOKEN, "title": title, "template": "html", "content": content,
+    }, timeout=20)
+    return r.status_code == 200 and r.json().get("code") == 200
+
+def push_heartbeat(stats):
+    title = f"📡 文献监控心跳 {datetime.now().strftime('%m/%d')}"
+    content = f"""<h3>📚 今日 0 篇新文献（GitHub Actions 版）</h3>
+<ul><li>PubMed: 14 个关键词，命中 <b>{stats.get('pubmed_total', 0)}</b> 篇</li>
+<li>medRxiv: 拉取 <b>{stats.get('medrxiv_total', 0)}</b> 篇预印本</li></ul>
+<p style="color:#888;font-size:11px">由 GitHub Actions 自动运行 · 不依赖旧 Mac</p>"""
+    return push(title, content)
+
+# ========== 主流程 ==========
+def main():
+    log("=" * 50)
+    log("文献监控 GitHub Actions 版 启动")
+    history = load_history()
+    new_articles = []
+    stats = {"pubmed_total": 0, "medrxiv_total": 0}
+
+    for kw in SEARCH_KEYWORDS:
+        log(f"检索: {kw}")
+        pmids = search_pubmed(kw, days=SEARCH_DAYS, max_results=5)
+        stats["pubmed_total"] += len(pmids)
+        log(f"  找到 {len(pmids)} 篇")
+        if pmids:
+            new_pmids = [p for p in pmids if p not in history]
+            if new_pmids:
+                articles = fetch_article_details(new_pmids)
+                new_articles.extend(articles)
+                log(f"  新文献 {len(articles)} 篇")
+        time.sleep(0.5)
+
+    log("扫描 medRxiv...")
+    try:
+        pool = fetch_medrxiv_recent(days=SEARCH_DAYS)
+        stats["medrxiv_total"] = len(pool)
+        for kw in SEARCH_KEYWORDS:
+            matches = search_medrxiv(pool, kw, max_results=5)
+            new_matches = [m for m in matches if m["pmid"] not in history]
+            if new_matches:
+                log(f"  [medRxiv] {kw}: 新 {len(new_matches)}")
+                new_articles.extend(new_matches)
+    except Exception as e:
+        log(f"  medRxiv 阶段失败: {e}")
+
+    # 去重
+    seen = set()
+    unique = []
+    for a in new_articles:
+        if a["pmid"] not in seen:
+            seen.add(a["pmid"])
+            unique.append(a)
+    unique = unique[:MAX_ARTICLES]
+    log(f"共发现 {len(unique)} 篇新文献")
+
+    if not unique:
+        log("无新文献，推送心跳")
+        push_heartbeat(stats)
+        log("完成")
+        return
+
+    # 逐篇 AI 总结
+    parts = []
+    for i, a in enumerate(unique):
+        log(f"处理 [{i+1}/{len(unique)}]: {a['title'][:50]}...")
+        summary = generate_summary(a["title"], a["abstract"])
+        a["_summary"] = summary
+        time.sleep(1)
+        doi_link = f'https://doi.org/{a["doi"]}' if a["doi"] != "未提供" else "未提供"
+        source = a.get("source", "PubMed")
+        parts.append(f"""<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">
+<h3>★ {source} ★</h3>
+<p><b>【原文题目】</b>: {a['title']}</p>
+<p><b>【DOI 号】</b>: <a href="{doi_link}">{a['doi']}</a></p>
+<p><b>【核心中文总结】</b>:</p>
+<p>{summary.replace(chr(10), '<br>')}</p></div>""")
+        history.append(a["pmid"])
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    full = f"""<h2>📚 新生儿外科文献日报 ({today})</h2>
+<p>今日发现 <b>{len(parts)}</b> 篇新文献（GitHub Actions 自动运行）：</p>
+{''.join(parts)}
+<p style="color:#888;font-size:11px">由 GitHub Actions 自动生成 · 不依赖旧 Mac</p>"""
+    title = f"文献日报: {len(parts)}篇新生儿外科文献 ({datetime.now().strftime('%m/%d')})"
+
+    if push(title, full):
+        log("推送成功")
+        save_history(history)
+    else:
+        log("推送失败")
+
+    log("完成")
+
+if __name__ == "__main__":
+    main()
