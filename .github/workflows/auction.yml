@@ -1,11 +1,11 @@
-name: 盘前简报
+name: 竞价提醒
 on:
   schedule:
-    - cron: '55 0 * * 1-5'   # UTC 00:55 = 北京时间 8:55，周一至周五
+    - cron: '27 1 * * 1-5'   # UTC 01:27 = 北京时间 9:27，周一至周五
   workflow_dispatch:
 
 jobs:
-  briefing:
+  auction:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,9 +14,9 @@ jobs:
           python-version: '3.11'
       - name: Install deps
         run: pip install requests
-      - name: Run morning briefing
+      - name: Run auction alert
         env:
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
           HOLDINGS: ${{ secrets.HOLDINGS }}
-        run: python morning_briefing_gh.py
+        run: python auction_alert_gh.py

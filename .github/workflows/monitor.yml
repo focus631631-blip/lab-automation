@@ -1,11 +1,11 @@
-name: 盘前简报
+name: 持仓监控
 on:
   schedule:
-    - cron: '55 0 * * 1-5'   # UTC 00:55 = 北京时间 8:55，周一至周五
+    - cron: '10 7 * * 1-5'   # UTC 07:10 = 北京时间 15:10，周一至周五
   workflow_dispatch:
 
 jobs:
-  briefing:
+  monitor:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,9 +14,8 @@ jobs:
           python-version: '3.11'
       - name: Install deps
         run: pip install requests
-      - name: Run morning briefing
+      - name: Run stock monitor
         env:
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
           HOLDINGS: ${{ secrets.HOLDINGS }}
-        run: python morning_briefing_gh.py
+        run: python stock_monitor_gh.py
