@@ -143,6 +143,42 @@ def search_medrxiv(papers, keyword, max_results=5):
     return matched
 
 # ========== AI ==========
+def _deepseek_call(prompt, model):
+    """单次 DeepSeek 调用，成功返回文本，失败返回 None。"""
+    try:
+        r = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
+            json={"model": model, "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]},
+            timeout=60,
+        )
+        if r.status_code != 200:
+            log(f"  DeepSeek[{model}] HTTP {r.status_code}: {r.text[:120]}")
+            return None
+        data = r.json()
+        if data.get("choices") and data["choices"][0].get("message"):
+            content = data["choices"][0]["message"].get("content", "").strip()
+            if content:
+                return content
+        log(f"  DeepSeek[{model}] 返回空内容")
+    except Exception as e:
+        log(f"  DeepSeek[{model}] 异常: {e}")
+    return None
+
+
+def _fallback_abstract(abstract):
+    """AI 全部失败时的兜底：直接给英文摘要截断，保证有内容可读而不是'生成失败'。"""
+    abs_txt = (abstract or "").strip()
+    if not abs_txt:
+        return "- ⚠️ AI 总结暂时不可用，且原文无摘要，请点标题看 PubMed 原文。"
+    if len(abs_txt) > 900:
+        abs_txt = abs_txt[:900].rsplit(" ", 1)[0] + " …"
+    return (
+        "- ⚠️ AI 总结通道暂时不可用，以下为英文原文摘要（截断），请对照原文：\n"
+        + abs_txt
+    )
+
+
 def generate_summary(title, abstract):
     prompt = f"""你是一位新生儿外科领域的医学专家。请阅读以下英文文献的标题和摘要，用中文生成结构化总结。
 
@@ -153,19 +189,16 @@ def generate_summary(title, abstract):
 - 研究目的：（一句话概括）
 - 核心发现/数据：（2-3句话，包含关键数据）
 - 临床启示：（1-2句话，对临床实践的意义）"""
-    try:
-        r = requests.post(
-            "https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
-            json={"model": "deepseek-chat", "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]},
-            timeout=60,
-        )
-        data = r.json()
-        if data.get("choices") and data["choices"][0].get("message"):
-            return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        log(f"  AI 失败: {e}")
-    return "- 研究目的：AI 摘要生成失败\n- 核心发现/数据：请手动查看原文\n- 临床启示：N/A"
+    # 通道1：deepseek-chat，失败重试一次；通道2：deepseek-reasoner 兜底；最后给英文摘要
+    attempts = [("deepseek-chat", 1), ("deepseek-chat", 2), ("deepseek-reasoner", 1)]
+    for model, attempt in attempts:
+        out = _deepseek_call(prompt, model)
+        if out:
+            return out
+        log(f"  总结失败，切下一通道（刚才：{model} 第{attempt}次）")
+        time.sleep(2)
+    log("  所有 AI 通道均失败，回退到英文摘要")
+    return _fallback_abstract(abstract)
 
 # ========== 推送 ==========
 def push(title, content):
