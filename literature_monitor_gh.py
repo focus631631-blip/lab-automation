@@ -278,8 +278,13 @@ def main():
     log(f"共发现 {len(unique)} 篇新文献")
 
     if not unique:
-        log("无新文献，推送心跳")
-        push_heartbeat(stats)
+        # 备用运行(中午/晚上)无新文献时静默，避免每天多推心跳打扰；
+        # 只有主运行(早上8:00)才发“今日0篇”心跳作为存活信号。
+        if os.environ.get("RUN_ROLE", "primary") == "backup":
+            log("备用运行且无新文献，静默跳过")
+        else:
+            log("无新文献，推送心跳")
+            push_heartbeat(stats)
         log("完成")
         return
 

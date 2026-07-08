@@ -1,9 +1,10 @@
 name: 文献日报
 on:
   schedule:
-    - cron: '0 0 * * *'   # UTC 00:00 = 北京时间 8:00
+    - cron: '0 0 * * *'    # 主运行  UTC 00:00 = 北京 8:00
+    - cron: '0 4 * * *'    # 备用①  UTC 04:00 = 北京 12:00
+    - cron: '0 12 * * *'   # 备用②  UTC 12:00 = 北京 20:00
   workflow_dispatch:       # 允许手动触发
-
 jobs:
   literature:
     runs-on: ubuntu-latest
@@ -18,4 +19,6 @@ jobs:
         env:
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+          # 只有 8:00 主运行和手动触发算 primary；12:00/20:00 是 backup（无新文献时静默）
+          RUN_ROLE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * *') && 'primary' || 'backup' }}
         run: python literature_monitor_gh.py
