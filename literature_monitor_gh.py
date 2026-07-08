@@ -282,7 +282,99 @@ def archive_articles(articles):
         lines.append("---")
     with open(path, "a", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
-    log(f"已归档 {len(articles)} 篇到 archive/{day}.md")
+    # 结构化数据 + 生成网页（供 GitHub Pages 公开访问）
+    _update_data_and_site(articles, day)
+    log(f"已归档 {len(articles)} 篇到 archive/{day}.md，并更新网页")
+
+# ========== 结构化数据 + 网页（GitHub Pages） ==========
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(REPO_ROOT, "archive", "data.json")
+INDEX_FILE = os.path.join(REPO_ROOT, "index.html")
+MAX_SITE_ITEMS = 1000
+
+def _esc(s):
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+def _update_data_and_site(articles, day):
+    data = []
+    if os.path.exists(DATA_FILE):
+        try:
+            data = json.loads(open(DATA_FILE).read())
+        except Exception:
+            data = []
+    have = {d.get("pmid") for d in data}
+    for a in articles:
+        pmid = str(a.get("pmid", ""))
+        if pmid in have:
+            continue
+        data.append({
+            "date": day, "pmid": pmid, "title": a.get("title", ""),
+            "doi": a.get("doi", "未提供"), "source": a.get("source", "PubMed"),
+            "summary": (a.get("_summary") or "").strip(),
+            "abstract": (a.get("abstract") or "").strip(),
+        })
+    data = data[-MAX_SITE_ITEMS:]
+    open(DATA_FILE, "w", encoding="utf-8").write(json.dumps(data, ensure_ascii=False, indent=1))
+    render_index_html(data)
+
+def render_index_html(data):
+    by_date = {}
+    for d in data:
+        by_date.setdefault(d["date"], []).append(d)
+    blocks = []
+    for day in sorted(by_date, reverse=True):
+        items = by_date[day]
+        blocks.append(f'<h2 class="day">{day}<span class="cnt">{len(items)} 篇</span></h2>')
+        for a in items:
+            links = []
+            doi = a.get("doi", "")
+            if doi and doi != "未提供":
+                links.append(f'<a href="https://doi.org/{_esc(doi)}" target="_blank" rel="noopener">DOI 全文</a>')
+            pmid = str(a.get("pmid", ""))
+            if pmid.isdigit():
+                links.append(f'<a href="https://pubmed.ncbi.nlm.nih.gov/{pmid}/" target="_blank" rel="noopener">PubMed</a>')
+            link_html = " · ".join(links) if links else "<span class=nolink>无直达链接</span>"
+            summ = _esc(a.get("summary", "")).replace("\n", "<br>")
+            abst = _esc(a.get("abstract", ""))
+            details = f'<details><summary>原文摘要</summary><p>{abst}</p></details>' if abst else ""
+            blocks.append(
+                f'<article><h3>{_esc(a.get("title", ""))}</h3>'
+                f'<div class="meta"><span class="src">{_esc(a.get("source", "PubMed"))}</span> · {link_html}</div>'
+                f'<div class="sum">{summ}</div>{details}</article>'
+            )
+    updated = datetime.now().strftime("%Y-%m-%d %H:%M")
+    html = (
+        '<!doctype html><html lang="zh"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        "<title>新生儿外科文献归档</title><style>"
+        ":root{color-scheme:light dark}"
+        "*{box-sizing:border-box}"
+        "body{margin:0;font-family:-apple-system,'PingFang SC',Roboto,sans-serif;line-height:1.6;"
+        "background:#f6f7f9;color:#1a1a1a}"
+        "header{background:#0b6b5b;color:#fff;padding:20px 16px}"
+        "header h1{margin:0;font-size:20px}header p{margin:4px 0 0;opacity:.85;font-size:13px}"
+        "main{max-width:820px;margin:0 auto;padding:16px}"
+        ".day{font-size:15px;color:#0b6b5b;border-bottom:2px solid #0b6b5b33;padding-bottom:4px;margin:24px 0 12px;display:flex;justify-content:space-between}"
+        ".cnt{font-weight:400;color:#888;font-size:13px}"
+        "article{background:#fff;border:1px solid #e3e5e8;border-radius:10px;padding:14px 16px;margin:10px 0}"
+        "article h3{margin:0 0 8px;font-size:16px}"
+        ".meta{font-size:13px;color:#666;margin-bottom:8px}"
+        ".src{background:#0b6b5b14;color:#0b6b5b;padding:1px 8px;border-radius:20px;font-size:12px}"
+        ".meta a{color:#0b6b5b;text-decoration:none;font-weight:600}"
+        ".nolink{color:#aaa}"
+        ".sum{font-size:14px;white-space:normal}"
+        "details{margin-top:8px}summary{cursor:pointer;color:#0b6b5b;font-size:13px}"
+        "details p{font-size:13px;color:#444;background:#fafafa;padding:10px;border-radius:6px}"
+        "footer{text-align:center;color:#999;font-size:12px;padding:24px}"
+        "@media(prefers-color-scheme:dark){body{background:#16181c;color:#e6e6e6}article{background:#1e2126;border-color:#2c2f36}details p{background:#22252b;color:#bbb}}"
+        "</style></head><body>"
+        "<header><h1>📚 新生儿外科文献归档</h1>"
+        f"<p>共 {len(data)} 篇 · 每天 8:00 自动更新 · 最后更新 {updated}</p></header>"
+        f"<main>{''.join(blocks) or '<p>暂无归档</p>'}</main>"
+        "<footer>由 GitHub Actions 自动生成 · 需要全文请点 DOI / PubMed 链接</footer>"
+        "</body></html>"
+    )
+    open(INDEX_FILE, "w", encoding="utf-8").write(html)
 
 # ========== 主流程 ==========
 def main():

@@ -27,11 +27,11 @@ jobs:
       - name: Persist push history + archive
         if: success()   # 推送失败时(python exit 1)不提交，历史不前进，下次会重试
         run: |
-          if [[ -n "$(git status --porcelain pushed_history.json archive)" ]]; then
+          if [[ -n "$(git status --porcelain pushed_history.json archive index.html)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add pushed_history.json archive
-            git commit -m "chore: update history + archive [skip ci]"
+            git add pushed_history.json archive index.html
+            git commit -m "chore: update history + archive + site [skip ci]"
             git push
           else
             echo "无变化，跳过提交"
