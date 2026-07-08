@@ -204,17 +204,26 @@ def generate_summary(title, abstract):
 # PushPlus 单条 content 上限 2 万字，留余量防止被拒
 MAX_PUSH_CHARS = 19000
 
-def push(title, content):
-    """返回 (ok, code, msg)，失败时带上 PushPlus 的真实错误信息便于排查"""
-    try:
-        r = requests.post("http://www.pushplus.plus/send", json={
-            "token": PUSHPLUS_TOKEN, "title": title, "template": "html", "content": content,
-        }, timeout=20)
-        data = r.json()
-        ok = r.status_code == 200 and data.get("code") == 200
-        return ok, data.get("code"), data.get("msg") or data.get("data")
-    except Exception as e:
-        return False, -1, str(e)
+def push(title, content, retries=3):
+    """返回 (ok, code, msg)；对网络抖动/PushPlus 偶发错误自动重试。
+    注意：内容超限(code 999)等确定性错误重试无意义，但代价极小，统一重试更简单。"""
+    last_code, last_msg = None, None
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.post("http://www.pushplus.plus/send", json={
+                "token": PUSHPLUS_TOKEN, "title": title, "template": "html", "content": content,
+            }, timeout=20)
+            data = r.json()
+            last_code = data.get("code")
+            last_msg = data.get("msg") or data.get("data")
+            if r.status_code == 200 and last_code == 200:
+                return True, last_code, last_msg
+        except Exception as e:
+            last_code, last_msg = -1, str(e)
+        if attempt < retries:
+            log(f"  推送第 {attempt} 次未成功(code={last_code})，{5}s 后重试")
+            time.sleep(5)
+    return False, last_code, last_msg
 
 def push_heartbeat(stats):
     title = f"📡 文献监控心跳 {datetime.now().strftime('%m/%d')}"
@@ -325,6 +334,12 @@ def main():
         log(f"完成：{n} 条推送全部成功")
     else:
         log("有推送失败，未保存历史，下次运行会重试")
+        # 单独推一条极短的报警，避免“一片安静”让用户以为只是今天没新文献
+        alert_ok, _, _ = push(
+            f"⚠️ 文献日报推送失败 {datetime.now().strftime('%m/%d')}",
+            "<p>今日文献抓取正常，但推送失败（详情见 GitHub Actions 日志）。历史未保存，下次会自动重试。</p>",
+        )
+        log(f"报警推送{'成功' if alert_ok else '也失败了'}")
         sys.exit(1)  # 让 GitHub Actions 显示失败（红色），便于及时发现
 
 if __name__ == "__main__":
