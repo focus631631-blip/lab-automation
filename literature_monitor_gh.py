@@ -201,11 +201,20 @@ def generate_summary(title, abstract):
     return _fallback_abstract(abstract)
 
 # ========== 推送 ==========
+# PushPlus 单条 content 上限 2 万字，留余量防止被拒
+MAX_PUSH_CHARS = 19000
+
 def push(title, content):
-    r = requests.post("http://www.pushplus.plus/send", json={
-        "token": PUSHPLUS_TOKEN, "title": title, "template": "html", "content": content,
-    }, timeout=20)
-    return r.status_code == 200 and r.json().get("code") == 200
+    """返回 (ok, code, msg)，失败时带上 PushPlus 的真实错误信息便于排查"""
+    try:
+        r = requests.post("http://www.pushplus.plus/send", json={
+            "token": PUSHPLUS_TOKEN, "title": title, "template": "html", "content": content,
+        }, timeout=20)
+        data = r.json()
+        ok = r.status_code == 200 and data.get("code") == 200
+        return ok, data.get("code"), data.get("msg") or data.get("data")
+    except Exception as e:
+        return False, -1, str(e)
 
 def push_heartbeat(stats):
     title = f"📡 文献监控心跳 {datetime.now().strftime('%m/%d')}"
@@ -283,19 +292,40 @@ def main():
         history.append(a["pmid"])
 
     today = datetime.now().strftime("%Y-%m-%d")
-    full = f"""<h2>📚 新生儿外科文献日报 ({today})</h2>
-<p>今日发现 <b>{len(parts)}</b> 篇新文献（GitHub Actions 自动运行）：</p>
-{''.join(parts)}
-<p style="color:#888;font-size:11px">由 GitHub Actions 自动生成 · 不依赖旧 Mac</p>"""
-    title = f"文献日报: {len(parts)}篇新生儿外科文献 ({datetime.now().strftime('%m/%d')})"
+    header = f"<h2>📚 新生儿外科文献日报 ({today})</h2>"
+    footer = '<p style="color:#888;font-size:11px">由 GitHub Actions 自动生成 · 不依赖旧 Mac</p>'
+    wrap_overhead = len(header) + len(footer) + 120  # 头尾 + 提示行余量
 
-    if push(title, full):
-        log("推送成功")
+    # 按字符预算分批，保证每条 content 不超过 PushPlus 上限
+    batches, cur, cur_len = [], [], 0
+    for p in parts:
+        if cur and cur_len + len(p) + wrap_overhead > MAX_PUSH_CHARS:
+            batches.append(cur)
+            cur, cur_len = [], 0
+        cur.append(p)
+        cur_len += len(p)
+    if cur:
+        batches.append(cur)
+
+    n = len(batches)
+    all_ok = True
+    for bi, batch in enumerate(batches, 1):
+        seq = f"（{bi}/{n}）" if n > 1 else ""
+        title = f"文献日报{seq}: {len(batch)}篇新生儿外科文献 ({datetime.now().strftime('%m/%d')})"
+        body = f"{header}<p>本条含 <b>{len(batch)}</b> 篇（共 {len(parts)} 篇新文献）：</p>{''.join(batch)}{footer}"
+        ok, code, msg = push(title, body)
+        if ok:
+            log(f"推送成功 {seq} {len(body)} 字")
+        else:
+            all_ok = False
+            log(f"推送失败 {seq}: code={code} msg={msg}（{len(body)} 字）")
+
+    if all_ok:
         save_history(history)
+        log(f"完成：{n} 条推送全部成功")
     else:
-        log("推送失败")
-
-    log("完成")
+        log("有推送失败，未保存历史，下次运行会重试")
+        sys.exit(1)  # 让 GitHub Actions 显示失败（红色），便于及时发现
 
 if __name__ == "__main__":
     main()
