@@ -63,24 +63,52 @@ def log(msg):
     print(f"[{ts}] {msg}", flush=True)
 
 # ========== PubMed ==========
+def ncbi_get(url, params, retries=3):
+    """NCBI eutils 请求带重试。NCBI 不带 API key 限流 3 次/秒，偶发返回限流页/空响应，
+    重试可消化大部分抽风。全部失败返回 None，由调用方决定跳过。"""
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.get(url, params=params, timeout=30)
+            if r.status_code == 200 and r.text.strip():
+                return r
+        except Exception:
+            pass
+        if attempt < retries:
+            time.sleep(2 * attempt)  # 2s,4s 退避
+    return None
+
 def search_pubmed(keyword, days=7, max_results=5):
     base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
     date_from = (datetime.now() - timedelta(days=days)).strftime("%Y/%m/%d")
     date_to = datetime.now().strftime("%Y/%m/%d")
-    r = requests.get(base_url, params={
+    r = ncbi_get(base_url, {
         "db": "pubmed", "term": keyword, "retmax": max_results,
         "sort": "date", "datetype": "pdat",
         "mindate": date_from, "maxdate": date_to, "retmode": "json",
-    }, timeout=30)
-    return r.json().get("esearchresult", {}).get("idlist", [])
+    })
+    if r is None:
+        log(f"  ⚠️ esearch 失败(NCBI 无响应)，跳过关键词: {keyword}")
+        return []
+    try:
+        return r.json().get("esearchresult", {}).get("idlist", [])
+    except Exception:
+        log(f"  ⚠️ esearch 返回非 JSON，跳过关键词: {keyword}")
+        return []
 
 def fetch_article_details(pmids):
     if not pmids:
         return []
-    r = requests.get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi", params={
+    r = ncbi_get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi", {
         "db": "pubmed", "id": ",".join(pmids), "retmode": "xml",
-    }, timeout=30)
-    root = ET.fromstring(r.text)
+    })
+    if r is None:
+        log("  ⚠️ efetch 失败(NCBI 无响应)，跳过这批 PMID")
+        return []
+    try:
+        root = ET.fromstring(r.text)
+    except ET.ParseError:
+        log("  ⚠️ efetch 返回非 XML(多为限流)，跳过这批 PMID")
+        return []
     articles = []
     for article in root.findall(".//PubmedArticle"):
         try:
