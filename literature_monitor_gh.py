@@ -248,6 +248,42 @@ def push_heartbeat(stats):
 <p style="color:#888;font-size:11px">由 GitHub Actions 自动运行 · 不依赖旧 Mac</p>"""
     return push(title, content)
 
+# ========== 归档 ==========
+def archive_articles(articles):
+    """把当天推送的文献追加归档到 archive/YYYY-MM-DD.md，随历史一起提交回仓库。
+    含标题/中文总结/原文摘要/DOI/PubMed 链接，需要全文时点链接去原站获取。"""
+    day = datetime.now().strftime("%Y-%m-%d")
+    ts = datetime.now().strftime("%H:%M")
+    arc_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "archive")
+    os.makedirs(arc_dir, exist_ok=True)
+    path = os.path.join(arc_dir, f"{day}.md")
+    lines = []
+    if not os.path.exists(path):
+        lines.append(f"# 新生儿外科文献归档 · {day}\n")
+    for a in articles:
+        pmid = str(a.get("pmid", ""))
+        doi = a.get("doi", "未提供")
+        links = []
+        if doi and doi != "未提供":
+            links.append(f"[DOI 全文](https://doi.org/{doi})")
+        if pmid.isdigit():
+            links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{pmid}/)")
+        link_line = " · ".join(links) if links else "无直达链接"
+        lines.append(f"\n## {a.get('title', '(无标题)')}\n")
+        lines.append(f"- 来源: {a.get('source', 'PubMed')} · 推送 {ts}")
+        lines.append(f"- DOI: {doi}")
+        lines.append(f"- 获取全文: {link_line}\n")
+        summary = (a.get("_summary") or "").strip()
+        if summary:
+            lines.append(f"**中文总结**：{summary}\n")
+        abstract = (a.get("abstract") or "").strip()
+        if abstract:
+            lines.append(f"**原文摘要**：{abstract}\n")
+        lines.append("---")
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    log(f"已归档 {len(articles)} 篇到 archive/{day}.md")
+
 # ========== 主流程 ==========
 def main():
     log("=" * 50)
@@ -350,6 +386,7 @@ def main():
             log(f"推送失败 {seq}: code={code} msg={msg}（{len(body)} 字）")
 
     if all_ok:
+        archive_articles(unique)   # 推送成功才归档，保证"归档=已送达"
         save_history(history)
         log(f"完成：{n} 条推送全部成功")
     else:
