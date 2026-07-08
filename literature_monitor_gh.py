@@ -27,7 +27,10 @@ SEARCH_DAYS = int(os.environ.get("SEARCH_DAYS", "7"))
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", "100"))
 
 # ========== GitHub Actions cache 持久化 history ==========
-CACHE_FILE = "/tmp/pushed_history.json"
+# 历史存回仓库根目录（随 checkout 带下来），运行后由 workflow 提交回仓库持久化。
+# 只保留最近 MAX_HISTORY 条，防止文件无限膨胀。
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pushed_history.json")
+MAX_HISTORY = 2000
 
 def load_history():
     if os.path.exists(CACHE_FILE):
@@ -35,27 +38,11 @@ def load_history():
             return json.loads(open(CACHE_FILE).read())
         except Exception:
             pass
-    # Fallback: 尝试从 Actions cache 恢复
-    cache_path = os.environ.get("ACTIONS_CACHE_PATH", "")
-    if cache_path and os.path.exists(cache_path + "/pushed_history.json"):
-        try:
-            data = json.loads(open(cache_path + "/pushed_history.json").read())
-            open(CACHE_FILE, "w").write(json.dumps(data))
-            return data
-        except Exception:
-            pass
     return []
 
 def save_history(history):
-    open(CACHE_FILE, "w").write(json.dumps(history, ensure_ascii=False))
-    # 写入 cache 路径（Actions 用）
-    cache_path = os.environ.get("ACTIONS_CACHE_OUT", "")
-    if cache_path:
-        try:
-            os.makedirs(cache_path, exist_ok=True)
-            open(cache_path + "/pushed_history.json", "w").write(json.dumps(history, ensure_ascii=False))
-        except Exception:
-            pass
+    trimmed = history[-MAX_HISTORY:]
+    open(CACHE_FILE, "w").write(json.dumps(trimmed, ensure_ascii=False))
 
 # ========== 日志 ==========
 def log(msg):

@@ -5,6 +5,8 @@ on:
     - cron: '0 4 * * *'    # 备用①  UTC 04:00 = 北京 12:00
     - cron: '0 12 * * *'   # 备用②  UTC 12:00 = 北京 20:00
   workflow_dispatch:       # 允许手动触发
+permissions:
+  contents: write          # 允许把 pushed_history.json 提交回仓库
 jobs:
   literature:
     runs-on: ubuntu-latest
@@ -22,3 +24,15 @@ jobs:
           # 只有 8:00 主运行和手动触发算 primary；12:00/20:00 是 backup（无新文献时静默）
           RUN_ROLE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * *') && 'primary' || 'backup' }}
         run: python literature_monitor_gh.py
+      - name: Persist push history
+        if: success()   # 推送失败时(python exit 1)不提交，历史不前进，下次会重试
+        run: |
+          if [[ -n "$(git status --porcelain pushed_history.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add pushed_history.json
+            git commit -m "chore: update pushed_history [skip ci]"
+            git push
+          else
+            echo "history 无变化，跳过提交"
+          fi
