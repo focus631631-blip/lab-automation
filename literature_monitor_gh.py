@@ -26,6 +26,11 @@ else:
 SEARCH_DAYS = int(os.environ.get("SEARCH_DAYS", "7"))
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", "100"))
 
+# easyScholar 期刊分区/影响因子（可选：未配置 key 时自动跳过，不影响推送）
+EASYSCHOLAR_KEY = os.environ.get("EASYSCHOLAR_KEY", "").strip()
+RANK_CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "journal_rank_cache.json")
+RANK_TTL_DAYS = 180  # 分区/IF 每年更新一次，半年缓存足够新，且大幅省接口额度
+
 # ========== GitHub Actions cache 持久化 history ==========
 # 历史存回仓库根目录（随 checkout 带下来），运行后由 workflow 提交回仓库持久化。
 # 只保留最近 MAX_HISTORY 条，防止文件无限膨胀。
@@ -110,8 +115,16 @@ def fetch_article_details(pmids):
                     break
             pmid_elem = article.find(".//PMID")
             pmid = pmid_elem.text if pmid_elem is not None else ""
+            # 期刊：全名(用于查分区，匹配更准) + ISO 缩写(用于显示)
+            jt = article.find(".//Journal/Title")
+            ja = article.find(".//Journal/ISOAbbreviation")
+            journal = jt.text if jt is not None and jt.text else ""
+            journal_abbr = ja.text if ja is not None and ja.text else ""
             if title and abstract:
-                articles.append({"pmid": pmid, "title": title, "abstract": abstract, "doi": doi or "未提供"})
+                articles.append({
+                    "pmid": pmid, "title": title, "abstract": abstract, "doi": doi or "未提供",
+                    "journal": journal, "journal_abbr": journal_abbr,
+                })
         except Exception:
             continue
     return articles
@@ -215,6 +228,89 @@ def generate_summary(title, abstract):
     log("  所有 AI 通道均失败，回退到英文摘要")
     return _fallback_abstract(abstract)
 
+# ========== easyScholar 期刊分区 / 影响因子 ==========
+_rank_cache = None
+
+def _load_rank_cache():
+    global _rank_cache
+    if _rank_cache is None:
+        try:
+            _rank_cache = json.loads(open(RANK_CACHE_FILE).read())
+        except Exception:
+            _rank_cache = {}
+    return _rank_cache
+
+def save_rank_cache():
+    if _rank_cache is not None:
+        try:
+            open(RANK_CACHE_FILE, "w", encoding="utf-8").write(
+                json.dumps(_rank_cache, ensure_ascii=False, indent=1))
+        except Exception as e:
+            log(f"  分区缓存写入失败: {e}")
+
+def _fmt_rank(all_data):
+    """把 easyScholar officialRank.all 整理成简短中文徽章；缺字段就跳过对应段。
+    形如：中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2"""
+    if not all_data:
+        return ""
+    parts = []
+    cas = (all_data.get("sciUp") or "").strip()                       # 中科院升级版大类
+    cas_small = (all_data.get("sciUpSmall") or "").strip().rstrip("。")  # 小类(儿科/外科)
+    if cas:
+        parts.append(f"中科院{cas}" + (f"({cas_small})" if cas_small else ""))
+    iff = (all_data.get("sciif") or "").strip()
+    if iff:
+        parts.append(f"IF {iff}")
+    jcr = (all_data.get("sci") or "").strip()
+    if jcr:
+        parts.append(f"JCR {jcr}")
+    return " · ".join(parts)
+
+def lookup_journal_rank(journal):
+    """查期刊分区/IF，返回简短中文徽章（未配置 key / 查不到 / 出错都返回空串）。
+    持久缓存 + 限流(40006)退避重试；任何异常都安静降级，绝不影响推送主流程。"""
+    journal = (journal or "").strip()
+    if not journal or not EASYSCHOLAR_KEY:
+        return ""
+    cache = _load_rank_cache()
+    ckey = journal.lower()
+    now = datetime.now()
+    hit = cache.get(ckey)
+    if hit:
+        try:
+            ts = datetime.strptime(hit.get("_ts", "2000-01-01"), "%Y-%m-%d")
+            if (now - ts).days < RANK_TTL_DAYS:
+                return hit.get("badge", "")
+        except Exception:
+            pass
+    for attempt in range(1, 4):
+        try:
+            r = requests.get(
+                "https://www.easyscholar.cc/open/getPublicationRank",
+                params={"secretKey": EASYSCHOLAR_KEY, "publicationName": journal}, timeout=20)
+            data = r.json()
+        except Exception as e:
+            log(f"  easyScholar 请求异常({journal}): {e}")
+            return ""  # 网络异常不缓存，下次运行重试
+        code = data.get("code")
+        if code == 200:
+            all_data = ((data.get("data") or {}).get("officialRank") or {}).get("all") or {}
+            badge = _fmt_rank(all_data)
+            cache[ckey] = {"badge": badge, "_ts": now.strftime("%Y-%m-%d")}  # 空徽章也缓存，避免反复查找不到的刊
+            return badge
+        if code == 40006:  # 请求频繁
+            log(f"  easyScholar 限流，{2*attempt}s 后重试({journal})")
+            time.sleep(2 * attempt)
+            continue
+        # 其它错误码(额度用尽等)：不缓存，下次再试
+        log(f"  easyScholar code={code} msg={data.get('msg')} ({journal})")
+        return ""
+    return ""
+
+def journal_display(a):
+    """展示用期刊名：优先 ISO 缩写，其次全名，最后回退来源(medRxiv 预印本等)。"""
+    return (a.get("journal_abbr") or a.get("journal") or a.get("source") or "").strip()
+
 # ========== 推送 ==========
 # PushPlus 单条 content 上限 2 万字，留余量防止被拒
 MAX_PUSH_CHARS = 19000
@@ -271,6 +367,10 @@ def archive_articles(articles):
         link_line = " · ".join(links) if links else "无直达链接"
         lines.append(f"\n## {a.get('title', '(无标题)')}\n")
         lines.append(f"- 来源: {a.get('source', 'PubMed')} · 推送 {ts}")
+        jname = journal_display(a)
+        if jname:
+            badge = a.get("_rank_badge", "")
+            lines.append(f"- 期刊: {jname}" + (f" · {badge}" if badge else ""))
         lines.append(f"- DOI: {doi}")
         lines.append(f"- 获取全文: {link_line}\n")
         summary = (a.get("_summary") or "").strip()
@@ -310,6 +410,7 @@ def _update_data_and_site(articles, day):
         data.append({
             "date": day, "pmid": pmid, "title": a.get("title", ""),
             "doi": a.get("doi", "未提供"), "source": a.get("source", "PubMed"),
+            "journal": journal_display(a), "rank": a.get("_rank_badge", ""),
             "summary": (a.get("_summary") or "").strip(),
             "abstract": (a.get("abstract") or "").strip(),
         })
@@ -337,8 +438,14 @@ def render_index_html(data):
             summ = _esc(a.get("summary", "")).replace("\n", "<br>")
             abst = _esc(a.get("abstract", ""))
             details = f'<details><summary>原文摘要</summary><p>{abst}</p></details>' if abst else ""
+            jn = _esc(a.get("journal", ""))
+            rk = _esc(a.get("rank", ""))
+            jr = ""
+            if jn:
+                jr = f'<div class="jrnl">{jn}' + (f' · <b>{rk}</b>' if rk else "") + '</div>'
             blocks.append(
                 f'<article><h3>{_esc(a.get("title", ""))}</h3>'
+                f'{jr}'
                 f'<div class="meta"><span class="src">{_esc(a.get("source", "PubMed"))}</span> · {link_html}</div>'
                 f'<div class="sum">{summ}</div>{details}</article>'
             )
@@ -360,6 +467,7 @@ def render_index_html(data):
         "article h3{margin:0 0 8px;font-size:16px}"
         ".meta{font-size:13px;color:#666;margin-bottom:8px}"
         ".src{background:#0b6b5b14;color:#0b6b5b;padding:1px 8px;border-radius:20px;font-size:12px}"
+        ".jrnl{font-size:13px;color:#0b6b5b;font-weight:600;margin-bottom:6px}"
         ".meta a{color:#0b6b5b;text-decoration:none;font-weight:600}"
         ".nolink{color:#aaa}"
         ".sum{font-size:14px;white-space:normal}"
@@ -437,13 +545,21 @@ def main():
         log(f"处理 [{i+1}/{len(unique)}]: {a['title'][:50]}...")
         summary = generate_summary(a["title"], a["abstract"])
         a["_summary"] = summary
+        # 期刊分区/IF（缓存优先；medRxiv 无期刊会自动跳过查询）
+        badge = lookup_journal_rank(a.get("journal") or a.get("journal_abbr"))
+        a["_rank_badge"] = badge
+        jname = journal_display(a)
+        journal_html = ""
+        if jname:
+            badge_html = f' · <span style="color:#0b6b5b;font-weight:600">{badge}</span>' if badge else ""
+            journal_html = f"<p><b>【期刊】</b>: {jname}{badge_html}</p>\n"
         time.sleep(1)
         doi_link = f'https://doi.org/{a["doi"]}' if a["doi"] != "未提供" else "未提供"
         source = a.get("source", "PubMed")
         parts.append(f"""<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">
 <h3>★ {source} ★</h3>
 <p><b>【原文题目】</b>: {a['title']}</p>
-<p><b>【DOI 号】</b>: <a href="{doi_link}">{a['doi']}</a></p>
+{journal_html}<p><b>【DOI 号】</b>: <a href="{doi_link}">{a['doi']}</a></p>
 <p><b>【核心中文总结】</b>:</p>
 <p>{summary.replace(chr(10), '<br>')}</p></div>""")
         history.append(a["pmid"])
@@ -480,6 +596,7 @@ def main():
     if all_ok:
         archive_articles(unique)   # 推送成功才归档，保证"归档=已送达"
         save_history(history)
+        save_rank_cache()          # 持久化期刊分区缓存，下次同名刊直接命中省额度
         log(f"完成：{n} 条推送全部成功")
     else:
         log("有推送失败，未保存历史，下次运行会重试")
