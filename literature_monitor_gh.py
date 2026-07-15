@@ -31,6 +31,13 @@ EASYSCHOLAR_KEY = os.environ.get("EASYSCHOLAR_KEY", "").strip()
 RANK_CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "journal_rank_cache.json")
 RANK_TTL_DAYS = 180  # 分区/IF 每年更新一次，半年缓存足够新，且大幅省接口额度
 
+# 重点期刊全量追踪：不限关键词，抓该刊最近所有新文章（JPS = 小儿外科圣刊）
+_wj = os.environ.get("WATCH_JOURNALS", "")
+WATCH_JOURNALS = json.loads(_wj) if _wj else [
+    {"name": "Journal of Pediatric Surgery", "label": "JPS 圣刊"},
+]
+JOURNAL_MAX = int(os.environ.get("JOURNAL_MAX", "25"))  # 每个重点期刊每次最多抓几篇，防刷屏
+
 # ========== GitHub Actions cache 持久化 history ==========
 # 历史存回仓库根目录（随 checkout 带下来），运行后由 workflow 提交回仓库持久化。
 # 只保留最近 MAX_HISTORY 条，防止文件无限膨胀。
@@ -360,6 +367,7 @@ def push_heartbeat(stats):
     title = f"📡 文献监控心跳 {datetime.now().strftime('%m/%d')}"
     content = f"""<h3>📚 今日 0 篇新文献（GitHub Actions 版）</h3>
 <ul><li>PubMed: 14 个关键词，命中 <b>{stats.get('pubmed_total', 0)}</b> 篇</li>
+<li>JPS 圣刊: 扫描 <b>{stats.get('journal_total', 0)}</b> 篇</li>
 <li>medRxiv: 拉取 <b>{stats.get('medrxiv_total', 0)}</b> 篇预印本</li></ul>
 <p style="color:#888;font-size:11px">由 GitHub Actions 自动运行 · 不依赖旧 Mac</p>"""
     return push(title, content)
@@ -506,16 +514,27 @@ def render_index_html(data):
 
 # ========== 预览模式（手动触发，演示新格式，不改历史/归档）==========
 def run_preview():
-    log("预览模式：抓取一篇真实文献演示新格式")
+    log("预览模式：抓取一篇 JPS 圣刊文献演示新格式")
     art = None
-    for kw in ["Necrotizing Enterocolitis", "Esophageal Atresia", "Biliary Atresia"]:
-        pmids = search_pubmed(kw, days=30, max_results=3)
+    # 优先重点期刊(JPS)，抓不到再退回关键词
+    for j in WATCH_JOURNALS:
+        pmids = search_pubmed(f'"{j["name"]}"[Journal]', days=60, max_results=5)
         for a in fetch_article_details(pmids):
             if a.get("journal") and a.get("abstract"):
+                a["source"] = j.get("label", j["name"])
                 art = a
                 break
         if art:
             break
+    if not art:
+        for kw in ["Necrotizing Enterocolitis", "Esophageal Atresia", "Biliary Atresia"]:
+            pmids = search_pubmed(kw, days=30, max_results=3)
+            for a in fetch_article_details(pmids):
+                if a.get("journal") and a.get("abstract"):
+                    art = a
+                    break
+            if art:
+                break
     if not art:
         push("🧪 文献日报预览", "<p>预览：暂未抓到带期刊的样例文献，请稍后重试。</p>")
         return
@@ -538,7 +557,25 @@ def main():
         return
     history = load_history()
     new_articles = []
-    stats = {"pubmed_total": 0, "medrxiv_total": 0}
+    stats = {"pubmed_total": 0, "medrxiv_total": 0, "journal_total": 0}
+
+    # 重点期刊全量追踪（JPS 圣刊）——先跑，保证圣刊标签优先于关键词命中的去重
+    for j in WATCH_JOURNALS:
+        name, label = j.get("name", ""), j.get("label", j.get("name", ""))
+        if not name:
+            continue
+        log(f"检索重点期刊: {name}")
+        pmids = search_pubmed(f'"{name}"[Journal]', days=SEARCH_DAYS, max_results=JOURNAL_MAX)
+        stats["journal_total"] += len(pmids)
+        log(f"  找到 {len(pmids)} 篇")
+        new_pmids = [p for p in pmids if p not in history]
+        if new_pmids:
+            arts = fetch_article_details(new_pmids)
+            for a in arts:
+                a["source"] = label      # 醒目标签，如 "JPS 圣刊"
+            new_articles.extend(arts)
+            log(f"  新文献 {len(arts)} 篇")
+        time.sleep(0.5)
 
     for kw in SEARCH_KEYWORDS:
         log(f"检索: {kw}")
