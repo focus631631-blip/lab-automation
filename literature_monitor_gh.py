@@ -94,6 +94,56 @@ def search_pubmed(keyword, days=7, max_results=5):
         log(f"  ⚠️ esearch 返回非 JSON，跳过关键词: {keyword}")
         return []
 
+# 常见国家中文名（未收录的保留英文）
+_COUNTRY_ZH = {
+    "usa": "美国", "united states": "美国", "united states of america": "美国", "u.s.a": "美国", "us": "美国",
+    "china": "中国", "people's republic of china": "中国", "pr china": "中国", "p.r. china": "中国", "p. r. china": "中国",
+    "uk": "英国", "united kingdom": "英国", "england": "英国", "scotland": "英国", "wales": "英国",
+    "japan": "日本", "germany": "德国", "france": "法国", "italy": "意大利", "canada": "加拿大",
+    "south korea": "韩国", "korea": "韩国", "republic of korea": "韩国", "india": "印度",
+    "netherlands": "荷兰", "the netherlands": "荷兰", "australia": "澳大利亚", "turkey": "土耳其", "türkiye": "土耳其",
+    "spain": "西班牙", "brazil": "巴西", "switzerland": "瑞士", "sweden": "瑞典", "belgium": "比利时",
+    "egypt": "埃及", "iran": "伊朗", "saudi arabia": "沙特", "israel": "以色列", "poland": "波兰",
+    "taiwan": "中国台湾", "hong kong": "中国香港", "singapore": "新加坡", "austria": "奥地利",
+    "denmark": "丹麦", "norway": "挪威", "finland": "芬兰", "greece": "希腊", "portugal": "葡萄牙",
+    "mexico": "墨西哥", "argentina": "阿根廷", "thailand": "泰国", "russia": "俄罗斯", "ireland": "爱尔兰",
+    "new zealand": "新西兰", "south africa": "南非", "pakistan": "巴基斯坦", "indonesia": "印度尼西亚",
+    "colombia": "哥伦比亚", "chile": "智利", "vietnam": "越南", "malaysia": "马来西亚",
+}
+_US_STATES = {"AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
+              "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
+              "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"}
+_INST_KW = ("Hospital", "Universit", "Institut", "Center", "Centre", "Clinic", "College",
+            "Medical", "School", "Foundation", "Laboratory", "Ministry", "Academy")
+
+def parse_affiliation(aff):
+    """从 PubMed 单位字符串解析 (国家中文, 机构)；解析不出就返回空串，绝不报错。"""
+    aff = (aff or "").strip()
+    if not aff:
+        return "", ""
+    segs = [s.strip().strip(".") for s in aff.split(",") if s.strip()]
+    institution = ""
+    for s in segs:                              # 机构：第一个含关键词的段（通常医院/大学）
+        if any(k in s for k in _INST_KW):
+            institution = s
+            break
+    country = ""
+    for c in reversed(segs):                    # 国家：末尾往前第一个非邮箱/非纯邮编的段
+        cc = c.strip().strip(".")
+        if not cc or "@" in cc or cc.lower().startswith("electronic address"):
+            continue
+        if cc.replace(" ", "").isdigit():
+            continue
+        country = cc
+        break
+    if country:
+        low = country.lower()
+        if low in _COUNTRY_ZH:
+            country = _COUNTRY_ZH[low]
+        elif country.upper() in _US_STATES:
+            country = "美国"
+    return country, institution
+
 def fetch_article_details(pmids):
     if not pmids:
         return []
@@ -127,10 +177,17 @@ def fetch_article_details(pmids):
             ja = article.find(".//Journal/ISOAbbreviation")
             journal = jt.text if jt is not None and jt.text else ""
             journal_abbr = ja.text if ja is not None and ja.text else ""
+            # 第一作者单位 → 国家 + 机构（缺失则空）
+            aff_elem = article.find(".//AuthorList/Author/AffiliationInfo/Affiliation")
+            if aff_elem is None:
+                aff_elem = article.find(".//AffiliationInfo/Affiliation")
+            affiliation = aff_elem.text if aff_elem is not None and aff_elem.text else ""
+            country, institution = parse_affiliation(affiliation)
             if title and abstract:
                 articles.append({
                     "pmid": pmid, "title": title, "abstract": abstract, "doi": doi or "未提供",
                     "journal": journal, "journal_abbr": journal_abbr,
+                    "country": country, "institution": institution,
                 })
         except Exception:
             continue
@@ -172,6 +229,7 @@ def search_medrxiv(papers, keyword, max_results=5):
                 "pmid": f"medrxiv_{doi}", "title": it.get("title", ""),
                 "abstract": it.get("abstract", ""), "doi": doi or "未提供",
                 "source": "medRxiv (preprint)", "date": it.get("date", ""),
+                "country": "", "institution": it.get("author_corresponding_institution", ""),
             })
             if len(matched) >= max_results:
                 break
@@ -325,6 +383,8 @@ def render_card(a):
     jname = journal_display(a)
     badge_html = f' · <span style="color:#0b6b5b;font-weight:600">{badge}</span>' if badge else ""
     journal_html = f"<p><b>【期刊】</b>: {jname}{badge_html}</p>\n" if jname else ""
+    loc = " · ".join(x for x in [a.get("country", ""), a.get("institution", "")] if x)
+    loc_html = f"<p><b>【国家/单位】</b>: {loc}</p>\n" if loc else ""
     doi = a.get("doi", "未提供")
     doi_link = f"https://doi.org/{doi}" if doi != "未提供" else "未提供"
     source = a.get("source", "PubMed")
@@ -333,7 +393,7 @@ def render_card(a):
         '<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">\n'
         f"<h3>★ {source} ★</h3>\n"
         f"<p><b>【原文题目】</b>: {a['title']}</p>\n"
-        f'{journal_html}<p><b>【DOI 号】</b>: <a href="{doi_link}">{doi}</a></p>\n'
+        f"{journal_html}{loc_html}<p><b>【DOI 号】</b>: <a href=\"{doi_link}\">{doi}</a></p>\n"
         "<p><b>【核心中文总结】</b>:</p>\n"
         f"<p>{summary}</p></div>"
     )
@@ -399,6 +459,9 @@ def archive_articles(articles):
         if jname:
             badge = a.get("_rank_badge", "")
             lines.append(f"- 期刊: {jname}" + (f" · {badge}" if badge else ""))
+        loc = " · ".join(x for x in [a.get("country", ""), a.get("institution", "")] if x)
+        if loc:
+            lines.append(f"- 国家/单位: {loc}")
         lines.append(f"- DOI: {doi}")
         lines.append(f"- 获取全文: {link_line}\n")
         summary = (a.get("_summary") or "").strip()
@@ -439,6 +502,7 @@ def _update_data_and_site(articles, day):
             "date": day, "pmid": pmid, "title": a.get("title", ""),
             "doi": a.get("doi", "未提供"), "source": a.get("source", "PubMed"),
             "journal": journal_display(a), "rank": a.get("_rank_badge", ""),
+            "country": a.get("country", ""), "institution": a.get("institution", ""),
             "summary": (a.get("_summary") or "").strip(),
             "abstract": (a.get("abstract") or "").strip(),
         })
@@ -471,6 +535,9 @@ def render_index_html(data):
             jr = ""
             if jn:
                 jr = f'<div class="jrnl">{jn}' + (f' · <b>{rk}</b>' if rk else "") + '</div>'
+            loc = " · ".join(x for x in [_esc(a.get("country", "")), _esc(a.get("institution", ""))] if x)
+            if loc:
+                jr += f'<div class="loc">{loc}</div>'
             blocks.append(
                 f'<article><h3>{_esc(a.get("title", ""))}</h3>'
                 f'{jr}'
@@ -495,7 +562,8 @@ def render_index_html(data):
         "article h3{margin:0 0 8px;font-size:16px}"
         ".meta{font-size:13px;color:#666;margin-bottom:8px}"
         ".src{background:#0b6b5b14;color:#0b6b5b;padding:1px 8px;border-radius:20px;font-size:12px}"
-        ".jrnl{font-size:13px;color:#0b6b5b;font-weight:600;margin-bottom:6px}"
+        ".jrnl{font-size:13px;color:#0b6b5b;font-weight:600;margin-bottom:4px}"
+        ".loc{font-size:12px;color:#777;margin-bottom:6px}"
         ".meta a{color:#0b6b5b;text-decoration:none;font-weight:600}"
         ".nolink{color:#aaa}"
         ".sum{font-size:14px;white-space:normal}"
