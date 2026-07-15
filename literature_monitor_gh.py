@@ -311,6 +311,26 @@ def journal_display(a):
     """展示用期刊名：优先 ISO 缩写，其次全名，最后回退来源(medRxiv 预印本等)。"""
     return (a.get("journal_abbr") or a.get("journal") or a.get("source") or "").strip()
 
+def render_card(a):
+    """单篇文献的推送卡片 HTML（正式日报与预览共用，保证格式一致）。
+    读取 a['_summary'](中文总结) 与 a['_rank_badge'](期刊分区徽章)。"""
+    badge = a.get("_rank_badge", "")
+    jname = journal_display(a)
+    badge_html = f' · <span style="color:#0b6b5b;font-weight:600">{badge}</span>' if badge else ""
+    journal_html = f"<p><b>【期刊】</b>: {jname}{badge_html}</p>\n" if jname else ""
+    doi = a.get("doi", "未提供")
+    doi_link = f"https://doi.org/{doi}" if doi != "未提供" else "未提供"
+    source = a.get("source", "PubMed")
+    summary = (a.get("_summary") or "").replace(chr(10), "<br>")
+    return (
+        '<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">\n'
+        f"<h3>★ {source} ★</h3>\n"
+        f"<p><b>【原文题目】</b>: {a['title']}</p>\n"
+        f'{journal_html}<p><b>【DOI 号】</b>: <a href="{doi_link}">{doi}</a></p>\n'
+        "<p><b>【核心中文总结】</b>:</p>\n"
+        f"<p>{summary}</p></div>"
+    )
+
 # ========== 推送 ==========
 # PushPlus 单条 content 上限 2 万字，留余量防止被拒
 MAX_PUSH_CHARS = 19000
@@ -484,10 +504,38 @@ def render_index_html(data):
     )
     open(INDEX_FILE, "w", encoding="utf-8").write(html)
 
+# ========== 预览模式（手动触发，演示新格式，不改历史/归档）==========
+def run_preview():
+    log("预览模式：抓取一篇真实文献演示新格式")
+    art = None
+    for kw in ["Necrotizing Enterocolitis", "Esophageal Atresia", "Biliary Atresia"]:
+        pmids = search_pubmed(kw, days=30, max_results=3)
+        for a in fetch_article_details(pmids):
+            if a.get("journal") and a.get("abstract"):
+                art = a
+                break
+        if art:
+            break
+    if not art:
+        push("🧪 文献日报预览", "<p>预览：暂未抓到带期刊的样例文献，请稍后重试。</p>")
+        return
+    art["_rank_badge"] = lookup_journal_rank(art.get("journal") or art.get("journal_abbr"))
+    art["_summary"] = generate_summary(art["title"], art["abstract"])
+    save_rank_cache()  # 预览查到的分区也存进缓存，正式日报可直接复用
+    body = ("<h2>🧪【预览】期刊分区 + 影响因子新格式</h2>"
+            "<p style='color:#888;font-size:12px'>这是手动触发的测试推送，用一篇真实文献演示效果；"
+            "正式文献日报每天 8:00 照常。</p>" + render_card(art))
+    ok, code, msg = push("🧪【预览】文献日报新格式", body)
+    log(f"预览推送{'成功' if ok else '失败'}：code={code} msg={msg}")
+
 # ========== 主流程 ==========
 def main():
     log("=" * 50)
     log("文献监控 GitHub Actions 版 启动")
+    if os.environ.get("PREVIEW") == "1":
+        run_preview()
+        log("预览完成")
+        return
     history = load_history()
     new_articles = []
     stats = {"pubmed_total": 0, "medrxiv_total": 0}
@@ -543,25 +591,11 @@ def main():
     parts = []
     for i, a in enumerate(unique):
         log(f"处理 [{i+1}/{len(unique)}]: {a['title'][:50]}...")
-        summary = generate_summary(a["title"], a["abstract"])
-        a["_summary"] = summary
+        a["_summary"] = generate_summary(a["title"], a["abstract"])
         # 期刊分区/IF（缓存优先；medRxiv 无期刊会自动跳过查询）
-        badge = lookup_journal_rank(a.get("journal") or a.get("journal_abbr"))
-        a["_rank_badge"] = badge
-        jname = journal_display(a)
-        journal_html = ""
-        if jname:
-            badge_html = f' · <span style="color:#0b6b5b;font-weight:600">{badge}</span>' if badge else ""
-            journal_html = f"<p><b>【期刊】</b>: {jname}{badge_html}</p>\n"
+        a["_rank_badge"] = lookup_journal_rank(a.get("journal") or a.get("journal_abbr"))
         time.sleep(1)
-        doi_link = f'https://doi.org/{a["doi"]}' if a["doi"] != "未提供" else "未提供"
-        source = a.get("source", "PubMed")
-        parts.append(f"""<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">
-<h3>★ {source} ★</h3>
-<p><b>【原文题目】</b>: {a['title']}</p>
-{journal_html}<p><b>【DOI 号】</b>: <a href="{doi_link}">{a['doi']}</a></p>
-<p><b>【核心中文总结】</b>:</p>
-<p>{summary.replace(chr(10), '<br>')}</p></div>""")
+        parts.append(render_card(a))
         history.append(a["pmid"])
 
     today = datetime.now().strftime("%Y-%m-%d")
