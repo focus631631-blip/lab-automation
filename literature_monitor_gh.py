@@ -140,9 +140,43 @@ def parse_affiliation(aff):
         low = country.lower()
         if low in _COUNTRY_ZH:
             country = _COUNTRY_ZH[low]
-        elif country.upper() in _US_STATES:
-            country = "美国"
+        else:
+            hit = ""
+            for t in country.split():                 # 逐词识别，兼容 "CA USA" 这类无逗号写法
+                tl = t.lower().strip(".")
+                if tl in _COUNTRY_ZH:
+                    hit = _COUNTRY_ZH[tl]
+                    break
+                if t.strip(".").upper() in _US_STATES:
+                    hit = "美国"
+                    break
+            country = hit or country
     return country, institution
+
+def _author_name(au):
+    """作者显示名，citation 风格：LastName + Initials（如 Smith JA）；机构作者取全称。"""
+    cn = au.find("CollectiveName")
+    if cn is not None and cn.text:
+        return cn.text.strip()
+    ln = au.find("LastName")
+    if ln is None or not ln.text:
+        return ""
+    ini = au.find("Initials")
+    fn = au.find("ForeName")
+    suff = (ini.text if ini is not None and ini.text else (fn.text if fn is not None and fn.text else ""))
+    return (ln.text + (" " + suff if suff else "")).strip()
+
+def extract_corr_author(article):
+    """通讯作者：优先取 affiliation 里带邮箱的作者，否则兜底末位作者。返回 (姓名, 邮箱)。"""
+    authors = article.findall(".//AuthorList/Author")
+    if not authors:
+        return "", ""
+    for au in authors:
+        for aff in au.findall("AffiliationInfo/Affiliation"):
+            mm = re.search(r"[\w.+-]+@[\w.-]+\.\w+", aff.text or "")
+            if mm:
+                return _author_name(au), mm.group(0).rstrip(".")
+    return _author_name(authors[-1]), ""   # 兜底：末位常为通讯/资深作者
 
 def fetch_article_details(pmids):
     if not pmids:
@@ -183,11 +217,13 @@ def fetch_article_details(pmids):
                 aff_elem = article.find(".//AffiliationInfo/Affiliation")
             affiliation = aff_elem.text if aff_elem is not None and aff_elem.text else ""
             country, institution = parse_affiliation(affiliation)
+            corr_author, corr_email = extract_corr_author(article)
             if title and abstract:
                 articles.append({
                     "pmid": pmid, "title": title, "abstract": abstract, "doi": doi or "未提供",
                     "journal": journal, "journal_abbr": journal_abbr,
                     "country": country, "institution": institution,
+                    "corr_author": corr_author, "corr_email": corr_email,
                 })
         except Exception:
             continue
@@ -230,6 +266,7 @@ def search_medrxiv(papers, keyword, max_results=5):
                 "abstract": it.get("abstract", ""), "doi": doi or "未提供",
                 "source": "medRxiv (preprint)", "date": it.get("date", ""),
                 "country": "", "institution": it.get("author_corresponding_institution", ""),
+                "corr_author": it.get("author_corresponding", ""), "corr_email": "",
             })
             if len(matched) >= max_results:
                 break
@@ -385,6 +422,12 @@ def render_card(a):
     journal_html = f"<p><b>【期刊】</b>: {jname}{badge_html}</p>\n" if jname else ""
     loc = " · ".join(x for x in [a.get("country", ""), a.get("institution", "")] if x)
     loc_html = f"<p><b>【国家/单位】</b>: {loc}</p>\n" if loc else ""
+    corr = a.get("corr_author", "")
+    cemail = a.get("corr_email", "")
+    corr_html = ""
+    if corr:
+        e = f' (<a href="mailto:{cemail}">{cemail}</a>)' if cemail else ""
+        corr_html = f"<p><b>【通讯作者】</b>: {corr}{e}</p>\n"
     doi = a.get("doi", "未提供")
     doi_link = f"https://doi.org/{doi}" if doi != "未提供" else "未提供"
     source = a.get("source", "PubMed")
@@ -393,7 +436,7 @@ def render_card(a):
         '<div style="border:1px solid #ddd;padding:12px;margin:10px 0;border-radius:8px">\n'
         f"<h3>★ {source} ★</h3>\n"
         f"<p><b>【原文题目】</b>: {a['title']}</p>\n"
-        f"{journal_html}{loc_html}<p><b>【DOI 号】</b>: <a href=\"{doi_link}\">{doi}</a></p>\n"
+        f"{journal_html}{loc_html}{corr_html}<p><b>【DOI 号】</b>: <a href=\"{doi_link}\">{doi}</a></p>\n"
         "<p><b>【核心中文总结】</b>:</p>\n"
         f"<p>{summary}</p></div>"
     )
@@ -462,6 +505,10 @@ def archive_articles(articles):
         loc = " · ".join(x for x in [a.get("country", ""), a.get("institution", "")] if x)
         if loc:
             lines.append(f"- 国家/单位: {loc}")
+        corr = a.get("corr_author", "")
+        if corr:
+            cemail = a.get("corr_email", "")
+            lines.append(f"- 通讯作者: {corr}" + (f" ({cemail})" if cemail else ""))
         lines.append(f"- DOI: {doi}")
         lines.append(f"- 获取全文: {link_line}\n")
         summary = (a.get("_summary") or "").strip()
@@ -503,6 +550,7 @@ def _update_data_and_site(articles, day):
             "doi": a.get("doi", "未提供"), "source": a.get("source", "PubMed"),
             "journal": journal_display(a), "rank": a.get("_rank_badge", ""),
             "country": a.get("country", ""), "institution": a.get("institution", ""),
+            "corr_author": a.get("corr_author", ""), "corr_email": a.get("corr_email", ""),
             "summary": (a.get("_summary") or "").strip(),
             "abstract": (a.get("abstract") or "").strip(),
         })
@@ -536,6 +584,9 @@ def render_index_html(data):
             if jn:
                 jr = f'<div class="jrnl">{jn}' + (f' · <b>{rk}</b>' if rk else "") + '</div>'
             loc = " · ".join(x for x in [_esc(a.get("country", "")), _esc(a.get("institution", ""))] if x)
+            corr = _esc(a.get("corr_author", ""))
+            if corr:
+                loc = (loc + " · " if loc else "") + "通讯 " + corr
             if loc:
                 jr += f'<div class="loc">{loc}</div>'
             blocks.append(
