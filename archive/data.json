@@ -1069,5 +1069,20 @@
   "corr_email": "shiweihe@fjmu.edu.cn",
   "summary": "- 研究目的：探讨胸腺基质淋巴生成素（TSLP）驱动的B细胞过度活化如何损害肠道上皮稳态，从而增加先天性巨结肠（HSCR）相关小肠结肠炎（HAEC）的易感性。\n- 核心发现/数据：研究发现，HSCR患者的肠道中B细胞显著扩增和过度活化，且与上皮屏障缺陷共定位；TSLP+成纤维细胞通过分泌TSLP强力激活B细胞，被激活的B细胞释放ICAM1和CCL5等促炎因子，诱导上皮细胞凋亡、抑制增殖并破坏紧密连接；在Ednrb小鼠模型中验证了这一机制。\n- 临床启示：抑制TSLP信号通路（如使用黄芩素）可改善上皮损伤，提示靶向TSLP-B细胞轴可能成为预防HSCR患者发生HAEC的新治疗策略。",
   "abstract": "Hirschsprung-associated enterocolitis (HAEC), a lethal complication of Hirschsprung disease (HSCR)-a prevalent congenital disorder with high morbidity-has a poorly understood pathogenesis. We investigated how aberrant immune-stromal crosstalk drives mucosal injury in HSCR. Integrated single-cell RNA sequencing, spatial transcriptomics, bulk RNA-seq, and proteomics were performed using human HSCR tissues. Validation was conducted using murine HAEC (Ednrb We identified significant expansion and hyper-activation of B cells that co-localized with epithelial barrier defects in HSCR segments. Multi-omics analysis revealed an activated phenotype in these naive and memory B cells, characterized by the up-regulation of BLK, BLNK, and PCNA, which may contributes to impaired epithelial homeostasis. Crucially, we identified a pro-fibrotic TSLP+ fibroblasts enriched in HSCR. Spatial mapping and in vitro assays demonstrated that thymic stromal lymphopoietin (TSLP) potently activated B cells, synergizing with classical stimuli to enhance proliferation. Activated B cells, in turn, secreted pro-inflammatory factors, such as, ICAM1 and CCL5, which induced epithelial apoptosis, suppressed proliferation, and disrupted tight junctions-effects that were amplified by TSLP co-stimulation. Activated B cells and epithelial dysfunction were conserved in HAEC (Ednrb Our study reveals a novel pathogenic mechanism whereby TSLP instigates pathogenic B cell hyper-activation, thereby disrupting epithelial integrity and increasing susceptibility to HAEC. Inhibition of TSLP signaling with baicalein ameliorates epithelial injury, highlighting this axis as a promising therapeutic target for HAEC prevention in patients with HSCR."
+ },
+ {
+  "date": "2026-07-17",
+  "pmid": "42464170",
+  "title": "Adverse events in neonates with congenital heart disease after cardiovascular surgery: a systematic review and meta-analysis.",
+  "doi": "10.1186/s12887-026-07164-z",
+  "source": "PubMed",
+  "journal": "BMC Pediatr",
+  "rank": "中科院医学3区(儿科3区) · IF 2.3 · JCR Q2",
+  "country": "巴西",
+  "institution": "Ribeirão Preto College of Nursing",
+  "corr_author": "Gimenes FRE",
+  "corr_email": "fregimenes@eerp.usp.br",
+  "summary": "- 研究目的：系统评估新生儿先天性心脏病术后不良事件的发生率及主要类型。\n- 核心发现/数据：纳入20项研究共25,422例新生儿，不良事件总体发生率为14%，最常见事件为中心静脉导管相关事件（14%）、医疗保健相关感染（12%）和拔管失败（11%），且实际发生率可能被低估。\n- 临床启示：需加强术后监测和报告机制，针对高发不良事件（如导管管理与感染控制）制定标准化预防策略。",
+  "abstract": "Neonates with congenital heart disease (CHD) undergoing cardiovascular surgery are exposed to complex postoperative care and may experience adverse events. A systematic review and meta-analysis was conducted. Searches were performed in the Cochrane Central Register of Controlled Trials, LILACS, CINAHL, EMBASE, PubMed, Web of Science Core Collection, and Scopus. Observational cohort studies evaluating adverse events in neonates were eligible for inclusion. Data extraction was performed independently by two reviewers; in the event of disagreement, a third reviewer was consulted. Search results were exported to the online reference management software EndNote Basic for duplicate removal and subsequently imported into the Rayyan platform. Of the 60 articles identified, 20 studies comprising a total of 25,422 neonates with congenital heart disease in the postoperative period were included. The overall prevalence of adverse events was 14%. The most prevalent events were central venous catheter (CVC)-related incidents (14%), healthcare-associated infections (12%), and extubation failure (11%). The prevalence of adverse events in neonates with CHD undergoing cardiovascular surgery is substantial and likely underreported. Further studies are needed to improve the detection, mitigation, and reduction of these events."
  }
 ]
