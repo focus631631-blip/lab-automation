@@ -182,5 +182,21 @@
  "jama ophthalmology": {
   "badge": "中科院医学1区(眼科学1区) · IF 10.5 · JCR Q1",
   "_ts": "2026-07-24"
+ },
+ "cardiology in the young": {
+  "badge": "中科院医学4区(心脏和心血管系统4区/儿科4区) · IF 0.8 · JCR Q4",
+  "_ts": "2026-07-24"
+ },
+ "bmj open": {
+  "badge": "中科院医学4区(医学：内科4区) · IF 2.5 · JCR Q2",
+  "_ts": "2026-07-24"
+ },
+ "the journal of pediatrics": {
+  "badge": "中科院医学2区(儿科1区) · IF 3.6 · JCR Q1",
+  "_ts": "2026-07-24"
+ },
+ "journal of pediatric nursing": {
+  "badge": "",
+  "_ts": "2026-07-24"
  }
 }
