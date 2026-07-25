@@ -331,11 +331,12 @@ def generate_summary(title, abstract):
 - 研究目的：（一句话概括）
 - 核心发现/数据：（2-3句话，包含关键数据）
 - 临床启示：（1-2句话，对临床实践的意义）"""
-    # 通道1：deepseek-v4-flash（非思维模式），失败重试一次；通道2：deepseek-v4-flash + thinking 兜底；最后给英文摘要
+    # 通道1：deepseek-v4-flash（非思维×2）；通道2：flash thinking；通道3：v4-pro thinking 最后兜底
     attempts = [
         ("deepseek-v4-flash", False),
         ("deepseek-v4-flash", False),
         ("deepseek-v4-flash", True),
+        ("deepseek-v4-pro", True),      # 最后防线，只有前面全挂才用
     ]
     for model, thinking in attempts:
         mode_tag = "thinking" if thinking else "non-thinking"
@@ -765,9 +766,19 @@ def main():
     parts = []
     if unique:
         time.sleep(3)  # 初始冷却，避免 burst 触发 DeepSeek 限流
+    consecutive_fail = 0
     for i, a in enumerate(unique):
         log(f"处理 [{i+1}/{len(unique)}]: {a['title'][:50]}...")
         a["_summary"] = generate_summary(a["title"], a["abstract"])
+        # 检测 AI 总结是否回退到英文摘要（说明所有通道都失败了）
+        if a["_summary"].startswith("- ⚠️ AI 总结"):
+            consecutive_fail += 1
+            if consecutive_fail >= 3:
+                log(f"  ⚠️ 连续 {consecutive_fail} 篇 AI 总结失败，冷却 15s 后继续")
+                time.sleep(15)
+                consecutive_fail = 0
+        else:
+            consecutive_fail = 0
         # 期刊分区/IF（缓存优先；medRxiv 无期刊会自动跳过查询）
         a["_rank_badge"] = lookup_journal_rank(a.get("journal") or a.get("journal_abbr"))
         time.sleep(1)
