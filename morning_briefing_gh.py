@@ -116,17 +116,38 @@ def fetch_holdings():
     return out
 
 def call_llm(prompt):
-    try:
-        r = requests.post("https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization":f"Bearer {DEEPSEEK_KEY}","Content-Type":"application/json"},
-            json={"model":"deepseek-v4-flash","max_tokens":1800,"messages":[{"role":"user","content":prompt}]},
-            timeout=120)
-        data = r.json()
-        if data.get("choices"):
-            log(f"  AI: deepseek OK")
-            return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        log(f"  AI 失败: {e}")
+    """盘前简报 AI 总结：deepseek-v4-flash → v4-pro 兜底，内置 429 退避。"""
+    models = [
+        ("deepseek-v4-flash", False),
+        ("deepseek-v4-pro", True),
+    ]
+    for model, thinking in models:
+        body = {"model": model, "max_tokens": 1800, "messages": [{"role": "user", "content": prompt}]}
+        if thinking:
+            body["thinking"] = {"type": "enabled"}
+        for attempt in range(1, 4):
+            try:
+                r = requests.post("https://api.deepseek.com/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
+                    json=body, timeout=120)
+                if r.status_code == 429:
+                    wait = 2 ** attempt
+                    log(f"  AI[{model}] 429 限流，{wait}s 后重试({attempt}/3)")
+                    time.sleep(wait)
+                    continue
+                if r.status_code != 200:
+                    log(f"  AI[{model}] HTTP {r.status_code}: {r.text[:120]}")
+                    break  # 非 429 错误，切下一个模型
+                data = r.json()
+                if data.get("choices"):
+                    log(f"  AI: {model} OK")
+                    return data["choices"][0]["message"]["content"]
+                log(f"  AI[{model}] 返回空内容")
+            except Exception as e:
+                log(f"  AI[{model}] 异常: {e}")
+            break  # 非 429 错误跳出重试
+        log(f"  AI[{model}] 失败，切下一通道")
+        time.sleep(1)
     return "（AI 综合失败，请人工查看原始数据）"
 
 def md_to_html(md):
