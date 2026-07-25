@@ -331,6 +331,7 @@ def generate_summary(title, abstract):
     ]
     for model, thinking in attempts:
         mode_tag = "thinking" if thinking else "non-thinking"
+        time.sleep(0.5)  # 避免 burst 触发 DeepSeek 限流
         out = _deepseek_call(prompt, model, thinking=thinking)
         if out:
             return out
