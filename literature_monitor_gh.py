@@ -763,6 +763,8 @@ def main():
 
     # 逐篇 AI 总结
     parts = []
+    if unique:
+        time.sleep(3)  # 初始冷却，避免 burst 触发 DeepSeek 限流
     for i, a in enumerate(unique):
         log(f"处理 [{i+1}/{len(unique)}]: {a['title'][:50]}...")
         a["_summary"] = generate_summary(a["title"], a["abstract"])
