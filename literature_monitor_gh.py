@@ -275,28 +275,36 @@ def search_medrxiv(papers, keyword, max_results=5):
 # ========== AI ==========
 def _deepseek_call(prompt, model, thinking=False):
     """单次 DeepSeek 调用，成功返回文本，失败返回 None。
-    thinking=True 时启用思维模式（chain-of-thought），用于需要深度推理的兜底。"""
+    thinking=True 时启用思维模式（chain-of-thought），用于需要深度推理的兜底。
+    内部对 HTTP 429 限流做指数退避重试（最多 3 次）。"""
     body = {"model": model, "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]}
     if thinking:
         body["thinking"] = {"type": "enabled"}
-    try:
-        r = requests.post(
-            "https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
-            json=body,
-            timeout=60,
-        )
-        if r.status_code != 200:
-            log(f"  DeepSeek[{model}] HTTP {r.status_code}: {r.text[:120]}")
-            return None
-        data = r.json()
-        if data.get("choices") and data["choices"][0].get("message"):
-            content = data["choices"][0]["message"].get("content", "").strip()
-            if content:
-                return content
-        log(f"  DeepSeek[{model}] 返回空内容")
-    except Exception as e:
-        log(f"  DeepSeek[{model}] 异常: {e}")
+    for attempt in range(1, 4):
+        try:
+            r = requests.post(
+                "https://api.deepseek.com/v1/chat/completions",
+                headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
+                json=body,
+                timeout=60,
+            )
+            if r.status_code == 429:
+                wait = 2 ** attempt
+                log(f"  DeepSeek[{model}] 429 限流，{wait}s 后重试({attempt}/3)")
+                time.sleep(wait)
+                continue
+            if r.status_code != 200:
+                log(f"  DeepSeek[{model}] HTTP {r.status_code}: {r.text[:120]}")
+                return None
+            data = r.json()
+            if data.get("choices") and data["choices"][0].get("message"):
+                content = data["choices"][0]["message"].get("content", "").strip()
+                if content:
+                    return content
+            log(f"  DeepSeek[{model}] 返回空内容")
+        except Exception as e:
+            log(f"  DeepSeek[{model}] 异常: {e}")
+        return None  # 非 429 错误不重试，由上层 fallback
     return None
 
 
