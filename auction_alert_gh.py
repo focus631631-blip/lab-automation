@@ -27,15 +27,38 @@ def fetch_sina(symbols):
     return data
 
 def call_llm(prompt):
-    try:
-        r = requests.post("https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization":f"Bearer {DEEPSEEK_KEY}","Content-Type":"application/json"},
-            json={"model":"deepseek-v4-flash","max_tokens":600,"messages":[{"role":"user","content":prompt}]},
-            timeout=60)
-        if r.json().get("choices"):
-            return r.json()["choices"][0]["message"]["content"]
-    except Exception as e:
-        log(f"  AI 失败: {e}")
+    """新股提醒 AI：deepseek-v4-flash → v4-pro 兜底，内置 429 退避。"""
+    models = [
+        ("deepseek-v4-flash", False),
+        ("deepseek-v4-pro", True),
+    ]
+    for model, thinking in models:
+        body = {"model": model, "max_tokens": 600, "messages": [{"role": "user", "content": prompt}]}
+        if thinking:
+            body["thinking"] = {"type": "enabled"}
+        for attempt in range(1, 4):
+            try:
+                r = requests.post("https://api.deepseek.com/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
+                    json=body, timeout=60)
+                if r.status_code == 429:
+                    wait = 2 ** attempt
+                    log(f"  AI[{model}] 429 限流，{wait}s 后重试({attempt}/3)")
+                    time.sleep(wait)
+                    continue
+                if r.status_code != 200:
+                    log(f"  AI[{model}] HTTP {r.status_code}: {r.text[:120]}")
+                    break
+                data = r.json()
+                if data.get("choices"):
+                    log(f"  AI: {model} OK")
+                    return data["choices"][0]["message"]["content"]
+                log(f"  AI[{model}] 返回空内容")
+            except Exception as e:
+                log(f"  AI[{model}] 异常: {e}")
+            break
+        log(f"  AI[{model}] 失败，切下一通道")
+        time.sleep(1)
     return "（AI 不可用，请根据下方数据自行判断）"
 
 def push(title, content):
