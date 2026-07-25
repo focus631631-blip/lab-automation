@@ -198,5 +198,17 @@
  "journal of pediatric nursing": {
   "badge": "",
   "_ts": "2026-07-24"
+ },
+ "journal of neurosurgery": {
+  "badge": "中科院医学2区(临床神经病学2区/外科2区) · IF 3.8 · JCR Q1",
+  "_ts": "2026-07-25"
+ },
+ "veterinary research communications": {
+  "badge": "中科院农林科学3区(兽医学3区) · IF 2.2 · JCR Q2",
+  "_ts": "2026-07-25"
+ },
+ "pediatric radiology": {
+  "badge": "中科院医学3区(儿科2区/核医学3区) · IF 2.5 · JCR Q1",
+  "_ts": "2026-07-25"
  }
 }
