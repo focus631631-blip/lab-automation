@@ -119,7 +119,7 @@ def call_llm(prompt):
     try:
         r = requests.post("https://api.deepseek.com/v1/chat/completions",
             headers={"Authorization":f"Bearer {DEEPSEEK_KEY}","Content-Type":"application/json"},
-            json={"model":"deepseek-chat","max_tokens":1800,"messages":[{"role":"user","content":prompt}]},
+            json={"model":"deepseek-v4-flash","max_tokens":1800,"messages":[{"role":"user","content":prompt}]},
             timeout=120)
         data = r.json()
         if data.get("choices"):
