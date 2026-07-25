@@ -273,13 +273,17 @@ def search_medrxiv(papers, keyword, max_results=5):
     return matched
 
 # ========== AI ==========
-def _deepseek_call(prompt, model):
-    """单次 DeepSeek 调用，成功返回文本，失败返回 None。"""
+def _deepseek_call(prompt, model, thinking=False):
+    """单次 DeepSeek 调用，成功返回文本，失败返回 None。
+    thinking=True 时启用思维模式（chain-of-thought），用于需要深度推理的兜底。"""
+    body = {"model": model, "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]}
+    if thinking:
+        body["thinking"] = {"type": "enabled"}
     try:
         r = requests.post(
             "https://api.deepseek.com/v1/chat/completions",
             headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
-            json={"model": model, "max_tokens": 1024, "messages": [{"role": "user", "content": prompt}]},
+            json=body,
             timeout=60,
         )
         if r.status_code != 200:
@@ -319,13 +323,18 @@ def generate_summary(title, abstract):
 - 研究目的：（一句话概括）
 - 核心发现/数据：（2-3句话，包含关键数据）
 - 临床启示：（1-2句话，对临床实践的意义）"""
-    # 通道1：deepseek-chat，失败重试一次；通道2：deepseek-reasoner 兜底；最后给英文摘要
-    attempts = [("deepseek-chat", 1), ("deepseek-chat", 2), ("deepseek-reasoner", 1)]
-    for model, attempt in attempts:
-        out = _deepseek_call(prompt, model)
+    # 通道1：deepseek-v4-flash（非思维模式），失败重试一次；通道2：deepseek-v4-flash + thinking 兜底；最后给英文摘要
+    attempts = [
+        ("deepseek-v4-flash", False),
+        ("deepseek-v4-flash", False),
+        ("deepseek-v4-flash", True),
+    ]
+    for model, thinking in attempts:
+        mode_tag = "thinking" if thinking else "non-thinking"
+        out = _deepseek_call(prompt, model, thinking=thinking)
         if out:
             return out
-        log(f"  总结失败，切下一通道（刚才：{model} 第{attempt}次）")
+        log(f"  总结失败，切下一通道（刚才：{model} {mode_tag}）")
         time.sleep(2)
     log("  所有 AI 通道均失败，回退到英文摘要")
     return _fallback_abstract(abstract)
