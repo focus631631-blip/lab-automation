@@ -658,5 +658,35 @@
   "corr_email": "gargparvesh@hotmail.com",
   "summary": "- 研究目的：探讨线粒体功能障碍和线粒体自噬在坏死性小肠结肠炎（NEC）发病机制中的演变作用，以明确其作为连接微生物信号、免疫反应和上皮损伤的核心环节。  \n- 核心发现/数据：线粒体功能障碍是NEC发病的核心，连接了菌群失调、免疫失调和上皮损伤，将NEC重新定义为免疫代谢性疾病；ACSL1被确定为有前景的生物标志物和治疗靶点，可指导早期诊断并调节炎症与氧化应激。  \n- 临床启示：未来研究聚焦线粒体功能障碍的时机与线粒体自噬机制，有望在不可逆肠损伤发生前实现早期检测和靶向干预，从而改善NEC患儿的预后。",
   "abstract": "Necrotizing enterocolitis (NEC) is a severe, multifactorial disease of prematurity characterized by a heterogeneous pathophysiology. A dysregulated cytokine-driven inflammatory response is central to its progression, underscoring the need to identify key molecular triggers and pathways. Emerging evidence suggests that mitochondrial dysfunction represents a central nidus linking microbial signals to immune responses, and ultimately to epithelial injury. Future studies defining the timing and mechanisms of mitochondrial dysfunction and the role of mitophagy to better understand the interplay of the microbiome, immune responses, and mitochondria in the pathogenesis of NEC are greatly needed. IMPACT: Mitochondrial dysfunction is central to NEC pathogenesis, linking dysbiosis, immune dysregulation, and epithelial injury, and redefining NEC as an immunometabolic disease. ACSL1 emerges as a promising biomarker and therapeutic target, with potential to guide early diagnosis and modulate inflammation and oxidative stress. Future focus on timing and mitophagy may enable early detection and targeted interventions before irreversible intestinal injury develops, improving outcomes in NEC."
+ },
+ {
+  "date": "2026-07-26",
+  "pmid": "42502568",
+  "title": "Sociodemographic, behavioral, and obstetric factors associated with preterm birth and its severity: A matched case-control study in Cyprus.",
+  "doi": "10.18332/ejm/224190",
+  "source": "PubMed",
+  "journal": "Eur J Midwifery",
+  "rank": "中科院医学4区(护理3区/妇产科学4区) · IF 1.5",
+  "country": "Cyprus",
+  "institution": "School of Sciences",
+  "corr_author": "Giannakou K",
+  "corr_email": "",
+  "summary": "- 研究目的：探讨塞浦路斯人群中社会人口学、行为及产科史因素与早产及其严重程度之间的关联。\n- 核心发现/数据：母亲年龄增加（AOR=1.21）、既往妇科手术史（AOR=1.74）、剖宫产史（AOR=1.87）及流产史（AOR=1.44）均显著增加早产风险；初产妇风险低于未产妇（AOR=0.71）。亚组分析显示，较高BMI（AOR=0.96）、既往剖宫产（AOR=0.54）及寻求庇护者身份（AOR=0.19）与极早早产风险降低相关。\n- 临床启示：在高早产率地区（如塞浦路斯），需重点监测高龄、有妇科手术/流产/剖宫产史孕妇；同时注意不同早产程度（极早产 vs. 中晚期早产）的风险因素差异，为分层预防提供依据。",
+  "abstract": "Preterm birth (PTB), defined as delivery before 37 weeks of gestation, is a major cause of neonatal mortality and morbidity worldwide. Its multifactorial etiology remains incompletely understood, and Cyprus reports among the highest PTB rates in Europe, highlighting the need for population-specific evidence. This study aimed to investigate the sociodemographic, behavioral, and obstetric history factors of PTB in Cyprus and to examine whether these factors differed according to the degree of prematurity. A matched case-control study was conducted at a tertiary referral hospital in Cyprus, designated as the national center for maternal and neonatal care. Eligible participants were women delivering between January 2019 and December 2022. Conditional logistic regression was conducted to determine the significant associations between sociodemographic, behavioral and obstetric history with PTB. Subgroup analysis of extreme to very (<32 weeks) vs moderate to late PTB (32 to <37 weeks) was also conducted. Participants were 978 women (489 cases <37 weeks, 489 controls ≥37 weeks). Maternal age increased PTB odds (AOR=1.21; 95% CI: 1.06-1.38), as did previous gynecological surgeries (AOR=1.74; 95% CI: 1.30-2.34), cesarean section (AOR=1.87; 95% CI: 1.28-2.73), and miscarriage (AOR=1.44; 95% CI: 1.03-2.00). Primiparous women had reduced odds versus nulliparous (AOR=0.71; 95% CI: 0.52-0.98). In subgroup analysis, higher BMI (AOR=0.96; 95% CI: 0.92-0.99), prior cesarean (AOR=0.54; 95% CI: 0.30-0.99), and asylum seeker status (AOR=0.19; 95% CI: 0.05-0.67) were linked to lower odds of extreme PTB. Future prospective studies are needed to further investigate and confirm the observed associations between sociodemographic, behavioral, and obstetric factors with PTB and degree of prematurity."
+ },
+ {
+  "date": "2026-07-26",
+  "pmid": "42502798",
+  "title": "Robotic-Assisted Thoracoscopic Circumferential Resection of Congenital Esophageal Stenosis in Under 10 kg Patient.",
+  "doi": "10.1055/a-2905-8655",
+  "source": "PubMed",
+  "journal": "European J Pediatr Surg Rep",
+  "rank": "中科院医学4区(外科4区) · IF 0.5",
+  "country": "Division of Pediatric SurgeryDepartment of Women and Children HealthUniversità degli Studi di PadovaPadovaVenetoItaly",
+  "institution": "Division of Pediatric SurgeryDepartment of Women and Children HealthUniversità degli Studi di PadovaPadovaVenetoItaly",
+  "corr_author": "Duci M",
+  "corr_email": "",
+  "summary": "- 研究目的：报告首例机器人辅助胸腔镜（RATS）环周切除先天性食管狭窄并在10 kg以下患者（9.5 kg）中成功实施食管端端吻合的病例。\n- 核心发现/数据：患者为15月龄、9.5 kg女性，既往有III型食管闭锁、两次心脏手术和十二指肠闭锁腹腔镜治疗史，内镜下球囊扩张失败后接受RATS切除2 cm增厚食管壁并完成无张力端端吻合（4/0 PDS），病理证实气管支气管残留；术后1个月食管造影显示吻合口直径良好，患者能吞咽固体食物。\n- 临床启示：当内镜治疗失败时，RATS可用于10 kg以下患者的先天性食管狭窄手术，尤其适用于膈肌周围的食管段，且既往胸腔入路史并非手术禁忌。",
+  "abstract": "Congenital esophageal stenosis is a rare and heterogenous malformation often associated with esophageal atresia (EA). Failure of conservative endoscopic treatment leads to surgery. Transthoracic approach is rarely advocated due to the peridiaphragmatic localization of the stricture. Robotic-assisted thoracoscopic surgery (RATS) may offer enhanced precision in confined spaces; its application in patients under 10 kg is still considered a challenge. We report the first description of RATS resection of cartilaginous congenital stenosis and esophagoesophagostomy in a 9.5 kg patient. A female patient with a history of EA type III was corrected via videothoracoscopy, two cardiac surgeries via sternotomy, and laparoscopic treatment of duodenal atresia. During weaning, she did not tolerate thickened food, and endoscopy revealed a patent anastomosis but a distal esophageal stricture. A course of pneumatic dilation was attempted. Persistent clinical and radiological findings indicated the need for surgery. At 15 months, the patient underwent three-trocar thoracoscopy with the da Vinci Xi system. Esophagoscopy helped the identification of the stricture. A longitudinal incision exposed a 2-cm segment of thickened esophageal wall requiring complete excision. A tension-free end-to-end anastomosis was performed using 4/0 PDS. Tracheobronchial remnants were confirmed at histopathologIcal finding. Esophageal contrastography demonstrated a good diameter anastomosis. One month after the operation, she was able to swallow solid food. Surgery for congenital stenosis is indicated when endoscopic management fails. RATS for esophageal diseases in patients under 10 kg is feasible, and peridiahragmatic esophagus particularly suits to this technique. Previous accesses to the thorax seems not to be a limitation."
  }
 ]
