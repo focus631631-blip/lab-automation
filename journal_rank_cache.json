@@ -214,5 +214,21 @@
  "bmj paediatrics open": {
   "badge": "中科院医学4区(儿科4区) · IF 2.6 · JCR Q1",
   "_ts": "2026-07-25"
+ },
+ "european journal of pediatrics": {
+  "badge": "中科院医学3区(儿科2区) · IF 2.9 · JCR Q1",
+  "_ts": "2026-07-26"
+ },
+ "jornal de pediatria": {
+  "badge": "中科院医学3区(儿科3区) · IF 3.0 · JCR Q1",
+  "_ts": "2026-07-26"
+ },
+ "pediatric cardiology": {
+  "badge": "中科院医学4区(儿科3区/心脏和心血管系统4区) · IF 1.3 · JCR Q3",
+  "_ts": "2026-07-26"
+ },
+ "european journal of clinical pharmacology": {
+  "badge": "中科院医学4区(药学3区) · IF 3.5 · JCR Q2",
+  "_ts": "2026-07-26"
  }
 }
