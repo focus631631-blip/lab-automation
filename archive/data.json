@@ -688,5 +688,20 @@
   "corr_email": "",
   "summary": "- 研究目的：报告首例机器人辅助胸腔镜（RATS）环周切除先天性食管狭窄并在10 kg以下患者（9.5 kg）中成功实施食管端端吻合的病例。\n- 核心发现/数据：患者为15月龄、9.5 kg女性，既往有III型食管闭锁、两次心脏手术和十二指肠闭锁腹腔镜治疗史，内镜下球囊扩张失败后接受RATS切除2 cm增厚食管壁并完成无张力端端吻合（4/0 PDS），病理证实气管支气管残留；术后1个月食管造影显示吻合口直径良好，患者能吞咽固体食物。\n- 临床启示：当内镜治疗失败时，RATS可用于10 kg以下患者的先天性食管狭窄手术，尤其适用于膈肌周围的食管段，且既往胸腔入路史并非手术禁忌。",
   "abstract": "Congenital esophageal stenosis is a rare and heterogenous malformation often associated with esophageal atresia (EA). Failure of conservative endoscopic treatment leads to surgery. Transthoracic approach is rarely advocated due to the peridiaphragmatic localization of the stricture. Robotic-assisted thoracoscopic surgery (RATS) may offer enhanced precision in confined spaces; its application in patients under 10 kg is still considered a challenge. We report the first description of RATS resection of cartilaginous congenital stenosis and esophagoesophagostomy in a 9.5 kg patient. A female patient with a history of EA type III was corrected via videothoracoscopy, two cardiac surgeries via sternotomy, and laparoscopic treatment of duodenal atresia. During weaning, she did not tolerate thickened food, and endoscopy revealed a patent anastomosis but a distal esophageal stricture. A course of pneumatic dilation was attempted. Persistent clinical and radiological findings indicated the need for surgery. At 15 months, the patient underwent three-trocar thoracoscopy with the da Vinci Xi system. Esophagoscopy helped the identification of the stricture. A longitudinal incision exposed a 2-cm segment of thickened esophageal wall requiring complete excision. A tension-free end-to-end anastomosis was performed using 4/0 PDS. Tracheobronchial remnants were confirmed at histopathologIcal finding. Esophageal contrastography demonstrated a good diameter anastomosis. One month after the operation, she was able to swallow solid food. Surgery for congenital stenosis is indicated when endoscopic management fails. RATS for esophageal diseases in patients under 10 kg is feasible, and peridiahragmatic esophagus particularly suits to this technique. Previous accesses to the thorax seems not to be a limitation."
+ },
+ {
+  "date": "2026-07-27",
+  "pmid": "42503070",
+  "title": "Endothelial VEGFR2 insufficiency promotes the transition of lymphatic to hematopoietic transcriptional programs.",
+  "doi": "10.1007/s10456-026-10081-5",
+  "source": "PubMed",
+  "journal": "Angiogenesis",
+  "rank": "中科院医学1区(外周血管病1区) · IF 11.2 · JCR Q1",
+  "country": "中国",
+  "institution": "Cyrus Tang Hematology Center",
+  "corr_author": "He Y",
+  "corr_email": "heyulong@suda.edu.cn",
+  "summary": "- 研究目的：探究VEGFR2在淋巴内皮细胞中的表达及其对淋巴管生成和转录程序转换的作用。\n- 核心发现：VEGFR2在皮肤初始淋巴管和瓣膜中高表达；新生期诱导内皮Vegfr2缺失导致淋巴管直径变细、LEC数量和淋巴瓣膜显著减少，同时淋巴VEGFR3水平急剧下降。RNA-seq分析显示内皮发育相关基因下调，而造血与免疫应答相关基因上调。\n- 临床启示：VEGFR2功能不足可能通过调控VEGFR3及转录程序转换影响新生儿淋巴系统发育，为新生儿淋巴水肿等疾病的治疗提供潜在靶点。",
+  "abstract": "Vascular endothelial growth factor receptor-2 (VEGFR2) is a key target for regulating the endothelial cell lineage and angiogenesis. It is also expressed by lymphatic endothelial cells (LECs) while its participation in lymphangiogenesis remains inadequately characterized. We demonstrate in this study that VEGFR2 is highly expressed in dermal initial lymphatic vessels and valves. The induced deletion of pan-endothelial Vegfr2 at the neonatal stage produced a potent suppression of dermal lymphatic growth, characterized by a thinner lymphatic diameter, a decreased number of LECs and lymphatic valves. Mechanistically, VEGFR2 insufficiency led to a dramatic decrease in lymphatic VEGFR3, a key regulator mediating signals for lymphatic growth and remodeling. RNA sequencing analysis revealed that GO terms enriched for downregulated genes included biological processes related to EC development while pathways related to hematopoiesis and immune responses were upregulated in the skin of Vegfr2 mutants compared with littermate controls. This was further confirmed by RNA-seq analysis of dermal tissues 48 h after endothelial Vegfr2 deletion. Consistently, targeting Vegfr2 in PROX1"
  }
 ]
