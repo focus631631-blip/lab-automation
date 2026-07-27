@@ -703,5 +703,20 @@
   "corr_email": "heyulong@suda.edu.cn",
   "summary": "- 研究目的：探究VEGFR2在淋巴内皮细胞中的表达及其对淋巴管生成和转录程序转换的作用。\n- 核心发现：VEGFR2在皮肤初始淋巴管和瓣膜中高表达；新生期诱导内皮Vegfr2缺失导致淋巴管直径变细、LEC数量和淋巴瓣膜显著减少，同时淋巴VEGFR3水平急剧下降。RNA-seq分析显示内皮发育相关基因下调，而造血与免疫应答相关基因上调。\n- 临床启示：VEGFR2功能不足可能通过调控VEGFR3及转录程序转换影响新生儿淋巴系统发育，为新生儿淋巴水肿等疾病的治疗提供潜在靶点。",
   "abstract": "Vascular endothelial growth factor receptor-2 (VEGFR2) is a key target for regulating the endothelial cell lineage and angiogenesis. It is also expressed by lymphatic endothelial cells (LECs) while its participation in lymphangiogenesis remains inadequately characterized. We demonstrate in this study that VEGFR2 is highly expressed in dermal initial lymphatic vessels and valves. The induced deletion of pan-endothelial Vegfr2 at the neonatal stage produced a potent suppression of dermal lymphatic growth, characterized by a thinner lymphatic diameter, a decreased number of LECs and lymphatic valves. Mechanistically, VEGFR2 insufficiency led to a dramatic decrease in lymphatic VEGFR3, a key regulator mediating signals for lymphatic growth and remodeling. RNA sequencing analysis revealed that GO terms enriched for downregulated genes included biological processes related to EC development while pathways related to hematopoiesis and immune responses were upregulated in the skin of Vegfr2 mutants compared with littermate controls. This was further confirmed by RNA-seq analysis of dermal tissues 48 h after endothelial Vegfr2 deletion. Consistently, targeting Vegfr2 in PROX1"
+ },
+ {
+  "date": "2026-07-27",
+  "pmid": "42504151",
+  "title": "Solid Pseudopapillary Neoplasm of the Pancreas in Children and Adolescents: Expert Recommendations.",
+  "doi": "10.1002/1545-5017.70546",
+  "source": "PubMed",
+  "journal": "Pediatr Blood Cancer",
+  "rank": "中科院医学3区(血液学3区/儿科3区/肿瘤学4区) · IF 2.4 · JCR Q2",
+  "country": "法国",
+  "institution": "Sorbonne University",
+  "corr_author": "Orbach D",
+  "corr_email": "",
+  "summary": "- 研究目的：为儿童胰腺实性假乳头状瘤（SPN）的诊断、治疗和长期管理制定统一的专家推荐。\n- 核心发现/数据：SPN是一种罕见的低度恶性外分泌胰腺肿瘤，多见于青春期女性（第二个十年），完整手术切除后预后极佳。该推荐由欧洲儿童罕见肿瘤协作组（EXPeRT）与欧洲儿科肿瘤参考网络（ERN PaedCan）联合制定，基于文献回顾及专家意见共识。\n- 临床启示：临床应重视SPN的完整显微镜下切除以达到良好预后，并依据本专家推荐进行标准化诊治与长期随访。",
+  "abstract": "Solid pseudopapillary neoplasm of the pancreas (SPN) is a rare low-grade malignant exocrine pancreatic tumor, mostly discovered during the second decade of life in females, with a very good prognosis, provided microscopically complete surgical excision is achieved. This manuscript presents harmonized recommendations for the diagnosis, treatment, and long-term management of pediatric SPN established by the European Cooperative Study Group for Pediatric Rare Tumors (EXPeRT) in collaboration with the European Reference Network for Pediatric Oncology (ERN PaedCan) after careful review of the literature and experts' opinions refined by selected external reviewers."
  }
 ]
