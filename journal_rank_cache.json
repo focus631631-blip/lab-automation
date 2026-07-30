@@ -318,5 +318,25 @@
  "clinical pediatrics": {
   "badge": "中科院医学4区(儿科4区) · IF 0.8 · JCR Q4",
   "_ts": "2026-07-29"
+ },
+ "fetal diagnosis and therapy": {
+  "badge": "中科院医学3区(妇产科学3区) · IF 1.7 · JCR Q3",
+  "_ts": "2026-07-30"
+ },
+ "acta cirurgica brasileira": {
+  "badge": "中科院医学4区(外科4区) · IF 1.6 · JCR Q3",
+  "_ts": "2026-07-30"
+ },
+ "einstein (sao paulo, brazil)": {
+  "badge": "",
+  "_ts": "2026-07-30"
+ },
+ "british journal of clinical pharmacology": {
+  "badge": "中科院医学3区(药学3区) · IF 3.0 · JCR Q2",
+  "_ts": "2026-07-30"
+ },
+ "pediatric quality & safety": {
+  "badge": "中科院医学4区(儿科4区) · IF 1.2",
+  "_ts": "2026-07-30"
  }
 }
