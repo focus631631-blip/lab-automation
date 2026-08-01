@@ -366,5 +366,57 @@
  "tumori": {
   "badge": "中科院医学4区(肿瘤学4区) · IF 2.0 · JCR Q4",
   "_ts": "2026-07-31"
+ },
+ "surgery today": {
+  "badge": "中科院医学4区(外科4区) · IF 2.3 · JCR Q2",
+  "_ts": "2026-08-01"
+ },
+ "biology of reproduction": {
+  "badge": "中科院生物学2区(生殖生物学3区) · IF 3.2 · JCR Q2",
+  "_ts": "2026-08-01"
+ },
+ "obstetrics and gynecology international": {
+  "badge": "中科院医学4区(妇产科学4区) · IF 2.1",
+  "_ts": "2026-08-01"
+ },
+ "yonsei medical journal": {
+  "badge": "中科院医学3区(医学：内科3区) · IF 3.1 · JCR Q1",
+  "_ts": "2026-08-01"
+ },
+ "clinical nutrition espen": {
+  "badge": "中科院医学3区(营养学4区) · IF 3.4",
+  "_ts": "2026-08-01"
+ },
+ "pediatric pulmonology": {
+  "badge": "中科院医学4区(儿科3区/呼吸系统4区) · IF 2.4 · JCR Q2",
+  "_ts": "2026-08-01"
+ },
+ "american journal of perinatology": {
+  "badge": "中科院医学4区(妇产科学4区/儿科4区) · IF 1.4 · JCR Q3",
+  "_ts": "2026-08-01"
+ },
+ "radiology case reports": {
+  "badge": "",
+  "_ts": "2026-08-01"
+ },
+ "advances in pediatrics": {
+  "badge": "",
+  "_ts": "2026-08-01"
+ },
+ "american journal of obstetrics & gynecology mfm": {
+  "badge": "中科院医学2区(妇产科学2区) · IF 3.6 · JCR Q1",
+  "_ts": "2026-08-01"
+ },
+ "american journal of medical genetics. part a": {
+  "badge": "中科院生物学3区(遗传学4区) · IF 1.7 · JCR Q4",
+  "_ts": "2026-08-01"
+ },
+ "surgical endoscopy": {
+  "badge": "",
+  "_ts": "2026-08-01"
+ },
+ "the international journal of medical robotics + computer assisted surgery : mrcas": {
+  "badge": "",
+  "_ts": "2026-08-01"
  }
 }
