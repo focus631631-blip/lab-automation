@@ -566,5 +566,9 @@
  "sage open medical case reports": {
   "badge": "中科院医学4区(医学：内科4区) · IF 0.6",
   "_ts": "2026-08-09"
+ },
+ "orvosi hetilap": {
+  "badge": "中科院医学4区(医学：内科4区) · IF 1.0 · JCR Q3",
+  "_ts": "2026-08-10"
  }
 }
