@@ -3703,5 +3703,20 @@
   "corr_email": "timothy.hand@chp.edu",
   "summary": "- 研究目的：开发一种能够以单细胞分辨率定量绝对细菌丰度并识别菌种的新技术（MicFLY），以更精确地解析肠道菌群组成及其动态变化。\n- 核心发现/数据：MicFLY可识别主要肠道菌属、区分活菌与死菌、测量异质性mRNA表达，并同时定量IgA和IgG与肠道细菌的结合；对一小批早产儿的纵向定量分析显示，多种肠杆菌科物种中IgA和IgG未结合细菌的增加与坏死性小肠结肠炎（NEC）的发生相关。\n- 临床启示：MicFLY为临床提供了一种高分辨率的菌群定量工具，有助于早期识别NEC等疾病相关的菌群变化，从而指导风险分层或干预策略。",
   "abstract": "The intestinal microbiota regulates multiple host functions, including digestion and immune development. Our knowledge of the microbiota has been shaped by available technology, which primarily measures relative abundance. Quantitative, single-cell bacterial measurements would improve our understanding of microbiome biology, including the dynamics behind shifts in microbiota composition. We present microbiota flow cytometry (MicFLY), a single-cell technology that quantifies absolute bacterial abundance with species-level resolution. Using MicFLY, we can identify the major intestinal taxa, discriminate live from dead bacteria, measure heterogeneous mRNA expression, and concurrently quantify immunoglobulin A (IgA) and IgG binding to intestinal bacteria. Using longitudinal, quantitative microbiota analyses on a small cohort of preterm infants, we find that increases in IgA- and IgG-unbound bacteria from various Enterobacteriaceae species associate with the development of necrotizing enterocolitis (NEC). MicFLY single-cell technology thus enables fine-scale quantitative microbiota measurements for a deeper mechanistic understanding of compositional changes."
+ },
+ {
+  "date": "2026-08-13",
+  "pmid": "42587359",
+  "title": "Ebstein's Anomaly: Contemporary Medical and Surgical Management Strategies.",
+  "doi": "10.1097/CRD.0000000000001424",
+  "source": "PubMed",
+  "journal": "Cardiol Rev",
+  "rank": "中科院医学4区(心脏和心血管系统4区) · IF 3.2 · JCR Q2",
+  "country": "美国",
+  "institution": "New York Medical College",
+  "corr_author": "Frishman WH",
+  "corr_email": "",
+  "summary": "- 研究目的：综述Ebstein畸形的胚胎起源、病理生理、临床表现、诊断评估及当代内外科治疗策略，重点介绍现代手术方式。\n- 核心发现/数据：Ebstein畸形是三尖瓣罕见先天缺陷，特征为隔叶和后叶心尖移位导致右心室“房化”及右心功能障碍。临床表现从无症状成人到新生儿严重发绀和心力衰竭不等；当代外科手术包括圆锥重建、Starnes手术、一个半心室修补及瓣膜置换，显著改善了预后。\n- 临床启示：影像诊断和手术技术进展提高了该病的整体生存率，临床应依据患者年龄、解剖畸形和右心功能选择个体化修复或置换策略。",
+  "abstract": "Ebstein's anomaly is an uncommon congenital defect of the tricuspid valve, marked by the apical displacement of the septal and posterior leaflets, leading to the \"atrialization\" of the right ventricle and subsequent dysfunction on the right side. Clinical manifestations vary from asymptomatic adults to neonates exhibiting severe cyanosis and heart failure. Advancements in diagnostic imaging, therapeutic interventions, and surgical techniques have significantly enhanced the prognosis for individuals afflicted by this historically serious condition. This review provides an in-depth examination of Ebstein's anomaly, discussing its embryological origins, underlying pathophysiology, clinical manifestations, diagnostic assessment, medical treatment protocols, and surgical interventions. Particular emphasis is placed on contemporary surgical options, including cone reconstruction, the Starnes procedure, one-and-a-half ventricle repair, and valve replacement."
  }
 ]
