@@ -602,5 +602,29 @@
  "bmc proceedings": {
   "badge": "",
   "_ts": "2026-08-12"
+ },
+ "bmj open quality": {
+  "badge": "中科院医学4区(卫生保健与服务4区/医学：内科4区) · IF 2.1",
+  "_ts": "2026-08-13"
+ },
+ "international journal of obstetric anesthesia": {
+  "badge": "中科院医学3区(麻醉学3区/妇产科学3区) · IF 3.0 · JCR Q2",
+  "_ts": "2026-08-13"
+ },
+ "cirugia y cirujanos": {
+  "badge": "中科院医学4区(外科4区) · IF 0.8 · JCR Q4",
+  "_ts": "2026-08-13"
+ },
+ "pediatrics": {
+  "badge": "中科院医学2区(儿科1区) · IF 6.1 · JCR Q1",
+  "_ts": "2026-08-13"
+ },
+ "early human development": {
+  "badge": "中科院医学3区(妇产科学3区/儿科3区) · IF 2.1 · JCR Q2",
+  "_ts": "2026-08-13"
+ },
+ "cell host & microbe": {
+  "badge": "中科院医学1区(微生物学1区/寄生虫学1区/病毒学1区) · IF 23.2 · JCR Q1",
+  "_ts": "2026-08-13"
  }
 }
