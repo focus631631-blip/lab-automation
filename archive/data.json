@@ -4048,5 +4048,35 @@
   "corr_email": "maneesha.agarwal@emory.edu",
   "summary": "- 研究目的：评估美国儿童医院社交媒体账号中伤害预防（IP）相关内容的比例与特征，探讨其作为教育和倡导工具的利用情况。\n- 核心发现/数据：82家儿童医院共发布55,339条帖子，其中仅3,863条（7.0%）涉及伤害预防；IP帖子中最常覆盖的主题是心理健康/自杀、中毒和儿童乘客安全，而非IP帖子多为普通宣传/善意类内容。与儿科外科 fellowship 相关的医院（X，原文数据缺失）以及有伤害预防组织关联的医院IP内容覆盖更佳，但整体比例仍极低。\n- 临床启示：儿童医院社交媒体拥有庞大受众，但极少用于传递伤害预防信息，错失了针对可预防性儿童死亡首要原因进行公众教育的关键机会；应强化与伤害预防机构的合作并系统性地将IP内容融入常规社交媒体发布策略。",
   "abstract": "Preventable injuries are the leading cause of pediatric death. Most healthcare organizations and the general public engage in social media (SoMe) to disseminate and consume health-related information. It is unknown how frequently pediatric hospitals leverage their SoMe platforms to educate on injury prevention (IP) topics. We sought to better characterize SoMe messaging and IP content by children's hospitals. This was a retrospective cross-sectional study of US children's hospitals' primary SoMe Facebook, Twitter/X, and Instagram accounts. Included hospitals were associated with Injury Free Coalition for Kids (IFCK), a current or past Centers for Disease Control and Prevention Injury Control and Research Center, a level I pediatric trauma center, or a pediatric surgery fellowship. Accounts established after 1/1/23 or covering adult health topics were excluded. Abstractors reviewed all available posts from 2023; posts were dichotomized into IP vs. non-IP content, with further subcategorization based on injury mechanisms and other topics covered. Descriptive statistics and frequencies with ranges were calculated. Chi-square analyses were used for comparisons between groups. Of 82 unique hospitals with eligible SoMe accounts, all used Facebook and 69 (84.1%) used all 3 SoMe platforms. Of the 55,339 posts, 3,863 (7.0%) posts covered IP. Among IP posts, the most frequently covered specific topics were mental health/suicide, poisonings, and child passenger safety. Most non-IP posts were focused on general publicity/goodwill; other frequently covered medical categories were cardiac conditions, cancer, and neonatal diseases. Hospital affiliation with a pediatric surgery fellowship (X Although children's hospitals have large SoMe followings, IP is rarely discussed. While ties to IP-oriented organizations improve coverage of IP content, this represents a critical missed opportunity to address the leading causes of pediatric deaths."
+ },
+ {
+  "date": "2026-08-16",
+  "pmid": "42602793",
+  "title": "Timing of diagnosis and factors associated with delayed detection of structural birth defects in children: a multicenter cross-sectional study from Addis Ababa, Ethiopia.",
+  "doi": "10.1136/wjps-2026-001186",
+  "source": "PubMed",
+  "journal": "World J Pediatr Surg",
+  "rank": "中科院医学4区(儿科4区/外科4区) · IF 2.1",
+  "country": "Ethiopia",
+  "institution": "St Paul's Hospital Millennium Medical College",
+  "corr_author": "Gebreselassie HA",
+  "corr_email": "",
+  "summary": "- 研究目的：从照护者视角描述埃塞俄比亚亚的斯亚贝巴儿童结构性出生缺陷的诊断时机、延迟情况及其原因。\n- 核心发现/数据：共纳入423名患儿（84.6%为男性），441项缺陷中最常见为尿道下裂（30.2%）、隐睾（21.5%）和肛门直肠畸形（8.6%）。产前可检出的缺陷中仅32/77例获产前诊断；出生后可见或可临床检出的缺陷中仅28.7%在出院前诊断。总体64.8%的患儿出生缺陷诊断延迟，主要原因包括认知不足、转诊延迟及医务人员错误安抚。\n- 临床启示：产前及产后阶段均存在显著的诊断延迟，应通过完善筛查项目、加强医护人员能力培训及提升公众认知来减少漏诊机会。",
+  "abstract": "Congenital birth defects contribute substantially to child mortality in the Global South. From the caregiver perspective, we aim to describe the timing of diagnosis of children with structural birth defects, where diagnosis is delayed, and the underlying reasons. A cross-sectional study of children with structural birth defects at three public hospitals in Addis Ababa was conducted using caregiver interviews and clinical chart review. Data were analyzed using SPSS V.26. Binary and multivariable logistic regression was used to identify factors related to the delayed diagnosis. Totally, 423 children with structural birth defects were enrolled; 358 (84.6%) were male. Median age at the time of data collection was 2.12 years (interquartile range (IQR), 0.8-5.0 years). Among 441 diagosed defects, the three most frequent structural birth defects were hypospadias (133, 30.2%), undescended testes (95, 21.5%), and anorectal malformation (38, 8.6%). Among 77 children with prenatally detectable defects, 32 were diagnosed antenatally. A total of 411 (97.2%) of the mothers had antenatal follow-up. Among 362 facility-born children with externally visible or clinically detectable defects, 104 (28.7%) were diagnosed before discharge. Overall, the diagnosis of a structural birth defect was delayed in 274 (64.8%) children. The main reasons for this delay were lack of awareness, delayed referral, and false reassurance by a health professional. Being delivered at a health center ( There is a significant delay in diagnosing structural birth defects during both the antenatal and postnatal periods. These missed opportunities can be addressed through comprehensive screening programs, capacity-building sessions for healthcare workers, and raising public awareness."
+ },
+ {
+  "date": "2026-08-16",
+  "pmid": "42602198",
+  "title": "Genetic sequencing of children with malrotation and midgut volvulus: A cross-sectional study.",
+  "doi": "10.1002/jpr3.70230",
+  "source": "PubMed",
+  "journal": "JPGN Rep",
+  "rank": "",
+  "country": "美国",
+  "institution": "",
+  "corr_author": "Duggan CP",
+  "corr_email": "",
+  "summary": "- 研究目的：探究人类中导致肠旋转不良合并中肠扭转这一表型的特定基因。\n- 核心发现/数据：对21个完整家庭（先证者及父母）进行全基因组测序，发现两个患者携带谷胱甘肽S-转移酶theta 4基因变异，并鉴定出4个可能相关的候选基因，提示该病可能存在遗传异质性。\n- 临床启示：这些候选基因尚未被证实参与该病的病理生理过程，但为未来病因学研究提供了重要方向，有望推动遗传学诊断与精准管理。",
+  "abstract": "Intestinal malrotation with midgut volvulus can cause a particularly severe form of pediatric intestinal failure and is often a cause of ultra-short bowel syndrome (SBS), with longer dependence on parenteral nutrition. While malrotation can be found in several genetic syndromes, most occurrences of this condition are not associated with any identifiable genetic conditions or syndromes. This study aimed at identifying specific genes associated with this phenotype in humans. Children with a history of SBS due to malrotation with midgut volvulus were identified. Children with SBS due to multiple diagnoses, with non-midgut volvulus, or with an identified genetic syndrome were excluded. Whole-genome sequencing (WGS) was performed on the proband and their biological parents. Twenty-three families provided consent to be enrolled in the study, and WGS was obtained from 21 complete families (proband and two parents). Two patients had variants in the glutathione S-transferase theta 4 gene ( We identified four genes of potential interest in the etiology of malrotation and midgut volvulus, suggesting that the condition may be genetically heterogeneous. While the genes of interest identified have not yet been shown to be involved in the pathophysiology of this condition, they provide important areas for further investigation."
  }
 ]
