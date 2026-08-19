@@ -682,5 +682,21 @@
  "maternal health, neonatology and perinatology": {
   "badge": "",
   "_ts": "2026-08-18"
+ },
+ "annals of plastic surgery": {
+  "badge": "中科院医学4区(外科4区) · IF 1.6 · JCR Q3",
+  "_ts": "2026-08-19"
+ },
+ "respiratory care": {
+  "badge": "中科院医学4区(危重病医学4区/呼吸系统4区) · IF 2.3 · JCR Q3",
+  "_ts": "2026-08-19"
+ },
+ "jacc. case reports": {
+  "badge": "",
+  "_ts": "2026-08-19"
+ },
+ "case reports in pediatrics": {
+  "badge": "中科院医学4区(儿科4区) · IF 0.5",
+  "_ts": "2026-08-19"
  }
 }
