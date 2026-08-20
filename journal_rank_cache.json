@@ -718,5 +718,17 @@
  "journal of minimal access surgery": {
   "badge": "中科院医学4区(外科4区) · IF 1.2 · JCR Q3",
   "_ts": "2026-08-20"
+ },
+ "british journal of cancer": {
+  "badge": "中科院医学2区(肿瘤学2区) · IF 7.8 · JCR Q1",
+  "_ts": "2026-08-20"
+ },
+ "stem cells and development": {
+  "badge": "中科院医学4区(细胞与组织工程4区/血液学4区/医学：研究与实验4区/移植4区) · IF 1.9 · JCR Q3",
+  "_ts": "2026-08-20"
+ },
+ "turkish journal of surgery": {
+  "badge": "中科院医学4区(外科4区) · IF 0.7",
+  "_ts": "2026-08-20"
  }
 }

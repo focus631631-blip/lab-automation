@@ -4603,5 +4603,50 @@
   "corr_email": "Ajaypratap.singh@bcm.edu",
   "summary": "- 研究目的：分析美国与坏死性小肠结肠炎（NEC）相关诉讼的法律趋势，探讨牛乳基配方奶/强化剂与NEC因果关系缺乏科学证据下的诉讼格局。  \n- 核心发现/数据：共识别951起独特诉讼，其中87.2%合并到MDL No.3026；产品责任占86%，医疗事故占12%，其他占2%；2022-2025年提起898例（94.4%）。标志性判决包括对雅培4.95亿美元判决（上诉维持）和对美赞臣6000万美元判决（上诉推翻），两个上诉法院对同一法律问题得出相反结论，确认这些判决并非基于科学证据。  \n- 临床启示：NEC诊断定义不精确，牛乳基配方奶的证据有争议，书面知情同意可能无法可靠保护临床医生；在科学证据明确前，应与家属坦诚分享不确定性。",
   "abstract": "To analyze publicly available federal and state court records involving necrotizing enterocolitis (NEC)-related litigation related to bovine milk-based formulas and fortifiers in the US, examining litigation trends, causes of action, geographic patterns, and case outcomes. A retrospective descriptive analysis was performed using Westlaw Precision data. Search terms were used to identify NEC-related cases across US federal and state jurisdictions as of January 2026. Cases were classified into three groups: group A (product liability), group B (medical Malpractice), and group C (equipment/other). This study characterized the legal landscape and lack of clear scientific data for causal relationship between bovine milk-based fortifiers and formulas and NEC. A total of 951 unique lawsuits were identified. Of these, 829 (87.2%) were consolidated within Multi District Litigation (MDL) No. 3026. Product liability accounted for 86%, medical malpractice 12% and other issues 2%. Filing rates remained low through 2021, accelerating after 2022, with 898 cases (94.4%) filed between 2022 and 2025. Landmark verdicts included $495 million against Abbott Laboratories, upheld on appeal in May 2026, and $60 million against Mead Johnson, reversed on appeal in June 2026. Two appellate courts have now reached opposite conclusions on the same legal question, whether a formula company must warn parents or doctors, confirming that these verdicts are not based on scientific evidence. NEC remains an imprecisely defined diagnosis, and the evidence on bovine milk-based formulas is contested. A documented consent may not reliably protect clinicians. The underlying uncertainty remains, no matter what any single court decides. Until scientific evidence resolves this issue, the logical step is to share this uncertainty with families as plainly as possible."
+ },
+ {
+  "date": "2026-08-20",
+  "pmid": "42618589",
+  "title": "Mapping B7-H3 in the tumour microenvironment: a systematic review of stromal, vascular and immune expression.",
+  "doi": "10.1038/s41416-026-03573-0",
+  "source": "PubMed",
+  "journal": "Br J Cancer",
+  "rank": "中科院医学2区(肿瘤学2区) · IF 7.8 · JCR Q1",
+  "country": "英国",
+  "institution": "University College London",
+  "corr_author": "Giuliani S",
+  "corr_email": "stefano.giuliani@gosh.nhs.uk",
+  "summary": "- 研究目的：系统评估B7-H3蛋白在人类实体瘤肿瘤微环境（TME）各组分（血管、间质、免疫细胞）中的表达分布及其与肿瘤进展和临床结局的关联。\n- 核心发现/数据：纳入31项研究，B7-H3在肿瘤相关血管中高频表达，高水平与侵袭性病理特征及生存期缩短相关；间质表达（主要在癌症相关成纤维细胞）见于超过一半的研究肿瘤类型，并与免疫逃逸及间质重塑基因 signature 相关；免疫组分中，B7-H3在髓源性抑制细胞、巨噬细胞和树突状细胞中表达最丰富，与免疫抑制表型、晚期疾病和较差临床结局相关。\n- 临床启示：肿瘤血管和髓系细胞是B7-H3阳性关键TME组分，提示B7-H3靶向治疗可能不仅作用于肿瘤细胞，还可通过调节TME发挥抗肿瘤效应，但其临床与治疗意义需进一步验证。",
+  "abstract": "B7 homologue 3 (B7-H3) is a promising therapeutic target in oncology. While its expression on tumour cells is well established, its distribution and role within the tumour microenvironment (TME) remain less clearly defined. This review systematically evaluates B7-H3 protein expression across human TME compartments and explores reported associations with tumour progression and clinical outcomes. A comprehensive literature search was conducted up to June 2025, identifying studies that assessed and quantified B7-H3 expression in the TME of solid human tumours. Thirty-one studies met the inclusion criteria. B7-H3 expression was frequently reported in tumour-associated vasculature, where higher levels have been reported to associate with aggressive histopathological features and reduced survival. Stromal expression, predominantly in cancer-associated fibroblasts, was identified in over half of the tumour types studied and was associated with immune evasion and stromal remodelling gene signatures, although findings varied across studies. Within the immune compartment, B7-H3 was most abundantly expressed in myeloid-derived suppressor cells, macrophages, and dendritic cells, and has been reported to associate to immunosuppressive phenotypes, advanced disease stage and poorer clinical outcomes. These findings identify tumour vasculature and myeloid-derived cells as B7-H3-positive compartments within the TME, although their clinical and therapeutic relevance requires further validation. PROSPERO registration number: CRD420251129792."
+ },
+ {
+  "date": "2026-08-20",
+  "pmid": "42619483",
+  "title": "Umbilical Cord-Derived Cell-Based Interventions for Bronchopulmonary Dysplasia and Related Complications in Preterm Infants: A Bayesian Sparse-Data Meta-Analysis.",
+  "doi": "10.1177/15473287261479169",
+  "source": "PubMed",
+  "journal": "Stem Cells Dev",
+  "rank": "中科院医学4区(细胞与组织工程4区/血液学4区/医学：研究与实验4区/移植4区) · IF 1.9 · JCR Q3",
+  "country": "中国",
+  "institution": "Stem Cell and Regenerative Medicine Laboratory",
+  "corr_author": "Fan H",
+  "corr_email": "",
+  "summary": "- 研究目的：评估脐带来源细胞干预对早产儿支气管肺发育不良（BPD）及相关并发症的疗效与安全性。\n- 核心发现/数据：贝叶斯荟萃分析纳入12项研究，脐带来源细胞干预可能降低总体BPD风险（OR=0.48，95% CrI 0.14-1.20），对重度BPD（OR=0.17，95% CrI 0.01-0.85）、中重度BPD（OR=0.28，95% CrI 0.09-0.70）及≥3期早产儿视网膜病变（OR=0.17，95% CrI 0.02-0.65）保护作用更明显；对死亡、PPHN、PDA、IVH、NEC、LOS未见明确获益或危害，未发现治疗相关严重不良事件，但预测区间宽、证据确定性低至极低。\n- 临床启示：脐带来源细胞干预可能降低早产儿中重度BPD及严重ROP风险，但目前证据有限，仍需更大规模、标准化结局和长期随访的随机对照试验验证后审慎应用于临床。",
+  "abstract": "Bronchopulmonary dysplasia (BPD) is a major complication of prematurity with limited disease-modifying therapies. We evaluated umbilical cord-derived cell-based interventions for BPD and related complications in preterm infants. This Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020-based systematic review and meta-analysis were registered in PROSPERO. PubMed, Cochrane Library, Web of Science, CNKI, and Wanfang were searched from inception to June 14, 2026. Comparative clinical studies of umbilical cord-derived cell-based interventions in preterm infants at risk of or diagnosed with BPD were included. Outcomes included BPD, BPD severity, death, persistent pulmonary hypertension of the newborn (PPHN), patent ductus arteriosus (PDA), intraventricular hemorrhage (IVH), necrotizing enterocolitis (NEC), retinopathy of prematurity (ROP), late-onset sepsis (LOS), and adverse events (AEs). Bayesian random-effects meta-analysis used a binomial-normal hierarchical model to estimate pooled odds ratios (ORs), 95% credible intervals (CrIs), prediction intervals, and heterogeneity. Twelve studies were included. Umbilical cord-derived cell-based interventions showed a possible protective effect on overall BPD (OR, 0.48; 95% CrI, 0.14-1.20). Stronger associations were observed for severe BPD (OR, 0.17; 95% CrI, 0.01-0.85), moderate or severe BPD (OR, 0.28; 95% CrI, 0.09-0.70), and ROP stage ≥3 (OR, 0.17; 95% CrI, 0.02-0.65). No conclusive benefit or harm was observed for death, PPHN, PDA, IVH, NEC, or LOS. No treatment-related serious AEs were identified. However, prediction intervals were generally wide, and the certainty of evidence was low to very low for most outcomes. Umbilical cord-derived cell-based interventions may reduce the risk of moderate or severe BPD in preterm infants, with an additional potential benefit for ROP stage ≥3. Current evidence remains limited, and larger randomized trials with standardized outcomes and long-term follow-up are needed."
+ },
+ {
+  "date": "2026-08-20",
+  "pmid": "42619444",
+  "title": "Robotic-assisted excision of a type Ib choledochal cyst with Roux-en-Y hepaticojejunostomy in an adult with a 4-mm hepatic duct: A technical perspective.",
+  "doi": "10.47717/turkjsurg.2026.2026-2-15",
+  "source": "PubMed",
+  "journal": "Turk J Surg",
+  "rank": "中科院医学4区(外科4区) · IF 0.7",
+  "country": "印度",
+  "institution": "Clinic of Surgical Gastroenterology",
+  "corr_author": "Saha B",
+  "corr_email": "",
+  "summary": "- 研究目的：展示机器人辅助下切除Todani Ib型胆总管囊肿并行Roux-en-Y肝空肠吻合术的技术步骤，尤其针对肝管仅4 mm的成人患者。\n- 核心发现/数据：40岁女性因反复右上腹痛就诊，MRCP示中段胆管3 cm囊状扩张（Ib型）。采用da Vinci Xi系统完成囊肿完整切除及无张力黏膜对黏膜肝空肠吻合，术中出血少、无并发症，术后第3天出院，未出现胆漏或感染。\n- 临床启示：即使肝管狭窄，通过精细操作，机器人辅助手术仍可实现精准解剖与可靠胆道重建，有助于降低术后胆漏风险。",
+  "abstract": "Choledochal cysts are rare congenital dilatations of the biliary tree and are increasingly diagnosed in adults due to widespread use of cross-sectional imaging. Complete cyst excision with Roux-en-Y hepaticojejunostomy (RYHJ) is the standard of care to prevent long-term complications such as cholangitis and malignant transformation. Biliary reconstruction in the presence of a narrow hepatic duct remains technically challenging and is associated with a higher risk of postoperative bile leak. This video article describes a stepwise robotic technique for cyst excision and precise biliary reconstruction in an adult patient with a 4-mm common hepatic duct. A 40-year-old woman presented with recurrent right upper abdominal pain and was diagnosed on magnetic resonance cholangiopancreatography with a 3-cm saccular dilatation of the mid-common bile duct consistent with a Todani type Ib choledochal cyst. She underwent elective robotic-assisted cyst excision and RYHJ using the da Vinci Xi system. Key technical steps included standardized port placement for optimal hilar exposure, use of indocyanine green fluorescence imaging to delineate biliary anatomy, circumferential cyst dissection and transection at healthy ductal margins. A tension-free duct-to-mucosa hepaticojejunostomy was fashioned using interrupted fine absorbable sutures. The procedure was completed with minimal blood loss and no intraoperative complications. The postoperative course was uneventful, with no bile leak or infective complications, and the patient was discharged on postoperative day three. Robotic-assisted excision with RYHJ enables precise dissection and secure biliary reconstruction, even in the presence of a narrow hepatic duct, when meticulous technique is applied."
  }
 ]
