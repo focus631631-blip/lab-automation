@@ -730,5 +730,25 @@
  "turkish journal of surgery": {
   "badge": "中科院医学4区(外科4区) · IF 0.7",
   "_ts": "2026-08-20"
+ },
+ "infection": {
+  "badge": "中科院医学3区(传染病学3区) · IF 3.9 · JCR Q2",
+  "_ts": "2026-08-21"
+ },
+ "journal of the american heart association": {
+  "badge": "中科院医学1区(心脏和心血管系统2区) · IF 6.0 · JCR Q1",
+  "_ts": "2026-08-21"
+ },
+ "paediatric & neonatal pain": {
+  "badge": "",
+  "_ts": "2026-08-21"
+ },
+ "international journal of women's health": {
+  "badge": "中科院医学3区(妇产科学3区) · IF 2.5 · JCR Q2",
+  "_ts": "2026-08-21"
+ },
+ "vascular health and risk management": {
+  "badge": "中科院医学3区(外周血管病4区) · IF 3.2",
+  "_ts": "2026-08-21"
  }
 }
