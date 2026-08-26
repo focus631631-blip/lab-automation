@@ -790,5 +790,13 @@
  "the thoracic and cardiovascular surgeon": {
   "badge": "中科院医学4区(心脏和心血管系统4区/呼吸系统4区/外科4区) · IF 1.5 · JCR Q3",
   "_ts": "2026-08-25"
+ },
+ "interdisciplinary cardiovascular and thoracic surgery": {
+  "badge": "中科院医学4区(心脏和心血管系统4区/呼吸系统4区/外科4区) · IF 1.4 · JCR Q3",
+  "_ts": "2026-08-26"
+ },
+ "the cochrane database of systematic reviews": {
+  "badge": "中科院医学2区(医学：内科2区) · IF 11.1 · JCR Q1",
+  "_ts": "2026-08-26"
  }
 }
