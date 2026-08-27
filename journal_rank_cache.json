@@ -810,5 +810,17 @@
  "journal of korean medical science": {
   "badge": "中科院医学4区(医学：内科3区) · IF 3.2 · JCR Q1",
   "_ts": "2026-08-26"
+ },
+ "european journal of medical genetics": {
+  "badge": "中科院医学4区(遗传学4区) · IF 2.2 · JCR Q3",
+  "_ts": "2026-08-27"
+ },
+ "journal of medical internet research": {
+  "badge": "中科院医学2区(卫生保健与服务2区/医学：信息2区) · IF 8.2 · JCR Q1",
+  "_ts": "2026-08-27"
+ },
+ "expert review of respiratory medicine": {
+  "badge": "中科院医学3区(呼吸系统4区) · IF 3.3 · JCR Q2",
+  "_ts": "2026-08-27"
  }
 }
