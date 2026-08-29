@@ -6028,5 +6028,20 @@
   "corr_email": "rani.kassir@outlook.com",
   "summary": "- 研究目的：探讨机器人辅助胆总管囊肿切除术在婴儿中是否过早实施，并评估其手术时机的合理性。\n- 核心发现/数据：这是迄今最大单中心儿童机器人辅助胆总管囊肿切除经验，包含大量婴儿；但新生儿及小婴儿的手术指征尚不明确，尤其缺乏症状状态数据。早期手术存在技术挑战，且吻合口狭窄风险可能因随访有限而被低估；婴儿期恶变风险极低，现有证据支持对无症状患者延迟干预以促进生长和风险分层。\n- 临床启示：机器人技术的可及性不应决定手术时机，缺乏明确临床指征时不宜对无症状婴儿过早手术，应权衡术后并发症风险与延迟手术的获益。",
   "abstract": "Zhang et al. report the largest single-center experience of robotic-assisted choledochal cyst resection in children, including a substantial proportion of infants. However, the indications for surgery in neonates and young infants remain unclear, particularly in the absence of data on symptomatic status. Early surgery involves technical challenges and may carry a higher risk of anastomotic stricture, potentially underestimated given limited follow-up. Emerging evidence supports delaying intervention in asymptomatic patients, allowing growth and risk stratification. Furthermore, the risk of malignant transformation is negligible in infancy. While robotic surgery is a valuable advancement, its availability should not determine timing of intervention without clear clinical justification."
+ },
+ {
+  "date": "2026-08-29",
+  "pmid": "42665681",
+  "title": "Multiple congenital dermal sinus tracts: a case-based review involving a unique triple-tract configuration that challenges current embryological concepts.",
+  "doi": "10.1007/s00381-026-07448-w",
+  "source": "PubMed",
+  "journal": "Childs Nerv Syst",
+  "rank": "",
+  "country": "Aichi",
+  "institution": "Aichi Prefectural Children's Health and Medical Center",
+  "corr_author": "Kurimoto M",
+  "corr_email": "rythmista@me.com",
+  "summary": "- 研究目的：报告一例罕见的三重先天性皮窦道（DST）并综述文献，以明确侧方及多发性DST的临床和解剖特征，并探讨其胚胎学机制。\n- 核心发现/数据：患儿女婴，1月龄，骶尾部同时存在左侧、右侧及正中三个独立DST，硬膜内汇合，合并脑膜炎和皮样囊肿；手术完全切除，无神经并发症，随访无复发。文献综述显示侧方DST罕见，多发性DST极罕见，其中双侧或硬膜内汇合报道极少，此前无三重构型报道。\n- 临床启示：DST可表现为非中线及多发，传统局限性神经管不分离理论不足以解释双侧和正中DST共存及硬膜内连续性，需考虑尾侧发育过程（含次级神经管形成阶段）异常；认识非典型DST对早期诊断、全面影像评估和完整手术切除至关重要。",
+  "abstract": "Congenital dermal sinus tract (DST), a rare spinal dysraphism, typically presents as a solitary midline lesion. Lateral and multiple DSTs are extremely rare, and their embryological basis remains unclear. Here, we report a case of triple DSTs and review the literature on lateral and multiple DSTs to better characterize their clinical and anatomical features. A unique case of a 1-month-old infant with triple DSTs (left and right laterals and a midline) at the sacrococcygeal level with intradural convergence, complicated by meningitis and an associated dermoid cyst, is reported. A literature review of lateral and multiple DST case reports was performed in PubMed. Three independent DSTs converged into the dural sac, all requiring surgical excision. Complete resection was achieved without neurological complications. At the latest follow-up, neurological function was preserved, with no signs of recurrent infection or lesion recurrence. The literature review revealed that lateral DSTs are rare and multiple DSTs are exceptionally uncommon. Very few reports described bilateral or intradural convergence patterns; none reported this specific triple-tract configuration. DSTs may present as multiple and non-midline lesions. Bilateral and midline DST coexistence with intradural continuity cannot be fully explained by the conventional focal nondisjunction theory. It is necessary to consider not only \"simple localized failure of separation during the primary neural tube formation stage\"-the conventional model-but also caudal developmental process abnormalities, including the secondary neural tube formation stage. Awareness of non-midline and multiple DSTs is essential for early diagnosis, comprehensive imaging, and complete surgical treatment."
  }
 ]
