@@ -6103,5 +6103,50 @@
   "corr_email": "",
   "summary": "- 研究目的：报告两例以气胸为首发表现的先天性肺气道畸形（CPAM）的诊疗经验，强调该病诊断的复杂性。\n- 核心发现/数据：两例女婴分别于7月龄和2月龄因严重呼吸窘迫就诊，影像学初诊为气胸；胸部CT显示Case 1为符合I型CPAM的大孤立性囊肿。患儿需长期儿科重症监护，病程中并发呼吸机相关感染。CPAM发病率约为1/10,000至1/35,000活产儿。\n- 临床启示：在资源有限环境下，先天性囊性肺病变合并呼吸窘迫时需警惕CPAM可能，早期行高级影像学检查、多学科评估及及时手术干预对改善预后至关重要。",
   "abstract": "Congenital pulmonary airway malformation (CPAM) is a rare developmental anomaly of the lower respiratory tract, with an estimated incidence ranging from 1 in 10,000 to 1 in 35,000 live births. CPAM may present during infancy with severe respiratory distress and complications such as pneumothorax or recurrent pulmonary infection. We report two female infants aged 7 months and 2 months who presented with severe respiratory distress and radiological findings initially suggestive of pneumothorax. In Case 1, chest computed tomography (CT) demonstrated a large solitary cyst consistent with Type I CPAM. The patient required prolonged pediatric intensive care admission complicated by ventilator-associated infection with  These cases highlight the diagnostic complexity of congenital cystic lung lesions presenting with respiratory distress in resource-limited settings. Early advanced imaging, multidisciplinary evaluation, and timely surgical management remain critical for improving outcomes."
+ },
+ {
+  "date": "2026-08-30",
+  "pmid": "42667692",
+  "title": "Long-term outcome after fetal endoscopic tracheal occlusion for congenital diaphragmatic hernia: systematic review.",
+  "doi": "10.1002/uog.70302",
+  "source": "PubMed",
+  "journal": "Ultrasound Obstet Gynecol",
+  "rank": "",
+  "country": "英国",
+  "institution": "GKT School of Medical Education",
+  "corr_author": "Nicolaides KH",
+  "corr_email": "",
+  "summary": "- 研究目的：系统评价先天性膈疝胎儿接受胎儿镜下气管堵塞术（FETO）后的长期预后。\n- 核心发现/数据：共分析14项研究（含1项随机对照试验和13项队列研究），涉及395例婴儿，随访7–87个月。呼吸道并发症最常见但多随时间改善；1岁时生长迟缓比例高，2岁时出现明显追赶性生长；胃食管反流发生率25–50%，疝复发率21–43%；神经发育结局总体良好，且校正疾病严重程度后，FETO与非FETO婴儿的长期结局多无显著差异。\n- 临床启示：FETO治疗的CDH存活者存在显著但可改善的多系统合并症，需强调长期多学科随访；远期结局可能更多受疾病本身而非干预措施驱动。",
+  "abstract": "This systematic review aimed to evaluate the long-term outcomes of infants who had undergone fetal endoscopic tracheal occlusion (FETO) for congenital diaphragmatic hernia (CDH). PubMed, MEDLINE, EMBASE and the Cochrane Central Register of Controlled Trials (CENTRAL) were searched from inception to October 2025 for studies reporting infant outcome ≥ 1 year post FETO in the following domains: growth and nutritional, neurodevelopmental, audiological, cardiac, respiratory, gastrointestinal and musculoskeletal. Quality was assessed using the revised Cochrane risk-of-bias tool for randomized trials and the Newcastle-Ottawa scale for cohort studies. Meta-analysis was not performed due to outcome heterogeneity and a narrative synthesis was conducted instead. Fourteen studies (one randomized controlled trial and 13 cohort studies), including a total of 395 infants, were analyzed. The duration of follow-up ranged from 7 to 87 months. Among domains of morbidity, respiratory complications were the most prevalent, although most improved over time. Growth failure affected a significant proportion of infants at 1 year, but considerable catch-up growth was demonstrated by 2 years. Gastrointestinal morbidity was common, with gastroesophageal reflux disease reported in 25-50% of cases and hernia recurrence in 21-43%. Neurodevelopmental outcome was generally reassuring. Multiple studies found no significant differences in long-term outcome between infants that underwent FETO and those that did not after adjusting for disease severity. FETO-treated CDH survivors experience substantial but improving multisystem morbidity that may be driven by factors independent of the intervention itself, emphasizing the need for long-term multidisciplinary follow-up. © 2026 The Author(s). Ultrasound in Obstetrics & Gynecology published by John Wiley & Sons Ltd on behalf of International Society of Ultrasound in Obstetrics and Gynecology."
+ },
+ {
+  "date": "2026-08-30",
+  "pmid": "42667372",
+  "title": "Early Sustained High-Level HMGB1 and Poor Outcomes After Neonatal Congenital Cardiac Surgery with Cardiopulmonary Bypass.",
+  "doi": "10.1007/s00246-026-04433-7",
+  "source": "PubMed",
+  "journal": "Pediatr Cardiol",
+  "rank": "中科院医学4区(儿科3区/心脏和心血管系统4区) · IF 1.3 · JCR Q3",
+  "country": "美国",
+  "institution": "UPMC Children's Hospital of Pittsburgh",
+  "corr_author": "Beggin AE",
+  "corr_email": "Allison.beggin@childrenscolorado.org",
+  "summary": "- 研究目的：探讨HMGB1作为新生儿先天性心脏病心肺转流术后不良手术结局及神经发育结局生物标志物的价值。\n- 核心发现/数据：纳入29例新生儿CHD手术患者，CPB后24和48小时血清HMGB1水平显著升高；术后死亡者HMGB1峰值更高。HMGB1高水平与Bayley量表表达语言和运动（尤其粗大运动）评分低于1个标准差相关。\n- 临床启示：HMGB1可作为预测CHD术后心脏及神经发育结局的预后生物标志物，有助于早期识别高危患儿并指导干预。",
+  "abstract": "Activation of cell stress-related pathways and systemic inflammation during cardiopulmonary bypass (CPB) are observed in both neonatal and adult cardiac surgery. Surgical CPB stress can impact on the long-term cardiac and neurodevelopmental outcomes of patients undergoing congenital cardiac surgery. Elevated HMGB1, an inflammatory, danger-associated molecular pattern (DAMP) molecule, is associated with adverse outcomes after surgery. Here, we investigated its utility as a biomarker for adverse surgical and neurodevelopmental outcomes in CHD patients undergoing surgery with CPB. We enrolled 29 CHD patients undergoing neonatal cardiac surgery with CPB. Blood was collected before surgery, immediately after surgery, and at 24 and 48 h after CPB. HMBG1 serum levels were determined using an ELISA assay. Death from index surgery was tracked, and neurodevelopmental outcome was determined between 4 months and 24 months using the Bayley instrument (BSID-III). Serum HMGB1 level was significantly increased at 24 and 48 h after CPB. The peak HMGB1 level was higher in patients who died post-surgically. Higher HMGB1 levels were associated with Bayley scores below 1 standard deviation for expressive speech and motor, especially in the gross motor domain. These findings support the utility of HMGB1 as a biomarker for prognosticating postsurgical cardiac and neurodevelopmental outcomes in CHD patients."
+ },
+ {
+  "date": "2026-08-30",
+  "pmid": "42667407",
+  "title": "Advancing hirschsprung disease diagnosis: a systematic review of the development and application of artificial intelligence in histopathological analysis.",
+  "doi": "10.1007/s00383-026-06576-3",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "马来西亚",
+  "institution": "Universiti Malaya",
+  "corr_author": "Tan YW",
+  "corr_email": "yewwei.tan@um.edu.my",
+  "summary": "- 研究目的：系统评价人工智能（特别是机器学习和深度学习）在先天性巨结肠（HD）组织病理学图像分析中的开发与应用现状，并评估其诊断效能与临床可用性。\n- 核心发现/数据：共纳入2016-2025年间13项研究，AI技术已从传统图像处理演进至卷积神经网络和Transformer模型，深度学习在神经节细胞检测上准确率超过90%，并将诊断时间缩短50-95%。但69%的研究（9项）存在高偏倚风险，主要源于样本量小、按图像块划分数据导致数据泄漏以及缺乏外部验证。\n- 临床启示：AI辅助病理诊断有望提高HD诊断准确率、减少主观变异并加快决策，但当前仍需大规模多中心数据集、多样染色方案、严格外部验证和透明报告，才能实现可靠的临床转化。",
+  "abstract": "Hirschsprung's disease (HD) is characterised by absence of ganglion cells in the distal large intestine, requiring accurate histopathological diagnosis. Conventional diagnostic methods are time-consuming, subjective, and demand specialised expertise. While artificial intelligence (AI) shows promise for improving diagnostic capacity, its clinical utility requires rigorous evaluation. Following PRISMA 2020 guidelines, this systematic review evaluated machine and deep learning techniques for HD diagnosis from histopathological images. A search of seven databases identified thirteen eligible studies (2016-2025). Studies were analysed for model architecture, computational workflows and diagnostic performances. Methodological quality and risk of bias were assessed using QUADAS-AI and PROBAST frameworks. HD image analysis has progressed from traditional processing to convolutional neural networks and transformer models. Deep learning outperformed conventional approaches with > 90% in ganglion cell detection and reducing diagnostic time by 50-95%. However, nine studies (69%) exhibited a high risk of bias due to small sample sizes, patch-level data partitioning, and lacking external test sets, raising concerns regarding overfitting and data leakage. AI methods demonstrated strong potential to support HD diagnosis by increasing accuracy, reducing variability and accelerating clinical decision-making. Future research should prioritise large multi-centre datasets, diverse staining techniques, external validation, and transparent reporting to facilitate reliable clinical integration."
  }
 ]
