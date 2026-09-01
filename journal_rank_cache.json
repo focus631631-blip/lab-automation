@@ -882,5 +882,21 @@
  "anatomia, histologia, embryologia": {
   "badge": "中科院农林科学4区(解剖学与形态学4区/兽医学4区) · IF 0.9 · JCR Q3",
   "_ts": "2026-09-01"
+ },
+ "journal of clinical pharmacology": {
+  "badge": "中科院医学4区(药学3区) · IF 2.2 · JCR Q3",
+  "_ts": "2026-09-01"
+ },
+ "clinical ophthalmology (auckland, n.z.)": {
+  "badge": "中科院医学4区(眼科学3区) · IF 2.5",
+  "_ts": "2026-09-01"
+ },
+ "medicine": {
+  "badge": "中科院医学4区(医学：内科4区) · IF 2.0 · JCR Q2",
+  "_ts": "2026-09-01"
+ },
+ "molecular neurobiology": {
+  "badge": "中科院医学2区(神经科学2区) · IF 5.5 · JCR Q1",
+  "_ts": "2026-09-01"
  }
 }
