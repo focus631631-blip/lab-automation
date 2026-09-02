@@ -6733,5 +6733,50 @@
   "corr_email": "",
   "summary": "- 研究目的：探究Sox17的两个远端增强子（Sox17e-13和Sox17e-231）如何协同调控腹侧胰胆双潜能祖细胞的命运决定。\n- 核心发现/数据：单独删除任一增强子会暂时降低内胚层Sox17表达，延迟双潜能细胞向腹侧胰腺命运转变，导致胰腺缩小、胆囊增大；同时删除两个增强子进一步降低Sox17表达，延迟向胰腺或胆道命运转变，使胰腺和胆囊均减小。将增强子突变与Sox17 null等位基因交叉后，肝外胆道系统对Sox17表达改变表现出差异性和高度敏感性，出现胆囊发育不全、胆囊缺如伴胆囊管及胆道闭锁。\n- 临床启示：Sox17表达剂量依赖性调控胰胆发育，增强子变异或剂量不足可能参与人类先天性胰胆畸形（如胆道闭锁）的发病机制，为产前诊断和遗传咨询提供潜在靶点。",
   "abstract": "SRY-box transcription factor 17 (Sox17) is critical for hepato-pancreato-biliary (HPB) development. We identified two distributed enhancers of Sox17, Sox17e-13 and Sox17e-231, within the likely murine Sox17 topologically associating domain. Individual CRISPR-mediated enhancer deletions temporally reduce endodermal Sox17 expression, delaying the transition of bipotent ventral pancreato-biliary progenitor cells to a lineage-unipotent ventral pancreatic fate, reducing pancreas size and increasing gallbladder size. Deleting both enhancers further reduces Sox17 expression and delays conversion of bipotent progenitor cells to ventral pancreatic or biliary fates, reducing both pancreas and gallbladder size. Crossing each enhancer mutation to a Sox17 null allele revealed differential and profound sensitivities of the extrahepatic biliary system to alterations of Sox17 expression, as demonstrated by gallbladder hypoplasia, gallbladder agenesis with a cystic duct, and biliary atresia. These studies indicate that Sox17e-13 and Sox17e-231 additively modulate Sox17 expression, the differentiation of bipotential ventral pancreato-biliary cells to unipotent fates is Sox17 dosage dependent, and that thresholds for Sox17 action during pancreato-biliary formation vary by developmental stage, further defining the role of Sox17 in HPB formation and function."
+ },
+ {
+  "date": "2026-09-02",
+  "pmid": "42678909",
+  "title": "Prenatal Ultrasound and MRI of Bowel Abnormalities in Cystic Fibrosis with In Utero CFTR Modulator Exposure: A Case Series.",
+  "doi": "10.1159/fdt/acuag006",
+  "source": "PubMed",
+  "journal": "Fetal Diagn Ther",
+  "rank": "中科院医学3区(妇产科学3区) · IF 1.7 · JCR Q3",
+  "country": "",
+  "institution": "",
+  "corr_author": "Proesmans M",
+  "corr_email": "",
+  "summary": "- 研究目的：评估产前囊性纤维化胎儿出现肠道异常时，母亲服用CFTR调节剂（ETI）对胎儿肠道改善及临床结局的影响。\n- 核心发现/数据：4例CF携带者母亲的胎儿在发现高回声肠或胎粪性肠梗阻后接受ETI治疗；1例孕26-36周用药后肠道表现正常化且生后胎粪正常，1例孕30周用药后影像改善但新生儿死于膈疝并发症，1例孕28周仅单次用药后发生严重胎粪性肠梗阻并死亡，1例孕35周用药短暂改善后因肠管进行性扩张于37周分娩并手术治愈。母体耐受性良好。\n- 临床启示：早期、持续的产前ETI治疗可能改善胎儿肠道异常并降低胎粪性肠梗阻风险，但需进一步研究确定最佳用药时机、方案及长期安全性。",
+  "abstract": "Cystic fibrosis (CF) can present prenatally as fetal hyperechogenic bowel (FEB) or meconium ileus (MI), indicating early CFTR dysfunction. Elexacaftor/tezacaftor/ivacaftor (ETI) partially restores CFTR function and limited reports suggest it may benefit fetuses when administered maternally. We report four pregnancies in CF carrier mothers with confirmed or presumed fetal CF after FEB detection, treated off-label with ETI. Fetal bowel status was monitored via ultrasound and MRI, and maternal safety was assessed. In Case 1, ETI from 26-36 weeks normalized bowel appearance; the infant had normal meconium passage. In Case 2, ETI at 30 weeks improved bowel findings in a fetus with CF and congenital diaphragmatic hernia, but the neonate died from hernia complications. Case 3 involved a single ETI dose before preterm birth at 28 weeks; the infant had severe MI and died from neurological complications. In Case 4, ETI at 35 weeks briefly improved bowel status; delivery at 37 weeks was required for progressive distension, followed by MI surgery with full recovery. Maternal therapy was well tolerated. Prenatal ETI may improve fetal bowel abnormalities and reduce MI risk, particularly with early, sustained exposure. Imaging effectively monitored response. Further studies are required to define optimal timing, protocols, and long-term safety."
+ },
+ {
+  "date": "2026-09-02",
+  "pmid": "42678537",
+  "title": "Management and outcomes of congenital pulmonary airway malformations and bronchopulmonary sequestrations diagnosed in the fetal period.",
+  "doi": "10.1007/s00383-026-06610-4",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "巴西",
+  "institution": "Hospital de Clinicas de Porto Alegre (HCPA)",
+  "corr_author": "Fraga JC",
+  "corr_email": "fraga.jcs@gmail.com",
+  "summary": "- 研究目的：描述胎儿期产前诊断的先天性肺气道畸形（CPAM）和支气管肺隔离症（BPS）的产前及产后管理策略与结局。\n- 核心发现/数据：27例产前超声诊断胎儿中，5例（18.5%）病灶在孕期完全消退；出生时持续存在的22例中，12例（54.5%）为左肺病变，10例（45.5%）为右肺病变，其中12例（54.5%）无症状，10例（45.5%）有呼吸道症状。20例接受手术切除（15例胸腔镜，5例开胸），随访18（10-33.5）个月无死亡，术后结局良好。\n- 临床启示：产前超声诊断有助于指导CPAM/BPS的孕期及出生后管理，孕期需连续超声监测病灶消退或增大；对有症状和无症状患儿均行手术切除安全有效，死亡率为零，预后良好。",
+  "abstract": "To describe the prenatal and postnatal management and outcomes of fetuses prenatally diagnosed with congenital pulmonary airway malformation (CPAM) or bronchopulmonary sequestration (BPS). This retrospective study included patients with a prenatal ultrasonographic diagnosis of CPAM or BPS who were treated at a quaternary referral hospital between January 2014 and December 2024. Twenty-seven fetuses were diagnosed with CPAM or BPS by prenatal ultrasonography. Five (18.5%) showed complete regression of the lesions during gestation. Among the 22 fetuses with persistent malformations at birth, 12 (54.5%) had left-lung malformations and 10 (45.5%) had right-lung malformations. At birth, 12 neonates (54.5%) were asymptomatic, and 10 (45.5%) had respiratory symptoms. Twenty patients underwent surgical resection of the lesion: 15 by thoracoscopy and five by open surgery. There were no deaths, and postoperative outcomes were excellent over a follow-up period of 18 (10-33.5) months. Prenatal diagnosis of CPAM or BPS allows appropriate management of these malformations during gestation and after birth. Ultrasonographic follow-up throughout pregnancy is essential because lesions may either regress or increase in size and cause severe fetal complications. Surgical resection was performed in both symptomatic and asymptomatic children, with no deaths and excellent outcomes."
+ },
+ {
+  "date": "2026-09-02",
+  "pmid": "42678413",
+  "title": "Sequential laparoscopic percutaneous extraperitoneal closure for inguinal hernia during NICU/GCU hospitalization in low birth weight infants.",
+  "doi": "10.1007/s00383-026-06595-0",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "105-8461",
+  "institution": "The Jikei University School of Medicine",
+  "corr_author": "Uchida G",
+  "corr_email": "ryu_g53@yahoo.co.jp",
+  "summary": "- 研究目的：评估低出生体重儿在NICU/GCU住院期间接受序贯腹腔镜经皮腹膜外闭合术（LPEC）治疗腹股沟疝的安全性与可行性。\n- 核心发现/数据：共302例患者中13例符合纳入标准，中位随访48个月无疝复发；术后1例需要再次插管，3例发生术后睾丸萎缩。与出院后确诊的婴儿相比，序贯LPEC组胎龄、出生体重和手术时体重更低，合并症更多，但术后结局相当。\n- 临床启示：在适当技术改进下，对低出生体重儿可在NICU/GCU连续住院期间安全实施序贯LPEC，可作为该人群的可行治疗选择。",
+  "abstract": "Inguinal hernia is common in low birth weight infants and carries a risk of incarceration. Although laparoscopic percutaneous extraperitoneal closure (LPEC) is widely used in pediatric patients, the safety of sequential LPEC during NICU/GCU hospitalization remains unclear. This study evaluated the safety and feasibility of sequential LPEC during NICU/GCU hospitalization. We retrospectively reviewed infants who underwent LPEC between September 2018 and July 2024. Infants aged ≤ 6 months diagnosed with inguinal hernia and treated with sequential LPEC during hospitalization were included. For comparison, infants aged ≤ 6 months with a history of NICU/GCU hospitalization who were diagnosed with inguinal hernia after NICU/GCU discharge and underwent LPEC were identified. Among 302 patients, 13 met the inclusion criteria. One patient required postoperative reintubation, postoperative testicular atrophy occurred in three patients, and no hernia recurrence was observed during a median follow-up of 48 months. Compared with infants diagnosed after NICU/GCU discharge, the sequential LPEC group had significantly lower gestational age, lower birth weight, lower body weight at surgery, and more comorbidities, whereas postoperative outcomes were comparable. Sequential LPEC during continuous NICU/GCU hospitalization is feasible and can be safely performed in low birth weight infants with appropriate technical refinements."
  }
 ]
