@@ -7018,5 +7018,20 @@
   "corr_email": "",
   "summary": "- 研究目的：描述先天性膈疝新生儿在体外膜肺氧合（ECMO）候选资格与排除标准方面的国际实践差异。\n- 核心发现/数据：来自12个国家82名受访者中，60人（77%）报告有正式CDH管理指南；最常见的排除标准为早产（73%）、低出生体重（72%）和非整倍体（58%）；与CDH严重程度无关的排除标准主要包括既有神经系统并发症、单心室姑息术后心脏病及遗传相关神经发育预后不良。研究显示ECMO决策存在显著实践差异。\n- 临床启示：应推动建立更统一的ECMO应用标准，以优化重症CDH婴儿的临床决策并减少中心间差异。",
   "abstract": "IntroductionSevere congenital diaphragmatic hernia (CDH) is associated with significant morbidity and mortality. Pre/post-natal risk factors guide decisions on extracorporeal membrane oxygenation (ECMO) intervention. We aimed to describe variations in ECMO decision-making for neonatal CDH.MethodsWe distributed a practice-based survey (October 2023) to assess institutional ECMO guidelines for neonatal CDH. Respondents included neonatal/pediatric intensivists, surgeons, and ECMO coordinators. We used descriptive statistics for analysis.ResultsFormal CDH management guidelines were reported by 60 (77%) from 82 respondents across 12 countries. The most common exclusion criteria were prematurity (73%), low birthweight (72%), and aneuploidy (58%). Pre-existing neurological complications, single ventricle palliation heart disease, and genetics-related poor neurodevelopmental prognosis were the most cited exclusion criteria independent of CDH severity.ConclusionSignificant practice variation exists in the exclusion criteria for ECMO in neonatal CDH. There remains an opportunity for a more unified approach regarding ECMO use in infants with severe CDH."
+ },
+ {
+  "date": "2026-09-03",
+  "pmid": "42379347",
+  "title": "Preoperative underweight is associated with a more complicated perioperative course and impairs recovery in Hirschsprung's disease: The pivotal role of weight-for-age z-score.",
+  "doi": "10.1016/j.jpedsurg.2026.163281",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "中国",
+  "institution": "Department of Clinical Nutrition",
+  "corr_author": "Jiang M",
+  "corr_email": "mizu@zju.edu.cn",
+  "summary": "- 研究目的：评估先天性巨结肠（HD）患儿术前体重-for-age z-score（WAZ）对经肛门拖出术后围手术期复杂性和术后恢复的影响。\n- 核心发现/数据：术前低体重（WAZ<-2）患儿中全结肠无神经节细胞症比例达26.7%，既往肠造口率更高，开腹手术率达36.6%；其术后住院时间最长（中位13天），HAEC再入院率最高（46.7%），术后肠外营养（PN）使用率达60%。多因素分析显示，术前营养状态是PN持续时间的独立预测因子，低体重和风险组患儿PN支持时间分别为营养良好组的10.22倍（95%CI 4.16-25.13）和4.34倍（95%CI 1.70-11.10）。\n- 临床启示：术前低体重与更复杂的手术路径、延迟根治手术、更高的开腹率和HAEC再入院风险相关；应重视并优化HD患儿术前营养状态，以改善手术预后。",
+  "abstract": "Low weight-for-age z-score (WAZ) is prevalent in children with Hirschsprung's disease (HD), yet its prognostic value for surgical outcomes is unclear. This study evaluated the impact of preoperative WAZ on perioperative course complexity and postoperative recovery in children undergoing pull-through surgery. A retrospective cohort study was conducted on 256 children aged ≤10 years who underwent pull-through. Patients were stratified by preoperative WAZ: underweight (WAZ < -2), at risk of underweight (-2 ≤ WAZ < -1), and well-nourished (WAZ ≥ -1). Demographic, clinical, and perioperative data were analyzed. Underweight patients showed a higher prevalence of total colonic aganglionosis (26.7%, P = 0.026), longer biopsy-to-treatment intervals (P < 0.001), and higher prior enterostomy rates (P < 0.001). They also had a higher laparotomy rate (36.6%, 11/30). This group experienced the longest postoperative hospital stay (median 13 days, P = 0.033), the highest Hirschsprung-associated enterocolitis (HAEC) readmission rate (46.7%, P = 0.039), and the highest postoperative parenteral nutrition (PN) use (60%). Multivariate analysis identified preoperative nutritional status (WAZ category) as the strongest independent predictor of PN duration. Relative to well-nourished patients, underweight and at-risk children required 10.22-fold (95% CI 4.16-25.13) and 4.34-fold (95% CI 1.70-11.10) longer PN support, respectively (both P < 0.01). Being underweight before pull-through is the strongest independent predictor of prolonged postoperative PN in children with HD. Lower WAZ was associated with more complex surgical pathways, delayed definitive surgery, higher laparotomy rates, longer hospital stays, and increased HAEC readmission risk."
  }
 ]
