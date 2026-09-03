@@ -918,5 +918,13 @@
  "circulation research": {
   "badge": "中科院医学1区(心脏和心血管系统1区/血液学1区/外周血管病1区) · IF 18.0 · JCR Q1",
   "_ts": "2026-09-02"
+ },
+ "life sciences": {
+  "badge": "中科院医学3区(药学2区/医学：研究与实验3区) · IF 6.4 · JCR Q1",
+  "_ts": "2026-09-03"
+ },
+ "naunyn-schmiedeberg's archives of pharmacology": {
+  "badge": "中科院医学4区(药学4区) · IF 4.0 · JCR Q2",
+  "_ts": "2026-09-03"
  }
 }
