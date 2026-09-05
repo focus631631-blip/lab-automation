@@ -942,5 +942,25 @@
  "communications medicine": {
   "badge": "中科院医学2区(医学：研究与实验2区) · IF 7.4",
   "_ts": "2026-09-04"
+ },
+ "obstetrical & gynecological survey": {
+  "badge": "中科院医学4区(妇产科学4区) · IF 4.7 · JCR Q1",
+  "_ts": "2026-09-05"
+ },
+ "jama network open": {
+  "badge": "中科院医学1区(医学：内科1区) · IF 11.7 · JCR Q1",
+  "_ts": "2026-09-05"
+ },
+ "neurological sciences : official journal of the italian neurological society and of the italian society of clinical neurophysiology": {
+  "badge": "",
+  "_ts": "2026-09-05"
+ },
+ "the journal of the american academy of orthopaedic surgeons": {
+  "badge": "中科院医学3区(骨科3区/外科3区) · IF 2.9 · JCR Q1",
+  "_ts": "2026-09-05"
+ },
+ "journal of wound care": {
+  "badge": "中科院医学4区(皮肤病学4区) · IF 2.0 · JCR Q3",
+  "_ts": "2026-09-05"
  }
 }
