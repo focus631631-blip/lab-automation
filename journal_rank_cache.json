@@ -962,5 +962,17 @@
  "journal of wound care": {
   "badge": "中科院医学4区(皮肤病学4区) · IF 2.0 · JCR Q3",
   "_ts": "2026-09-05"
+ },
+ "journal of minimally invasive gynecology": {
+  "badge": "中科院医学2区(妇产科学2区) · IF 2.9 · JCR Q2",
+  "_ts": "2026-09-05"
+ },
+ "the journal of thoracic and cardiovascular surgery": {
+  "badge": "中科院医学2区(外科1区/心脏和心血管系统2区/呼吸系统2区) · IF 4.7 · JCR Q1",
+  "_ts": "2026-09-05"
+ },
+ "cell stem cell": {
+  "badge": "中科院医学1区(细胞与组织工程1区/细胞生物学1区) · IF 23.3 · JCR Q1",
+  "_ts": "2026-09-05"
  }
 }
