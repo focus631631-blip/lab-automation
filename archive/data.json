@@ -7468,5 +7468,35 @@
   "corr_email": "fei_lan@fudan.edu.cn",
   "summary": "- 研究目的：探究Hippo信号通路通过下游IGF2调控器官生长与再生的机制。\n- 核心发现/数据：小鼠肝脏发育中，Igf2在胎肝和新生肝细胞高表达以促进快速生长，出生后被Hippo通路直接沉默从而终止生长并决定肝脏大小；慢性肝损伤使Hippo失活并诱导Igf2表达，这对肝再生至关重要。老龄小鼠的再生反应缺陷可通过异位表达Igf2恢复；全身性Hippo激活或Igf2缺失导致小鼠体型及器官缩小。\n- 临床启示：IGF2有望作为衰老相关肝再生障碍的治疗靶点，并为调控器官大小及修复提供新思路。",
   "abstract": "Precise regulation of organ size is essential for proper function, yet the underlying logic remains unclear. Here, we identify a Hippo-IGF2 signaling axis as a regulator of organ growth. During mouse liver development, Igf2 is highly expressed in fetal and neonatal hepatocytes to fuel rapid growth but is directly silenced by the Hippo signaling pathway at the postnatal stage, enforcing growth arrest and determining liver size. In contrast, chronic liver injury inactivates Hippo signaling and induces Igf2 expression, which is essential for regeneration. Notably, this regenerative response is defective in aged mice but can be restored by ectopic Igf2 expression. As a hormone, circulating IGF2 can compensate for local deficiencies in response to organ-restricted perturbations, whereas whole-body Hippo activation or Igf2 deletion results in small mice with miniature organs. Hence, the Hippo-IGF2 axis is a general regulator of growth and organ size during development and regeneration."
+ },
+ {
+  "date": "2026-09-05",
+  "pmid": "42698091",
+  "title": "Intravenously delivered multilineage-differentiating stress-enduring cells dampen hyperoxia-induced lung injury in a rat model with features of bronchopulmonary dysplasia.",
+  "doi": "10.1186/s13287-026-05086-2",
+  "source": "PubMed",
+  "journal": "Stem Cell Res Ther",
+  "rank": "中科院医学2区(细胞与组织工程2区/细胞生物学2区/医学：研究与实验2区) · IF 7.8 · JCR Q1",
+  "country": "日本",
+  "institution": "Center for Maternal-Neonatal Care",
+  "corr_author": "Sato Y",
+  "corr_email": "y.sato@nagoya-u.jp",
+  "summary": "- 研究目的：评估静脉输注人Muse细胞对高氧诱导的新生鼠支气管肺发育不良样肺损伤的治疗效果。\n- 核心发现/数据：Muse细胞经静脉或气管给药后，呼吸功能、组织学及炎症指标无显著差异，但气管给药组体重增长和生存率更差；静脉给予Muse细胞较非Muse细胞更能改善肺组织损伤、炎症和肺动脉高压，并观察到Muse细胞在肺组织中的植入；蛋白质组学显示Muse细胞改变了与细胞黏附及凝血/纤溶通路相关的蛋白丰度。\n- 临床启示：静脉输注Muse细胞可能成为改善BPD肺损伤及肺动脉高压的潜在治疗策略，且给药途径选择应优先考虑静脉而非气管。",
+  "abstract": "Neonatal bronchopulmonary dysplasia (BPD) is a lung injury caused by various factors, including intrauterine inflammation, mechanical ventilation, and oxidative stress. BPD results in serious respiratory and neurological dysfunctions and mortality. Recently, some clinical trials have commenced using intravenous delivery of donor-derived multilineage-differentiating stress enduring (Muse) cells. In the present study, we aimed to investigate the therapeutic effects of human Muse cells in hyperoxia-induced neonatal lung injury in a rat model with features of bronchopulmonary dysplasia. Rats were put into the incubator within 24 h from birth to expose to hyperoxia (83%) until postnatal day 15. Muse and non-Muse cells, obtained from the bone marrow-mesenchymal stromal cells (MSCs) as stage-specific embryonic antigen-3 (SSEA-3)+ and -, respectively, were administered slowly via the right external jugular vein or trachea (Muse cells only) on postnatal day 5. For the vehicle groups, only the acetic acid Ringer's solution was administered. Respiratory function, histological findings, and inflammatory parameters did not differ significantly between intravenous and intratracheal administration. In contrast, body weight gain and survival were worse following intratracheal administration. Intravenous administration of Muse cells resulted in superior amelioration of lung tissue injury, inflammation, and pulmonary hypertension compared with non-Muse cells. We also confirmed the engraftment of Muse cells in the lung tissues. Proteomic profiling identified hyperoxia-induced lung injury associated changes in the abundance of proteins annotated to cell adhesion and coagulation/fibrinolysis-related pathways, and Muse cell administration was associated with differential abundance of subsets of these proteins. Our findings suggest that intravenously transplanted Muse cells provide functional benefits in hyperoxia-induced lung injury in a rat model with features of bronchopulmonary dysplasia."
+ },
+ {
+  "date": "2026-09-05",
+  "pmid": "41719532",
+  "title": "Challenges with Congenital Lung Cysts: When to Consider DICER1 Testing? A Narrative Review.",
+  "doi": "10.20344/amp.23967",
+  "source": "PubMed",
+  "journal": "Acta Med Port",
+  "rank": "中科院医学4区(医学：内科4区) · IF 1.2 · JCR Q2",
+  "country": "美国",
+  "institution": "Department of Neonatology. Centro Hospitalar Universitário de São João. Porto. Portugal",
+  "corr_author": "Schultz KAP",
+  "corr_email": "",
+  "summary": "- 研究目的：探讨先天性肺囊性病变中CPAM 1型和4型的癌前潜能，以及何时应考虑DICER1基因检测。\n- 核心发现/数据：CPAM分为5型，其中1型和4型具有肿瘤前病变风险；CPAM 4型在组织结构上与I型囊性胸膜肺母细胞瘤（PPB）一致，而PPB与DICER1杂合性胚系或体细胞变异相关。\n- 临床启示：对于表现为多囊性肺病变、尤其疑似CPAM 4型或I型PPB的患儿，应评估DICER1基因检测，以早期识别相关肿瘤风险并指导随访管理。",
+  "abstract": "Congenital pulmonary airway malformations (CPAMs), according to the Stocker classification, comprise five types, two of which are non-cystic in nature (types 0 and 3) whereas the others present as cystic lung lesions (types 1, 2 and 4). While there is consensus that symptomatic lesions should be managed surgically, the asymptomatic cases are more problematic in terms of therapeutic intervention. The dilemma is further complicated by CPAM types 1 and 4 and their preneoplastic potential. In the case of CPAM type 1, there are reports of lipidic adenocarcinoma arising from the mucinous component. Type 4 has been equated to type I or cystic pleuropulmonary blastoma (PPB), a proposition that has been challenged in the past. Pleuropulmonary blastoma is associated with a heterozygous germline or somatic variants in DICER1. It was recognized that the earliest stage of the sarcomatous progression of PPB was a multicystic lesion in the periphery of the lung whose architectural features were identical to CPAM type 4. This narrative review addresses key aspects of the pathogenetic and diagnostic issues of type I PPB/CPAM type 4, as well as the association of DICER1 and PPB, offering valuable insights for pediatricians and clinicians caring for young adults who are impacted by the presence of a germline DICER1 variant."
  }
 ]
