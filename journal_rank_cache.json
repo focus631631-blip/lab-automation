@@ -982,5 +982,21 @@
  "acta medica portuguesa": {
   "badge": "中科院医学4区(医学：内科4区) · IF 1.2 · JCR Q2",
   "_ts": "2026-09-05"
+ },
+ "international journal of surgery case reports": {
+  "badge": "中科院医学4区(外科4区) · IF 0.6",
+  "_ts": "2026-09-06"
+ },
+ "acta paediatrica (oslo, norway : 1992)": {
+  "badge": "中科院医学4区(儿科4区) · IF 1.8 · JCR Q2",
+  "_ts": "2026-09-06"
+ },
+ "sage open pediatrics": {
+  "badge": "",
+  "_ts": "2026-09-06"
+ },
+ "the canadian veterinary journal = la revue veterinaire canadienne": {
+  "badge": "",
+  "_ts": "2026-09-06"
  }
 }
