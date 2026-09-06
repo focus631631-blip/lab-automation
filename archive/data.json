@@ -7498,5 +7498,20 @@
   "corr_email": "",
   "summary": "- 研究目的：探讨先天性肺囊性病变中CPAM 1型和4型的癌前潜能，以及何时应考虑DICER1基因检测。\n- 核心发现/数据：CPAM分为5型，其中1型和4型具有肿瘤前病变风险；CPAM 4型在组织结构上与I型囊性胸膜肺母细胞瘤（PPB）一致，而PPB与DICER1杂合性胚系或体细胞变异相关。\n- 临床启示：对于表现为多囊性肺病变、尤其疑似CPAM 4型或I型PPB的患儿，应评估DICER1基因检测，以早期识别相关肿瘤风险并指导随访管理。",
   "abstract": "Congenital pulmonary airway malformations (CPAMs), according to the Stocker classification, comprise five types, two of which are non-cystic in nature (types 0 and 3) whereas the others present as cystic lung lesions (types 1, 2 and 4). While there is consensus that symptomatic lesions should be managed surgically, the asymptomatic cases are more problematic in terms of therapeutic intervention. The dilemma is further complicated by CPAM types 1 and 4 and their preneoplastic potential. In the case of CPAM type 1, there are reports of lipidic adenocarcinoma arising from the mucinous component. Type 4 has been equated to type I or cystic pleuropulmonary blastoma (PPB), a proposition that has been challenged in the past. Pleuropulmonary blastoma is associated with a heterozygous germline or somatic variants in DICER1. It was recognized that the earliest stage of the sarcomatous progression of PPB was a multicystic lesion in the periphery of the lung whose architectural features were identical to CPAM type 4. This narrative review addresses key aspects of the pathogenetic and diagnostic issues of type I PPB/CPAM type 4, as well as the association of DICER1 and PPB, offering valuable insights for pediatricians and clinicians caring for young adults who are impacted by the presence of a germline DICER1 variant."
+ },
+ {
+  "date": "2026-09-06",
+  "pmid": "42349546",
+  "title": "Health-related quality of life following thoracoscopic repair in children with long-gap esophageal atresia.",
+  "doi": "10.1016/j.jpedsurg.2026.163258",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "50-367 Wroclaw",
+  "institution": "Wroclaw Medical University",
+  "corr_author": "Rozensztrauch A",
+  "corr_email": "anna.rozensztrauch@umw.edu.pl",
+  "summary": "- 研究目的：评估经纯胸腔镜手术修复的长段型食管闭锁（LGEA）儿童的健康相关生活质量（HRQoL），并与远端气管食管瘘（DTEF）患儿进行比较。\n- 核心发现/数据：LGEA与DTEF患儿在EA-QoL各领域评分无显著差异（p>0.05），如进食领域78.6 vs 75（p=0.375）、躯体健康与治疗领域75 vs 66.7（p=0.638）、社交隔离与压力领域75 vs 81.3（p=0.476）。在2-7岁LGEA患儿中，食管扩张次数与进食领域（r=-0.62，p=0.014）及躯体健康与治疗领域（r=-0.53，p=0.044）评分呈负相关。\n- 临床启示：LGEA患儿经胸腔镜分期牵引修复后的生活质量可与DTEF患儿相当，但早产和多次食管扩张可能增加HRQoL降低的风险，提示需关注此类高暴露患儿的长期随访与支持。",
+  "abstract": "By retaining the native esophagus and minimizing postoperative morbidity, the thoracoscopic approach contributes to improved functional outcomes for patients with esophageal atresia (EA). The aim of this study was to evaluate HRQoL-including digestive, respiratory, and feeding outcomes in children treated exclusively by a thoracoscopic approach, with a specific focus on comparing outcomes between patients with LGEA (Gross type A and B) and those with DTEF (Gross type C or D). LGEA was treated using the internal traction technique with staged repair, 25 children remained (16 aged 2-7, 9 aged 8-17), the comparison group included 69 children with DTEF (34 aged 2-7, 35 aged 8-17) who underwent thoracoscopic primary anastomosis. Final EA-QOL scores, based on clinical data and validated instruments (the EA-QOL questionnaires), were evaluated predefined hypotheses, with statistical significance set at p < 0.05. No significant differences were observed between LGEA and DTEF across EA-QoL domains (p>0.05). In LGEA children aged 2-7 years, the number of esophageal dilatations was negatively correlated with HRQoL in the Eating domain (r=-0.62, p=0.014) and the Physical Health and Treatment domain (r=-0.53, p=0.044). In the Eating domain, median EA-QoL scores were 78.6 for LGEA and 75 for DTEF (p=0.375). Physical Health and Treatment scores were 75 vs. 66.7 (p=0.638), and Social Isolation and Stress scores were 75 vs. 81.3 (p=0.476). HRQoL in children with LGEA is comparable to DTEF, although prematurity and multiple dilatations may increase the risk of reduced HRQoL."
  }
 ]
