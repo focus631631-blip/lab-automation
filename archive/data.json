@@ -7903,5 +7903,35 @@
   "corr_email": "",
   "summary": "- 研究目的：评估TTC7A缺陷（一种因基因突变导致的原发性免疫缺陷）的治疗方案与临床结局，基于EBMT先天性免疫错误工作组开展的国际回顾性研究。\n- 核心发现/数据：该研究为国际多中心回顾性分析，聚焦TTC7A缺陷患者的治疗策略及生存结局。由于摘要被截断，尚无法提供具体病例数、移植类型或生存率等关键数据，但研究重点在于分析不同治疗（如造血干细胞移植、免疫抑制等）对该病的效果与预后。\n- 临床启示：TTC7A缺陷患者常伴严重肠道炎症和免疫缺陷，治疗选择需个体化，多学科协作（免疫学与移植科）对改善结局至关重要；同时提示需完善国际登记以积累更充分的疗效证据。",
   "abstract": "Tetratricopeptide repeat domain 7A (TTC7A) deficiency is a primary immunodeficiency due to mutations in the"
+ },
+ {
+  "date": "2026-09-07",
+  "pmid": "42702633",
+  "title": "Development and validation of a predictive nomogram for cesarean delivery in term singleton pregnancies complicated by small for gestational age undergoing labor induction.",
+  "doi": "10.1038/s41598-026-55475-z",
+  "source": "PubMed",
+  "journal": "Sci Rep",
+  "rank": "中科院综合性期刊3区(综合性期刊3区) · IF 4.9 · JCR Q1",
+  "country": "Fujian",
+  "institution": "College of Clinical Medicine for Obstetrics & Gynecology and Pediatrics",
+  "corr_author": "Yan M",
+  "corr_email": "penglaimonv@163.com",
+  "summary": "- 研究目的：构建并验证一个预测足月单胎小于胎龄儿（SGA）引产后剖宫产风险的分娩前及促宫颈成熟后动态列线图模型。  \n- 核心发现/数据：共507例孕妇中，引产后剖宫产发生率为26.4%（134例）。独立预测因素包括 maternal age（aOR 1.08）、入院体重（aOR 1.04）、使用地诺前列酮对比Cook双球囊（aOR 2.08）及促宫颈成熟后Bishop评分（aOR 0.65）。列线图在建模队列和内部验证队列中的AUC分别为0.78和0.77，校准良好。  \n- 临床启示：该列线图可用于SGA引产孕妇促宫颈成熟后的动态风险评估，辅助临床咨询、产时监测和围产期准备，但需外部多中心验证。",
+  "abstract": "To identify antenatal and post-ripening factors associated with cesarean delivery in term singleton pregnancies complicated by small for gestational age (SGA) undergoing induction of labor, and to develop and internally validate a predictive nomogram intended for post-ripening dynamic risk assessment. We conducted a retrospective cohort study of 507 women with term singleton pregnancies whose neonates were retrospectively confirmed as SGA (birth weight below the 10th percentile for gestational age and sex) and who underwent induction of labor at Fujian Maternity and Child Health Hospital between October 2017 and December 2022. The cohort was randomly split into a derivation cohort (n = 354, 70%) and an internal validation cohort (n = 153, 30%). The primary outcome was cesarean delivery after induction of labor, irrespective of indication. Univariable and multivariable logistic regression were used to identify independent factors associated with the outcome, and a nomogram was developed in the derivation cohort and assessed in the internal validation cohort. Cesarean delivery after induction of labor occurred in 134 (26.4%) women. Four factors were independently associated with the outcome: maternal age (aOR 1.08, 95% CI 1.01-1.15), admission weight (aOR 1.04, 95% CI 1.01-1.07), induction with dinoprostone versus a Cook double balloon (aOR 2.08, 95% CI 1.13-3.81), and Bishop score after cervical ripening (aOR 0.65, 95% CI 0.54-0.80). The nomogram showed an area under the receiver operating characteristic curve of 0.78 (95% CI 0.73-0.84) in the derivation cohort and 0.77 (95% CI 0.68-0.86) in the internal validation cohort, with adequate calibration (Hosmer-Lemeshow P = 0.397 and 0.812, respectively) and clinical net benefit on decision curve analysis. Among term singleton pregnancies with SGA already undergoing induction of labor, the proposed nomogram may support post-ripening dynamic risk assessment for cesarean delivery and serve as an adjunct to clinical judgment for counseling, intrapartum surveillance, and perinatal preparedness. External validation in independent multicenter cohorts is warranted."
+ },
+ {
+  "date": "2026-09-07",
+  "pmid": "42703577",
+  "title": "Duplicate gallbladder masquerading as a choledochal cyst: a case of single-port robotic surgery.",
+  "doi": "10.1093/jscr/rjag766",
+  "source": "PubMed",
+  "journal": "J Surg Case Rep",
+  "rank": "中科院医学4区(外科4区) · IF 0.5",
+  "country": "韩国",
+  "institution": "Dong-A University College of Medicine",
+  "corr_author": "Kim KW",
+  "corr_email": "",
+  "summary": "- 研究目的：报告一例术前影像学疑为胆总管囊肿、实为胆囊重复畸形，并采用单孔机器人手术成功治疗的病例，探讨其鉴别难点与微创处理策略。\n- 核心发现/数据：61岁男性因发热、右上腹痛及转氨酶升高就诊，增强CT和MRI初判为胆囊后方3.6 cm Todani II型胆总管囊肿；术中发现两个独立胆囊及各自胆囊管，行单孔机器人胆囊切除术，手术时间65分钟，无并发症，病理均示慢性胆囊炎。\n- 临床启示：横断面影像难以区分胆囊重复畸形与II型胆总管囊肿，单孔机器人手术因视野清晰、器械可弯曲，有助于安全精准处理复杂胆道畸形，避免医源性损伤。",
+  "abstract": "Gallbladder duplication is a rare congenital anomaly (1 in 4000 births) that can mimic other biliary pathologies, risking iatrogenic injury. A 61-year-old male presented with fever, right upper quadrant pain, and elevated aminotransferases. Contrast-enhanced computed tomography and magnetic resonance imaging initially suggested a 3.6-cm Todani type II choledochal cyst posterior to the gallbladder. Suspecting duplication, surgeons utilized a single-port robotic approach via the da Vinci SP system. Intraoperatively, two distinct gallbladders with independent cystic ducts were identified and successfully resected without complications. The operative time was 65 min, and histopathology confirmed chronic cholecystitis in both specimens. This case highlights the difficulty of differentiating gallbladder duplication from a type II choledochal cyst using cross-sectional imaging. Single-port robotic cholecystectomy offers enhanced visualization and articulating instrumentation, facilitating the safe, precise management of complex biliary anomalies."
  }
 ]
