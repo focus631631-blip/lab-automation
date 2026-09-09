@@ -1030,5 +1030,21 @@
  "european radiology experimental": {
   "badge": "中科院医学2区(核医学2区) · IF 4.7",
   "_ts": "2026-09-09"
+ },
+ "journal of the american college of cardiology": {
+  "badge": "中科院医学1区(心脏和心血管系统1区)",
+  "_ts": "2026-09-09"
+ },
+ "global health action": {
+  "badge": "中科院医学3区(公共卫生、环境卫生与职业卫生3区) · IF 3.4 · JCR Q1",
+  "_ts": "2026-09-09"
+ },
+ "alimentary pharmacology & therapeutics": {
+  "badge": "中科院医学1区(药学1区/胃肠肝病学2区) · IF 6.8 · JCR Q1",
+  "_ts": "2026-09-09"
+ },
+ "european radiology": {
+  "badge": "中科院医学2区(核医学2区) · IF 6.0 · JCR Q1",
+  "_ts": "2026-09-09"
  }
 }
