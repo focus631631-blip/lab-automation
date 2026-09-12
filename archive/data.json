@@ -8713,5 +8713,50 @@
   "corr_email": "cgbrackett14@gmail.com",
   "summary": "- 研究目的：评估母亲地区剥夺指数（ADI）是否与极早产儿2岁时神经发育损害（NDI）相关。\n- 核心发现/数据：多中心回顾性队列纳入1278例<29周早产儿，其中275例完成2岁Bayley评估；较低出生体重、男性和本院出生与完成评估相关。较高ADI、较低出生体重、男性和晚发性脓毒症与更严重NDI相关，且ADI与NDI风险独立相关。\n- 临床启示：临床在极早产儿神经发育风险分层和随访中应纳入母亲社区剥夺等社会经济因素，并对高ADI家庭提供更早、更密集的发育监测与支持。",
   "abstract": "Evaluate whether maternal Area Deprivation Index (ADI) is associated with neurodevelopmental impairment (NDI) at age 2 in extremely preterm infants. Retrospective cohort study of infants <29 weeks' gestation at four NICUs spanning multiple US regions. We analyzed the relationship between ADI and NDI, defined as no/mild, moderate, or severe based on the lowest component score on the Bayley Scales of Infant and Toddler Development exam, using a Bayesian ordinal cumulative logit hurdle model. Adjustments included sex, birthweight, maternal race/ethnicity, outborn, severe intraventricular hemorrhage, and late-onset sepsis or necrotizing enterocolitis. Of 1278 infants studied, 275 underwent a Bayley exam. Lower birthweight, male sex, and inborn status were associated with undergoing a Bayley exam. Higher ADI, lower birthweight, male sex, and late-onset sepsis were linked to more severe NDI. ADI was independently associated with NDI risk. Maternal deprivation measured by ADI was associated with NDI risk."
+ },
+ {
+  "date": "2026-09-12",
+  "pmid": "42727055",
+  "title": "Role of Fetoscopic Airway Evaluation Immediately Preceding EXIT Procedure in Fetuses With Suspected Airway Obstruction.",
+  "doi": "10.1002/pd.70243",
+  "source": "PubMed",
+  "journal": "Prenat Diagn",
+  "rank": "中科院医学2区(遗传学2区/妇产科学3区) · IF 3.1 · JCR Q1",
+  "country": "西班牙",
+  "institution": "BCNatal Fetal Medicine Research Center (Hospital Clínic and Hospital Sant Joan de Déu)",
+  "corr_author": "Gratacos E",
+  "corr_email": "",
+  "summary": "- 研究目的：评估在疑似气道梗阻胎儿中，EXIT前即刻行胎儿镜气道评估的临床作用。\n- 核心发现/数据：该单中心回顾性研究纳入9例在EXIT前接受胎儿镜评估的胎儿，中位孕周为35+6周（IQR 34+4, 37+1），最常见指征为颈部畸胎瘤（n=3）和淋巴管瘤（n=3）。胎儿镜确认1例（11.1%）气道通畅并降级为常规剖宫产，7例（77.8%）经气管插管建立气道，1例（11.1%）需气管切开。产房存活率为100%，1例新生儿出院前死亡。\n- 临床启示：EXIT前胎儿镜气道评估可确认EXIT必要性、优化气道进入路径，并可能避免气管切开，从而提高疑似气道梗阻胎儿气道管理的安全性和效率。",
+  "abstract": "This study describes the role of pre-EXIT (Ex Utero Intrapartum Treatment) fetoscopic airway evaluation in fetuses with suspected airway obstruction. Single center, retrospective, observational study including fetuses with suspected airway obstruction undergoing fetoscopic airway evaluation prior to EXIT between 2013 and 2025. Nine fetuses underwent EXIT with previous fetoscopy at a median gestational age of 35 + 6 weeks (IQR 34 + 4, 37 + 1). The most frequent indications were cervical teratoma (n = 3) and lymphangioma (n = 3). Fetoscopy confirmed airway patency in one case (11.1%), allowing de-escalation to conventional cesarean section. Airway was secured by endotracheal intubation in seven cases (77.8%) and tracheostomy was required in one (11.1%). Survival at the delivery room was 100%, and one neonate died prior to discharge. Fetoscopic airway evaluation prior to EXIT is a valuable adjunct in fetuses with suspected airway obstruction. It can confirm the need for EXIT, optimize the trajectory for airway access, and potentially avoid tracheostomy, improving the safety and efficiency of airway management."
+ },
+ {
+  "date": "2026-09-12",
+  "pmid": "42726232",
+  "title": "Fetal Echocardiography Enhances Perinatal Care for Coarctation of the Aorta: Balancing Risk of Hemodynamic Compromise and Resource Utilization.",
+  "doi": "10.1007/s00246-026-04463-1",
+  "source": "PubMed",
+  "journal": "Pediatr Cardiol",
+  "rank": "中科院医学4区(儿科3区/心脏和心血管系统4区) · IF 1.3 · JCR Q3",
+  "country": "美国",
+  "institution": "Children's National Hospital",
+  "corr_author": "Goudar SP",
+  "corr_email": "sgoudar@childrensnational.org",
+  "summary": "- 研究目的：评估基于胎儿超声心动图指标的风险分层（LOC）能否在产前疑似主动脉缩窄患儿中平衡血流动力学风险与资源利用，并减少不必要干预和转运而不增加新生儿并发症。\n- 核心发现/数据：199例产前疑似CoA胎儿中，182例分为LOC 1（低危），17例为LOC 2（中危）；最终需CoA修复者分别为6%（11/182）和41.2%（7/17）。研究期间LOC 2分配减少而需修复比例相近，提示实践变化；需修复的LOC 1与LOC 2患儿在并发症或住院时间上无增加。结合出生后超声评估的分层框架可提高判断信心，并随着LOC 1增加减少前列腺素使用和不必要转运。\n- 临床启示：对产前疑似CoA，基于胎儿超声心动图的风险分层并配合出生医院产后超声评估，可安全减少前列腺素暴露和转运，即使部分患儿最终需手术也不增加并发症或住院时间。该策略有助于优化围产期资源配置，同时避免延误真正高风险患儿。",
+  "abstract": "Prenatal diagnosis of coarctation of the aorta (CoA) remains challenging. Anticipated postnatal risk, level of care (LOC), was assigned using fetal echocardiography measures including mitral valve/tricuspid valve ratio, aortic valve/pulmonary valve ratio, and aortic isthmus size. Patients assigned LOC 1 (low risk, not expected to have instability within first weeks of life) underwent postnatal echocardiography in the community; patients assigned LOC 2 (moderate risk, expected stability at delivery, postnatal intervention before hospital discharge) were started on prostaglandin and transferred. We hypothesize that LOC assignment leads to minimal neonatal morbidity. Patients with prenatal suspicion of CoA (2009-2023) were studied comparing prenatal LOC with postnatal outcomes. Retrospective analyses were performed with chi-square or Fisher's exact test for categorical variables and t-test, Mann-Whitney, or Kruskal Wallis test for continuous variables. Of 199 fetuses, 182 were assigned LOC 1 and 17 LOC 2. Of patients assigned LOC 1, 6% (11/182) versus 41.2% (7/17) of patients assigned LOC 2 required CoA repair. Interestingly, over the study period, fewer patients were assigned LOC 2 despite similar frequency of patients requiring CoA repair, suggesting a practice change. There was no increase in morbidity or length of hospital stay in patients who required CoA repair assigned LOC 1 versus 2. LOC assignment for patients with suspected CoA, with a robust framework for postnatal assessment including postnatal echocardiogram at the delivery hospital, results in confidence in LOC assignment. The increase in LOC 1 assignment over time reduced prostaglandin use and unnecessary transport without increasing morbidity, even if surgery was needed."
+ },
+ {
+  "date": "2026-09-12",
+  "pmid": "42725907",
+  "title": "Understanding Age-Related Risks in Pediatric Mandibular Distraction Osteogenesis: Insights From 2 Decades of Patient Data.",
+  "doi": "10.1177/10556656261486185",
+  "source": "PubMed",
+  "journal": "Cleft Palate Craniofac J",
+  "rank": "",
+  "country": "美国",
+  "institution": "Children's Hospital Los Angeles",
+  "corr_author": "Hammoudeh JA",
+  "corr_email": "",
+  "summary": "- 研究目的：基于20年患者数据，评估儿童下颌骨牵张成骨（MDO）术后并发症风险是否与年龄相关。\n- 核心发现/数据：共纳入133例患儿，中位手术年龄5.6周，",
+  "abstract": "ObjectiveMandibular distraction osteogenesis (MDO) is a well-established intervention for severe upper airway obstruction in children with micrognathia. However, whether patient age influences postoperative complication risk remains debated. This study evaluates age-related differences in complications following pediatric MDO over a 20-year period.DesignRetrospective cohort study.SettingSingle tertiary pediatric referral center.Patients, ParticipantsPatients who underwent MDO between January 2004 and January 2024 were identified. Patients with less than 6 months of follow-up were excluded. Patients were stratified into 3 age groups: neonate (≤30 days), early infant (31 days-5 months), and infant (≥5 months).InterventionMDO.Main Outcome Measure(s)30-day postoperative infections, major complications requiring operative intervention, and minor complications requiring conservative management.ResultsA total of 133 patients met the inclusion criteria. Median age at surgery was 5.6 weeks, with a median follow-up of 6.1 years. Rates of major complications ("
  }
 ]
