@@ -8968,5 +8968,20 @@
   "corr_email": "",
   "summary": "- 研究目的：通过一例青少年病例，探讨肠旋转不良伴慢性中肠扭转、乳糜性腹水和严重营养不良的临床经过及手术矫正效果。\n- 核心发现/数据：该青少年患者病程隐匿数年，表现为餐后腹痛和进行性严重营养不良，并出现由持续肠系膜淋巴梗阻所致的乳糜性腹水。及时手术矫正后，患者营养状况显著恢复。该结果支持乳糜性腹水为继发性而非原发性淋巴梗阻。\n- 临床启示：青少年出现不明原因进行性营养不良、餐后腹痛或乳糜性腹水时，应警惕肠旋转不良合并慢性中肠扭转，尽早手术矫正可能显著改善营养预后。",
   "abstract": "In adolescents, chronic midgut volvulus can present insidiously over years with postprandial pain and progressive malnutrition, occasionally with chylous ascites from sustained mesenteric lymphatic obstruction. Prompt surgical correction can produce marked nutritional recovery, supporting secondary rather than primary lymphatic obstruction as the underlying mechanism."
+ },
+ {
+  "date": "2026-09-14",
+  "pmid": "42732714",
+  "title": "Ferroptosis in neonatal and paediatric disease: From molecular mechanism to therapeutic target.",
+  "doi": "10.1016/j.ejcb.2026.151572",
+  "source": "PubMed",
+  "journal": "Eur J Cell Biol",
+  "rank": "中科院生物学2区(细胞生物学3区) · IF 4.3 · JCR Q2",
+  "country": "中国",
+  "institution": "College of Traditional Chinese Medicine",
+  "corr_author": "Yang Q",
+  "corr_email": "qingsongnjtr1969@163.com",
+  "summary": "- 研究目的：本综述旨在系统阐述铁死亡的核心分子机制及其在新生儿和儿科疾病中的作用，并探讨以铁死亡为靶点的治疗策略与临床转化框架。\n- 核心发现/数据：铁死亡是铁依赖、脂质过氧化介导的调节性细胞死亡；新生儿因发育期脑和红细胞富含PUFA、抗氧化防御不成熟及游离铁易积聚，呈器官特异性易感。该过程与支气管肺发育不良、缺氧缺血性脑病、溶血",
+  "abstract": "Ferroptosis is an iron-dependent regulatory cell death mechanism mediated by lipid peroxidation. Increasing evidence suggests that this process is closely related to the etiology of a variety of paediatric diseases. This review systematically elaborates the core molecular mechanism of ferroptosis, and highlights that newborns exhibit organ‑specific susceptibility to ferroptosis, predominantly attributed to the convergence of high PUFA content in the developing brain and erythrocytes, immature antioxidant defences, and a propensity for free iron accumulation. Building on this, we further examine the role of ferroptosis in multiple childhood disorders, such as bronchopulmonary dysplasia, hypoxic-ischaemic encephalopathy, haemolytic hyperbilirubinemia, necrotizing enterocolitis, retinopathy of prematurity, and neonatal rotavirus‑associated biliary atresia. Furthermore, we synthesize existing evidence, which is largely preclinical, regarding therapeutic interventions that modulate ferroptosis, including iron chelators, selective inhibitors (e.g., ferrostatin-1), and activators of endogenous antioxidant pathways (e.g., Nrf2 inducers). We also discuss the multiple difficulties and challenges encountered by the current study in paediatric clinical trials, especially with respect to ferroptosis‑related issues. This review identifies a series of key barriers to clinical translational research in paediatric ferroptosis, based on a systematic review of the available evidence. In response to these obstacles, we propose a prioritized translational framework that focuses on juvenile animal models, age-stratified pharmacokinetics, and patient-derived organoids, to provide guidance for translating clinical practice to this vulnerable population."
  }
 ]
