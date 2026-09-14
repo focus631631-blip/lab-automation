@@ -8983,5 +8983,20 @@
   "corr_email": "qingsongnjtr1969@163.com",
   "summary": "- 研究目的：本综述旨在系统阐述铁死亡的核心分子机制及其在新生儿和儿科疾病中的作用，并探讨以铁死亡为靶点的治疗策略与临床转化框架。\n- 核心发现/数据：铁死亡是铁依赖、脂质过氧化介导的调节性细胞死亡；新生儿因发育期脑和红细胞富含PUFA、抗氧化防御不成熟及游离铁易积聚，呈器官特异性易感。该过程与支气管肺发育不良、缺氧缺血性脑病、溶血",
   "abstract": "Ferroptosis is an iron-dependent regulatory cell death mechanism mediated by lipid peroxidation. Increasing evidence suggests that this process is closely related to the etiology of a variety of paediatric diseases. This review systematically elaborates the core molecular mechanism of ferroptosis, and highlights that newborns exhibit organ‑specific susceptibility to ferroptosis, predominantly attributed to the convergence of high PUFA content in the developing brain and erythrocytes, immature antioxidant defences, and a propensity for free iron accumulation. Building on this, we further examine the role of ferroptosis in multiple childhood disorders, such as bronchopulmonary dysplasia, hypoxic-ischaemic encephalopathy, haemolytic hyperbilirubinemia, necrotizing enterocolitis, retinopathy of prematurity, and neonatal rotavirus‑associated biliary atresia. Furthermore, we synthesize existing evidence, which is largely preclinical, regarding therapeutic interventions that modulate ferroptosis, including iron chelators, selective inhibitors (e.g., ferrostatin-1), and activators of endogenous antioxidant pathways (e.g., Nrf2 inducers). We also discuss the multiple difficulties and challenges encountered by the current study in paediatric clinical trials, especially with respect to ferroptosis‑related issues. This review identifies a series of key barriers to clinical translational research in paediatric ferroptosis, based on a systematic review of the available evidence. In response to these obstacles, we propose a prioritized translational framework that focuses on juvenile animal models, age-stratified pharmacokinetics, and patient-derived organoids, to provide guidance for translating clinical practice to this vulnerable population."
+ },
+ {
+  "date": "2026-09-14",
+  "pmid": "42734426",
+  "title": "Variable Expressivity in Long QT Syndrome Type 2 Rabbits Defines a Low Threshold for Therapeutic ",
+  "doi": "10.1152/ajpheart.00154.2026",
+  "source": "PubMed",
+  "journal": "Am J Physiol Heart Circ Physiol",
+  "rank": "中科院医学2区(外周血管病2区/生理学2区/心脏和心血管系统3区) · IF 3.9 · JCR Q1",
+  "country": "美国",
+  "institution": "Warren Alpert Medical School of Brown University",
+  "corr_author": "Koren G",
+  "corr_email": "",
+  "summary": "- 研究目的：利用LQT2转基因兔模型，探究长QT综合征2型表型差异的电生理机制及其对未来治疗/基因干预的启示。\n- 核心发现/数据：LQT2兔分为LQT2A和LQT2G两系；LQT2G心脏高度致心律失常，异丙肾上腺素即可诱发频繁室性早搏和多形性室速，而LQT2A",
+  "abstract": "Long QT syndrome type 2 (LQT2) is caused by pathogenic variants in the hERG potassium channel, resulting in QT prolongation, polymorphic ventricular tachycardia (pVT), and sudden cardiac death. We previously developed a transgenic LQT2 rabbit model that recapitulates the human disease and segregates into two phenotypically distinct lines, LQT2A and LQT2G. Using optical mapping and cardiomyocyte patch clamp, we investigated the electrophysiological basis of variable disease expressivity and its potential future implications for gene therapy. LQT2G hearts were highly arrhythmogenic, with isoproterenol inducing frequent premature ventricular contractions and pVT, whereas LQT2A hearts required additional"
  }
 ]
