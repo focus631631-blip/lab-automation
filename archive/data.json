@@ -8998,5 +8998,35 @@
   "corr_email": "",
   "summary": "- 研究目的：利用LQT2转基因兔模型，探究长QT综合征2型表型差异的电生理机制及其对未来治疗/基因干预的启示。\n- 核心发现/数据：LQT2兔分为LQT2A和LQT2G两系；LQT2G心脏高度致心律失常，异丙肾上腺素即可诱发频繁室性早搏和多形性室速，而LQT2A",
   "abstract": "Long QT syndrome type 2 (LQT2) is caused by pathogenic variants in the hERG potassium channel, resulting in QT prolongation, polymorphic ventricular tachycardia (pVT), and sudden cardiac death. We previously developed a transgenic LQT2 rabbit model that recapitulates the human disease and segregates into two phenotypically distinct lines, LQT2A and LQT2G. Using optical mapping and cardiomyocyte patch clamp, we investigated the electrophysiological basis of variable disease expressivity and its potential future implications for gene therapy. LQT2G hearts were highly arrhythmogenic, with isoproterenol inducing frequent premature ventricular contractions and pVT, whereas LQT2A hearts required additional"
+ },
+ {
+  "date": "2026-09-15",
+  "pmid": "42735071",
+  "title": "Post-traumatic stress disorder and adverse pregnancy and birth outcomes: a population-based study.",
+  "doi": "10.1080/20008066.2026.2717827",
+  "source": "PubMed",
+  "journal": "Eur J Psychotraumatol",
+  "rank": "中科院医学2区(精神病学2区/心理学：临床2区) · IF 4.2",
+  "country": "中国台湾",
+  "institution": "Tri-Service General Hospital",
+  "corr_author": "Kao LT",
+  "corr_email": "",
+  "summary": "- 研究目的：探讨产前创伤后应激障碍（PTSD）与不良妊娠及出生结局之间的关联。\n- 核心发现/数据：产前PTSD与剖宫产、低出生体重（LBW）和早产相关。上述关联在年龄≤35岁的母亲中更为明显。未发现PTSD与死产、小于胎龄儿（SGA）、低Apgar评分或先天缺陷存在关联。\n- 临床启示：产科临床应关注产前PTSD孕妇，尤其是年龄≤35岁者，加强心理筛查与干预以降低剖宫产、LBW和早产风险。对死产、SGA等结局仍需结合个体情况继续评估。",
+  "abstract": "Pre-delivery PTSD was associated with cesarean delivery, LBW, and preterm birth.Findings were more pronounced in mothers aged ≤ 35 years.No associations with stillbirth, SGA, low Apgar, or congenital defects."
+ },
+ {
+  "date": "2026-09-15",
+  "pmid": "42735241",
+  "title": "Biliary complications in pediatric living donor liver transplantation: An international multicenter analysis of risk and prognostic factors.",
+  "doi": "10.1097/LVT.0000000000000998",
+  "source": "PubMed",
+  "journal": "Liver Transpl",
+  "rank": "",
+  "country": "瑞士",
+  "institution": "University of Zurich",
+  "corr_author": "Li Z",
+  "corr_email": "",
+  "summary": "- 研究目的：通过国际多中心研究识别儿童活体肝移植（LDLT）术后胆道并发症的预测因素，并评估其对长期结局的影响。\n- 核心发现/数据：纳入2019—2023年19个中心共2,665例儿童LDLT，胆漏和吻合口狭窄发生率分别为3.6%和1.9%；供者BMI较高是胆漏的独立预测因素（OR 1.09/kg/m²），冷缺血时间较长是吻合口狭窄的显著预测因素（OR 1.36/小时）。胆漏（aHR 4.39）和胆道狭窄（aHR 6.26）与更差移植物生存相关，但未显著影响患者生存；早期并发症更常需手术，但不同治疗方式的生存和失败救援率相似。\n- 临床启示：应针对供者BMI和冷缺血时间等因素进行风险分层与预防，以降低儿童LDLT胆道并发症；胆漏和吻合口狭窄虽未必影响患者生存，但显著威胁移植物生存，仍需积极防治和长期随访。",
+  "abstract": "Biliary reconstruction is often considered the Achilles' heel of liver transplantation, yet risk factors and outcomes remain poorly defined, particularly in pediatric living donor liver transplantation (LDLT). This international multicenter study aims to identify predictors of biliary complications and evaluate their impact on long-term outcomes. 2,665 pediatric patients who underwent LDLT between January 2019 and December 2023 across 19 centers were included. Multivariable logistic regression was performed to identify risk factors, while time-dependent Cox models were used to assess impact on survival. The median recipient age was 11 months (IQR: 6.3-34.6) and biliary atresia was the most common diagnosis (59.7%). Bile leak and anastomotic stricture occurred in 3.6% (n=97) and 1.9% (n=51) of patients, respectively. For bile leak, higher donor BMI was an independent predictor (OR 1.09 per kg/m², 95% CI: 1.02-1.17). For anastomotic strictures, longer cold ischemia time was a significant predictor (OR 1.36 per hour, 95% CI: 1.03-1.79). Bile leak (aHR 4.39, 95% CI: 1.04-18.60) and biliary stricture (aHR 6.26, 95% CI: 1.58-24.80) were associated with worse graft survival. Patient survival was not significantly impacted by bile leak and stricture. Early complications more often required surgery, but survival and failure-to-rescue rates were similar regardless of treatment approach. Ultimately, bile leak and anastomotic stricture remain significant threats to graft survival. The identified risk factors offer insights for risk stratification and prevention strategies aimed at improving outcomes in children undergoing LDLT."
  }
 ]
