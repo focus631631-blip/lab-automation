@@ -1182,5 +1182,17 @@
  "nigerian medical journal : journal of the nigeria medical association": {
   "badge": "",
   "_ts": "2026-09-19"
+ },
+ "open heart": {
+  "badge": "中科院医学3区(心脏和心血管系统3区) · IF 3.1",
+  "_ts": "2026-09-19"
+ },
+ "molecular genetics and metabolism": {
+  "badge": "中科院生物学2区(遗传学2区/医学：研究与实验2区/内分泌学与代谢3区) · IF 4.0 · JCR Q2",
+  "_ts": "2026-09-19"
+ },
+ "respiratory medicine": {
+  "badge": "中科院医学3区(心脏和心血管系统3区/呼吸系统3区) · IF 3.3 · JCR Q2",
+  "_ts": "2026-09-19"
  }
 }
