@@ -10108,5 +10108,35 @@
   "corr_email": "",
   "summary": "- 研究目的：报告一例以反复喘鸣为表现的环周性声门下血管瘤新生儿，并探讨经验性普萘洛尔在诊断与治疗中的价值。\n- 核心发现/数据：患儿为2周大早产女婴（胎龄36 5/7周），表现为进行性双相喘鸣、发绀和呼吸窘迫；喉镜支气管镜见声门下显著狭窄、病因不明且球囊扩张无效，颈部增强MRI仅见非特异性气道狭窄、未见明确肿块。经多学科讨论后经验性口服普萘洛尔，喘鸣5天内显著改善并完全缓解，新生儿重症监护室住院1个月后出院，7个月随访无症状。\n- 临床启示：新生儿环周性声门下狭窄且影像无明确肿块时，应警惕声门下血管瘤；经验性普萘洛尔可作为诊断性和治疗性试验，有助于早期识别并避免延误。",
   "abstract": "Subglottic hemangioma (SGH) is a rare but potentially fatal cause of infantile stridor that is frequently misdiagnosed as laryngomalacia, croup, or idiopathic subglottic stenosis. Circumferential involvement is an uncommon and particularly dangerous variant whose endoscopic appearance overlaps with that of other concentric subglottic lesions, including congenital cricoid cartilage malformation and idiopathic subglottic stenosis. We present a two-week-old female with a history of preterm birth (36 5/7 weeks) and progressive biphasic stridor, cyanosis, and increasing respiratory distress. Operative microlaryngoscopy and bronchoscopy demonstrated significant subglottic narrowing of uncertain etiology that was refractory to balloon dilation, and contrast-enhanced MRI of the neck demonstrated nonspecific airway narrowing without an identifiable mass. After multidisciplinary discussion with hematology and neonatology, empiric oral propranolol was initiated for presumed airway hemangioma. The infant's stridor improved dramatically within five days and resolved completely; she was discharged after a one-month neonatal intensive care unit stay and remained asymptomatic at seven-month follow-up. This case illustrates the diagnostic ambiguity that can attend circumferential subglottic narrowing in the neonate and demonstrates that empiric propranolol can serve as both a diagnostic and therapeutic trial when imaging is unrevealing."
+ },
+ {
+  "date": "2026-09-22",
+  "pmid": "42766565",
+  "title": "Prevalence and associated factors of skilled birth attendants in Bangladesh: A combined statistical and machine learning analysis.",
+  "doi": "10.1371/journal.pone.0358556",
+  "source": "PubMed",
+  "journal": "PLoS One",
+  "rank": "中科院综合性期刊3区(综合性期刊3区) · IF 2.8 · JCR Q2",
+  "country": "Bangladesh",
+  "institution": "Shahjalal University of Science and Technology",
+  "corr_author": "Islam AA",
+  "corr_email": "",
+  "summary": "- 研究目的：识别孟加拉国分娩过程中影响熟练接生员（SBA）使用的关键社会经济和人口因素。\n- 核心发现/数据：基于2022年孟加拉国人口与健康调查，67.94%的女性分娩时使用了熟练接生员。高等教育（AOR=4.10, 95% CI: 1.94-8.66, p<0.001）、至少4次产前检查（AOR=2.92, 95% CI: 1.72-4.96, p<0.001）和最富裕家庭（AOR=1.77, 95% CI: 1.11-2.81, p=0.016）与SBA使用显著正相关，而农村女性使用几率较低（AOR=0.64, 95% CI: 0.47-0.88, p=0.006）；随机森林模型准确率最高（0.82）。\n- 临床启示：应重点加强农村和弱势孕妇的产前保健、转诊及熟练接生服务可及性，以促进公平获得孕产妇医疗并改善母婴结局。",
+  "abstract": "Bangladesh has achieved notable progress in maternal and child health; however, maternal and neonatal mortality remain high, partly due to inadequate access to skilled birth attendants (SBA) during delivery. This study aims to identify key socioeconomic and demographic factors influencing SBA utilization in Bangladesh. Data were obtained from the 2022 Bangladesh Demographic and Health Survey (BDHS), a nationally representative cross-sectional survey which was conducted from June 27 to December 12, 2022. The outcome variable was skilled birth attendants during delivery, defined as attendants provided by a doctor, nurse, or midwife. Descriptive statistics and chi-square tests were used for initial analysis, followed by binary logistic regression to identify significant determinants. Additionally, the inclusion of machine learning models provides an additional classification framework that improves classification performance and helps identify important predictors, complementing traditional regression analysis. From the study, 67.94% of women utilized skilled birth attendants during childbirth. Higher maternal education, household wealth, antenatal care utilization, and urban residence were significantly associated with greater SBA utilization. Women with higher education had substantially higher odds of using SBA than those with no education (AOR = 4.10, 95% CI: 1.94-8.66, p < 0.001), while rural women had lower odds than urban women (AOR = 0.64, 95% CI: 0.47-0.88, p = 0.006). Women who attended four or more ANC visits were also more likely to use SBA than those with no ANC visits (AOR = 2.92, 95% CI: 1.72-4.96, p < 0.001). Women from the richest households had higher odds of SBA utilization compared with those from the poorest households (AOR = 1.77, 95% CI: 1.11-2.81, p = 0.016). Among the machine-learning models, Random Forest achieved the highest numerical accuracy (0.82). Education, economic status, ANC utilization, and place of residence were identified as key factors associated with skilled birth attendants during delivery in Bangladesh using the binary logistic regression model. Moreover, the machine learning models were used separately to classify SBA. Targeted interventions focusing on disadvantaged and rural populations can help improve equitable access to maternal healthcare. However, differences related to religion and region should be interpreted cautiously, as they may reflect broader socioeconomic and cultural factors rather than direct effects."
+ },
+ {
+  "date": "2026-09-22",
+  "pmid": "42766075",
+  "title": "Safety and Tolerability of Early Minimal Enteral Nutrition from Birth in Preterm Neonates with Antenatal Doppler Abnormalities.",
+  "doi": "10.1007/s12098-026-06411-6",
+  "source": "PubMed",
+  "journal": "Indian J Pediatr",
+  "rank": "中科院医学4区(儿科4区) · IF 2.4 · JCR Q2",
+  "country": "印度",
+  "institution": "Jawaharlal Institute of Postgraduate Medical Education and Research",
+  "corr_author": "Murugesan A",
+  "corr_email": "murugesan89@gmail.com",
+  "summary": "- 研究目的：评估对产前脐动脉多普勒异常（AREDF）的≤34周小于胎龄儿（SGA）从出生即开始早期微量肠内营养（MEN）的安全性和耐受性，并与无AREDF者比较。\n- 核心发现/数据：207例SGA早产儿中82例存在AREDF；AREDF组平均出生体重更低（1185 g vs. 1368 g，p<0.001），剖宫产率更高（85.4% vs. 60.8%，p<0.0001）。主要结局喂养不耐受无显著差异（20.7% vs. 12.8%；RR 1.62，95%CI 0.87-3.02），死亡率、坏死性小肠结肠炎（NEC）和血培养证实的脓毒症也相似。多因素logistic回归显示，喂养不耐受风险增加与胎龄相关，而非AREDF状态。\n- 临床启示：对于≤34周的SGA早产儿，即使存在AREDF，从出生即开始早期MEN似乎是安全且可耐受的，不应仅因AREDF而延迟喂养；临床上仍需结合胎龄等因素个体化评估，并需前瞻性研究进一步验证。",
+  "abstract": "Small-for-gestational-age neonates with absent / reversal of end diastolic flow (AREDF) in umbilical artery doppler are at increased risk of perinatal complications. The authors conducted a retrospective cohort study in SGA neonates (≤34 wk) with AREDF to study the tolerability of early minimal enteral nutrition (MEN) initiated from birth, and compared the outcomes with those without AREDF. Out of 207 SGA neonates, 82 had AREDF. AREDF group had a significantly lower mean birth weight (1185 g vs. 1368 g; p <0.001) and a higher incidence of birth by caesarean section (85.4% vs. 60.8%, p < 0.0001). There was no difference in the primary outcome of feed intolerance [20.7% vs. 12.8%; RR 1.62 (0.87-3.02)]. Mortality, necrotizing enterocolitis (NEC), culture-proven sepsis were also similar between the groups. Multivariable logistic regression analysis revealed that gestational age and not AREDF status was associated with increased odds of feed intolerance."
  }
 ]
