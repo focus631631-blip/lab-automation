@@ -1230,5 +1230,21 @@
  "jci insight": {
   "badge": "中科院医学1区(医学：研究与实验1区) · IF 6.8 · JCR Q1",
   "_ts": "2026-09-23"
+ },
+ "zeitschrift fur geburtshilfe und neonatologie": {
+  "badge": "中科院医学4区(妇产科学4区/儿科4区) · IF 0.9 · JCR Q3",
+  "_ts": "2026-09-24"
+ },
+ "progress in retinal and eye research": {
+  "badge": "中科院医学1区(眼科学1区) · IF 16.2 · JCR Q1",
+  "_ts": "2026-09-24"
+ },
+ "biochimica et biophysica acta. proteins and proteomics": {
+  "badge": "中科院生物学4区(生化与分子生物学4区/生物物理4区) · IF 2.2 · JCR Q3",
+  "_ts": "2026-09-24"
+ },
+ "gastroenterology": {
+  "badge": "中科院医学1区(胃肠肝病学1区) · IF 29.7 · JCR Q1",
+  "_ts": "2026-09-24"
  }
 }
