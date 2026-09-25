@@ -10648,5 +10648,35 @@
   "corr_email": "",
   "summary": "- 研究目的：报道一例携带TCF20新发SVA外显子插入、表现为先天性巨结肠的TAND患者，以拓展该病的临床和分子表型。\n- 核心发现/数据：40岁男性患者表现为先天性巨结肠、智力障碍、粗面畸形、睡眠障碍和反复感染，全外显子测序发现TCF20第2外显子c.1920_1921处新发杂合SVA逆转录转座子插入，预测破坏NM_005650.4主转录本，符合TAND分子诊断。该SVA插入既往未报道，且患者先天性巨结肠经活检证实。这提示TAND相关胃肠表型可能从慢性便秘和胃肠动力障碍扩展至肠道无神经节细胞症。\n- 临床启示：对综合征性先天性巨结肠或疑似TAND患者，应考虑TCF20变异并重视转座子/SVA分析，因常规测序分析可能遗漏此类致病变异。这有助于提高分子诊断率并指导胃肠表型管理。",
   "abstract": "Transcription Co-Activator Factor 20 (TCF20) Associated Neurodevelopmental Disorder (TAND, OMIM: 618430) is a rare autosomal dominant neurodevelopmental disorder most commonly associated with disruptive TCF20 variants and features overlapping Smith-Magenis syndrome (SMS, OMIM: 182290). Here we present a 40-year-old man with Hirschsprung disease (HD), intellectual disability, coarse facial features, sleep disturbances, and recurrent infections in whom whole-exome sequencing revealed a de novo heterozygous SVA retrotransposon insertion at c.1920_1921 in Exon 2 of TCF20 (OMIM: 603107), predicted to disrupt the primary TCF20 transcript (NM_005650.4), consistent with a molecular diagnosis of TAND. This SVA insertion has not been previously reported. The occurrence of congenital, biopsy-confirmed Hirschsprung disease in this patient suggests that intestinal aganglionosis may represent an uncommon extension of the gastrointestinal phenotype associated with TAND, in which chronic constipation and gastrointestinal dysmotility are already recognized. This case also underscores the phenotypic and molecular heterogeneity associated with mobile transposable elements of the human exome, alongside the clinical importance of transposon analysis."
+ },
+ {
+  "date": "2026-09-25",
+  "pmid": "42779522",
+  "title": "Clinical Management and Outcomes of Neonatal Rhinitis Nasal Obstruction: A Scoping Review.",
+  "doi": "10.1002/ohn.70458",
+  "source": "PubMed",
+  "journal": "Otolaryngol Head Neck Surg",
+  "rank": "",
+  "country": "加拿大",
+  "institution": "Université de Sherbrooke",
+  "corr_author": "Bergeron M",
+  "corr_email": "",
+  "summary": "- 研究目的：综述新生儿及≤8月龄婴儿鼻炎所致鼻塞的病因、诊断、治疗和结局，并识别当前证据缺口。\n- 核心发现/数据：共纳入5项关键研究，涵盖回顾性病历审查、病例系列和叙述性报告，检索时间为1980年1月至2025年9月。新生儿鼻炎常表现为黏液性流涕、鼻塞、鼾声/喘鸣、喂养不良和呼吸窘迫，且多为无发热；诊断常用纤维内镜和CT排除后鼻孔闭锁、梨状孔狭窄等。多数病例采用生理盐水冲洗、皮质类固醇滴鼻（如地塞米松）和鼻咽气道等保守治疗有效，手术或侵入性干预仅用于严重或保守无效者。\n- 临床启示：对无发热、以鼻塞和喂养/呼吸问题为主的新生儿，应警惕鼻炎，并在排除结构性病因后优先尝试保守治疗。现有证据有限，需进一步研究以制定标准化诊疗方案。",
+  "abstract": "Neonatal rhinitis represents an underdiagnosed yet potentially serious condition in newborns. Standardized diagnostic and treatment protocols remain lacking. The objective is to review the current literature on the etiology, diagnosis, and management of neonatal rhinitis in infants ≤8 months of age. PubMed, Medline, Embase, Google Scholar and Sofia (January 1980-September 2025). A scoping review was conducted in accordance with PRISMA-ScR guidelines. The inclusion criteria targeted studies involving neonates with nasal obstruction caused by mucosal edema or inflammatory conditions. Data were extracted regarding clinical presentation, diagnostic approaches, therapeutic strategies, and outcomes. Five key studies were found, including retrospective chart reviews, case series, and narrative reports. Across the studies, neonatal rhinitis was consistently characterized by mucoid rhinorrhea, nasal congestion, stertor, poor feeding, and respiratory distress, often in afebrile newborns. Standard diagnostic tools included fibre-optic endoscopy and CT imaging to exclude choanal atresia, pyriform aperture stenosis, and other etiologies. Conservative treatment approaches, such as saline irrigation, corticosteroid nasal drops (eg, dexamethasone), and nasopharyngeal airway placement, were favoured and proved efficient in most cases. Surgical intervention and more invasive interventions were reserved for severe or nonresponsive cases. Neonatal rhinitis is a clinically significant yet undercharacterized condition. Although the available evidence is limited, it suggests that conservative management, including topical corticosteroids and mechanical airway support, is commonly used and associated with favourable outcomes. This scoping review identifies gaps and underscores the need for research to better define and guide the management of this condition."
+ },
+ {
+  "date": "2026-09-25",
+  "pmid": "42332910",
+  "title": "Neonatal diabetes due to a truncating RFX6 mutation in an extremely low birth weight preterm infant with Mitchell-Riley syndrome.",
+  "doi": "10.1515/jpem-2026-0162",
+  "source": "PubMed",
+  "journal": "J Pediatr Endocrinol Metab",
+  "rank": "",
+  "country": "土耳其",
+  "institution": "Bursa City Hospital",
+  "corr_author": "Mutlu B",
+  "corr_email": "",
+  "summary": "- 研究目的：报道一例因 RFX6 截断突变导致新生儿糖尿病并符合 Mitchell-Riley 综合征（MRS）的极低出生体重早产儿。\n- 核心发现/数据：患儿为31周早产男婴，出生体重880 g，生后第4天出现严重高血糖，并伴十二指肠闭锁、慢性腹泻、胰腺外分泌功能不全和胆汁淤积；影像显示胆囊缺如及胰腺发育不良，基因检测发现 RFX6 纯合截断变异。\n- 临床启示：早产或极低出生体重儿出现新生儿糖尿病合并十二指肠闭锁、胆囊缺如、胰腺发育不良及胆汁淤积时，应警惕 MRS 并尽早行 RFX6 基因检测；该病代谢极不稳定，需多学科综合管理。",
+  "abstract": "Mitchell-Riley syndrome (MRS) is a rare autosomal recessive disorder caused by pathogenic variants in the  We report a preterm male infant born at 31 weeks of gestation with a birth weight of 880 g who presented with duodenal atresia, severe hyperglycemia beginning on postnatal day 4, chronic diarrhea, pancreatic exocrine insufficiency, and cholestasis. Imaging revealed gallbladder aplasia and pancreatic hypoplasia. Genetic analysis identified a homozygous truncating variant in the  This case highlights MRS in an extremely low birth weight preterm infant and underscores the severe metabolic instability associated with truncating"
  }
 ]
