@@ -10978,5 +10978,50 @@
   "corr_email": "drsnangia@gmail.com",
   "summary": "- 研究目的：在28–34周胎龄、生长受限且产前脐动脉多普勒显示舒张末期血流缺失或反向的早产儿中，比较生后6小时早期肠内喂养与48小时晚期启动喂养对达全肠内喂养时间及不良结局的影响。\n- 核心发现/数据：87例随机分组（早期喂养44例，晚期喂养43例）。早期喂养组达全肠内喂养中位时间更短（6天 vs 8天），晚发型脓毒症发生率更低（6.8% vs 27.9%）。两组喂养不耐受（20.9% vs 25.6%）、NEC≥2b期（0 vs 4.6%）、死亡（6.8% vs 16.3%）及住院时间无统计学差异。\n- 临床启示：对该高危早产儿人群，在严密监测下于生后6小时启动并逐步加量肠内喂养可更早达全肠内喂养，且不增加NEC等不良结局，或可优先考虑早期喂养策略。",
   "abstract": "The authors conducted an open-label RCT in growth-restricted preterm infants (28-34 wk) with Absent or Reversed end-diastolic flow on Antenatal Umbilical-Artery Doppler (AREDF) to compare early enteral feeding at 6 h (EIEF) with initiation at 48 h (LIEF). Eighty-seven infants were randomised (EIEF 44, LIEF 43). Feeds were advanced daily at 20, 40, 60, 90, 120, and 150 mL/kg/d, respectively, from the day of commencement of feeds. The primary outcome was time to full feeds; secondary outcomes included feed-intolerance (FI), NEC ≥ stage 2b, late-onset sepsis, mortality, and hospital stay. EIEF achieved full feeds earlier than LIEF (median 6 vs. 8 d). Rates of FI (20.9% vs. 25.6%), NEC (0 vs. 4.6%), mortality (6.8% vs. 16.3%), and hospital stay were not statistically different. Late-onset sepsis was lower with EIEF (6.8% vs. 27.9%). Early feeds from 6 h, with careful monitoring, enabled full feeds by day 6 without increasing adverse outcomes. The trial was registered prospectively at CTRI.org on 01/03/2019 (CTRI No. CTRI/2019/03/017899)."
+ },
+ {
+  "date": "2026-09-26",
+  "pmid": "42790674",
+  "title": "Inverse Probability of Treatment Weighting Analysis of Long-term Recurrence and Redo Rates After Laparoscopic Versus Open Toupet Fundoplication in Children.",
+  "doi": "10.1016/j.jpedsurg.2026.163500",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "Kobe",
+  "institution": "Hyogo Prefectural Kobe Children's Hospital",
+  "corr_author": "Yoshimura S",
+  "corr_email": "khrrou0245yoshimuu@gmail.com",
+  "summary": "- 研究目的：采用逆概率治疗加权（IPTW）分析，比较儿童腹腔镜与开放Toupet胃底折叠术治疗GERD的长期复发及再手术率。\n- 核心发现/数据：共纳入163例患儿（LTF 119例，OTF 44例），中位随访4.8年，总体GERD复发率和再手术率分别为4.9%和4.3%。IPTW调整后，LTF与OTF在GERD复发（HR 0.23，95%CI 0.04-1.30，p=0.10）和再手术（HR 0.79，95%CI 0.14-4.37，p=0.78）方面均无显著差异。\n- 临床启示：经严格基线调整后，腹腔镜Toupet胃底折叠术的长期复发和再手术结局与开放手术相当，可作为儿童GERD安全有效的长期手术选择。",
+  "abstract": "Laparoscopic Toupet fundoplication (LTF) and open Toupet fundoplication (OTF) are accepted treatments for pediatric patients with gastroesophageal reflux disease (GERD). However, comparative studies that adjust for baseline patient differences between the two approaches remain limited. This study aimed to evaluate the long-term outcomes of LTF compared with OTF using inverse probability of treatment weighting (IPTW) analysis. We retrospectively reviewed pediatric patients (aged <18 years) who underwent LTF or OTF for GERD between 2010 and 2025 at our tertiary center. Propensity scores incorporated body weight, congenital heart anomalies, history of abdominal surgery, gastrostomy tube placement, esophageal atresia, and neurological impairment. A stabilized IPTW method generated a weighted cohort. Long-term GERD recurrence and redo fundoplication rates were compared using weighted Kaplan-Meier curves and IPTW-adjusted Cox proportional hazards models. A total of 163 patients (119 LTF, 44 OTF; median follow-up, 4.8 years) were included. Total GERD recurrence and redo rates were 4.9% and 4.3%, respectively. After IPTW adjustment, covariate balance improved substantially (standardized mean differences <0.15). IPTW-adjusted analysis revealed no significant differences between the LTF and OTF groups regarding GERD recurrence (Hazard Ratio [HR], 0.23; 95% Confidence Interval [CI], 0.04-1.30; p=0.10) or redo fundoplication rates (HR, 0.79; 95% CI, 0.14-4.37; p=0.78). Following rigorous adjustment for baseline characteristics, LTF demonstrated long-term GERD recurrence and redo fundoplication rates comparable to OTF. LTF is a safe and effective long-term surgical option for pediatric GERD, providing outcomes equivalent to the open approach. Level III."
+ },
+ {
+  "date": "2026-09-26",
+  "pmid": "42790916",
+  "title": "Multicentre randomised controlled trial evaluating PARO for pain and anxiety during peripheral intravenous cannulation in children in French paediatric emergency departments and paediatric units: study protocol.",
+  "doi": "10.1136/bmjopen-2026-118505",
+  "source": "PubMed",
+  "journal": "BMJ Open",
+  "rank": "中科院医学4区(医学：内科4区) · IF 2.5 · JCR Q2",
+  "country": "法国",
+  "institution": "",
+  "corr_author": "Battista J",
+  "corr_email": "battista.jennifer@hotmail.fr",
+  "summary": "- 研究目的：评估PARO互动治疗机器人辅助标准疼痛管理，能否降低12个月至7岁儿童外周静脉置管期间的疼痛和焦虑。\n- 核心发现/数据：这是一项在法国5个儿科中心开展的开放标签、多中心、随机对照优效性试验，计划纳入120例12个月至7岁需外周静脉置管的儿童，按1:1随机分为标准疼痛管理组或标准疼痛管理+PARO组，并按年龄和中心分层。主要结局为FLACC量表疼痛评分从操作前15分钟至置管时的变化；次要结局包括PIC痛苦评分、心率变化、置管成功所需尝试次数、家长焦虑（STAI）、家长及医护人员满意度。统计分析将按意向治疗原则，使用协方差分析调整分层因素，报告效应估计及95%CI。\n- 临床启示：若试验证实有效，可为将社交辅助机器人整合入儿科疼痛管理提供临床证据，改善儿童外周静脉置管体验；但目前仍为研究方案，实际效果需待试验完成后确认。",
+  "abstract": "Peripheral intravenous cannulation (PIVC) is one of the most frequently performed procedures in paediatric emergency and hospital settings and is often associated with significant pain and anxiety in children. Non-pharmacological interventions may complement standard pain management strategies. This trial will evaluate the effectiveness of PARO, an interactive therapeutic robot, in reducing pain and anxiety during PIVC in children. The study aims to provide clinically relevant evidence to support the integration of socially assistive robots into paediatric pain management. This will be an open-label, multicentre, randomised controlled superiority trial conducted in five paediatric centres in France. A total of 120 children aged 12 months to 7 years requiring PIVC will be randomly assigned (1:1) to receive either standard pain management alone or standard pain management plus the PARO robot during the procedure. Randomisation will be stratified by age and centre using a centralised electronic system. Due to the nature of the intervention, blinding of participants and outcome assessors will not be feasible.The primary outcome will be the change in pain intensity assessed using the Face, Legs, Activity, Cry, Consolability scale between baseline (15 min before the procedure) and the time of cannulation. Secondary outcomes will include children's distress assessed using the Procedural Restraint Intensity in Children scale, changes in heart rate, number of attempts required for successful cannulation, parental anxiety assessed using the State Trait Anxiety Inventory questionnaire, parental satisfaction and healthcare professional satisfaction. Statistical analysis will be performed on an intention-to-treat basis using analysis of covariance adjusted for stratification factors, with results reported as effect estimates with 95% CIs. The study has received approval from the French National Agency for Medicines and Health Products Safety and the French Committee for the Protection of Personal Data (CPP Ouest I Tours) on 3 July 2025 (No. 25.02471.000436) and is registered at ClinicalTrials.gov (NCT07299006). Results will be disseminated through publication in peer-reviewed journals, presentation at national and international conferences, and communication to healthcare professionals, stakeholders and participants. NCT07299006."
+ },
+ {
+  "date": "2026-09-26",
+  "pmid": "42790891",
+  "title": "Socioeconomic differences in primary healthcare use before childhood cancer diagnosis: a register-based cohort study in Sweden.",
+  "doi": "10.1136/bmjpo-2026-005059",
+  "source": "PubMed",
+  "journal": "BMJ Paediatr Open",
+  "rank": "中科院医学4区(儿科4区) · IF 2.6 · JCR Q1",
+  "country": "瑞典",
+  "institution": "Institute of Environmental Medicine",
+  "corr_author": "Louro J",
+  "corr_email": "javier.louro@ki.se",
+  "summary": "- 研究目的：评估社会经济差异是否影响儿童癌症诊断前的初级医疗（PHC）使用路径。\n- 核心发现/数据：基于瑞典三地区2001-2022年登记数据，纳入3711例儿童癌症患者和93,181名匹配对照；癌症儿童诊断前一年PHC接触次数多于对照（均值2.28 vs 1.27，差值1.01，95%CI 0.94-1.08，p<0.001），但诊断前3个月22%-49%无PHC接触。母亲教育相关的PHC使用差异在一般儿科人群中存在，但在癌症儿童中大多消失；例外是中枢神经系统（CNS）肿瘤，低教育母亲的孩子诊断前PHC接触多28%。\n- 临床启示：儿童临近癌症诊断时，母亲教育水平导致的PHC使用差异总体缩小；但CNS肿瘤中低教育母亲孩子接触更多可能提示诊断延迟，临床需加强CNS肿瘤早期识别并关注诊疗公平性。",
+  "abstract": "Early diagnosis of childhood cancer remains challenging because initial symptoms are common, nonspecific and have low predictive value in primary healthcare (PHC). We assessed whether socioeconomic differences shape pre-diagnostic PHC pathways before childhood cancer diagnosis. We conducted a register-based matched cohort study using PHC data from three Swedish regions between 2001 and 2022, covering 54% of the general paediatric population in Sweden. Children aged 0-19 years with a first cancer diagnosis were matched 1:25 to cancer-free population references by age, sex and region. In-person PHC physician contacts in the year before the index date were analysed. Logistic and negative binomial regression models were used to assess socioeconomic differences in PHC utilisation and PHC contact frequency, respectively stratified by diagnostic group. The study included 3711 childhood cancer patients and 93 181 references. Children with cancer had more PHC contacts than population references in the year before diagnosis (mean 2.28 vs 1.27, mean difference 1.01, 95% CI 0.94 to 1.08; p<0.001), although 22%-49% had no PHC contact 3 months before diagnosis depending on diagnostic group. Maternal educational gradients in PHC use were present in the general paediatric population but largely absent among children with cancer. An exception was central nervous system (CNS) tumours, for which children of mothers with low educational attainment had 28% more prediagnostic PHC contacts than those with highly educated mothers. Socioeconomic differences in PHC utilisation by maternal educational level largely diminish as children approach a cancer diagnosis, except for CNS tumours, where increased contacts among children of mothers with low educational attainment may indicate a prolonged or delayed diagnosis."
  }
 ]
