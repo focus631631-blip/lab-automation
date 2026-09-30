@@ -1294,5 +1294,13 @@
  "case reports in orthopedics": {
   "badge": "中科院医学4区(骨科4区) · IF 0.4",
   "_ts": "2026-09-29"
+ },
+ "obstetrics and gynecology": {
+  "badge": "中科院医学2区(妇产科学2区) · IF 5.1 · JCR Q1",
+  "_ts": "2026-09-30"
+ },
+ "langenbeck's archives of surgery": {
+  "badge": "中科院医学3区(外科3区) · IF 2.2 · JCR Q2",
+  "_ts": "2026-09-30"
  }
 }
