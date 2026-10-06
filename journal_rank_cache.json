@@ -1386,5 +1386,13 @@
  "journal of pediatric hematology/oncology": {
   "badge": "中科院医学4区(血液学4区/肿瘤学4区/儿科4区) · IF 0.9 · JCR Q3",
   "_ts": "2026-10-06"
+ },
+ "orphanet journal of rare diseases": {
+  "badge": "中科院医学2区(遗传学2区/医学：研究与实验2区) · IF 3.6 · JCR Q2",
+  "_ts": "2026-10-06"
+ },
+ "international journal for equity in health": {
+  "badge": "中科院医学2区(公共卫生、环境卫生与职业卫生1区) · IF 5.2",
+  "_ts": "2026-10-06"
  }
 }
