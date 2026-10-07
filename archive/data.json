@@ -12418,5 +12418,50 @@
   "corr_email": "",
   "summary": "- 研究目的：总结过去50年早产儿营养的演变，并探讨当代在生长、神经发育及并发症防治方面的挑战。\n- 核心发现/数据：50年来营养进步显著提高早产儿存活率，但实现最佳生长和神经发育仍具挑战；现代液体管理已从历史宽松策略转向基于胎龄和体重的个体化方案，以降低动脉导管未闭和坏死性小肠结肠炎（NEC）风险。母乳可显著降低NEC风险，但需强化才能安全满足高蛋白和矿物质目标；脂质和碳水化合物需精细滴定，以防高甘油三酯血症和高血糖。高钙磷摄入对预防代谢性骨病至关重要，未强化母乳不足，推荐以碱性磷酸酶监测指导目标强化。\n- 临床启示：临床应采用个体化、体重指导的液体管理，推广母乳并实施目标强化，同时监测碱性磷酸酶及代谢指标，以优化早产儿营养、生长和长期神经发育结局。",
   "abstract": "Advances in neonatal nutrition have markedly improved preterm survival, but achieving optimal growth and neurodevelopment remain a challenge. Modern fluid guidelines favor individualized, weight-guided fluid management based on gestational age, shifting away from historic liberal strategies to avoid patent ductus arteriosus and necrotizing enterocolitis (NEC). Inadequate intake causes extrauterine growth restriction, negatively impacting neurodevelopment and long-term cardiometabolic risks. Human milk strongly reduces NEC risk but requires fortification to meet these high protein and mineral targets safely. Lipids supply critical fatty acids for brain development. Carbohydrates are the primary immediate energy substrate, and both macronutrients require careful titration to prevent complications, such as hypertriglyceridemia and hyperglycemia. High calcium and phosphorus intake are critical to prevent metabolic bone disease. Since unfortified milk is insufficient, targeted fortification guided by alkaline phosphatase monitoring is recommended."
+ },
+ {
+  "date": "2026-10-07",
+  "pmid": "42838374",
+  "title": "Mortality, Bowel Preservation, and Surgical Strategy in Closing and Closed Gastroschisis: A Systematic Review and Individual Participant Data Meta-analysis.",
+  "doi": "10.1016/j.jpedsurg.2026.163520",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "印度",
+  "institution": "Government Medical College",
+  "corr_author": "Pimpalwar A",
+  "corr_email": "ashwinpimpalwar@hotmail.com",
+  "summary": "- 研究目的：通过系统评价与个体参与者数据荟萃分析，评估闭合中与已闭合腹裂的死亡率、肠管保留及手术策略（腹腔内暂存 vs 一期切除）的预后。\n- 核心发现/数据：纳入94例来自36项IPD研究（17个国家）的患者，另3项研究提供汇总数据；总死亡率为28.6%，Perrone A-D型死亡率递增（0%、3.6%、27.3%、59.3%；每型OR 5.30，95%CI 2.23-12.6，P=0.0002）。肠管保留、更长残余肠管和腹腔内暂存与生存相关，男性与死亡相关；腹腔内暂存较切除死亡率更低（10.5% vs 35.9%），短肠综合征更少（31.6% vs 59.4%）。\n- 临床启示：Perrone分",
+  "abstract": "Closing and closed gastroschisis represent the most severe end of the gastroschisis spectrum, carrying high mortality and risk for short bowel syndrome (SBS). No individual participant data (IPD) meta-analysis exists, and the choice for opting an optimal surgical strategy, intracorporeal parking versus primary resection, is unresolved. We systematically searched PubMed, EMBASE, and the Cochrane Library (inception to June 2026) for studies reporting patient-level data on closing, closed, or vanishing gastroschisis, following the PRISMA-IPD guidelines. Individual data were pooled in one-stage generalized linear mixed models with each study as a random intercept. The primary outcome was survival to discharge. (PROSPERO CRD420261448853) RESULTS: Ninety-four patients from 36 IPD studies across 17 countries were analyzed; 3 further studies contributed aggregate data. Closing was defined as Perrone Types A-C (n = 67) and closed as Type D (n = 27). Overall mortality was 28.6%. Mortality rose across Perrone types A to D (0%, 3.6%, 27.3%, 59.3%; OR 5.30 per type; 95% CI 2.23-12.6; P = .0002). Closing (versus closed) gastroschisis (OR 0.10), residual bowel preservation (OR 0.03), greater residual bowel length, and intracorporeal parking (OR 0.13) were univariably associated with survival; male sex with death (OR 5.58). Intracorporeal parking was associated with lower mortality (10.5% versus 35.9%) and less SBS (31.6% versus 59.4%) than resection. In this first IPD meta-analysis of closing and closed gastroschisis, the Perrone classification strongly predicted mortality, and bowel-preserving intracorporeal parking was associated with better outcomes. Prospective international registries with standardized outcome definitions are needed. CRD420261448853 REPORTING GUIDELINE: Preferred Reporting Items for Systematic Reviews and Meta-Analyses of Individual Participant Data (PRISMA-IPD, 2015)."
+ },
+ {
+  "date": "2026-10-07",
+  "pmid": "42838577",
+  "title": "Real-world data-enabled, 2-randomisation, adaptive trial to determine the clinical efficacy and safety of widely used enteral feeds in preterm babies: the COLLABORATE trial - protocol.",
+  "doi": "10.1136/bmjopen-2026-125163",
+  "source": "PubMed",
+  "journal": "BMJ Open",
+  "rank": "中科院医学4区(医学：内科4区) · IF 2.5 · JCR Q2",
+  "country": "英国",
+  "institution": "Imperial Clinical Trials Unit",
+  "corr_author": "Modi N",
+  "corr_email": "n.modi@imperial.ac.uk",
+  "summary": "- 研究目的：通过COLLABORATE试验，评估<29周早产儿在亲母母乳不足时使用巴氏消毒捐赠母乳还是早产儿配方作为补充，以及亲母母乳/捐赠母乳是否需要常规蛋白-碳水化合物强化，对临床疗效和安全性的影响。\n- 核心发现/数据：这是一项英国全国、真实世界数据支持、两次随机化、组序贯适应性试验，主要结局为存活至矫正胎龄34周且",
+  "abstract": "Enteral feed type is widely believed to affect brain growth and development directly as well as influencing the risk of necrotising enterocolitis (NEC), a leading cause of death and neuro-impairment in extremely preterm babies. Own mother's milk (OMM) enhances neurodevelopment and reduces NEC. However, most babies born below 29 weeks gestation require some supplementary feeds during their neonatal unit stay because their mothers are unable to express sufficient milk. The available options, pasteurised human donor milk (pHDM) and preterm formula (PTF), differ markedly in nutrient and non-nutrient composition and cost. Non-definitive data suggest superiority of pHDM over PTF in relation to NEC risk, but no benefits have been shown in important corroboratory outcomes: surgical NEC, death, blood stream infection and neurodevelopmental impairment.Human milk macronutrient content is variable and often low, hence some clinicians practise routine protein-carbohydrate fortification. Others fear that cow-milk derived fortifiers may increase NEC risk or may provide excessively high protein intakes dangerous to neurodevelopment and metabolic health. These uncertainties compromise patient care and safety and are strong justification for randomised evaluation. COLLABORATE is an efficient UK-wide, real-world data-enabled, 2-randomisation, group-sequential adaptive trial embedded in routine clinical practice. The primary outcome is survival to 34 weeks postmenstrual age without NEC surgery. The aim is to resolve two longstanding nutritional uncertainties for babies born below 29 weeks gestation: whether pHDM or PTF is the optimal supplement should there be an insufficiency of OMM; and whether OMM and pHDM require routine protein-carbohydrate fortification. Based on the assumption that 50% of participants will take part in both randomisations, total recruitment is targeted at 3252 (5% between-arm primary outcome difference; α=0.05; minimum 87% power). COLLABORATE is funded by the UK National Institute for Health and Care Research, sponsored by Imperial College London and approved by the UK Health Research Authority (reference 25/LO/0697). Recruitment commenced in April 2026. Results will be shared through academic and lay publications, conferences, workshops, social media and strong personal networks. ISRCTN10443084."
+ },
+ {
+  "date": "2026-10-07",
+  "pmid": "42838408",
+  "title": "Association of Early Low Superior Vena Cava Flow among Neonates Born Very Preterm and Outcomes: A Systematic Review and Meta-Analysis.",
+  "doi": "10.1016/j.jpeds.2026.115362",
+  "source": "PubMed",
+  "journal": "J Pediatr",
+  "rank": "中科院医学2区(儿科1区) · IF 3.6 · JCR Q1",
+  "country": "Management and Evaluation (IHPME)",
+  "institution": "Sunnybrook Health Sciences Centre",
+  "corr_author": "Persad N",
+  "corr_email": "nishkalranjeet.persad@thp.ca",
+  "summary": "- 研究目的：系统评价并荟萃分析极早产儿（<32周胎龄）生后48小时内超声诊断的低上腔静脉血流（SVCF）与颅内出血（IVH）等发病及死亡的关联。\n- 核心发现/数据：共纳入14项原始研究、1366例患者；低SVCF与任何IVH风险升高相关（3项研究，n=381；校正OR 4.7，95%CI 2.3–9.5；95%PI 0.99–22.1；证据确定性低），并与严重IVH（10项研究，n=996；未校正OR 4.8，95%CI 2.5–9.2；PI 1.6–15.1；证据确定性低）及全因死亡（6项研究，n=724；OR 4.2，95%CI 1.8–9.7；PI 0.7–23.7；证据确定性极低）风险升高相关；未发现其与其他结局相关。\n- 临床启示：生后48小时内低SVCF可能有助于识别IVH和死亡高风险的极早产儿，值得加强监测与评估；但现有证据质量低，尚不足以据此单独制定治疗决策，需更多高质量研究验证。",
+  "abstract": "To review systematically and meta-analyze the association of low superior vena cava flow (SVCF), diagnosed on echocardiography within the first 48 hours after birth, with morbidity, such as intraventricular hemorrhage (IVH), and mortality among preterm neonates (<32 weeks gestational age [GA]). PROSPERO, Medline, EMBASE, Cochrane Library, and China National Knowledge Infrastructure Database were searched for cohort studies and randomized controlled trials including neonates < 32 weeks' GA evaluating the associations of low vs normal SVCF in the first 48 hours after birth with clinical outcomes. Data were combined using random effects meta-analyses. Main outcome measures included any and severe IVH, all-cause mortality, periventricular leukomalacia, necrotizing enterocolitis and neurodevelopmental impairment in early childhood. Fourteen original studies enrolling 1,366 patients were included. Low SVCF was associated with increased adjusted odds of any IVH (3 studies; n= 381; OR 4.7, 95% confidence interval [CI] 2.3, 9.5; 95% prediction interval [PI] 0.99, 22.1; low certainty) as well as increased unadjusted odds of severe IVH (10 studies; n=996; OR 4.8 95% CI 2.5, 9.2; PI 1.6, 15.1; low certainty) and all-cause mortality (6 studies; n=724; OR 4.2, 95% CI 1.8, 9.7; PI 0.7, 23.7; very low certainty). Low SVCF was not associated with other outcomes. Low SVCF within the first 48 hours after birth for very preterm neonates may be associated with increased IVH and mortality."
  }
 ]
