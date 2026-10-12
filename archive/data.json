@@ -13018,5 +13018,20 @@
   "corr_email": "f.savvopoulos@erasmusmc.nl",
   "summary": "- 研究目的：探讨利用约30周校正胎龄的早期脑体积特征联合临床及人口学围产期特征，预测胎龄小于30周早产儿2岁时认知和运动结局，并比较逻辑回归、线性支持向量分类器和K近邻三种机器学习算法的性能。\n- 核心发现/数据：在认知结局分析（N=63）中，仅使用脑体积特征时K近邻模型验证准确率为0.64，对认知结局具有中等偏低的预测能力；加入临床特征后准确率未显著提高。运动结局分析（N=41）中，各模型预测性能均未优于随机水平。\n- 临床启示：早期脑体积MRI联合机器学习对早产儿2岁认知结局仅有有限预测价值，对运动结局预测不足，尚不足以直接指导临床决策。其临床可靠性取决于数据数量与质量、方法学标准化及预测模型泛化能力。",
   "abstract": "Premature birth is associated with an increased risk of cognitive and motor developmental problems. Early prediction of these outcomes is crucial for timely intervention and adequate follow-up. This study aimed to predict cognitive and motor outcomes in preterm-born infants using brain volumetric features in combination with clinical and demographic perinatal characteristics, and to compare the performance of three different machine learning algorithms. We acquired quantitative structural brain MRI at approximately 30 weeks postmenstrual age (PMA) and clinical and demographic birth characteristics including gestational age, sex, birthweight, and maternal education level. Machine learning techniques were applied to predict cognitive (N = 63) and motor (N = 41) outcomes at two years corrected age, assessed using the Bayley Scales of Infant and Toddler Development III, in infants born before 30 weeks gestation. We evaluated the performance of logistic regression, linear support vector classifier (linear SVC), and k-nearest neighbour (KNN). Employing volumetric features only, KNN achieved a validation accuracy of 0.64, showing modest predictive power for cognitive outcomes. Adding clinical characteristics did not significantly improve accuracy. The models did not perform better than chance when predicting motor outcomes. Volumetric features demonstrated modest predictive ability for cognitive outcomes, and the addition of clinical features did not significantly improve performance. The low to moderate overall validation accuracy underscores, however, the challenges faced in the clinical application of machine learning in neuroimaging. The reliability and clinical applicability of predictions of outcomes from advanced neuroimaging data will largely depend on the quantity and quality of the data, methodological standardisation, and the generalisability of the prediction models."
+ },
+ {
+  "date": "2026-10-12",
+  "pmid": "42862199",
+  "title": "Svep1 orchestrates distal airway patterning and alveolar differentiation in murine lung development.",
+  "doi": "10.7554/eLife.100443",
+  "source": "PubMed",
+  "journal": "Elife",
+  "rank": "中科院生物学1区(生物学1区)",
+  "country": "美国",
+  "institution": "Massachusetts General Hospital",
+  "corr_author": "Loscertales M",
+  "corr_email": "",
+  "summary": "- 研究目的：探讨Svep1在小鼠肺发育中对远端气道模式形成和肺泡分化的调控",
+  "abstract": "Disruptions in airway branching or alveolar differentiation during lung development can lead to severe respiratory deficiencies and neonatal death. The molecular mechanisms governing branching patterning and early alveolar formation remain elusive. Loss of"
  }
 ]
