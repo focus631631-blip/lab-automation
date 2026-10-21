@@ -14338,5 +14338,35 @@
   "corr_email": "tkaramlou@akronchildrens.org",
   "summary": "- 研究目的：制定边界性左心（排除不平衡型房室间隔缺损）从新生儿期至1岁管理及双心室转换策略的专家共识。\n- 核心发现/数据：新生儿边界性左心的一期双心室修复应谨慎，仅限超声心动图和/或磁共振显示解剖与生理条件良好者；对于二尖瓣和主动脉瓣较小、存在心内膜弹力纤维增生、左室舒张末期容积指数<25 ml/m²的“灰区”患儿，多数推荐分期左室招募而非一期修复；双心室策略应整合解剖与生理标准进行决策。\n- 临床启示：多数边界性左心新生儿宜采用分期招募策略，需个体化评估以避免不合适的一期双心室修复。",
   "abstract": "Strategies to recruit the left ventricle in borderline left heart (BLH), whether utilizing primary or staged recruitment strategy, are challenged by lack of consensus regarding optimal substrate, timing, and technique. A panel of experienced congenital cardiac surgeons, cardiologists and imaging experts were convened to develop key questions related to BLH management, excluding unbalanced atrioventricular septal defect, from neonatal period through 1 year, using the PICO (Patients/Population, Intervention, Comparison/Control, Outcome) framework. Literature searches were performed for each question. Using a modified Delphi method, consensus statements were developed. For neonates with BLH, primary biventricular repair should be adopted cautiously, and only with favorable anatomic and physiologic criteria determined by echocardiography and/or magnetic resonance imaging. Neonates in the 'grey-zone', with smaller mitral and aortic valve sizes, endocardial fibroelastosis, indexed left ventricular diastolic volume < 25 ml/m Biventricular approaches in BLH should be guided by integration of anatomic and physiologic criteria, with most neonates recommended for staged recruitment rather than primary repair."
+ },
+ {
+  "date": "2026-10-21",
+  "pmid": "42902187",
+  "title": "Head, face, and neck injury patterns across the life course: a 20-year NEISS analysis of 2,345,287 emergency department visits in the U.S.",
+  "doi": "10.1186/s12873-026-01821-3",
+  "source": "PubMed",
+  "journal": "BMC Emerg Med",
+  "rank": "中科院医学3区(急救医学3区) · IF 3.1 · JCR Q2",
+  "country": "Munich",
+  "institution": "Technical University of Munich",
+  "corr_author": "Alfertshofer M",
+  "corr_email": "Michael.alfertshofer@tum.de",
+  "summary": "- 研究目的：基于NEISS 2006—2025年数据，分析美国头、面、颈部损伤在全生命周期中的解剖区域、损伤机制、年龄、场景及相关产品/环境表面模式，识别脆弱人群。\n- 核心发现/数据：共纳入2,345,287例急诊就诊，占NEISS编码就诊的31.8%；头部最常受伤（51.2%），面部次之（28.2%），年就诊量增长35.2%，其中头伤增长83.4%。中位年龄14岁，男性占56.4%，但≥65岁人群中女性占60.6%；跌倒为首要机制（53.0%），家庭为最常见场景（63.1%）。89.4%患者经治疗出院，非常规急诊处置率随年龄从幼儿1.3%升至老年人23.3%，晕厥或医学相关跌倒最高（33.9%）。\n- 临床启示：应按年龄和场景开展针对性预防，重点关注婴幼儿床、幼儿桌、儿童青少年运动器材及老年人地板相关跌倒，并加强老年女性、跌倒及晕厥相关高风险患者的急诊分诊与风险分层。",
+  "abstract": "Head, face, and neck injuries impose a substantial burden for emergency departments (ED); the mechanisms driving them across the life course however remain poorly understood at the population level. Large-scale, integrated analysis spanning anatomical regions, injury mechanisms, age groups, settings, and associated products or environmental surfaces offers an opportunity to identify the patterns and vulnerable populations that smaller or shorter-term studies cannot resolve. We queried National Electronic Injury Surveillance System (NEISS) records from 2006 to 2025 for injuries to the head, face, eyes, mouth, neck, or ears. Demographics, anatomical region, injury setting, associated products or environmental surfaces, and ED disposition were extracted, and a rule-based narrative classifier assigned 1 of 17 injury mechanisms from free-text descriptions. Non-routine ED disposition was defined as admission, transfer, observation, or fatality. Analyses were descriptive and based on unweighted NEISS case records. Among 2,345,287 ED presentations, representing 31.8% of all NEISS-coded visits, the head was most often injured (51.2%), followed by the face (28.2%). Annual volume rose 35.2% (105,727 in 2006 to 142,918 in 2025), driven mainly by head injuries (+ 83.4%). Median age was 14 years and 56.4% of patients were male, but among older adults (≥ 65 years), females predominated (60.6%). Falls were the leading mechanism (53.0% across subcategories). Most patients were treated and discharged (89.4%) and admission rate rose roughly 18-fold from toddlers (1.3%) to older adults (23.3%). Non-routine ED disposition increased with age, and syncope- or medical-related falls had the highest non-routine ED disposition rate (33.9%). The home was the most common injury setting (63.1%). Injury exposures varied by age group, with beds most common in infants, tables in toddlers, sports equipment in children and adolescents, and floors in older adults. Head, face, and neck injuries represent a large and growing share of NEISS-coded ED presentations, with distinct patterns by age, sex, injury mechanism, setting, and clinical outcome. These findings may assist in the planning of targeted prevention strategies and future research on risk stratification for vulnerable age groups and injury mechanisms."
+ },
+ {
+  "date": "2026-10-21",
+  "pmid": "42902514",
+  "title": "Impact of a VLBW feeding guideline on central line usage and enteral feeding practices: A quality improvement project.",
+  "doi": "10.1002/ncp.70195",
+  "source": "PubMed",
+  "journal": "Nutr Clin Pract",
+  "rank": "",
+  "country": "美国",
+  "institution": "Department of Clinical Nutrition",
+  "corr_author": "Tiwari P",
+  "corr_email": "",
+  "summary": "- 研究目的：评估极低出生体重儿喂养指南对中心静脉置管使用及肠内喂养实践的质量改进效果，并设定降低PICC置管和缩短达全肠内喂养时间且不增加NEC等不良结局的目标。\n- 核心发现/数据：在48个月的时间序列质量改进项目中，PICC置管率降低54%，达到全肠内喂养的时间缩短38%。坏死性小肠结肠炎发生率未增加，但观察到生长和母亲自身母乳提供下降。\n- 临床启示：标准化喂养指南可减少VLBW婴儿PICC置管并缩短达全肠内喂养时间，且不增加NEC风险。后续需重点改进生长和母乳喂养支持。",
+  "abstract": "Feeding guidelines (FGs) reduce the incidence of necrotizing enterocolitis (NEC) and improve growth and enteral nutrition (EN) practices in very low birth weight (VLBW) infants. Our unit's baseline data revealed delayed initiation of EN, prolonged time to full EN, prolonged days on parenteral nutrition (PN), and frequent use of peripherally inserted central catheters (PICC). After introduction of this FG, our specific, measurable, attainable, realistic, and time-bound (SMART) aims were to reduce PICC placements in infants 1000-1500 g by 30% and to reduce the time to achieve full EN in VLBW infants by 20% without adversely impacting NEC rate, growth, and mom's own milk (MOM) provision. We conducted a time-series quality improvement initiative over 48 months. Outcome and process measures included the percentage of PICC placements, nutrition-related central line days, day of life (DOL) EN initiated, and DOL on full EN. Balancing measures included NEC, growth, and MOM provision. Two-tailed t-tests, Mann-Whitney U tests, and chi-square tests were used to analyze demographic data, numerical variables, and categorical variables, respectively. Statistical process control charts and established rules for special cause variation were applied. Our results demonstrate a 54% reduction in PICC placements and a 38% reduction in time to achieving full EN. We saw no increase in NEC rate but observed a decrease in growth and MOM provision. The use of a standardized FG resulted in fewer PICC placements and decreased time to full EN without increasing the NEC rate. Future initiatives will focus on improving growth and MOM provision in VLBW infants."
  }
 ]
