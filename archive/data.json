@@ -14428,5 +14428,20 @@
   "corr_email": "",
   "summary": "- 研究目的：构建单细胞水平数字孪生框架SIMCO，用于模拟免疫调节治疗对早产临产（PTL）分娩时机的影响并筛选预防策略。\n- 核心发现/数据：SIMCO基于新构建的妊娠免疫组质谱流式图谱，在暴露于9种预设PTL预防候选药物的数据上训练和验证，并在独立孕妇队列中模拟药物对孕周的影响。四氢叶酸以及阿司匹林联合兰索拉唑被筛选为延迟分娩启动的优选候选。机制上，",
   "abstract": "Digital twin models can accelerate therapeutic development by enabling low-risk testing of candidate interventions. In preterm labor (PTL), a major pregnancy complication where clinical trials face ethical and financial barriers, digital twins are especially valuable for evaluating new therapies targeting immune dysfunctions driving PTL. Yet, current models lack single-cell resolution, limiting detection of cell type-specific mechanisms, off-target effects, and the design of personalized interventions. We present Simulated Immunome Modeling of Clinical Outcomes (SIMCO), a single-cell-level digital twin framework that models immunomodulatory treatment effects on the timing of labor using immunome-wide, single-cell simulations. SIMCO's digital twins are trained and validated on a newly generated mass cytometry atlas of the pregnant immunome exposed to nine candidate drugs preselected for PTL prevention. Applying SIMCO to an independent cohort of pregnant individuals, we simulate treatment effects on gestational length, screening for candidate drugs that delay labor timing and providing system-level mechanistic insight for each drug candidate. Tetrahydrofolate and the combination of aspirin and lansoprazole emerged as top candidates for PTL prevention, delaying labor onset primarily through enhanced mTOR signaling in innate immune cells and attenuated JAK/STAT signaling in naïve CD4"
+ },
+ {
+  "date": "2026-10-23",
+  "pmid": "42908263",
+  "title": "Large congenital cervical teratoma in a neonate: EXIT procedure under spinal anesthesia and early surgical excision -A case report.",
+  "doi": "10.4097/kja.251016",
+  "source": "PubMed",
+  "journal": "Korean J Anesthesiol",
+  "rank": "中科院医学3区(麻醉学4区) · IF 4.0 · JCR Q1",
+  "country": "Kütahya",
+  "institution": "Kütahya University of Health Sciences",
+  "corr_author": "Yaman M",
+  "corr_email": "merve.yaman@ksbu.edu.tr",
+  "summary": "- 研究目的：报告1例新生儿大型先天性颈部畸胎瘤在脊髓麻醉下实施EXIT产时子宫外治疗并早期手术切除的病例，探讨其气道管理与麻醉选择。\n- 核心发现/数据：患儿因颈部肿物导致胎儿窘迫而行急诊剖宫产，在脊髓麻醉下接受EXIT操作；因无法插管而行外科气管切开。生后第6天成功切除439 g颈部畸胎瘤，生后第48天出院。\n- 临床启示：在特定急诊情况下，脊髓麻醉可作为颈部畸胎瘤新生儿EXIT操作的可行麻醉选择，有助于维持子宫胎盘循环并快速控制气道；出生后早期手术切除可实现根治性治疗。",
+  "abstract": "Cervical teratomas are rare congenital tumors in neonates associated with high morbidity and mortality due to the potential for severe airway obstruction at birth. Here, we present a case of successful airway management using an ex utero intrapartum treatment (EXIT) procedure under spinal anesthesia for a prenatally detected cervical mass, with definitive treatment achieved by postnatal surgical excision. The infant was born via emergency cesarean section after exhibiting fetal distress due to a cervical mass and underwent an EXIT procedure under spinal anesthesia. A surgical tracheostomy was performed as the newborn could not be intubated. On postnatal day 6, a 439-g cervical teratoma was successfully removed, and the patient was discharged on postnatal day 48. This case suggests that spinal anesthesia may represent a viable anesthetic option for EXIT procedures in neonates with cervical teratoma in selected emergency settings while maintaining uteroplacental circulation and enabling rapid airway control."
  }
 ]
