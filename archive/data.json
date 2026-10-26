@@ -14908,5 +14908,50 @@
   "corr_email": "",
   "summary": "- 研究目的：世界围产医学协会与围产医学基金会制定胎盘植入谱（PAS）产前诊断与分类的临床实践指南，以规范筛查、诊断、转诊及围产期管理。\n- 核心发现/数据：PAS与剖宫产率上升、体外受精及子宫手术史相关，可导致大出血、大量输血、子宫破裂、围产期子宫切除、盆腔器官损伤、ICU入住甚至孕产妇死亡；剖宫产瘢痕妊娠（CSP）被视为PAS潜在前驱，低着床部位且有剖宫产史者风险增加。早孕期经阴道超声用于明确着床部位和识别CSP；中晚孕期联合经腹/经阴道超声评估胎盘位置、肌层厚度与轮廓及子宫膀胱界面，标志包括胎盘陷窝、胎盘膨出、子宫膀胱血供丰富和桥接血管，二维灰阶超声为主、彩色多普勒辅助，三维超声和MRI在特定情况下补充。疑似CSP或PAS应转诊至具备多学科能力、血制品支持、成人及新生儿ICU和复杂盆腔手术条件的围产中心，分娩时机与手术准备应个体化。\n- 临床启示：临床应重视剖宫产史孕妇的早孕期着床部位评估，及时识别CSP/PAS并转诊多学科中心。通过规范产前影像评估和个体化围产期规划，可降低PAS相关严重母体并发症风险。",
   "abstract": "This practical guidance was developed by the World Association of Perinatal Medicine in collaboration with the Perinatal Medicine Foundation to support antenatal diagnosis and clinical management in pregnancies at risk for placenta accreta spectrum (PAS). It provides an evidence-informed approach to screening, diagnosis, referral, and peripartum planning across healthcare settings with different resources. PAS is increasingly encountered alongside rising cesarean delivery rates, use of in vitro fertilization, and a history of uterine surgery. It remains associated with severe maternal morbidity, including massive hemorrhage, large-volume transfusion, uterine rupture, peripartum hysterectomy, pelvic organ injury, intensive care admission, and maternal death. Early recognition and multidisciplinary care are therefore central to management. Cesarean scar pregnancy (CSP) is considered a potential precursor of PAS. Women with a low implantation site and a previous cesarean delivery are at increased risk. Early transvaginal ultrasound is advised in women with a previous cesarean delivery to establish the implantation site, identify CSP, and support counseling and timely consideration of uterine-preserving treatment. In the second and third trimesters, combined transabdominal and transvaginal ultrasound assesses placental location, myometrial thickness and contour, and the uterovesical interface. Sonographic markers include placental lacunae, placental bulge, uterovesical hypervascularity, and bridging vessels, which may occur individually or in combination. Two-dimensional grayscale ultrasound is the mainstay of antenatal assessment, supported by color Doppler; three-dimensional imaging may provide additional information in selected specialist settings. Magnetic resonance imaging has a complementary role when ultrasound is inconclusive, placental location is non-anterior or non-previa, or technical factors limit visualization. Suspected CSP or PAS should prompt referral to a perinatal center with multidisciplinary expertise, blood product support, adult and neonatal intensive care, and access to complex pelvic surgery. Delivery timing and surgical preparation should be individualized."
+ },
+ {
+  "date": "2026-10-26",
+  "pmid": "42927800",
+  "title": "Prospective Evaluation and Innovation.",
+  "doi": "10.1016/j.jpedsurg.2026.163556",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "Kansas City",
+  "institution": "Children's Mercy Hospitals and Clinics",
+  "corr_author": "St Peter SD",
+  "corr_email": "sspeter@cmh.edu",
+  "summary": "- 研究目的：探讨临床均势、怀疑态度及前瞻性研究设计在挑战外科教条和安全评估外科创新中的作用。\n- 核心发现/数据：摘要指出，随机试验在外科领域因医生偏好、患者接受度和后勤障碍而使用不足；前瞻性随机试验、观察性研究和长期随访研究已构成脓胸管理、胃底折叠术式、穿孔性阑尾炎、非复杂性阑尾炎非手术治疗及漏斗胸冷冻消融等议题的当前最佳证据。摘要未报告具体样本量或效应值等数值数据。\n- 临床启示：外科实践应依托前瞻性比较证据并保持临床均势与怀疑精神，在数据矛盾时及时调整或放弃偏好做法，并根据创新程度选择合适研究设计以保障患者安全。",
+  "abstract": "Evidence-based surgery depends on the deliberate generation of prospective comparative data, yet randomized trials remain underused in surgical fields because of physician preference, patient acceptance, and logistical barriers. This manuscript examines the role of clinical equipoise, skepticism, and prospective study design in challenging surgical dogma and safely evaluating innovation. Examining specific examples wherein prospective randomized trials, observational studies, and long-term follow-up investigations have formed the current best evidence for empyema management, fundoplication technique, perforated appendicitis, nonoperative management of uncomplicated appendicitis, and cryoablation for pectus excavatum repair. These examples are framed within the broader ethical and scientific obligations surrounding surgical innovation. Surgical progress requires the discipline to test assumptions, the humility to abandon favored practices when data contradict them, and the judgment to adapt study design to the magnitude and nature of innovation. Remaining curious, skeptical, and willing to learn from unexpected results is essential to preventing today's innovation from becoming tomorrow's example of avoidable harm."
+ },
+ {
+  "date": "2026-10-26",
+  "pmid": "42928072",
+  "title": "Robot-assisted laparoscopic resection of paediatric retroperitoneal neurogenic tumours: a retrospective single-centre study of 117 patients.",
+  "doi": "10.1007/s11701-026-04082-1",
+  "source": "PubMed",
+  "journal": "J Robot Surg",
+  "rank": "中科院医学3区(外科3区) · IF 4.2 · JCR Q1",
+  "country": "中国",
+  "institution": "Children's Hospital",
+  "corr_author": "Cai J",
+  "corr_email": "jiabincai@zju.edu.cn",
+  "summary": "- 研究目的：评估机器人辅助腹腔镜手术（RALS）在儿童腹膜后神经源性肿瘤（RNTs）中的围手术期及短期肿瘤学结局。\n- 核心发现/数据：共纳入117例，116例（99.1%）完成机器人切除；IDRF阳性、<5个月、<10 kg及肿瘤>6 cm亚组完成率分别为100.0%、92.9%、95.7%和100.0%，1例因肿瘤侵犯下腔静脉分离时大出血中转。所有患者均实现肉眼完整切除，中位出血量5.0 mL、术后住院3.0天；IIIb和IVb并发症各1例，无30天死亡。中位随访741天，1例局部复发、2例因系统性肿瘤进展死亡。\n- 临床启示：经仔细筛选的RNTs患儿行RALS可行，完成率高且严重并发症少见；单个IDRF、低体重、低龄或大肿瘤不应单独视为RALS的绝对禁忌。仍需多中心前瞻性对照研究优化选择标准并评估长期结局。",
+  "abstract": "Although robot-assisted laparoscopic surgery (RALS) is increasingly used in paediatric surgery, evidence regarding its safety and feasibility in retroperitoneal neurogenic tumours (RNTs) remains limited. This study aims to evaluate perioperative and short-term oncological outcomes of RALS in children with RNTs. This single-centre retrospective study included all consecutive paediatric patients who underwent RALS for RNTs between May 2020 and May 2025. Patient demographics, tumour characteristics, perioperative outcomes, postoperative complications, and follow-up data were analysed. A total of 117 patients were included; 29 (24.8%) had a single IDRF (image-defined risk factors), and none had multiple IDRFs. Robotic resection was completed in 116 of 117 patients (99.1%). Subgroup completion rates were 100.0% (29/29) among IDRF-positive patients, 92.9% (13/14) among children younger than 5 months, 95.7% (22/23) among those weighing less than 10 kg, and 100.0% (16/16) among those with tumours > 6 cm. One infant required conversion following major haemorrhage during dissection of a tumour invading the inferior vena cava. Complete macroscopic excision was achieved in all patients. Median blood loss was 5.0 mL and median postoperative stay was 3.0 days. Grade IIIb and IVb complications occurred in one patient each, with no 30-day deaths. During a median follow-up of 741 days, one local recurrence and two deaths from systemic tumour progression occurred. RALS was feasible in carefully selected children with RNTs, with a high completion rate and infrequent serious complications. A selected single IDRF, low body weight, young age, or large tumour size should not alone be considered an absolute contraindication to RALS. Multicentre prospective comparative studies are needed to refine selection criteria and assess long-term outcomes."
+ },
+ {
+  "date": "2026-10-26",
+  "pmid": "42927733",
+  "title": "Poland Syndrome with transverse upper limb deficiency: beyond the vascular disruption hypothesis.",
+  "doi": "10.1177/17531934261475583",
+  "source": "PubMed",
+  "journal": "J Hand Surg Eur Vol",
+  "rank": "中科院医学3区(骨科3区/外科3区) · IF 2.1 · JCR Q2",
+  "country": "新加坡",
+  "institution": "KK Women's and Children's Hospital",
+  "corr_author": "Chew DEM",
+  "corr_email": "",
+  "summary": "- 研究目的：报告一例表现为右侧胸肌缺如伴腕水平横向上肢缺如的罕见Poland综合征新生儿，并探讨其发病机制。\n- 核心发现/数据：患儿为新生儿，存在右侧胸肌缺如及同侧腕水平横向上肢缺如，且无外胚层成分。该罕见表型不符合单点血管中断假说，更支持动态胚胎毛细血管丛模型。\n- 临床启示：临床应认识Poland综合征的表型谱可超出经典胸肌缺如伴并指短指，并重视同侧上肢横向缺损的评估。其机制认识有助于避免将复杂表型简单归因于单一血管事件。",
+  "abstract": "Poland syndrome classically presents with unilateral pectoral deficiency and ipsilateral symbrachydactyly. We report a neonate with right pectoral deficiency and carpal-level transverse upper limb deficiency without ectodermal elements. This rare phenotype challenges a single-point vascular interruption and supports a dynamic embryonic capillary plexus model."
  }
 ]
