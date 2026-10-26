@@ -14878,5 +14878,35 @@
   "corr_email": "esemina@mcw.edu",
   "summary": "- 研究目的：明确CDH2相关发育障碍的临床表型谱与分子遗传特征。\n- 核心发现/数据：筛查发现20个新家系，其中16个携带（似）致病等位基因、4个携带高优先级VUS，共包含12个新CDH2等位基因；37例（似）致病变异队列中ACOGS核心特征高度可变（平均3项，范围1-5项），约20%伴腹壁和/或膈疝及乳头、脊柱或胃肠道异常，并发现性别模糊、女性生殖道畸形和扩张型心肌病等新表现。86%的独特（似）致病等位基因为错义变异，主要位于胞外钙黏蛋白结构域并集中于EC1和EC4-EC5，建模提示钙结合破坏；VUS中71%为NMD敏感变异或缺失，多与神经发育、肾脏或其他异常相关。\n- 临床启示：CDH2相关疾病谱广且临床异质性显著，临床应进行多系统评估，尤其关注腹壁/膈疝、生殖器、脊柱、胃肠道及心肌病等表现。对CDH2变异需结合功能机制和表型谨慎解读，并重视单倍剂量不足可能相关的较轻表型及遗传咨询。",
   "abstract": "Pathogenic variants in CDH2 cause agenesis of the corpus callosum, cardiac, ocular, and genital syndrome (ACOGS). We aimed to define the clinical and molecular landscape of CDH2-related developmental disorders. Newly identified and previously reported families were analyzed for genotype-phenotype correlations; variants were assessed using protein modeling and splicing assays. Screening identified 20 new families carrying (likely) pathogenic ((L)P) alleles (n=16) or high-priority variants of uncertain significance (VUS) (n=4), including 12 novel CDH2 alleles. The combined (L)P cohort (37 individuals) showed variable ACOGS core features (mean 3; range 1-5), along with abdominal wall and/or diaphragmatic hernias and nipple, spine or gastrointestinal anomalies, each seen in ∼20% of individuals. Novel ACOGS findings included ambiguous genitalia, female genital malformations and dilated cardiomyopathy. Missense variants, principally within extracellular cadherin domains, accounted for 86% of unique (L)P alleles with clusters in EC1 and EC4-EC5; the remainder produce late protein truncations or in-frame deletions. Disruption of calcium binding was predicted by modeling. Conversely, VUS were primarily nonsense-mediated decay-sensitive or deletions (71%), linked to neurodevelopmental, kidney or other anomalies. We expand the ACOGS spectrum and highlight its striking clinical variability. Additionally, we identify a possible milder phenotype associated with CDH2 haploinsufficiency."
+ },
+ {
+  "date": "2026-10-26",
+  "pmid": "42927478",
+  "title": "Continuous Stellate Ganglion Block Bridging to Cardiac Sympathetic Denervation in a Long QT Syndrome Neonate.",
+  "doi": "10.1016/j.jaccas.2026.110888",
+  "source": "PubMed",
+  "journal": "JACC Case Rep",
+  "rank": "",
+  "country": "意大利",
+  "institution": "Città della Salute e della Scienza Hospital",
+  "corr_author": "Dusi V",
+  "corr_email": "veronica.dusi@unito.it",
+  "summary": "- 研究目的：探讨连续经皮左星状神经节阻滞（PLSGB）作为桥接至左心交感神经去支配（LCSD）在新生儿先天性长QT综合征（LQTS）难治性室性心律失常中的可行性与效果。\n- 核心发现/数据：患儿为宫内起病的女性新生儿LQTS，合并功能性2:1房室传导阻滞和尖端扭转型室速（TdP），起搏器、普萘洛尔及美西律治疗后TdP仍复发；生后25天开始罗哌卡因连续PLSGB后TdP被抑制，4个月时行VATS-LCSD，随访24个月无室性心律失常复发。此为首次报道新生儿连续PLSGB，并属于1岁以下少数VATS-LCSD病例。\n- 临床启示：高危儿科LQTS在药物治疗失败时应考虑早期交感神经调控，以PLSGB作为桥接至LCSD；VATS-LCSD在1岁以下婴儿中可行且安全。",
+  "abstract": "Congenital long QT syndrome (LQTS) with neonatal onset carries a high risk of drug-refractory ventricular arrhythmias. Continuous percutaneous left stellate ganglion block (PLSGB) as a bridge to left cardiac sympathetic denervation (LCSD) is unexplored in neonates. We present a newborn female with in utero onset LQTS, complicated by functional 2:1 atrioventricular block and torsades de pointes (TdP). Despite pacemaker implantation, propranolol, and mexiletine, TdP recurred. At 25 days of life, continuous PLSGB with ropivacaine suppressed TdP. At 4 months, video-assisted thoracoscopic surgery (VATS)-LCSD was performed, with no ventricular arrhythmia recurrence in 24 months. First reported case of continuous PLSGB in a neonate with LQTS; among the few VATS-LCSD cases under 1 year. Early sympathetic neuromodulation should be considered in high-risk pediatric LQTS when medical therapy fails, as a bridge to LCSD. VATS-LCSD is feasible and safe even under 1 year."
+ },
+ {
+  "date": "2026-10-26",
+  "pmid": "42927239",
+  "title": "Antenatal diagnosis and classification for placenta accreta (adherence) spectrum: Clinical practice guideline and recommendations by the World Association of Perinatal Medicine and the Perinatal Medicine Foundation.",
+  "doi": "10.1002/pmf2.70489",
+  "source": "PubMed",
+  "journal": "Pregnancy (Hoboken)",
+  "rank": "",
+  "country": "意大利",
+  "institution": "Department of Maternal-Fetal Medicine University of Parma and University Hospital of Parma Parma Italy",
+  "corr_author": "Timor-Tritsch I",
+  "corr_email": "",
+  "summary": "- 研究目的：世界围产医学协会与围产医学基金会制定胎盘植入谱（PAS）产前诊断与分类的临床实践指南，以规范筛查、诊断、转诊及围产期管理。\n- 核心发现/数据：PAS与剖宫产率上升、体外受精及子宫手术史相关，可导致大出血、大量输血、子宫破裂、围产期子宫切除、盆腔器官损伤、ICU入住甚至孕产妇死亡；剖宫产瘢痕妊娠（CSP）被视为PAS潜在前驱，低着床部位且有剖宫产史者风险增加。早孕期经阴道超声用于明确着床部位和识别CSP；中晚孕期联合经腹/经阴道超声评估胎盘位置、肌层厚度与轮廓及子宫膀胱界面，标志包括胎盘陷窝、胎盘膨出、子宫膀胱血供丰富和桥接血管，二维灰阶超声为主、彩色多普勒辅助，三维超声和MRI在特定情况下补充。疑似CSP或PAS应转诊至具备多学科能力、血制品支持、成人及新生儿ICU和复杂盆腔手术条件的围产中心，分娩时机与手术准备应个体化。\n- 临床启示：临床应重视剖宫产史孕妇的早孕期着床部位评估，及时识别CSP/PAS并转诊多学科中心。通过规范产前影像评估和个体化围产期规划，可降低PAS相关严重母体并发症风险。",
+  "abstract": "This practical guidance was developed by the World Association of Perinatal Medicine in collaboration with the Perinatal Medicine Foundation to support antenatal diagnosis and clinical management in pregnancies at risk for placenta accreta spectrum (PAS). It provides an evidence-informed approach to screening, diagnosis, referral, and peripartum planning across healthcare settings with different resources. PAS is increasingly encountered alongside rising cesarean delivery rates, use of in vitro fertilization, and a history of uterine surgery. It remains associated with severe maternal morbidity, including massive hemorrhage, large-volume transfusion, uterine rupture, peripartum hysterectomy, pelvic organ injury, intensive care admission, and maternal death. Early recognition and multidisciplinary care are therefore central to management. Cesarean scar pregnancy (CSP) is considered a potential precursor of PAS. Women with a low implantation site and a previous cesarean delivery are at increased risk. Early transvaginal ultrasound is advised in women with a previous cesarean delivery to establish the implantation site, identify CSP, and support counseling and timely consideration of uterine-preserving treatment. In the second and third trimesters, combined transabdominal and transvaginal ultrasound assesses placental location, myometrial thickness and contour, and the uterovesical interface. Sonographic markers include placental lacunae, placental bulge, uterovesical hypervascularity, and bridging vessels, which may occur individually or in combination. Two-dimensional grayscale ultrasound is the mainstay of antenatal assessment, supported by color Doppler; three-dimensional imaging may provide additional information in selected specialist settings. Magnetic resonance imaging has a complementary role when ultrasound is inconclusive, placental location is non-anterior or non-previa, or technical factors limit visualization. Suspected CSP or PAS should prompt referral to a perinatal center with multidisciplinary expertise, blood product support, adult and neonatal intensive care, and access to complex pelvic surgery. Delivery timing and surgical preparation should be individualized."
  }
 ]
