@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "pmid": "42498836",
-  "title": "Using rapid-sequence MRI scans to compare ventricular and intracranial volumes in shunted and non-shunted children with myelomeningocele: a retrospective observational cohort study.",
-  "doi": "10.1007/s00381-026-07410-w",
-  "source": "PubMed",
-  "journal": "Childs Nerv Syst",
-  "rank": "",
-  "country": "美国",
-  "institution": "University of Virginia",
-  "corr_author": "Spader H",
-  "corr_email": "hls3e@uvahealth.org",
-  "summary": "- 研究目的：比较脊髓脊膜膨出（MMC）患儿中接受脑室腹腔分流术（VPS）与未分流者之间的颅内体积和脑室体积是否存在显著差异。\n- 核心发现/数据：分流组患儿在基线时颅内体积显著大于非分流组（644.3 vs 403.5 mL，p=0.020），但脑室体积差异无统计学意义（82.2 vs 34.2 mL，p=0.072）。在50天龄内，分流组脑室/颅内体积比显著更高（p=0.026），但校正头围和早产后差异消失（p=0.144）；效应量分析显示50天内差异较大（Hedges' g=1.268），之后减弱（g=0.452）。\n- 临床启示：分流术后早期脑室增大是短暂现象，50天后分流与未分流患儿之间无持续的体积差异，提示临床决策中需关注新生儿期后体积变化对分流依赖性的影响。",
-  "abstract": "Hydrocephalus is a common complication of myelomeningocele (MMC), typically managed with a ventriculoperitoneal shunt (VPS). Despite clinical relevance, there remains a paucity of studies quantitatively comparing intracranial and ventricular volumes in shunted versus non-shunted MMC patients. This study aims to determine whether significant volumetric differences exist between these groups. Ninety-one MRIs from 19 MMC patients (13 shunted, 6 non-shunted), aged 0-3 years, were retrospectively analyzed. Volumes were obtained from rapid-sequence MRIs using automatic segmentation with manual correction. Outcomes included ventricular volume, intracranial volume, and ventricle-to-intracranial volume (ventricle/ICV) ratio. Analyses included nonparametric tests, mixed-effects models, bootstrap resampling, permutation testing, and robust regression. At baseline, shunted patients exhibited larger intracranial volumes (644.3 vs 403.5 mL; p = 0.020) but not ventricular volumes (82.2 vs 34.2 mL; p = 0.072) compared to non-shunted patients. Although the ventricle-to-intracranial volume ratio was significantly higher in shunted patients under 50 days of age (p = 0.026), this difference was no longer significant after adjusting for head circumference and prematurity (p = 0.144). Sensitivity analyses confirmed differences in the neonatal period (p = 0.013), but not in infancy or toddlerhood. Effect-size analyses demonstrated a large difference within 50 days (Hedges' g = 1.268) that diminished thereafter (g = 0.452). Shunted MMC patients demonstrated larger intracranial volumes and higher ventricle/ICV ratios in the neonatal period, but these differences diminished after 50 days. Early ventricular enlargement in this cohort's shunted patients appears robust yet transient, with no sustained volumetric differences between shunted and non-shunted patients later in development."
- },
- {
-  "date": "2026-07-25",
-  "pmid": "42498489",
-  "title": "Newborn screening for external congenital anomalies at three public hospitals in Karachi, Pakistan.",
-  "doi": "10.1136/bmjpo-2025-004015",
-  "source": "PubMed",
-  "journal": "BMJ Paediatr Open",
-  "rank": "中科院医学4区(儿科4区) · IF 2.6 · JCR Q1",
-  "country": "新加坡",
-  "institution": "",
-  "corr_author": "Roy N",
-  "corr_email": "nobsroy@gmail.com",
-  "summary": "- 研究目的：评估巴基斯坦卡拉奇三家公立医院通过系统性新生儿筛查发现外部先天性异常的患病率。\n- 核心发现/数据：在25,414例出生中筛查了18,728例（73.7%），发现主要外部异常334例（1.8%），次要异常3384例（18.1%）。最常见的重大异常为马蹄内翻足、尿道下裂、唇腭裂和脊柱裂。主要异常新生儿死亡率高达23.0%，显著高于次要异常组（1.8%）和无异常组（1.3%）。\n- 临床启示：由经过培训的非医师健康工作者进行系统筛查可行且可推广，但必须建立有效的转诊和护理路径以降低相关死亡率与并发症。",
-  "abstract": "Reliable prevalence data on congenital anomalies are lacking in low- and middle-income countries (LMICs), including Pakistan. This study aimed to determine the prevalence of external congenital anomalies through systematic newborn screening (NBS) in public sector hospitals in Karachi, Pakistan. A cross-sectional NBS programme was implemented from July 2023 to June 2024. Health workers (HWs) conducted head-to-toe newborn examinations, documented anomalies and provided counselling and referral guidance. Rates of intrauterine deaths and pre- and post-discharge neonatal mortalities were documented. Of the 25 414 births in the study period, 18 728 (73.7%) were screened. Major external anomalies were identified in 334 births (1.8%) and minor anomalies in 3384 (18.1%). The most common major anomalies included clubfoot, hypospadias, cleft lip/palate and spina bifida. Of all neonates screened, follow-up at the end of the neonatal period was completed for 70.6%, with 23.0% deaths recorded for those with major anomalies as compared to 1.8% with minor anomalies and 1.3% with no identified anomalies. Preterm birth, male sex and study site were significantly associated with the presence of anomalies ( This is the largest systematically conducted NBS for external congenital anomalies in Pakistan, highlighting a substantial burden of congenital anomalies and associated neonatal mortality. Screening by trained non-physician HWs is feasible and scalable. However, screening must be paired with effective referral and care pathways to reduce mortality and morbidity."
- },
- {
-  "date": "2026-07-25",
   "pmid": "42498317",
   "title": "Serum PLA2R-negative, biopsy-proven PLA2R-positive primary membranous nephropathy in a dichorionic-diamniotic twin pregnancy.",
   "doi": "10.1136/bcr-2026-272147",
@@ -14998,5 +14968,35 @@
   "corr_email": "",
   "summary": "- 研究目的：探讨自然杀伤（NK）细胞TGF-β信号在出生后肺发育及支气管肺发育不良（BPD）发病中的作用。\n- 核心发现/数据：NK细胞选择性缺失II型TGF-β受体的小鼠模型显示，新生儿期TGF-β是NK细胞衰老细胞清除活性的可调控因子，对正常出生后肺发育至关重要；过度NK细胞TGF-β信号与新生儿高氧暴露所致肺发育受损相关。摘要未提供具体统计数值。\n- 临床启示：NK细胞TGF-β信号可能成为人BPD的可行治疗靶点，调节该通路有望改善新生儿肺发育。",
   "abstract": "Bronchopulmonary dysplasia (BPD) is a disease of neonatal lung development that is linked to impaired pulmonary vascularization, dysregulated TGF-β (transforming growth factor-β) signaling, and the accumulation of senescent cells. Despite the established role of TGF-β signaling in promoting vascular remodeling and suppressing the senolytic activity of natural killer (NK) cells, the contribution of NK cell TGF-β signaling to postnatal lung patterning and the pathogenesis of BPD remains unclear. Mice bearing an NK cell-selective deletion of the type-II TGF-β receptor ( Neonatal  TGF-β is a tunable regulator of NK cell senolytic activity that is essential for normal postnatal lung development. Excessive NK cell TGF-β signaling contributes to impaired lung development with neonatal hyperoxia and may serve as a viable therapeutic target in human BPD."
+ },
+ {
+  "date": "2026-10-28",
+  "pmid": "42945215",
+  "title": "Early mitophagy defects and impaired mitochondrial energy metabolism drive target organ damage progression: Lessons from the Fabry heart.",
+  "doi": "10.1016/j.celrep.2026.118183",
+  "source": "PubMed",
+  "journal": "Cell Rep",
+  "rank": "中科院生物学1区(细胞生物学2区) · IF 7.7 · JCR Q1",
+  "country": "意大利",
+  "institution": "Department of Clinical Medicine and Surgery",
+  "corr_author": "Iaccarino G",
+  "corr_email": "guiaccar@unina.it",
+  "summary": "- 研究目的：探讨Fabry病心脏中线粒体自噬缺陷和线粒体能量代谢障碍是否驱动靶器官损害进展，并评估其治疗靶向性。\n- 核心发现/数据：在人源化FD小鼠模型（R301Q-Tg/GLA敲除）、胚胎成纤维细胞及新生和成年心肌细胞中，发现线粒体自噬和线粒体呼吸受损、活性氧增加，并与溶酶体功能障碍形成恶性循环。上述缺陷随年龄进展，导致功能失调线粒体堆积、能量衰竭、凋亡、心肌肥厚和舒张功能障碍。L-精氨酸通过促进NO/PGC-1α依赖性线粒体修复，可预防心脏异常。\n- 临床启示：线粒体功能障碍是Fabry病心肌病的关键驱动因素，溶酶体-线粒体轴是可干预的治疗靶点。L-精氨酸等线粒体救援策略可能用于Fabry病心肌病的早期防治。",
+  "abstract": "Increasing evidence supports a pathogenic role for impaired energy metabolism in organ damage. Genetic diseases provide opportunities to investigate these mechanisms, as exemplified by Fabry disease (FD), caused by an α-galactosidase A (GLA) deficiency and globotriaosylceramide (Gb3) accumulation, with cardiomyopathy as the leading cause of death. Beyond Gb3 storage, impaired energy metabolism may contribute to cardiomyopathy. Here, we demonstrate mitochondrial dysfunction in FD heart and its therapeutic targeting. Using a humanized FD mouse model (R301Q-Tg/GLA knockout), embryonic fibroblasts, and neonatal and adult cardiomyocytes, we found impaired mitophagy and mitochondrial respiration, increased reactive oxygen species, and a vicious cycle aggravating lysosomal dysfunction. These defects progressed with age, causing accumulation of dysfunctional mitochondria, energetic failure, apoptosis, cardiac hypertrophy, and diastolic dysfunction. L-arginine, promoting NO/PGC-1α-dependent mitochondrial rescue, prevented cardiac abnormalities. Our findings identify mitochondrial dysfunction as a key driver of FD cardiomyopathy and reveal the lysosome-mitochondria axis as a targetable pathway in FD and beyond."
+ },
+ {
+  "date": "2026-10-28",
+  "pmid": "42944767",
+  "title": "Intrinsic epithelial defects and NF-κB-dependent signaling heighten viral injury in biliary atresia.",
+  "doi": "10.1172/jci.insight.205019",
+  "source": "PubMed",
+  "journal": "JCI Insight",
+  "rank": "中科院医学1区(医学：研究与实验1区) · IF 6.8 · JCR Q1",
+  "country": "美国",
+  "institution": "University of Texas Southwestern Medical Center and Children's Medical Center",
+  "corr_author": "Bezerra JA",
+  "corr_email": "",
+  "summary": "- 研究目的：探讨胆道闭锁（BA）胆管上皮内在缺陷及NF-κB依赖信号在病毒性损伤易感性中的作用。\n- 核心发现/数据：与正常供体胆管类器官相比，BA诊断期和移植期类器官存在紧密连接结构和屏障功能基线缺陷，RRV感染后上皮破坏和凋亡更明显。转录组显示诊断期BA以干扰素相关抗病毒反应为主，而移植期BA基线即富集NF-κB（RELA/NFKB1）调控网络并被感染放大；GYY4137抑制NF-κB信号可恢复类器官生长、改善紧密连接、降低通透性并减轻RRV诱导的凋亡。小鼠BA模型中GYY4137改善疾病严重度、保护胆管结构和上皮连接完整性，并减少胆管细胞凋亡。\n- 临床启示：胆管细胞NF-κB优势程序可能是BA病毒损伤易感性的关键决定因素，靶向胆管细胞NF-κB信号有望成为抑制BA疾病进展的潜在治疗策略。",
+  "abstract": "Targeted injury to the biliary epithelium and impaired bile flow are central mechanisms underlying childhood cholangiopathies. In biliary atresia (BA), immune-mediated cholangiocyte injury drives progressive bile duct obstruction, yet epithelial-intrinsic programs regulating injury susceptibility remain incompletely defined. Here, we modeled virus-epithelium interactions using rhesus rotavirus (RRV) infection of human liver-derived cholangiocyte organoids from normal donors (NCO) and infants with BA at diagnosis (BACO-Dx) or transplantation (BACO-Tx). Compared with NCO, BA organoids displayed baseline defects in tight junction architecture and barrier function, with prominent epithelial disruption and apoptosis following RRV exposure. Transcriptomic profiling revealed that while NCO and BACO-Dx mounted predominantly interferon-associated antiviral responses, BACO-Tx exhibited an expanded inflammatory program characterized by enrichment of NF-κB (RELA/NFKB1) regulatory network at baseline and amplified by infection. Inhibition of NF-κB signaling with the hydrogen sulfide donor GYY4137 restored organoid growth, improved tight junction organization, reduced permeability, and attenuated RRV-induced apoptosis. In the murine BA model, GYY4137 improved disease severity, preserved bile duct architecture, and protected epithelial junctional integrity while limiting cholangiocyte apoptosis. These findings identify an epithelial NF-κB-predominant program as a key determinant of intrinsic susceptibility to viral injury in BA and support targeting cholangiocyte NF-κB signaling to suppress disease progression."
  }
 ]
