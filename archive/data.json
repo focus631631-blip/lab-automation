@@ -1,20 +1,5 @@
 [
  {
-  "date": "2026-07-29",
-  "pmid": "42522279",
-  "title": "Incidence and Predictors of Necrotizing Enterocolitis Among Low-Birth-Weight Neonates Admitted to Southern Ethiopian Public Hospitals.",
-  "doi": "10.1177/00099228261468227",
-  "source": "PubMed",
-  "journal": "Clin Pediatr (Phila)",
-  "rank": "中科院医学4区(儿科4区) · IF 0.8 · JCR Q4",
-  "country": "Ethiopia",
-  "institution": "School of Nursing and Midwifery",
-  "corr_author": "Getaneh FB",
-  "corr_email": "",
-  "summary": "- 研究目的：评估南埃塞俄比亚低出生体重新生儿中坏死性小肠结肠炎（NEC）的发生率并识别其预测因素。\n- 核心发现/数据：在627名低出生体重新生儿中，NEC的发生率及预测因素通过Weibull回归分析得出，调整后风险比（AHR）及95%置信区间（CI）被计算，具体数据因摘要截断未完整呈现。\n- 临床启示：需重点关注低出生体重和早产儿的肠道保护策略，以降低NEC这一常见胃肠道急症的发生风险。",
-  "abstract": "Necrotizing enterocolitis (NEC) has emerged over the past 25 years as the most common gastrointestinal emergency in neonatal intensive care units (NICUs) worldwide. Despite significant improvements in survival among premature and low-birth-weight (LBW) neonates due to advances in neonatal intensive care, the incidence of NEC remains persistently high, largely because of the physiological vulnerability associated with LBW and prematurity. The purpose of this study was to assess the incidence and identify predictors of NEC among LBW newborns in South Ethiopia. A hospital-based prospective cohort study was conducted among 627 LBW neonates in public hospitals in southern Ethiopia from December 2, 2020, to December 1, 2021. Data were coded and entered into Epi-data version 4.4.2.1 and exported to STATA version 17 for analysis. Weibull regression analysis was employed after assessing model fitness. Adjusted hazard ratio (AHR) with 95% confidence interval (CI) was calculated, and variables with a"
- },
- {
   "date": "2026-07-30",
   "pmid": "42525589",
   "title": "Association of Maximum CPAM Volume Ratio in Postnatal Surgical Outcomes in Congenital Lung Malformations.",
@@ -14998,5 +14983,20 @@
   "corr_email": "",
   "summary": "- 研究目的：报告首例新生儿肠旋转不良合并嗜酸性肌间神经节炎的病例，并强调全面肠壁活检对准确诊断的重要性。\n- 核心发现/数据：患儿为男性新生儿，因肠梗阻就诊，术中发现肠旋转不良，组织学显示结肠壁神经节细胞周围中度嗜酸性粒细胞浸润。行手术矫正并留置保护性回肠造口后，临床症状逐步改善。18月龄随访造影灌肠发现功能不良的乙状结肠直肠内持续存在陈旧造影剂，提示可能存在直肠动力障碍。\n- 临床启示：对疑似病例应行全面肠壁活检以明确诊断，早期诊断和规范处理有助于改善管理并预防并发症；该罕见病仍需进一步研究。",
   "abstract": "Eosinophilic myenteric ganglionitis is a rare cause of pseudo-obstructive intestinal syndrome, predominantly reported in children. It is characterized by symptoms that mimic mechanical intestinal obstruction, despite the absence of a demonstrable lesion, and is identified histologically by an eosinophilic myenteric inflammatory process. We report the case of a male newborn presenting with intestinal obstruction found to have intestinal malrotation and histological evidence of colonic wall ganglion cells surrounded by a moderate eosinophilic infiltrate. The patient underwent surgical correction with a protective diverting ileostomy, resulting in progressive clinical improvement. At 18 months of age, follow-up with a contrast enema revealed persistent old contrast medium in the dysfunctional sigmoid rectum, suggesting possible rectal motility impairment. This is the first reported case in the literature of a newborn with intestinal malrotation in the presence of eosinophilic myenteric ganglionitis. The need for comprehensive intestinal wall biopsy for accurate diagnosis is emphasized, highlighting the importance of early diagnosis for proper management and complication prevention. This case underscores the necessity for further research to enhance understanding, diagnosis, and treatment of eosinophilic myenteric ganglionitis."
+ },
+ {
+  "date": "2026-11-02",
+  "pmid": "42969109",
+  "title": "Dinoprostone Versus Balloon Catheter for Cervical Ripening in Multiparous Women Undergoing Induction of Labor: A Retrospective Cohort Study.",
+  "doi": "10.1111/jog.70552",
+  "source": "PubMed",
+  "journal": "J Obstet Gynaecol Res",
+  "rank": "中科院医学4区(妇产科学4区) · IF 1.7 · JCR Q3",
+  "country": "以色列",
+  "institution": "Galilee Medical Center",
+  "corr_author": "Frank Wolf M",
+  "corr_email": "",
+  "summary": "- 研究目的：比较经产妇足月宫颈不成熟引产中，慢释阴道地诺前列酮（10 mg）与球囊导管对母儿结局的影响。\n- 核心发现/数据：回顾性队列纳入802例经产妇，地诺前列酮组宫颈成熟至分娩间隔短于球囊导管组（11.6 vs. 19.4 h，p<0.001），12 h内分娩率更高（51.4% vs. 26.1%，p<0.001），但24 h内分娩率无显著差异（75.7% vs. 71.1%，p=0.183）。地诺前列酮组自然阴道分娩率更高（95.0% vs. 90.0%，p=0.015）、剖宫产率更低（3.2% vs. 8.2%，p=0.006）、产时发热更少（1.4% vs. 4.2%，p=0.036），新生儿结局包括NICU入住无显著差异。\n- 临床启示：经产妇足月宫颈不成熟引产时可考虑优先选择地诺前列酮，以缩短分娩间隔、提高自然阴道分娩率并降低剖宫产率；但仍需结合个体情况评估，24 h内分娩率及新生儿结局与球囊导管相似。",
+  "abstract": "To compare maternal and neonatal outcomes of induction strategies initiated with slow-release vaginal dinoprostone (10 mg) or balloon catheter in multiparous women undergoing term induction of labor with an unfavorable cervix. This retrospective cohort study included 802 multiparous women with singleton pregnancies at ≥ 37 weeks' gestation, Bishop score < 8, and a medical indication for induction of labor at a tertiary university-affiliated center (2020-2025). Women underwent cervical ripening with either a balloon catheter (n = 522) or a slow-release vaginal dinoprostone insert (n = 280). The co-primary outcomes were the cervical ripening-to-delivery interval and delivery within 24 h. Multivariable analyses identified independent predictors of delivery interval and cesarean birth. Compared with balloon catheter, dinoprostone was associated with a shorter cervical ripening-to-delivery interval (11.6 vs. 19.4 h; p < 0.001). Delivery within 12 h was more frequent with dinoprostone (51.4% vs. 26.1%; p < 0.001), whereas delivery within 24 h did not differ significantly between groups (75.7% vs. 71.1%; p = 0.183). Dinoprostone was also associated with a higher spontaneous vaginal delivery rate (95.0% vs. 90.0%; p = 0.015) and a lower cesarean delivery rate (3.2% vs. 8.2%; p = 0.006). Intrapartum fever occurred less frequently with dinoprostone (1.4% vs. 4.2%; p = 0.036), while no statistically significant differences were observed in measured neonatal outcomes, including NICU admission. Among multiparous women undergoing term induction of labor, dinoprostone was associated with a shorter cervical ripening-to-delivery interval, higher spontaneous vaginal delivery rates, and lower cesarean rates than balloon catheter. Delivery within 24 h was similar between groups, with no significant differences in measured neonatal outcomes."
  }
 ]
