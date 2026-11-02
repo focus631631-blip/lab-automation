@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-07-29",
-  "pmid": "42521741",
-  "title": "Team-based care with early recognition and treatment of cardiac dysfunction for infants with CDH.",
-  "doi": "10.1038/s41372-026-02841-4",
-  "source": "PubMed",
-  "journal": "J Perinatol",
-  "rank": "",
-  "country": "美国",
-  "institution": "Washington University in St. Louis",
-  "corr_author": "Sloan PE",
-  "corr_email": "sloan.patrick@wustl.edu",
-  "summary": "- 研究目的：评估核心先天性膈疝（CDH）团队联合早期识别与治疗心功能障碍对患儿预后的改善效果。\n- 核心发现/数据：实施团队化方案后，生存率从68.6%提升至88.7%（p=0.016），ECMO使用率从51.0%降至26.4%（p=0.015）。心功能障碍患儿的生存率从47.3%升至81.8%（p=0.014），ECMO使用率从68.4%降至36.3%（p=0.043）。血管活性药物选择从多巴胺转向去甲肾上腺素、低剂量肾上腺素或葡萄糖酸钙；48小时内iNO使用显著减少，PGE1使用增加。\n- 临床启示：通过标准新生儿超声心动图早期识别和治疗心功能障碍，结合核心团队生理驱动型管理，可显著改善CDH患儿生存并减少ECMO依赖。",
-  "abstract": "Identify how a core congenital diaphragmatic hernia (CDH) team coupled with early recognition and treatment of cardiac dysfunction changed outcomes for infants with CDH. A retrospective chart review compared a historical cohort from 2015-2019 (n = 51) with a post-guideline cohort from 2020-2025 (n = 53). Statistical analysis was performed with Fisher's exact, unpaired t-test, and Mann Whitney U-test. Survival improved from 68.6% to 88.7% (p = 0.016) and ECMO utilization decreased, 51.0% to 26.4% (p = 0.015). Infants with cardiac dysfunction had increased survival (47.3% vs. 81.8%, p = 0.014) and less ECMO utilization (68.4% vs. 36.3%, p = 0.043). Vasoactive choices evolved with dopamine replaced by norepinephrine, low-dose epinephrine, or calcium gluconate. Inhaled nitric oxide (iNO) use in the first 48 h decreased significantly while prostaglandin E1 (PGE1) use increased. We implemented a core CDH team focused on a generalizable, physiology-driven approach to identify and treat cardiac dysfunction using standard neonatal echocardiography to improve outcomes."
- },
- {
-  "date": "2026-07-29",
   "pmid": "42521182",
   "title": "Modified Ultrafiltration and Association with Outcomes after Neonatal Cardiac Surgery.",
   "doi": "10.1016/j.athoracsur.2026.07.011",
@@ -14998,5 +14983,20 @@
   "corr_email": "",
   "summary": "- 研究目的：报告一例伴多脾的内脏不定位成人患者发生肠系膜扭转，并探讨计划性二次探查剖腹术在保留肠管中的作用。\n- 核心发现/数据：患者为既往健康的27岁女性，因急性腹痛、腹膜炎、白细胞增多和乳酸升高就诊；增强CT显示肠系膜漩涡征、中线肝、多脾及小脾动脉瘤。术中见180°肠系膜扭转伴血管受压但无坏死，手法复位后未行切除，而于24小时后行计划性二次探查，确认肠管恢复，第12天无并发症出院。\n- 临床启示：对于肠系膜解剖异常且首次手术时肠管活力不确定的成人患者，分期手术策略和计划性二次探查有助于保留肠管。",
   "abstract": "Situs ambiguus, or heterotaxy, is a rare disorder of organ lateralization often accompanied by intestinal malrotation and an increased risk of midgut volvulus. Most published cases involve children with major cardiac disease, and adult presentation is exceptional. We describe a previously healthy 27-year-old woman who came to the emergency department with acute abdominal pain, peritonitis, leukocytosis, and elevated lactate. Contrast-enhanced computed tomography showed the mesenteric whirl sign, a midline liver, polysplenia, and a small splenic artery aneurysm. At laparotomy we found a 180° mesenteric torsion with vascular compromise but no necrosis, and after manual detorsion we opted for a planned second-look laparotomy at 24 h rather than resection. The second look confirmed bowel recovery, and she was discharged on day 12 without complications. A staged surgical approach can help preserve bowel in adults with aberrant mesenteric anatomy when viability is uncertain at the first operation."
+ },
+ {
+  "date": "2026-11-02",
+  "pmid": "42250889",
+  "title": "PRDM9 Deficiency Drives Mosaic Promoter Deletions in Sporadic Hirschsprung Disease and Supports Blood-Based Molecular Stratification.",
+  "doi": "10.1053/j.gastro.2026.05.020",
+  "source": "PubMed",
+  "journal": "Gastroenterology",
+  "rank": "中科院医学1区(胃肠肝病学1区) · IF 29.7 · JCR Q1",
+  "country": "中国",
+  "institution": "Guangdong Provincial Key Laboratory of Research in Structural Birth Defect Disease",
+  "corr_author": "Zhou W",
+  "corr_email": "zhouwenhao@gwcmc.org",
+  "summary": "- 研究目的：探究散发性先天性巨结肠（HSCR）的非经典分子机制及血液可及生物标志物，重点验证PRDM9缺陷与嵌合启动子缺失（MPD）的关系。\n- 核心发现/数据：103例散发性HSCR配对结肠RNA-seq显示79.6%（82/103）存在神经发生程序协同抑制，PRDM9在无神经节组织中下调并伴启动子高甲基化；斑马鱼和小鼠prdm9扰动减少HuC/D阳性分化肠神经元并损害动力，PRDM9缺失使肠神经嵴细胞DNA双链断裂向启动子/增强子重分布、在神经发生位点产生MPD并抑制神经元分化。血液MPD评分区分HSCR与对照的AUROC在发现队列为0.78、验证队列为0.82，联合多基因风险评分分别升至0.89和0.91。\n- 临床启示：血液MPD评分有望作为无创分子分层工具，补充HSCR诊断和风险分层；PRDM9缺陷相关亚组可能成为机制导向的干预靶点。",
+  "abstract": "Hirschsprung disease (HSCR) is a congenital enteric neuropathy with distal aganglionosis and dysmotility. Germline mutations explain many familial cases, but most sporadic cases lack a molecular explanation. We sought noncanonical mechanisms and blood-accessible biomarkers. We performed RNA-sequencing (RNA-seq) on paired aganglionic and ganglionic colon biopsy specimens from 103 sporadic HSCR patients, with control colon samples (n = 22). Blood whole-genome sequencing (WGS) was available for 41 patients with RNA-seq profiles. We assessed PR/SET domain 9 (PRDM9) in patient tissues, perturbed prdm9 in zebrafish and mice, and performed mechanistic profiling in PRDM9-knockout human-induced pluripotent stem cell-derived enteric neural crest cells. Mosaic promoter deletions (MPDs) were called from colon WGS (n = 30; matched blood, n = 27) and summarized as a blood MPD score in blood WGS cohorts (discovery: 89 HSCR and 43 controls; validation: 165 HSCR and 42 controls), alone and combined with the polygenic risk score. A predominant subgroup (79.6% [82 of 103]) showed coordinated repression of neurogenesis programs. Promoter motif enrichment implicated PRDM9, which we localized to normal enteric nervous system but found down-regulated in aganglionic tissue with promoter hypermethylation. Prdm9 perturbation reduced HuC/D-positive differentiated enteric neurons and impaired motility in zebrafish and mice. In enteric neural crest cells, PRDM9 loss redistributed DNA double-strand breaks toward promoters and enhancers, generated MPDs at neurogenesis loci, and correlated with transcriptional repression and impaired neuronal differentiation. Blood MPD score discriminated HSCR from controls in a discovery cohort (area under the receiver operating characteristic curve [AUROC], 0.78) and an independent validation cohort (AUROC, 0.82), and improved with polygenic risk score (AUROC, 0.89 and 0.91, respectively). PRDM9 deficiency links ectopic DNA breaks to MPDs and impaired enteric neuronal differentiation in a predominant molecular subgroup within sporadic HSCR and enables complementary, noninvasive molecular stratification."
  }
 ]
