@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-07-30",
-  "pmid": "42525248",
-  "title": "Indirect evidence for the volume-outcome relationship for corrective surgery for anorectal malformations using the IQWIG V24-07 rapid report methodology.",
-  "doi": "10.1007/s00383-026-06519-y",
-  "source": "PubMed",
-  "journal": "Pediatr Surg Int",
-  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
-  "country": "德国",
-  "institution": "University Hospital Mannheim",
-  "corr_author": "Wilms M",
-  "corr_email": "m.wilms@soma-ev.de",
-  "summary": "- 研究目的：评估能否通过成人直肠切除术的间接证据来推断肛门直肠畸形（ARM）矫正手术的容量-结局关系。\n- 核心发现/数据：专家小组一致选择成人直肠切除术作为证据源人群，因其手术共性（如盆腔深部解剖）及明确的容量-结局关系；12项IQWiG可转移性标准中6项达成共识，短期技术结局（如吻合口漏）被认为可转移，而死亡率在ARM中无信息价值；功能结局需依亚型具体解释，最终支持ARM手术存在容量-结局关系。\n- 临床启示：建议将ARM手术集中于高容量中心，以改善短期手术技术结局，但功能结局的评估需结合亚型差异进行个体化解读。",
-  "abstract": "Anorectal malformations (ARM) are rare congenital anomalies requiring complex surgical correction. Due to low caseload and heterogeneous cohorts, prior studies failed to establish whether higher hospital caseloads improve outcomes. This study applies the IQWiG V24-07 framework to evaluate whether indirect evidence from other surgical procedures can inform a potential volume-outcome relationship in ARM surgery. An interdisciplinary expert panel conducted a formal consensus using three steps: (1) identifying suitable source populations; (2) systematically comparing these with the ARM population using 12 IQWiG criteria; and (3) evaluating transferability through structured discussion and voting. Adult rectal resection was unanimously selected as evidence source population due to robust evidence of a volume-outcome relationship and relevant surgical commonalities, including deep pelvic dissection. Of the 12 transferability criteria, consensus was reached in six. Differences in comorbidities, concomitant treatment, and setting were judged irrelevant for transferability. Differences in sociodemographic and disease-specific characteristics were considered estimable in their impact. Divergent ratings were observed for diagnosis, intervention, endpoints, specialization, and follow-up care. Short-term technical outcomes such as anastomotic leakage were deemed transferable, whereas mortality was considered non-informative in ARM. Functional outcomes required subtype-specific interpretation. This structured analysis supports the existence of a volume-outcome relationship for ARM surgery."
- },
- {
-  "date": "2026-07-30",
-  "pmid": "42526593",
-  "title": "Staying Put: A Single Institution Quality Improvement Initiative to Reduce Early Gastrostomy Tube Dislodgement in Children.",
-  "doi": "10.1016/j.jpedsurg.2026.163335",
-  "source": "JPS 圣刊",
-  "journal": "J Pediatr Surg",
-  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
-  "country": "美国",
-  "institution": "",
-  "corr_author": "Turpin AG",
-  "corr_email": "agturpin12@gmail.com",
-  "summary": "- 研究目的：通过多学科质量改进干预，将儿童早期胃造口管移位率从14.3%降至7%以内。\n- 核心发现/数据：实施标准化术后敷料、家庭及护理教育、术后医嘱集束化等措施后，早期移位率从14.8%降至4.3%；针对高风险患者的术后两周电话随访进一步巩固了教育效果。\n- 临床启示：制定全院统一的术后方案、标准化敷料、强化家长教育并对高风险患者进行重点管理，可显著降低儿童早期胃造口管移位率及相关并发症。",
-  "abstract": "Gastrostomy tube (GT) placement is one of the most common surgical procedures performed in children. Early GT dislodgement is a potentially preventable complication associated with high morbidity, increased healthcare utilization, and need for early instrumentation or re-operation. This quality improvement initiative aimed to reduce the rate of early GT dislodgement from 14.3% to 7% within 12 months. After identifying a high rate of early GT dislodgements, a team of multidisciplinary stakeholders developed a quality improvement initiative to reduce early dislodgements, defined as any dislodgement within 60 days of surgery. The intervention included: 1) standardization of post-operative GT dressing; 2) robust family education focusing on common GT problems, GT dressings and securement, and instructions for management if dislodgement occurs; 3) nursing education and hands-on demonstration; and 4) creation of a post-operative order set, including the new dressing order and instructions to disconnect the extension tubing when not in use. Process measures included adherence to post-operative dressings and completion of family education. The outcome measure was GT dislodgement rate. Since Go-Live, there has been 100% compliance with completion of family education. Compliance with standard post-operative dressing initially lagged, but has been 100% since February 2025, with the exception of October 2025. At 1.5 years post-implementation, the rate of early dislodgements was not trending in the desired direction, so we identified patients at higher risk for dislodgement based on demographic factors. All high-risk patients are contacted via telephone two weeks post-operatively to check in and reinforce family education. The rate of early dislodgement has decreased from 14.8% to 4.3%. Interventions including hospital-wide post-operative protocols, standardized dressings, high-quality parent education, and targeted efforts for high-risk patients can reduce rates of early GT dislodgement in children and related morbidity."
- },
- {
-  "date": "2026-07-30",
   "pmid": "42526592",
   "title": "Delayed Thoracoscopic Repair Helps Preserve Native Oesophagus in Long-Gap Oesophageal Atresia.",
   "doi": "10.1016/j.jpedsurg.2026.163333",
@@ -14998,5 +14968,35 @@
   "corr_email": "kai-k@koto.kpu-m.ac.jp",
   "summary": "- 研究目的：探讨通过直接重编程促进成人真皮成纤维细胞向肌腱样细胞分化，以构建患者来源的肌肉-肌腱移植物用于小儿外科重建。\n- 核心发现/数据：六因子转导可诱导肌腱标志物TNMD和THBS4表达，并实现小鼠短期体内植入；优化后SCX、MKX、OCT3/4和MYCL四因子足以完成肌腱转化，其中OCT3/4促进TNMD、SCX影响THBS4表达。转化细胞呈细长肌腱样形态并强表达TNMD/THBS4，且从二维转至三维培养后TNMD表达进一步升高。\n- 临床启示：该简化直接重编程策略有望利用自体皮肤成纤维细胞构建肌肉-肌腱移植物，为先天膈疝等小儿外科再生重建提供新方向。",
   "abstract": "Synthetic materials are widely used in pediatric surgery for congenital diaphragmatic hernia repair when primary closure is not feasible but remain associated with complications and lack growth potential. We investigated whether direct reprogramming could promote tenogenic differentiation of adult human dermal fibroblasts (aHDFs) toward patient-derived muscle-tendon constructs for pediatric reconstruction. aHDFs were transduced into directly converted tenoblasts (dTBs) using retroviral transduction of tendon-related transcription factors and Yamanaka factors. Different factor combinations and culture conditions were evaluated. Tenogenic induction was assessed using real-time RT-PCR and immunostaining for tendon markers. In vivo potential was examined by subcutaneous transplantation into NOG/SCID mice. Six-factor transduction induced the expression of tendon-related markers tenomodulin (TNMD) and thrombospondin-4 (THBS4), and enabled short-term engraftment in vivo. Optimization identified SCX, MKX, OCT3/4, and MYCL as a sufficient combination for tenogenic conversion. OCT3/4 promoted TNMD expression, whereas SCX affected THBS4 expression. dTBs exhibited elongated tendon-like morphology and prominent TNMD and THBS4 staining. TNMD expression increased following transfer from two-dimensional to three-dimensional culture. Direct reprogramming with SCX, MKX, MYCL, and OCT3/4 promoted tenogenic differentiation of aHDFs and induced tendon-like characteristics. This simplified strategy may facilitate development of autologous muscle-tendon constructs for regenerative reconstruction in pediatric surgery."
+ },
+ {
+  "date": "2026-11-03",
+  "pmid": "42972992",
+  "title": "Bronchopulmonary Dysplasia Starts in Utero: MicroRNA Dysregulation Across the Fetal-Neonatal Continuum in the Bronchopulmonary Dysplasia Development.",
+  "doi": "10.1111/jcmm.71427",
+  "source": "PubMed",
+  "journal": "J Cell Mol Med",
+  "rank": "中科院医学3区(细胞生物学3区/医学：研究与实验3区) · IF 4.7 · JCR Q2",
+  "country": "意大利",
+  "institution": "University of Parma",
+  "corr_author": "Vento G",
+  "corr_email": "",
+  "summary": "- 研究目的：综述微小RNA（miRNA）在支气管肺发育不良（BPD）胎儿至新生儿连续过程中的失调及其作用，探讨BPD的产前起源与产后损伤交互机制。\n- 核心发现/数据：本文为教育性综述，未提供原始研究数据；核心观点是miRNA失调贯穿BPD的胎儿-新生儿连续过程，胎盘功能不全、胎儿生长受限及C19MC等胎盘富集miRNA可影响产前易感性，而早产后miRNA网络紊乱参与肺发育异常。miRNA通过调控肺血管生成和VEGF信号、以及与非NRF2依赖性抗氧化反应形成双向关系，连接氧化应激与发育性肺损伤。miRNA在胎盘、脐血、外周血、呼吸道样本和细胞外囊泡中稳定可检测，具有纵向生物标志物潜力，miRNA模拟物和抑制剂亦提供治疗概念验证，但采样、检测方法、发育时点、BPD表型异质性及组织特异性递送和脱靶效应限制临床转化。\n- 临床启示：临床研究不宜寻找单一“BPD miRNA”，而应关注整合产前编程与产后暴露的动态、多隔室miRNA网络，以改进BPD分子内型、早期风险分层和个体化预防治疗。",
+  "abstract": "Bronchopulmonary dysplasia (BPD) is a heterogeneous developmental lung disorder resulting from the interaction between antenatal susceptibility and postnatal injury. Increasing evidence suggests that its biological origins may precede preterm birth, with placental dysfunction, fetal growth restriction, inflammation and oxidative stress influencing pulmonary developmental trajectories before exposure to the extrauterine environment. MicroRNAs (miRNAs), small non-coding RNAs that regulate gene expression at the post-transcriptional level, are emerging as potential molecular mediators linking these fetal and neonatal processes. This educational review examines miRNA dysregulation across the fetal-neonatal continuum of BPD. We first discuss the role of miRNAs in physiological lung development and their disruption following premature birth. We then explore how placental dysfunction and fetal growth restriction may influence miRNA networks, including placenta-enriched C19MC miRNAs, thereby contributing to antenatal susceptibility to BPD. Particular attention is given to miRNA-mediated regulation of pulmonary angiogenesis and VEGF signaling and to the bidirectional relationship between miRNAs and oxidative stress, including modulation of NRF2-dependent antioxidant responses. Beyond their mechanistic relevance, miRNAs offer potential translational opportunities. Their stability and detectability across different biological compartments-including placenta, cord blood, peripheral blood, respiratory samples and extracellular vesicles-make them attractive candidates for longitudinal biomarker profiling, while experimental modulation using miRNA mimics and inhibitors provides proof of concept for future therapeutic approaches. However, heterogeneity in biological sampling, analytical methods, developmental timing and BPD phenotypes, together with challenges in tissue-specific delivery and off-target effects, currently limit clinical translation. Rather than identifying a single 'BPD miRNA', future research should focus on dynamic, multi-compartment miRNA networks integrating antenatal programming with postnatal exposures. Such an approach may improve molecular endotyping, early risk stratification and ultimately the development of individualized preventive and therapeutic strategies for BPD."
+ },
+ {
+  "date": "2026-11-03",
+  "pmid": "42972642",
+  "title": "Pressure Injuries of Intrauterine Etiology in Neonates: A Scoping Review.",
+  "doi": "10.1097/JPN.0000000000000986",
+  "source": "PubMed",
+  "journal": "J Perinat Neonatal Nurs",
+  "rank": "",
+  "country": "意大利",
+  "institution": "Author Affiliations: Center of Excellence for Nursing Scholarship (CECRI)",
+  "corr_author": "Ciprandi G",
+  "corr_email": "",
+  "summary": "- 研究目的：通过JBI指导的范围综述，识别并整合新生儿宫内源性压力性损伤在病因、临床表现和伤口管理方面的现有证据。\n- 核心发现/数据：共纳入5项研究（4篇病例报告和1项病例系列），涉及7名新生儿；多数为剖宫产早产儿，常伴胎膜早破。主要病因为羊水减少或缺失及宫内受压，包括1例与宫内医疗器械相关；按EPUAP/NPIAP分类，病变从1期至深部组织损伤。所有病例均采用保守处理，愈合时间为1周至数月，结局良好。\n- 临床启示：临床应提高对宫内源性压力性损伤的警觉并早期识别，避免与先天性皮肤病混淆而延误处理。需进一步建立标准化定义并制定新生儿特异性循证伤口护理方案。",
+  "abstract": "Neonatal pressure injuries (PIs) are typically considered postnatal events, however, case evidence shows that some lesions originate in utero and are already present at birth. Their recognition is clinically relevant because they may mimic other congenital dermatological conditions and require specific neonatal wound care strategies. Misclassification can delay appropriate care and distort quality metrics. A clear framework distinguishing prenatal from postnatal lesions is needed. A JBI-guided scoping review was designed in order to identify and synthesize the available evidence on pressure injuries of intrauterine origin, focusing on etiology, clinical presentation, and wound care management. A three-step search strategy was adopted and the PRISMA 2020 flow diagram was used to document the study selection process. Five studies met the inclusion criteria (4 case reports and one case series), describing 7 neonates. Most cases involved preterm infants delivered by cesarean section, frequently associated with premature rupture of membranes. The main etiological factors were reduced or absent amniotic fluid and intrauterine compression, including one case related to intrauterine medical devices. According to the EPUAP/NPIAP classification, lesions ranged from Stage 1 to deep tissue injury. All cases were managed conservatively, with healing times ranging from 1 week to several months and favorable outcomes. Increased clinical awareness and early recognition of intrauterine PIs are essential. Further research is required to establish standardized definitions, improve diagnostic accuracy, and develop neonatal-specific, evidence-based wound care protocols."
  }
 ]
