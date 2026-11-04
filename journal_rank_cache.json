@@ -1718,5 +1718,13 @@
  "diabetologia": {
   "badge": "中科院医学1区(内分泌学与代谢1区) · IF 10.4 · JCR Q1",
   "_ts": "2026-11-04"
+ },
+ "infection and drug resistance": {
+  "badge": "中科院医学3区(药学3区/传染病学4区) · IF 3.2 · JCR Q2",
+  "_ts": "2026-11-04"
+ },
+ "bjs open": {
+  "badge": "中科院医学3区(外科3区) · IF 4.9 · JCR Q1",
+  "_ts": "2026-11-04"
  }
 }
