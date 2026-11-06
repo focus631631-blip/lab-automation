@@ -1746,5 +1746,17 @@
  "neuro-chirurgie": {
   "badge": "中科院医学4区(临床神经病学4区/外科4区) · IF 1.5 · JCR Q3",
   "_ts": "2026-11-06"
+ },
+ "european heart journal. case reports": {
+  "badge": "中科院医学4区(心脏和心血管系统4区) · IF 0.7",
+  "_ts": "2026-11-06"
+ },
+ "eclinicalmedicine": {
+  "badge": "中科院医学1区(医学：内科1区) · IF 12.8 · JCR Q1",
+  "_ts": "2026-11-06"
+ },
+ "reproduction in domestic animals = zuchthygiene": {
+  "badge": "",
+  "_ts": "2026-11-06"
  }
 }
