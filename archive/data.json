@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-01",
-  "pmid": "42250629",
-  "title": "Trans-anastomotic tube feeding following repair of congenital duodenal obstruction: A 15-year single-centre cohort study.",
-  "doi": "10.1016/j.jpedsurg.2026.163240",
-  "source": "JPS 圣刊",
-  "journal": "J Pediatr Surg",
-  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
-  "country": "英国",
-  "institution": "University of London",
-  "corr_author": "Kulkarni A",
-  "corr_email": "Anay.Kulkarni@stgeorges.nhs.uk",
-  "summary": "- 研究目的：评估先天性十二指肠梗阻修复术后放置跨吻合管（TAT）与喂养结局之间的关联。\n- 核心发现/数据：共纳入71例婴儿，其中25例（35%）放置TAT。两组达到全肠内喂养（≥150 ml/kg/天）的中位时间相似（13天 vs 12天；校正后HR 0.98，95% CI 0.44–2.21），达到全口服喂养的中位时间也无显著差异（22天 vs 16天；校正后HR 0.74，95% CI 0.31–1.77）。肠外营养持续时间、生长及并发症发生率均相似；校正后TAT使用与住院费用无独立关联，未校正时较高的费用主要源于更长的HDU住院时间。\n- 临床启示：本研究中TAT放置并未带来更早的肠内喂养、更好的生长或更少的并发症，但这可能提示缺乏优化的营养方案，而非TAT本身无效；需在配套营养方案下进一步前瞻性评估。",
-  "abstract": "To evaluate the association between trans-anastomotic tube (TAT) placement and feeding outcomes following surgical repair of congenital duodenal obstruction (CDO). A retrospective single-centre cohort study of neonates undergoing CDO repair between 2010 and 2024, grouped by intraoperative TAT placement. The main outcome was time to full enteral feeding (≥150 ml/kg/day). Secondary outcomes included time to full oral feeding, postnatal growth, postoperative complications, long line use, parenteral nutrition duration and length of stay with estimated hospital cost. Time-to-event outcomes were analysed using Kaplan-Meier methods and Cox proportional hazards regression adjusted for surgical era, gestational age, birth weight, and associated anomalies. No institutional protocol governed feed advancement or aspirate management in either group during the study period. 71 infants were included, of whom 25 (35%) received a TAT. Time to full enteral feeding was similar between groups (median 13 vs 12 days; adjusted HR 0.98, 95% CI 0.44-2.21). As a secondary outcome, time to full oral feeding was also similar (median 22 vs 16 days; adjusted HR 0.74, 95% CI 0.31-1.77). Parenteral nutrition duration was similar (median 5 vs 6 days). Growth and complication rates were similar. After adjustment, TAT use was not independently associated with hospital cost. Unadjusted higher costs in the TAT group were driven by longer HDU stay. In this cohort, TAT placement following CDO repair was not associated with earlier enteral feeding, improved postnatal growth, or reduced complications. These findings likely reflect the absence of an optimised nutritional strategy rather than an intrinsic limitation of TAT. A formal alongside nutritional protocol has been developed and is currently undergoing institutional approval prior to prospective evaluation at our centre."
- },
- {
-  "date": "2026-08-01",
-  "pmid": "42536154",
-  "title": "Neonatal liver tumors requiring early postnatal hepatectomy: A retrospective review of seven cases.",
-  "doi": "10.1007/s00595-026-03445-3",
-  "source": "PubMed",
-  "journal": "Surg Today",
-  "rank": "中科院医学4区(外科4区) · IF 2.3 · JCR Q2",
-  "country": "232-8555",
-  "institution": "Kanagawa Children's Medical Center",
-  "corr_author": "Usui H",
-  "corr_email": "usui9282@yahoo.co.jp",
-  "summary": "- 研究目的：回顾新生儿肝脏肿瘤需早期肝切除的病例，明确促使早期手术干预的关键因素。\n- 核心发现/数据：共7例患者，4例产前诊断、3例产后诊断，中位 gestational age 38周（37–40），中位出生体重3152 g（2564–3898），中位肿瘤直径10 cm（2.5–12），中位手术日龄6天（0–62）。最终诊断包括肝母细胞瘤（n=3）、血管瘤（n=2）、间叶性错构瘤（n=1）和局灶性结节性增生（n=1）；6例因肿瘤占位效应、破裂、出血或代谢紊乱出现危及生命的全身失代偿，3例发生手术相关并发症（含肿瘤溶解综合征）。\n- 临床启示：新生儿肝脏肿瘤可快速引发危及生命的全身状况，尽管早期肝切除风险较高，但及时预判并处理肿瘤相关并发症、果断手术决策可挽救生命并改善远期预后。",
-  "abstract": "Neonatal liver tumors, although rare, can cause life-threatening conditions immediately after birth, requiring urgent surgical intervention. We retrospectively reviewed neonatal liver tumors requiring early postnatal hepatectomy to identify the factors necessitating early surgical intervention. We retrospectively analyzed neonatal liver tumors that required surgical resection in the early postnatal period at our institution between 1980 and 2021. Clinical records were reviewed for gestational age, birth weight, tumor characteristics, surgical procedures, and perioperative complications. Seven patients were identified; four were diagnosed prenatally and three postnatally. The delivery modes included vaginal (n = 4) and cesarean (n = 3) births. The median gestational age, birth weight, tumor size, and age at surgery were 38 (range, 37-40) weeks, 3152 (2564-3898) g, 10 (2.5-12) cm, and 6 (0-62) days, respectively. The final diagnoses included hepatoblastoma (n = 3), hemangioma (n = 2), mesenchymal hamartoma (n = 1), and focal nodular hyperplasia (n = 1). Six patients presented with life-threatening systemic compromise due to tumor-related mass effect, rupture, hemorrhage, or metabolic derangement. Surgery-related complications occurred in three patients, including tumor lysis syndrome. Neonatal liver tumors can precipitate rapidly progressive and life-threatening systemic conditions. Although early postnatal hepatectomy carries substantial risks, timely surgical decision-making with anticipation of tumor-related complications can be life-saving and thus enable favorable long-term outcomes."
- },
- {
-  "date": "2026-08-01",
   "pmid": "42535674",
   "title": "Efficient production of cynomolgus monkeys via transabdominal uterine puncture embryo transfer.",
   "doi": "10.1093/biolre/ioag160",
@@ -14998,5 +14968,35 @@
   "corr_email": "",
   "summary": "- 研究目的：评估观察值与期望值肺头比（O/E LHR）对孤立性先天性膈疝（CDH）新生儿产后需延迟腹壁关闭（DAC）的产前预测能力。\n- 核心发现/数据：回顾性纳入45例孤立性左侧CDH新生儿，28例一期关闭、17例需DAC；DAC组胎龄更低、肝疝出率更高、ECMO需求更高且死亡率更高（均p<0.01）。O/E LHR预测DAC的AUC为0.939，最佳截断值34.1%，敏感性82.35%、特异性82.14%、阳性预测值73.68%、阴性预测值88.46%。多因素调整肝疝出后，O/E LHR仍与DAC独立相关（OR 0.821，95%CI 0.668-0.939，p=0.002）。\n- 临床启示：O/E LHR可用于产前识别DAC高风险患儿，其预测价值独立于肝疝出。该初步发现有望支持产前风险分层，但仍需外部验证。",
   "abstract": "Objective: O/E LHR is a well-established prenatal severity marker in congenital diaphragmatic hernia (CDH), but its capacity to predict the postnatal need for delayed abdominal wall closure (DAC) remains undefined. We aimed to determine its predictive capacity. Method: Retrospective analysis of neonates with isolated left-sided CDH (2015-2026), comparing primary closure with DAC. Discriminative capacity was assessed by ROC analysis and the optimal cut-off was determined by bootstrap-aggregated approach. Logistic regression estimated univariate and liver herniation adjusted multivariate odds ratios (OR). Result: 45 neonates were included, 28 underwent primary closure and 17 required DAC. DAC was associated with lower gestational age, higher rates of liver herniation, greater ECMO requirement, and higher mortality than primary closure (all p < 0.01). O/E LHR showed excellent discriminative ability for DAC (AUC 0.939), with an optimal cut-off of 34.1% (sensitivity 82.35%, specificity 82.14%, positive predictive value 73.68%, negative predictive value 88.46%). O/E LHR was independently associated with DAC after multivariate analysis (OR 0.821, 95% CI 0.668-0.939, p = 0.002). Conclusions: O/E LHR was independently associated with DAC risk beyond liver herniation. These preliminary findings suggest a potential role for O/E LHR in prenatal risk stratification for DAC, pending external validation."
+ },
+ {
+  "date": "2026-11-06",
+  "pmid": "42988107",
+  "title": "Cardiac Magnetic Resonance Before Minimally Invasive Repair of Pectus Excavatum and After Bar Removal.",
+  "doi": "10.1016/j.jpedsurg.2026.163589",
+  "source": "JPS 圣刊",
+  "journal": "J Pediatr Surg",
+  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
+  "country": "Buenos Aires",
+  "institution": "Clinica Mi Pectus",
+  "corr_author": "Toselli L",
+  "corr_email": "dra.luzia.toselli@gmail.com",
+  "summary": "- 研究目的：探讨微创漏斗胸修复术（MIRPE）取出支撑条后，心脏磁共振（CMR）所示心脏受压及相关结构和运动异常是否改善。\n- 核心发现/数据：纳入60例孤立性漏斗胸患者，术前平均Haller指数5.9±3.0，全部存在心脏受压，40%报告运动不耐受；取条后无运动不耐受，心脏受压比例由100%降至33%（平均差-66.7%，95%CI -78.6至-54.7），心包积液由25%降至5%，异常室间隔运动由60.0%降至33.3%，吸气性室间隔变平由22%降至10%。CMR还显示三尖瓣/二尖瓣环比值增加（0.86±0.16 vs 0.92±0.06），左室偏心指数降低，尤其吸气时（1.61±0.2 vs 1.45±0.1）。\n- 临床启示：MIRPE取条后多数患者可获得右心机械减压和室间隔运动改善，但约1/3仍有残余心脏受压，提示术后需结合症状与CMR进行随访评估。",
+  "abstract": "Although minimally invasive repair of pectus excavatum (MIRPE) is associated with favorable outcomes, it remains generally unknown whether cardiac compression persists after bar removal. We therefore explored cardiac magnetic resonance (CMR) outcomes after bar removal. We evaluated a retrospective cohort of patients with diagnosis of isolated pectus excavatum (PEX) who underwent CMR before MIRPE and after bar removal. We evaluated the effect of MIRPE on CMR outcomes including the presence of cardiac compression, pericardial effusion, abnormal septal motion, inspiratory septal flattening, and left ventricular eccentricity. We included 60 patients who underwent CMR before repair and after bar removal. Before surgery, the mean Haller index was 5.9±3.0. All patients had baseline cardiac compression and 24 (40%) patients referred exercise intolerance. After bar removal, none of the patients reported exercise intolerance and we identified a significant decrease in the presence of cardiac compression [from 100% to 33%, mean difference -66.7 (95%CI -78.6; -54.7)]. With regard to RV inflow and septal wall kinetics, we identified a significant increase in the tricuspid to mitral annulus ratio [0.86±0.16 vs. 0.92±0.06, mean difference 0.06 (95%CI 0.02; 0.10)], and significantly reduced rates of abnormal septal motion [60.0%, vs 33.3%, mean difference -26.7 (95%CI -43.2; -10.1)], and a change in the rates of inspiratory septal flattening from 22% to 10% (mean difference -11.9 (95%CI -22.5; -1.3). Furthermore, we found a significant reduction in left ventricular eccentricity indexes after bar removal, particularly during inspiration [before MIRPE 1.61±0.2 vs. after removal 1.45±0.1, mean difference -0.16 (95%CI -0.23; -0.09)]. Finally, we also found a significant decline in the rates of pericardial effusion [25% vs. 5%, mean difference -20.0 (95%CI -30.1; -9.9)]. CMR assessment before MIRPE and after bar removal demonstrated persistent anatomical decompression, with a significant decrease in the presence and severity of cardiac compression, enhanced right ventricular inflow geometry, and favorable changes of septal wall kinetics. These structural modifications reflect mechanical relief of the right ventricle following bar removal. Retrospective before and after study LEVEL OF EVIDENCE: III."
+ },
+ {
+  "date": "2026-11-06",
+  "pmid": "42988330",
+  "title": "Negative-pressure wound therapy for postoperative wound dehiscence after pediatric spinal dysraphism surgery: neonatal portable SNaP® case report and PRISMA-guided review.",
+  "doi": "10.1016/j.neuchi.2026.101897",
+  "source": "PubMed",
+  "journal": "Neurochirurgie",
+  "rank": "中科院医学4区(临床神经病学4区/外科4区) · IF 1.5 · JCR Q3",
+  "country": "67200 Strasbourg",
+  "institution": "Hôpitaux Universitaires de Strasbourg (HUS)",
+  "corr_author": "Padonou X",
+  "corr_email": "xerxes.padonou@chru-strasbourg.fr",
+  "summary": "- 研究目的：报告便携式负压伤口治疗（SNaP®）用于新生儿脊髓闭合不全术后伤口裂开的病例，并通过PRISMA导向综述评估相关儿科证据。\n- 核心发现/数据：足月女婴因复杂开放性腰骶部脊髓闭合不全于生后第2天手术，术后第12天出现5.5×4.0 cm伤口裂开且无硬膜暴露；术后第21天启用SNaP®（-125 mmHg持续，每3-4天换药）治疗22天，术后第43天完全上皮化，无脑脊液漏、感染或再手术，1年随访神经功能及瘢痕满意，MRI无假性脊膜膨出或复发。PRISMA综述仅纳入4篇文献共6例儿童脊髓闭合不全相关脊柱手术后NPWT病例，均使用传统VAC®系统，尚无SNaP®在此类情境的报道。\n- 临床启示：在确保硬膜水密闭合、做好界面保护和优化营养支持的前提下，便携式SNaP®负压伤口治疗可作为新生儿腰骶部椎管内手术后伤口裂开的可行救援选择；但现有证据有限，需密切监测并个体化应用。",
+  "abstract": "Wound complications after neonatal spinal dysraphism surgery carry a high risk of infection and, when dural opening is required, potential cerebrospinal fluid (CSF) leakage. While negative-pressure wound therapy (NPWT) is well established in adults, evidence in neonatal neurosurgery-especially with portable systems-remains scarce. A term female neonate underwent surgery on day 2 for complex open lumbosacral spinal dysraphism with an exophytic mass first identified at birth. Imaging and surgery showed split cord malformation, low tethered cord, and mature teratoma with intradural extension. En bloc resection, filum terminale transection, and watertight dural closure were performed. On postoperative day (POD) 12, wound dehiscence developed, resulting in a 5.5 × 4.0 cm skin defect without dural exposure. After directed wound care, portable NPWT (SNaP®) was initiated on POD21 (-125 mmHg, continuous) for 22 days, with dressing changes every 3-4 days. Complete epithelialization occurred by POD43 without CSF leak, infection, or reoperation. At one year, neurological and scar outcomes were satisfactory, with no pseudomeningocele or recurrence on MRI. In a PRISMA-guided search, we identified 4 publications reporting 6 pediatric cases of NPWT after dysraphism-related spinal surgery with dural opening and/or exposed dura. Published cases exclusively used conventional VAC® systems, and data in intradural settings remain limited; no prior report described SNaP® use in this context. After secure watertight dural closure, appropriate interface protection, and optimized nutritional support, portable NPWT (SNaP®) may represent a feasible rescue option for neonatal lumbosacral wound dehiscence following intradural surgery."
  }
 ]
