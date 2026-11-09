@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-08-01",
-  "pmid": "42364098",
-  "title": "Robotic Choledochal Cyst Excision With Intracorporeal Roux-en-Y Hepaticojejunostomy in Adolescent and Adult Patients: Clinical and Quality-of-Life Outcomes.",
-  "doi": "10.1002/rcs.70199",
-  "source": "PubMed",
-  "journal": "Int J Med Robot",
-  "rank": "",
-  "country": "印度",
-  "institution": "All India Institute of Medical Sciences",
-  "corr_author": "Yadav T",
-  "corr_email": "",
-  "summary": "- 研究目的：评估机器人辅助胆总管囊肿切除联合体内Roux-en-Y肝空肠吻合术在青少年及成人患者中的临床结局与健康相关生活质量。\n- 核心发现/数据：共分析17例连续患者（女性15例，中位年龄22岁），中位手术时间360分钟、出血量50 mL、住院4天。3例出现术后并发症（1例临床相关B级胰瘘需穿刺引流，1例生化漏，1例轻度急性胰腺炎）。中位随访36.5个月无吻合口狭窄、恶变或胆道并发症；12个月时中位胃肠道生活质量指数（GIQLI）为135。\n- 临床启示：机器人胆总管囊肿切除联合体内重建在经选择的患者中安全可行，围手术期及功能结局良好，可作为微创治疗的可靠选择。",
-  "abstract": "This study evaluates clinical and health-related-quality-of-life (HRQOL) outcomes following robotic choledochal cyst (CDC) excision with intracorporeal Roux-en-Y hepaticojejunostomy. Prospectively maintained data from 17 consecutive patients undergoing robotic CDC excision with the da Vinci Xi system (January 2017-October 2024) were retrospectively analysed. Fifteen patients were female; median age was 22 year. Cyst types included Ia(6), Ic(3), IVa(5), II(1), and VIb(2). Median operative time was 360 min, blood loss 50 mL, and hospital stay 4 days. Postoperative complications occurred in three patients, including one clinically-relevant grade-B postoperative-pancreatic-fistula requiring image-guided drainage (Clavien-Dindo IIIa), one biochemical POPF, and one episode of mild acute-pancreatitis. At a median follow-up of 36.5-month (IQR 35-43), no anastomotic strictures, malignancy, or biliary complications were noted. At 12-month, the median Gastrointestinal-Quality-of-Life-Index (GIQLI) score was 135 (IQR 133.5-136). Robotic CDC excision with intracorporeal reconstruction appears feasible and safe in selected patients, with favourable perioperative and functional outcomes."
- },
- {
-  "date": "2026-08-01",
   "pmid": "42155889",
   "title": "Pediatric urethroscope versus flexible choledochoscope for removal of distal protein plugs and calculi in choledochal cyst: A prospective cohort study.",
   "doi": "10.1016/j.jpedsurg.2026.163206",
@@ -14998,5 +14983,20 @@
   "corr_email": "kathryn-burge@ou.edu",
   "summary": "- 研究目的：探讨肌酸代谢在坏死性小肠结肠炎（NEC）中是否失调，并评估肌酸补充作为防治策略的潜力。\n- 核心发现/数据：在早产儿回肠肠类器官中，1–10 mM肌酸可促进肠上皮细胞划痕愈合、增加线粒体和糖酵解ATP生成，并保护其免受缺氧诱导的凋亡。NEC转录组分析显示，无论整体组织还是上皮细胞群，肌酸代谢相关基因均下调；靶向代谢组学显示，早产儿尿肌酸从基线至NEC诊断时显著下降，而相关代谢物未见同样下降。\n- 临床启示：肌酸耗竭是NEC中此前未被认识且可干预的代谢脆弱点，补充肌酸可能成为安全、实用且有效的NEC预防策略。上述发现支持进一步开展临床研究验证肌酸补充在早产儿NEC预防中的作用。",
   "abstract": "Necrotizing enterocolitis (NEC) remains a leading cause of morbidity and mortality in preterm infants, yet effective preventive or therapeutic strategies are lacking. Emerging evidence implicates metabolic dysfunction in NEC pathogenesis. We hypothesized metabolism of creatine (Cr), a key regulator of cellular energy homeostasis that supports adenosine triphosphate (ATP) buffering, oxidative phosphorylation, and protection against hypoxic injury, may be dysfunctional in NEC. Enterocyte scratch wound healing assays, Seahorse metabolic assays, and hypoxia-induced apoptosis assays in human preterm ileal enteroids were performed. Human NEC bulk and single-cell RNA-sequencing datasets were analyzed to characterize intestinal Cr metabolism, and targeted metabolomics was performed on longitudinal urine samples from preterm infants, before and at NEC diagnosis. Cr (1-10 mM) enhanced enterocyte wound healing, increased mitochondrial and glycolytic ATP production, and protected enteroids from hypoxia-induced apoptosis. NEC transcriptomic analyses demonstrated downregulation of Cr metabolism genes across bulk and epithelial cell populations. Targeted metabolomics indicated urinary Cr, but not related metabolites, declined significantly from baseline to NEC diagnosis, indicating a specific disruption in Cr homeostasis. Cr depletion represents a previously unrecognized metabolic vulnerability in NEC, supporting Cr supplementation as a safe, practical, and potentially effective strategy for NEC prevention. This study identifies dysregulated metabolism of creatine, an organic acid generated from glycine and arginine, in intestinal NEC tissue, with significant downregulation of key creatine transport and synthesis proteins compared with tissue of age-matched controls. This study is the first to demonstrate an abrupt decline in preterm urinary creatine at NEC diagnosis, establishing creatine depletion as a novel and modifiable metabolic vulnerability in NEC. Creatine supplementation accelerates intestinal epithelial wound healing, improves bioenergetic capacity, and protects against hypoxia-associated apoptosis, all physiological tenets of NEC. These findings support investigation of creatine repletion as a potential NEC preventative strategy in preterm infants."
+ },
+ {
+  "date": "2026-11-09",
+  "pmid": "42999988",
+  "title": "Thymectomy Extent, Immune Recovery, and Infectious Burden After Neonatal Cardiac Surgery.",
+  "doi": "10.1161/JAHA.126.055490",
+  "source": "PubMed",
+  "journal": "J Am Heart Assoc",
+  "rank": "中科院医学1区(心脏和心血管系统2区) · IF 6.0 · JCR Q1",
+  "country": "美国",
+  "institution": "University of Cincinnati College of Medicine Cincinnati OH",
+  "corr_author": "Moore C",
+  "corr_email": "",
+  "summary": "- 研究目的：评估新生儿心脏手术后部分与完全胸腺切除对感染负担及6个月淋巴细胞恢复的影响，并探索相关生物标志物和转录组变化。\n- 核心发现/数据：105例新生儿中27例部分切除、78例完全切除；多次感染发生率分别为7%（2/27）和30%（23/78，P=0.02），但校正体外循环时长和手术年代后差异不显著（Firth校正OR 2.99，95%CI 0.82-15.85，P=0.10）。完全胸腺切除后6个月中位淋巴细胞计数下降，而部分切除后上升；生物标志物和RNA测序结果仅为探索性。\n- 临床启示：结果提示完全胸腺切除可能与淋巴细胞恢复较差及未校正的较高感染负担相关，支持临床尽量保留胸腺并开展前瞻性研究评估胸腺保留和自体再植入；但校正后感染关联不显著且事件数少，不能据此确定因果关系。",
+  "abstract": "Neonatal cardiac surgery frequently requires thymectomy, but the consequences of extensive thymic removal remain uncertain. We retrospectively studied 105 neonates undergoing sternotomy (2015-2024), comparing infections and 6-month lymphocyte recovery after partial versus total thymectomy, with Firth regression adjusted for bypass duration and surgical era. Separate cohorts underwent paired plasma biomarker (n=8) and whole-blood RNA sequencing (n=4) analysis before and after thymectomy. Among 105 neonates, 27 underwent partial and 78 total thymectomy. Multiple infections occurred in 2 of 27 (7%) after partial and 23 of 78 (30%) after total thymectomy (P=0.02); after adjustment for bypass duration and surgical era, the association was not statistically significant (Firth-adjusted odds ratio, 2.99 [95% CI, 0.82-15.85]; P=0.10). Median lymphocyte count decreased after total but increased after partial thymectomy (change, -0.8 versus +0.9×10 Total thymectomy was associated with reduced 6-month lymphocyte recovery and higher unadjusted odds of multiple infections. The infection association was not statistically significant after adjustment, and few events (2 of 27 after partial thymectomy) limit precision and cannot exclude a clinically important effect; these findings are hypothesis-generating. Biomarker and transcriptomic findings are exploratory and cannot distinguish thymectomy from surgery, maturation, or postoperative recovery. Prospective studies are underway to evaluate thymic preservation and autologous reimplantation."
  }
 ]
