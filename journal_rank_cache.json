@@ -1806,5 +1806,13 @@
  "case reports in ophthalmological medicine": {
   "badge": "中科院医学4区(眼科学4区) · IF 0.8",
   "_ts": "2026-11-11"
+ },
+ "neuron": {
+  "badge": "中科院医学1区(神经科学1区) · IF 16.9 · JCR Q1",
+  "_ts": "2026-11-12"
+ },
+ "jhep reports : innovation in hepatology": {
+  "badge": "",
+  "_ts": "2026-11-12"
  }
 }
