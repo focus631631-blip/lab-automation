@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-06",
-  "pmid": "42555706",
-  "title": "A temporal differentiation program after birth delineates γδ T cell immunity.",
-  "doi": "10.1126/sciadv.aee6790",
-  "source": "PubMed",
-  "journal": "Sci Adv",
-  "rank": "中科院综合性期刊1区(综合性期刊1区) · IF 13.9 · JCR Q1",
-  "country": "丹麦",
-  "institution": "Technical University of Denmark",
-  "corr_author": "Bekiaris V",
-  "corr_email": "",
-  "summary": "- 研究目的：探究出生后肠道γδ T细胞是否在离开胸腺后继续分化为功能性亚群。\n- 核心发现/数据：出生后第一周，肠道γδ T细胞上调多种T细胞激活及3型免疫相关基因；断奶后阶段则以效应功能、1型免疫和细胞毒性基因诱导为主，此期间γδ T细胞保护肠道免受真菌感染。成年肠道中，IL-17产生的γδT17细胞呈现Tbet依赖的1型免疫表型及增强的TCR信号；新生儿人类肠道中亦存在γδT17样细胞群。\n- 临床启示：提示肠道γδ T细胞出生后存在动态时序分化程序，可能为新生儿期真菌感染防治及早期免疫干预提供新靶点。",
-  "abstract": "Type 1 and type 3 γδ T cells develop in the embryonic thymus, yet it is not known whether they continue to differentiate after birth in tissues. Here, we show that in the first week of life, intestinal γδ T cells up-regulated many T cell activation and type 3 genes, while the postweaning period was dominated by induction of genes related to effector function, type 1 immunity, and cytotoxicity. During this period, γδ T cells protected the gut from fungal infection. In the adult intestine, type 3 interleukin-17-producing γδ T cells (γδT17 cells) had a distinct phenotype, a Tbet-dependent type 1 immune profile and enhanced T cell receptor (TCR) signaling. Last, we found a γδT17 cell-like population in the neonatal human gut. Collectively, our data suggest that γδ T cells continue to mature after they leave the thymus and, upon localization to the gut, a dynamic temporal differentiation program reshapes type 3 cells into Tbet"
- },
- {
-  "date": "2026-08-06",
-  "pmid": "42555545",
-  "title": "Mortality amongst European children with congenital anomalies: Associations with socio-economic status in the EUROLINKCAT cohort.",
-  "doi": "10.1371/journal.pone.0352025",
-  "source": "PubMed",
-  "journal": "PLoS One",
-  "rank": "中科院综合性期刊3区(综合性期刊3区) · IF 2.8 · JCR Q2",
-  "country": "英国",
-  "institution": "Swansea University",
-  "corr_author": "Evans HT",
-  "corr_email": "",
-  "summary": "- 研究目的：评估欧洲先天性畸形儿童中社会经济状况对1岁及10岁前死亡率的影响。\n- 核心发现/数据：在47,134名先天性畸形活产儿中，最贫困组相比最不贫困组，1岁内死亡风险HR=1.47（95%CI 1.19-1.83），1-10岁死亡风险HR=2.00（95%CI 1.32-3.02）；贫困对1-10岁死亡率的影响大于婴儿期，且仅在乌克兰和威尔士所有分析中差异显著；非欧盟国籍儿童死亡率更高，单亲母亲未显著增加风险。\n- 临床启示：对最脆弱的先天性畸形儿童，需优先提供更多医疗与社会资源，以缩小健康不平等并改善长期生存。",
-  "abstract": "Childhood mortality is affected by major congenital anomalies and socio-economic status (SES). To our knowledge, their combined impact has not been explored to age 10. We analysed the population-based EUROlinkCAT cohort to ascertain the impact of SES on mortality by ages 1 and 10 amongst children with congenital anomalies in ten congenital anomaly registers in seven European countries. Four countries defined SES according to maternal education, and two used their national index of multiple deprivation. The ten registers used a common script to generate data on survival by ages 1 and 1-10 (365-3651 days). Eight registers analysed deaths according to their SES criteria, categorised as low, intermediate and high SES. Linked data were combined in random effects meta-analyses. Finland and Emilia-Romagna held data on single motherhood and EU-nationality. We analysed mortality in relation to SES using data on 47,134 live-born children with major congenital anomalies classified and recorded 1996-2014. Mortality by age 1 and ages 1-10 was higher amongst the most than the least deprived, hazard ratios (HR) and 95% confidence intervals (CI) 1.47, 1.19-1.83 and 2.00, 1.32-3.02. Differences between intermediate and least deprived groups were smaller. Differences were statistically significant for all four analyses only in Ukraine and Wales. Mortality rates were higher for children of non-EU nationals, but not single mothers. Deprivation was more strongly associated with death at ages 1-10 than in infancy. These analyses of the most ill children in Europe indicate that, to achieve sustainable development goals, more resources are needed for the most vulnerable children."
- },
- {
-  "date": "2026-08-06",
   "pmid": "42554617",
   "title": "Asymmetric Epiglottic Development as a Cause of Difficult Laryngoscopy in a Neonate with Suspected Branchial Arch Hypoplasia: A Case Report.",
   "doi": "10.1213/XAA.0000000000002258",
@@ -14998,5 +14968,35 @@
   "corr_email": "",
   "summary": "- 研究目的：评估N-乙酰半胱氨酸（NAC）作为新生儿脑损伤神经保护策略的机制、临床前证据及转化前景。\n- 核心发现/数据：基于PubMed、Web of Science、Embase和ClinicalTrials.gov截至2026年6月的结构化检索及叙述性综合，NAC在多种新生儿脑损伤模型中可能降低氧化应激和神经炎症、保护少突胶质细胞及白质完整性，并改善部分功能结局；部分实验中与亚低温或维生素D联用有额外获益。早期临床/转化研究证实胎盘转运、新生儿药代动力学表征可行性、短期耐受性及可测定的中枢氧化还原反应，但神经保护疗效证据仍有限。其转化受中枢神经系统暴露、中枢氧化还原反应、剂量与治疗时机、性别及与亚低温联用影响，且缺乏明确治疗窗、暴露-反应关系和验证过的药效生物标志物。\n- 临床启示：NAC是有前景的候选神经保护剂，但临床疗效和最佳治疗方案尚未确立。后续需开展足够把握度的随机试验，采用PK/PD指导剂量，评估现实治疗窗、与亚低温及性别的交互作用以及长期结局。",
   "abstract": "Neonatal brain injury is a major cause of lifelong neurodevelopmental impairment and arises through overlapping pathogenic mechanisms, particularly oxidative stress and neuroinflammation. N-acetylcysteine (NAC), a cysteine donor and thiol-based redox modulator, has emerged as a promising neuroprotective candidate for the developing brain. We conducted a structured search of PubMed, Web of Science, Embase, and ClinicalTrials.gov for relevant preclinical, translational, and clinical studies published through June 2026. Reference-list screening and citation searching were used to identify additional eligible reports, and the evidence was synthesized narratively. Preclinical studies across models of white matter injury, hypoxic-ischemic injury, infection-sensitized hypoxic-ischemic injury, necrotizing enterocolitis-associated brain injury, and meningitis suggest that NAC may reduce oxidative stress and neuroinflammation, preserve oligodendrocytes and white matter integrity, and improve selected functional outcomes. In some experimental settings, NAC in combination with therapeutic hypothermia or vitamin D was associated with additional benefit. Early clinical and translational studies provide evidence of placental transfer, the feasibility of pharmacokinetic characterization in neonates, short-term tolerability, and measurable central redox responses; however, evidence of neuroprotective efficacy remains limited. The clinical translation of NAC is likely to be highly context-dependent and influenced by central nervous system (CNS) exposure and central redox response, dose and treatment timing, sex, and coadministration with therapeutic hypothermia. Key barriers include an undefined clinically relevant therapeutic window, uncertain exposure-response relationships, the absence of validated pharmacodynamic biomarkers, and limited evidence regarding optimal dosing, long-term efficacy, and safety. Mechanistic, preclinical, and early translational evidence supports further evaluation of NAC as a candidate neuroprotective therapy, but its clinical efficacy and optimal treatment regimen have not been established. Adequately powered randomized trials should evaluate pharmacokinetic/ pharmacodynamic (PK/PD)-informed dosing, clinically realistic therapeutic windows, potential interactions with therapeutic hypothermia and sex, and long-term outcomes."
+ },
+ {
+  "date": "2026-11-14",
+  "pmid": "43024009",
+  "title": "Establishment and characterisation of primary human oesophageal organoids as a versatile epithelial model.",
+  "doi": "10.1007/s00383-026-06704-z",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "英国",
+  "institution": "Great Ormond Street Institute of Child Health",
+  "corr_author": "De Coppi P",
+  "corr_email": "p.decoppi@ucl.ac.uk",
+  "summary": "- 研究目的：建立并表征来源于非病理人食管上皮的原代类器官，以获得可长期传代、可适配二维和三维培养的食管上皮模型平台。\n- 核心发现/数据：从内镜活检和手术切除组织分离基底上皮细胞，在优化条件下成功建立并维持长期三维原代类器官，且可扩增为二维单层后再接种回三维培养。类器官维持上皮标志物表达，KRT14、involucrin、loricrin和filaggrin证实其食管表型；较大、多层的原代类器官较二维单层和再接种的小类器官表达更高水平的分化相关标志物，提示培养构型影响上皮分化但保持谱系身份。\n- 临床启示：该平台提供可重复的二维与三维互补研究体系，支持健康与疾病来源食管组织的比较、患者特异性建模及机制研究，有望促进食管疾病和组织稳态相关研究及转化应用。",
+  "abstract": "Human patient-derived oesophageal epithelial models are limited, and organoid cultures often have short passaging lifespans, restricting studies of tissue homeostasis and disease. We aimed to establish and characterise primary oesophageal organoids from non-pathologic epithelium as a renewable epithelial source and adaptable modelling platform. Primary oesophageal tissues were obtained from endoscopic biopsies and surgical resections. Basal epithelial cells were isolated and cultured under optimised conditions to establish long-term three-dimensional organoids. Organoid-derived cells were expanded as two-dimensional monolayers and re-seeded into 3D culture. Epithelial identity and differentiation were assessed by immunostaining and RT-qPCR (reverse transcription-quantitative polymerase chain reaction) analysis of markers. Primary organoids were established and maintained while preserving epithelial markers. Expression of KRT14, involucrin, loricrin and filaggrin confirmed the oesophageal phenotype. Larger, multilayered primary organoids showed increased expression of differentiation-associated markers relative to 2D monolayers and re-seeded small organoids, indicating culture configuration influences epithelial differentiation while maintaining lineage identity. We established a robust and reproducible protocol for generating and maintaining oesophageal organoids across culture formats. These models retained epithelial features while exhibiting culture-dependent differentiation. This platform enables complementary 2D and 3D investigation of oesophageal epithelial biology and supports future comparison of healthy and disease-derived tissues for patient-specific modelling and mechanistic studies."
+ },
+ {
+  "date": "2026-11-14",
+  "pmid": "43024116",
+  "title": "Post remote ischaemic conditioning and early pre remote ischaemic conditioning reduces the extent and severity of bowel injury in an animal model of necrotising enterocolitis.",
+  "doi": "10.1007/s00383-026-06717-8",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "Birmingham",
+  "institution": "Birmingham Children's Hospital",
+  "corr_author": "Jones IH",
+  "corr_email": "i.h.jones@soton.ac.uk",
+  "summary": "- 研究目的：探讨在不同时间点实施远程缺血调理（RIC）对",
+  "abstract": "Remote ischaemic conditioning (RIC) has a protective effect in an experimental model of severe necrotising enterocolitis. We investigated the impact of delivering RIC at different time-points. We used an established intestinal ischaemia-reperfusion injury (IRI) model in rat pups. RIC was delivered by means of a lower limb ligature. Animals were randomly allocated to intestinal IRI only, RIC before IRI (preRIC), RIC after IRI (postRIC), RIC 48 h before IRI (earlyRIC), RIC 48 h and immediately before IRI (early + preRIC), or control. Macroscopic and microscopic intestinal injury are reported. Serum cytokine levels were assayed. Data are median (inter-quartile range). Animals receiving RIC had reduced severe macroscopic intestinal injury: pre-RIC 4% (0-21%, p = 0.0019), postRIC 4% (0-44%, p = 0.0021), earlyRIC 3% (0-42%, p = 0.0054) and early+preRIC 0% (0-39%, p = 0.0018) vs. IRI 78% (30-90). The preRIC and postRIC groups compared had reduced injury scores compared to IRI alone: 3.5 (1.25-5, p = 0.002) and 4.25 (4-5, p = 0.031) vs. 5.5 (4-6). RIC 48 h prior to IRI did not reduce injury but injury was lowest in early+preRIC group [2.375 (1.625-3) 0.4375, p = 0.0001]. IFN-γ, IL-4 and IL-5 were increased following RIC. RIC reduces the extent and severity of intestinal injury. Two doses of RIC delivered 48 h apart has the greatest effect. Cytokines IFN-γ, IL-4 and IL-5 may be important in the transmission of RIC."
  }
 ]
