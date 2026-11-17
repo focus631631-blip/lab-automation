@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-07",
-  "pmid": "42561338",
-  "title": "The K-Punch Method: An Effective Diagnostic Approach for Hirschsprung Disease in Low- and Middle-Income Countries - A Case Series.",
-  "doi": "10.1590/0100-6991e-2026005725-en",
-  "source": "PubMed",
-  "journal": "Rev Col Bras Cir",
-  "rank": "",
-  "country": "美国",
-  "institution": "",
-  "corr_author": "Jesus LE",
-  "corr_email": "",
-  "summary": "- 研究目的：评估K-Punch方法（MKP）作为微创、低成本直肠黏膜下取材技术，在低中收入国家诊断先天性巨结肠（HD）中的有效性。\n- 核心发现/数据：在25例患儿中，MKP活检获取的标本有24例（96%）足以进行HD的组织学诊断；仅1例需因取材不足重复操作，另观察到1例自限性出血（Clavien-Dindo 1级），无需额外干预。\n- 临床启示：MKP方法可作为直肠吸引活检的可靠替代方案，尤其适用于设备与经济资源有限的医疗环境，有助于提高HD的诊断可及性。",
-  "abstract": "Congenital intestinal aganglionosis (Hirschsprung's disease - HD) is characterized by the absence of intramural parasympathetic ganglion cells in the submucosal and muscular layers of the intestinal wall, predominantly affecting the recto-sigmoid and determining functional intestinal obstruction. Rectal biopsy is the gold standard for diagnosis, and there are several techniques available for obtaining samples. Limitations related to cost, equipment maintenance and access to biopsy instruments have hindered the implementation of minimally invasive aspiration biopsies in Brazil. This study aims to evaluate the performance of the K punch method (MKP) as a minimal invasion and low cost alternative in obtaining submucosal rectal samples for histopathological analysis in the investigation of HD. Retrospective analysis of a 25 pediatric patients´ cohort, which has been submitted to histological evaluation for HD using the MKP biopsy method. The samples were suitable for histological analysis aiming at the diagnosis of HD in 24 cases (96%). One patient needed to repeat the procedure due to the insufficiency of the fragment obtained. A mild complication (self-limited bleeding) was observed, without the need for additional intervention (Clavien-Dindo 1). The results suggest that the MCK technique can provide adequate rectal submucosal samples for histological analysis towards the diagnosis of HD, and may be applicable in different health care contexts."
- },
- {
-  "date": "2026-08-07",
-  "pmid": "42392872",
-  "title": "Endogenous Peptide Derived from c-Cbl-Associated Protein Counteracts Its Inhibitory Effect on Enteric Neural Crest Cell Colonization in Hirschsprung Disease.",
-  "doi": "10.1523/JNEUROSCI.1205-25.2026",
-  "source": "PubMed",
-  "journal": "J Neurosci",
-  "rank": "",
-  "country": "中国",
-  "institution": "Children's Hospital of Nanjing Medical University",
-  "corr_author": "Li H",
-  "corr_email": "hx8817@njmu.edu.cn",
-  "summary": "- 研究目的：探讨c-Cbl相关蛋白（CAP）在先天性巨结肠（HSCR）中抑制肠神经嵴细胞（ENCC）定植的作用，并鉴定其内源性衍生肽PDCAP的拮抗机制。\n- 核心发现/数据：CAP在HSCR患儿无神经节结肠组织中表达上调，通过其SoHo结构域结合脂筏蛋白flotillin-1并经SH3结构域招募vinculin，抑制ENCC定植；质谱鉴定出内源性肽PDCAP，ELISA显示其在病变结肠组织中水平降低，且PDCAP通过竞争性结合flotillin-1逆转CAP的抑制作用。\n- 临床启示：PDCAP可能作为HSCR的新型治疗靶点，为恢复肠神经发育提供潜在干预策略。",
-  "abstract": "Hirschsprung disease (HSCR) is a congenital malformation characterized by the absence of the enteric nervous system (ENS) in the distal colon, resulting from defective colonization of enteric neural crest cells (ENCCs). The underlying pathogenesis of HSCR remains incompletely understood. Here, we report that c-Cbl-associated protein (CAP), also known as sorbin and SH3 domain-containing protein 1 (SORBS1), is upregulated in the aganglionic colon tissues of children with HSCR. Functional studies revealed that CAP overexpression suppresses ENCC colonization by binding the lipid raft protein flotillin-1 through its sorbin-homology (SoHo) domain, followed by recruitment of the focal adhesion protein vinculin via its SH3 domain. Using mass spectrometry, we identified an endogenous CAP-derived peptide, termed PDCAP, in aganglionic colon tissues. ELISA further revealed reduced PDCAP levels in the diseased colon tissues of HSCR children. Mechanistically, PDCAP exerts a protective role by competing with its precursor protein, CAP, for binding to flotillin-1, thereby reversing CAP-mediated inhibition of ENCC colonization. This protective function was further validated in"
- },
- {
-  "date": "2026-08-07",
   "pmid": "42557365",
   "title": "Vasopressin for hemodynamic support in neonates: current evidence and clinical applications.",
   "doi": "10.1038/s41372-026-02837-0",
@@ -14998,5 +14968,35 @@
   "corr_email": "waltzpk2@upmc.edu",
   "summary": "- 研究目的：评估外科坏死性小肠结肠炎患儿抗菌药物管理实践与临床结局之间的关联。\n- 核心发现/数据：这项10家儿童医院2010—2019年的回顾性队列纳入306例新生儿（中位胎龄26周、出生体重850 g、诊断年龄8.5周），初始和术后分别使用94种和107种方案、涉及15种抗菌药物，67%的患儿围术期方案不同；最常用为氨苄西林、克林霉素、庆大霉素和万古霉素，34%于本次住院期间死亡。没有任何初始抗菌药物与死亡率相关；术后抗生素疗程>7天与<7天相比未显著改善院内生存（OR 0.86，P=0.93），术后抗菌药物选择与肠内自主、造口并发症、神经发育损害或胆汁淤积均无显著关联；抗真菌药使用与晚期死亡风险升高相关（OR 5.22，P=0.023），可能反映基础疾病严重程度。\n- 临床启示：外科坏死性小肠结肠炎的抗菌药物管理差异很大，尚无单一药物或更长疗程被证实改善生存，临床应避免无依据延长疗程并加强抗菌药物规范化管理。仍需前瞻性随机研究明确最佳抗感染方案。",
   "abstract": "Evidence-based antimicrobial regimens are lacking for surgical necrotizing enterocolitis. We evaluated the association between antimicrobial practices and outcomes. We conducted a retrospective cohort analysis of infants with surgical necrotizing enterocolitis (2010-2019) at ten children's hospitals. Demographics, antimicrobial choice, and postoperative outcomes were assessed using multivariable regression. Among 306 neonates (median gestational age 26 wk [interquartile range 25-29], birth weight 850 g [680-1100], age at diagnosis 8.5 wk [3-21]), 15 antimicrobials were used in 94 initial regimens. Postoperatively, 15 were administered in 107 regimens. Pre- and postoperative regimens differed in 67%. The most frequently used antibiotics were ampicillin, clindamycin, gentamicin, and vancomycin. Antifungals were often given to those with lower weight at diagnosis. 34% died during the index admission. No initial antimicrobial agent was associated with mortality. Excluding early deaths, patients received a median of 14 d of postoperative antibiotics. The duration of postoperative antibiotics (>7 d versus < 7 d) was not significantly associated with in-hospital mortality (odds ratio 0.86, P = 0.93). Adjusted regression analyses demonstrated no associations between postoperative antimicrobial choice and enteral autonomy, stoma complications, neurodevelopmental impairment, or cholestasis. Antifungal use was associated with higher odds of late mortality (odds ratio 5.22, P = 0.023), likely secondary to underlying illness severity. Antimicrobial management varied widely. No individual antimicrobial agent improved survival; however, binary analysis of antimicrobial exposure limited conclusions. Longer antimicrobial duration was not associated with improved survival. Prospective randomized studies may help define optimal antibiotic management."
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43040833",
+  "title": "Clustering of Maternal and Perinatal Complications Following Fresh and Frozen Embryo Transfer in First-Time Mothers: A Population-Based Cohort Study.",
+  "doi": "10.1111/1471-0528.70384",
+  "source": "PubMed",
+  "journal": "BJOG",
+  "rank": "中科院医学2区(妇产科学1区) · IF 4.8 · JCR Q1",
+  "country": "挪威",
+  "institution": "Norwegian University of Science and Technology",
+  "corr_author": "Westvik-Johari K",
+  "corr_email": "",
+  "summary": "- 研究目的：评估冻融胚胎移植、新鲜胚胎移植和自然受孕后初产妇妊娠中无母胎围产并发症、发生单一并发症或发生多重并发症的频率。\n- 核心发现/数据：研究纳入单胎初产妇，冻融胚胎移植6634例、新鲜胚胎移植25660例、自然受孕523277例；冻融及新鲜胚胎移植后约3/4妊娠无母胎围产并发症，自然受孕后约4/5无并发症。在新生儿存活≥28天者中（冻融99.3%、新鲜99.3%、自然受孕99.5%），冻融及新鲜胚胎移植后约1/11妊娠发生≥2种并发症，自然受孕后约1/16。辅助生殖技术后单一及多重并发症较自然受孕更常见，但绝对差异较小，且发生并发症时通常不合并其他并发症。\n- 临床启示：咨询考虑或正在接受辅助生殖技术治疗者时可据此设定更现实的预期，说明多数妊娠并无母胎围产并发症；同时应认识到辅助生殖技术后并发症风险略有增加，并进行适当监测。",
+  "abstract": "To assess how often women who give birth following frozen-thawed embryo transfer (frozen-ET), fresh embryo transfer (fresh-ET) and natural conception (NC) have pregnancies without maternal and perinatal complications, develop a single complication, or experience multiple complications. A population-based cohort study. Denmark (2008-2014), Norway (2008-2015) and Sweden (2008-2015). Restricted to singleton pregnancies among first-time mothers, this study included 6634 deliveries after frozen-ET, 25 660 after fresh-ET and 523 277 after NC. The following complications were studied: stillbirth, neonatal death (0-27 days after delivery), preterm birth (gestational age < 37 weeks), small for gestational age or large for gestational age (birthweight < -22% or > +22% from the expected birthweight according to sex and gestational age), low birthweight (< 2500 g), macrosomia (≥ 4500 g), Apgar score < 5 at 5 min, major birth defects, hypertensive disorders in pregnancy, placenta previa and placental abruption. In first-time mothers, three of every four singleton pregnancies after frozen-ET and fresh-ET were without maternal and perinatal complications, compared to four of every five pregnancies after NC. In pregnancies with neonatal survival ≥ 28 days (99.3% after frozen-ET, 99.3% after fresh-ET, and 99.5% after NC), two or more complications affected one in 11 pregnancies after frozen-ET and fresh-ET, compared to one in 16 after NC. In this study, we observed that most first-time mothers experienced pregnancies without maternal and perinatal complications following ART, and when complications occurred, they were typically without additional complications. Although single and multiple complications were more common following ART than after NC, the absolute differences were small. These findings may help set realistic expectations when counselling people who consider ART treatment, or those already in treatment."
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43040082",
+  "title": "An exceptional shunt-related tumor: desmoid-type fibromatosis along a ventriculoperitoneal shunt in a child.",
+  "doi": "10.1007/s00381-026-07504-5",
+  "source": "PubMed",
+  "journal": "Childs Nerv Syst",
+  "rank": "",
+  "country": "Tunis",
+  "institution": "Tunis El Manar University",
+  "corr_author": "Abderrahmen K",
+  "corr_email": "khansaabderrahmen@yahoo.fr",
+  "summary": "- 研究目的：报道一例儿童脑室腹腔分流管走行区发生硬纤维瘤型纤维瘤病的罕见病例并总结其诊疗经验。\n- 核心发现/数据：患儿为34周+4天早产男婴，因Ⅳ级脑室内出血继发脑积水于生后21天置入VP分流；置管3年后沿分流管胸壁出现进行性增大、质硬、活动、轻度触痛肿块，影像学未见分流管异常，超声提示异物肉芽肿。手术完整切除包绕腹腔导管的肿瘤并保留分流，病理确诊为硬纤维瘤型纤维瘤病，术后恢复顺利。\n- 临床启示：对分流管走行区进行性增大的肿块应警惕硬纤维瘤型纤维瘤病，完整手术切除仍是首选治疗，并建议长期随访。",
+  "abstract": "Desmoid-type fibromatosis is a rare, benign, but locally aggressive mesenchymal tumor arising from fibroblasts within soft connective tissues, including fascia, aponeuroses, and muscle. It most commonly occurs in the abdominal wall, intra-abdominal region, and extremities. Occurrence along a ventriculoperitoneal (VP) shunt is exceedingly rare. We report a male infant born prematurely at 34 weeks + 4 days with grade IV intraventricular hemorrhage complicated by hydrocephalus, treated with a VP shunt at 21 days of life. Early neurodevelopment showed mild psychomotor and intellectual delay, with independent walking achieved at 2.5 years. Three years after shunt placement, parents noticed a progressively enlarging, firm, mobile, slightly tender thoracic mass along the shunt tract, below the areola. Shunt radiographs were normal. Ultrasound suggested a foreign body granuloma. Surgical excision revealed a firm, pink-whitish tumor encasing the peritoneal catheter. Careful dissection allowed complete tumor removal while preserving the shunt. Histopathology confirmed desmoid-type fibromatosis. Postoperative recovery was uneventful. Desmoid-type fibromatosis can rarely develop along VP shunt tracts. This case emphasizes the importance of considering this diagnosis in any progressive mass along a shunt. Complete surgical excision remains the treatment of choice. Long-term follow-up is recommended for these patients."
  }
 ]
