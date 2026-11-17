@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-07",
-  "pmid": "42557365",
-  "title": "Vasopressin for hemodynamic support in neonates: current evidence and clinical applications.",
-  "doi": "10.1038/s41372-026-02837-0",
-  "source": "PubMed",
-  "journal": "J Perinatol",
-  "rank": "",
-  "country": "加拿大",
-  "institution": "University of Alberta",
-  "corr_author": "Ting JY",
-  "corr_email": "yukjosep@ualberta.ca",
-  "summary": "- 研究目的：系统梳理并整合新生儿中应用血管加压素进行血流动力学支持的相关证据。\n- 核心发现/数据：共纳入12项研究（1项随机试验、11项观察性研究），涉及异质性新生儿人群；血管加压素主要作为难治性休克的挽救治疗，用于脓毒症、新生儿持续性肺动脉高压及先天性膈疝。多数研究报告平均动脉压改善，部分显示血管活性药物需求减少和氧合改善；尿量影响不一；安全性报告不一致，最常见不良事件为低钠血症，严重缺血性并发症罕见。\n- 临床启示：血管加压素可能改善短期血流动力学参数，但现有证据有限且异质性高，不足以指导标准化临床应用，需谨慎个体化使用并监测不良反应。",
-  "abstract": "To systematically map and synthesize the available evidence on the use of vasopressin for hemodynamic support in neonates. We conducted a scoping review to synthesize available data on indications, dosing, clinical effects, and safety. Twelve studies were included (one randomized trial, eleven observational), encompassing heterogeneous neonatal populations. Vasopressin was primarily used as rescue therapy in refractory shock, including sepsis, persistent pulmonary hypertension of the newborn, and congenital diaphragmatic hernia. Dosing regimens varied widely. Most studies reported improvements in mean arterial blood pressure, with some demonstrating reduced vasoactive support and improved oxygenation. Effects on urine output were variable. Safety reporting was inconsistent; hyponatremia was the most commonly described adverse event, while serious ischemic complications were rarely reported. Vasopressin may improve short-term hemodynamic parameters, but evidence is limited and heterogeneous, with insufficient data to guide optimal use."
- },
- {
-  "date": "2026-08-07",
-  "pmid": "42556411",
-  "title": "Bioprinting of BSA membranes with C2C12 and NIH 3T3 pre-cellularized PLGA microscaffold : a step toward diaphragmatic hernia patches.",
-  "doi": "10.1088/1758-5090/ae9599",
-  "source": "PubMed",
-  "journal": "Biofabrication",
-  "rank": "中科院医学2区(工程：生物医学2区/材料科学：生物材料2区) · IF 8.2 · JCR Q1",
-  "country": "法国",
-  "institution": "University of Strasbourg",
-  "corr_author": "Arntz Y",
-  "corr_email": "",
-  "summary": "- 研究目的：开发一种可生物降解的白蛋白膜，并通过挤出式生物打印将成肌细胞与成纤维细胞预负载于PLGA微支架上，用于先天性膈疝补片的初步构建。\n- 核心发现/数据：含聚赖氨酸包被微支架的C2C12成肌细胞代谢活性较无支架组提高215%；负载C2C12和NIH 3T3的微支架在生物打印至白蛋白膜后，细胞活力分别增加30%和15%，细胞活性分别增加527%和567%，共培养后活力增加5.6%、细胞活性达588%；细胞负载微支架可增强C2C12与NIH 3T3在白蛋白膜上的交叉迁移。\n- 临床启示：该生物打印白蛋白膜复合细胞微支架策略有望为先天性膈疝修复提供更仿生、促细胞黏附增殖的可降解补片，减少合成不可降解膜的临床局限。",
-  "abstract": "The diaphragm is a physical barrier separating the thoracic and abdominal cavities. Its physiological function is fundamental to pulmonary ventilation. Congenital diaphragmatic hernia (CDH) is a malformation that leaves a hole in the diaphragm during fetal development. Synthetic nondegradable membranes are currently used for the repair of diaphragm holes. However, these membranes do not help cells to adhere and proliferate. There is a need for biodegradable membranes composed of muscular and fibroblast cells to replicate a simplified diaphragmatic tissue. We thus developed a biocompatible and biodegradable salt-compacted albumin membrane. C2C12 myoblasts were bioprinted as central spokes, surrounded by a ring of NIH 3T3 fibroblasts, onto albumin membranes. We used bioink based on methacrylated collagen and hyaluronic acid, containing porous poly(D,L-lactic-co-glycolic acid) solid microscaffolds to protect myoblast and fibroblast cells against mechanical stress during extrusion printing. We found that metabolic activity of C2C12 myoblast increased by 215% in the presence of a polylysine-coated microscaffolds, compared to those cultured without microscaffolds. Microscaffolds loaded with C2C12 and NIH 3T3 cells increased viability (30% and 15%) and cell activity (527% and 567%) either after co-culture (5.6% increased viability and 588% cell activity) bioprinting on albumin membrane, compared to cells in bioink without microscaffolds. Cell-loaded microscaffolds embedded in bioink enhance C2C12 to NIH3T3 cross-migration on albumin membrane. This work is a preliminary proof of concept of cellularization of myoblasts and fibroblasts by extrusion bioprinting on a new biodegradable albumin membrane designed for diaphragmatic hernia patches."
- },
- {
-  "date": "2026-08-07",
   "pmid": "42562191",
   "title": "High-Fidelity Simulation Model for the Posterior Sagittal Anorectoplasty in Anorectal Malformations with Rectovestibular and Rectourethral Fistula.",
   "doi": "10.1016/j.jpedsurg.2026.163370",
@@ -14998,5 +14968,35 @@
   "corr_email": "khansaabderrahmen@yahoo.fr",
   "summary": "- 研究目的：报道一例儿童脑室腹腔分流管走行区发生硬纤维瘤型纤维瘤病的罕见病例并总结其诊疗经验。\n- 核心发现/数据：患儿为34周+4天早产男婴，因Ⅳ级脑室内出血继发脑积水于生后21天置入VP分流；置管3年后沿分流管胸壁出现进行性增大、质硬、活动、轻度触痛肿块，影像学未见分流管异常，超声提示异物肉芽肿。手术完整切除包绕腹腔导管的肿瘤并保留分流，病理确诊为硬纤维瘤型纤维瘤病，术后恢复顺利。\n- 临床启示：对分流管走行区进行性增大的肿块应警惕硬纤维瘤型纤维瘤病，完整手术切除仍是首选治疗，并建议长期随访。",
   "abstract": "Desmoid-type fibromatosis is a rare, benign, but locally aggressive mesenchymal tumor arising from fibroblasts within soft connective tissues, including fascia, aponeuroses, and muscle. It most commonly occurs in the abdominal wall, intra-abdominal region, and extremities. Occurrence along a ventriculoperitoneal (VP) shunt is exceedingly rare. We report a male infant born prematurely at 34 weeks + 4 days with grade IV intraventricular hemorrhage complicated by hydrocephalus, treated with a VP shunt at 21 days of life. Early neurodevelopment showed mild psychomotor and intellectual delay, with independent walking achieved at 2.5 years. Three years after shunt placement, parents noticed a progressively enlarging, firm, mobile, slightly tender thoracic mass along the shunt tract, below the areola. Shunt radiographs were normal. Ultrasound suggested a foreign body granuloma. Surgical excision revealed a firm, pink-whitish tumor encasing the peritoneal catheter. Careful dissection allowed complete tumor removal while preserving the shunt. Histopathology confirmed desmoid-type fibromatosis. Postoperative recovery was uneventful. Desmoid-type fibromatosis can rarely develop along VP shunt tracts. This case emphasizes the importance of considering this diagnosis in any progressive mass along a shunt. Complete surgical excision remains the treatment of choice. Long-term follow-up is recommended for these patients."
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43042483",
+  "title": "Laparoscopic Management of Acute Appendicitis During Pregnancy-Does Appendicitis Severity Affect Neonatal and Maternal Outcomes?",
+  "doi": "10.1177/00031348261508216",
+  "source": "PubMed",
+  "journal": "Am Surg",
+  "rank": "中科院医学4区(外科4区) · IF 1.0 · JCR Q3",
+  "country": "以色列",
+  "institution": "Shaare Zedek Medical Center",
+  "corr_author": "Tankel J",
+  "corr_email": "",
+  "summary": "- 研究目的：评估妊娠期急性阑尾炎的严重程度是否影响接受腹腔镜阑尾切除术患者的母体及新生儿结局。\n- 核心发现/数据：单中心回顾性研究纳入182例孕妇，其中UAA 145例（79.7%）、CAA 21例（11.5%）、NA 16例（8.8%）。与UAA和NA相比，CAA患者手术时间更长（51 vs 30和41.5分钟，p<0.001）、住院时间更长（4 vs 2和1.5天，p<0.001），其新生儿出生体重更高（3.33 vs 3.30和2.92）。摘要未完整报告其他母体及新生儿不良结局的统计学结果。\n-",
+  "abstract": "ObjectiveTo evaluate whether the severity of acute appendicitis affects maternal and neonatal outcomes in pregnant patients undergoing laparoscopic appendectomy.MethodA single center retrospective study was conducted between 1/2004 and 8/2023. Pregnant patients who underwent laparoscopic appendectomy for presumed appendicitis were identified and included according to inclusion criteria. Patients were stratified by disease severity into uncomplicated acute appendicitis (UAA), complicated acute appendicitis (CAA), and normal appendix (NA). Clinicopathological, maternal, and neonatal outcomes were compared using univariate analysis, followed by multivariate analysis for variables found significant.ResultsOf the 284 patients identified, 182 (64.1%) were included in the analysis of whom 145 (79.7%) had UAA, 21 (11.5%) had CAA and 16 (8.8%) had NA. Compared to patients with UAA and NA, those with CAA had longer operative times (51 minutes vs 30 and 41.5, p = <0.001, respectively), longer lengths of stay (4 days vs 2 and 1.5, p = <0.001) and their neonates had higher birth weights (3.33 vs 3.30 and 2.92,"
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43042043",
+  "title": "A Uro-Obstetric Emergency in Obstructed Labour: A Case Report of Concurrent Uterine and Bladder Rupture in a Woman with Two Previous Caesarean Section Scars in a Low-Resource Setting.",
+  "doi": "10.2147/IMCRJ.S655305",
+  "source": "PubMed",
+  "journal": "Int Med Case Rep J",
+  "rank": "中科院医学4区(医学：内科4区) · IF 0.7",
+  "country": "Uganda",
+  "institution": "Yumbe Regional Referral Hospital",
+  "corr_author": "Nakato P",
+  "corr_email": "",
+  "summary": "- 研究目的：报告一例既往两次剖宫产瘢痕子宫产妇在梗阻性难产中并发子宫与膀胱破裂的罕见泌尿产科急诊，强调早期识别、积极复苏和多学科手术处理。\n- 核心发现/数据：患者41岁、G5P2+2、孕36周，两次剖宫产史，因梗阻性产程转诊后突发剧烈腹痛、阴道流血、宫缩消失，胎心不可闻及并出现血尿。急诊手术证实右侧子宫部分破裂、既往瘢痕濒临破裂及膀胱与子宫下段致密粘连，经剖宫产娩出2.6 kg活男婴（Apgar评分3、5、7，入NICU），并行全子宫切除、输尿管支架置入和膀胱分层修补。母亲术中需输血，术后第16天康复出院。\n- 临床启示：对瘢痕子宫梗阻性难产出现突发腹痛、胎心消失和血尿者应高度警惕子宫膀胱联合破裂，需早期识别、积极复苏并及时多学科剖腹手术。全子宫切除联合分层膀胱修补及输尿管支架置入可挽救母儿生命，在资源有限环境中尤为重要。",
+  "abstract": "Combined uterine and urinary bladder rupture is a rare uro-obstetric emergency that can complicate obstructed labour in a scarred uterus. We report a 41-year-old woman, gravida 5 para 2+2, at 36 weeks gestation with two previous caesarean scars that came in as a referral in active obstructed labour. Shortly before arrival she developed sudden severe abdominal pain, fresh vaginal bleeding and loss of uterine contractions. She was pale, diaphoretic and in mild respiratory distress, with a severely tender abdomen, an inaudible fetal heart, and haematuria draining through an indwelling urethral catheter. Emergency laparotomy revealed dense adhesions binding the bladder to the anterior abdominal wall and lower uterine segment and there was a partial uterine rupture on the right lateral side extending to but not involving the round ligament and tubo-ovarian complex, with an impending rupture of the previous scar. A live male neonate weighing 2.6 kg was delivered via an incision at the site of the impending rapture, with Apgar scores of 3, 5 and 7 who was admitted to NICU. Total abdominal hysterectomy was performed, ureteric stents were placed, and the bladder was repaired in layers. The mother required blood transfusion intraoperatively and close monitoring in a non-pneumatic anti-shock garment, but recovered and was discharged well on the sixteenth postoperative day. Combined uterine and bladder rupture demands early recognition, aggressive resuscitation and a timely multidisciplinary surgical approach to optimise maternal and perinatal outcomes. Prompt laparotomy with hysterectomy and layered bladder repair, supported by ureteric stenting, can be lifesaving particularly in resource-limited settings."
  }
 ]
