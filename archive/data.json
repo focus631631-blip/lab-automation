@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-07",
-  "pmid": "42557364",
-  "title": "Postnatal weight trajectories drives beter head circumference growth in preterm infants ≤32 weeks: a multicenter Latin American cohort study.",
-  "doi": "10.1038/s41372-026-02813-8",
-  "source": "PubMed",
-  "journal": "J Perinatol",
-  "rank": "",
-  "country": "Bogota",
-  "institution": "El Bosque University",
-  "corr_author": "Hoyos AB",
-  "corr_email": "angelahoyos@hotmail.com",
-  "summary": "- 研究目的：评估≤32周早产儿出生后体重轨迹与出生至出院期间头围生长的关联，并采用Fenton 2025生长标准。\n- 核心发现/数据：共纳入3926例（分析样本3757例），中位胎龄30周。调整混杂因素后，体重ΔZ-score>0的婴儿头围ΔZ-score为-0.34，而体重ΔZ-score≤-3.2者则为-2.71，各组间差异均有统计学意义（p<0.001）；模型解释了头围生长变异的37.6%。\n- 临床启示：出生后体重轨迹与早产儿头围生长独立且渐进相关，促进体重恢复至出生Z-score是NICU中支持头围充分生长的关键营养目标。",
-  "abstract": "Postnatal weight loss is nearly universal in preterm infants, and its relationship to head circumference (HC) growth remains incompletely characterized. Growth standards were recently updated with the Fenton 2025 charts, which modify Z-score parameters compared to the 2013 version. To evaluate the association between postnatal weight trajectory and HC growth from birth to discharge in preterm infants ≤32 weeks of gestation across a large multicenter Latin American cohort, using Fenton 2025 growth standards. This observational cohort study by secondary analysis of a prospective cohort study using data from EpicLatino, a quality improvement registry of 35 neonatal intensive care units (NICUs) across Latin America and the Caribbean (2015-2024). Infants ≤32 weeks admitted within 48 h of birth were included. The exposure was the change in weight Z-score (Fenton 2025) from birth to discharge, categorized into 10 groups at 0.4-unit intervals. The primary outcome was the change in HC Z-score (Fenton 2025). Multivariable linear regression with average marginal predictions was used, adjusting for gestational age, necrotizing enterocolitis (NEC), sepsis, SNAP-II score, length of stay, treated patent ductus arteriosus, Apgar score at 5 min, HC Z-score at birth, and outborn status. 3926 infants were included (analytical sample n = 3757). Median gestational age was 30 [IQR 29-32] weeks. Adjusted HC Δ Z-score ranged from -0.34 (95% CI -0.38 to -0.30) in infants with weight Δ Z-score >0, to -2.71 (95% CI -2.83 to -2.58) in those with weight Δ Z-score ≤-3.2. All group comparisons were statistically significant (p < 0.001). The model explained 37.6% of the variance in HC growth. Postnatal weight trajectory is independently and progressively associated with HC growth in preterm infants ≤32 weeks across Latin America. Supporting weight recovery toward birth Z-score is a key nutritional target to promote adequate HC growth in the NICU."
- },
- {
-  "date": "2026-08-07",
-  "pmid": "42560353",
-  "title": "Neonatal management of patients with anorectal malformations.",
-  "doi": "10.1097/MOP.0000000000001603",
-  "source": "PubMed",
-  "journal": "Curr Opin Pediatr",
-  "rank": "中科院医学4区(儿科3区) · IF 2.8 · JCR Q1",
-  "country": "美国",
-  "institution": "Children's National Hospital",
-  "corr_author": "Varda BK",
-  "corr_email": "",
-  "summary": "- 研究目的：综合当前实践模式、专家共识和循证建议，用于肛门直肠畸形（ARMs）患者的评估与管理。\n- 核心发现/数据：采用基于解剖的标准分类系统改善了报告一致性并促进多机构研究；早期全面筛查肾、脊髓及Müllerian等伴随畸形至关重要，但检测缺口仍存在；高位瘘管或持续泄殖腔、上尿路异常及临床显著脊髓发育不良患者中肾和膀胱功能障碍高发，需风险分层的长期泌尿学监测。\n- 临床启示：新生儿管理应包含全面伴随畸形筛查、早期多学科协作，并在经验丰富的高容量中心内个体化决策修复时机与方式。",
-  "abstract": "To synthesize current practice patterns, expert consensus, and evidence-informed recommendations for the evaluation and management of patients with anorectal malformations (ARMs). Adoption of standardized, anatomy-based classification systems has improved consistency in reporting and enabled more robust multiinstitutional research. Increasing centralization of care within multidisciplinary colorectal centers has enhanced coordinated evaluation across multiple surgical subspecialties. Early, comprehensive screening for associated anomalies - particularly renal, spinal, and Müllerian abnormalities - remains critical, though gaps in detection persist. Initial management strategies emphasize ensuring effective bowel decompression through dilation, diversion, or selective primary repair. Surgical management continues to evolve, with growing evidence supporting selective single-stage repair in low malformations and utilization of emerging techniques aimed at minimizing morbidity while preserving function. Contemporary data highlights the importance of risk-stratified, longitudinal urologic surveillance given the high prevalence of renal and bladder dysfunction, particularly in patients with high fistula insertion or persistent cloaca, upper urinary tract anomalies and/or clinically significant spinal dysraphism. Optimal neonatal management of ARM includes comprehensive screening for associated anomalies, early multidisciplinary involvement, and individualized decision-making regarding timing and approach to repair, ideally within experienced, high-volume centers."
- },
- {
-  "date": "2026-08-07",
   "pmid": "42561338",
   "title": "The K-Punch Method: An Effective Diagnostic Approach for Hirschsprung Disease in Low- and Middle-Income Countries - A Case Series.",
   "doi": "10.1590/0100-6991e-2026005725-en",
@@ -14998,5 +14968,35 @@
   "corr_email": "mayt21054@gmail.com",
   "summary": "- 研究目的：系统综述mTORopathies中癫痫持续状态（SE）的临床特征、治疗策略及结局，并探讨mTOR信号在SE中的作用。\n- 核心发现/数据：共检索897条记录，最终纳入31项研究；SE可见于不同mTORopathies，常早发、频繁复发且可呈灾难性，难治性SE（RSE）主要影响新生儿和婴儿，并常伴皮质发育畸形（MCD）。SE可通过多种抗癫痫发作药物单用或联合mTOR抑制剂终止，但RSE管理仍困难；现有策略包括新型抗癫痫发作药物、麻醉药、mTOR抑制剂、生酮饮食、免疫治疗、癫痫手术和神经调控，多模式治疗有助于控制发作并改善发育结局。\n- 临床启示：对mTORopathies患者尤其新生儿和婴儿RSE，应早期识别MCD并采取多模式个体化治疗；mTOR信号可能是潜在治疗靶点，但mTOR抑制剂和免疫治疗对SE/RSE结局的影响仍需大队列研究验证。",
   "abstract": "The mechanistic target of rapamycin (mTOR) pathway plays a critical role in epileptogenesis; however, its involvement in human status epilepticus (SE) remains poorly understood. mTORopathies, genetic disorders defined by mutations that disrupt mTOR signaling, frequently manifest severe neurological complications, among which SE is particularly consequential. A systematic search of PubMed, Embase, and Web of Science was conducted for studies on mTORopathies and SE. We analyzed the clinical presentation, treatment strategies, and outcomes of all cases. Eight hundred ninety-seven records were initially identified, of which 31 were included in this review. SE may manifest in different mTORopathies. SE often presents early, recurs frequently, and can be catastrophic. Refractory SE (RSE) predominantly affects neonates and infants and frequently occurs in the context of MCD. SE can be terminated with multiple anti-seizure medications (ASMs), alone or in combination with mTOR inhibitors. However, managing RSE is challenging. Current treatment strategies include novel ASMs, anesthetics, mTOR inhibitors, the ketogenic diet, immunotherapy, epilepsy surgery, and neuromodulation. A multifaceted approach is preferred to achieve seizure control and to improve developmental outcomes. SE remains a significant clinical challenge in patients with mTORopathies. mTOR signaling may contribute to the pathogenesis of SE and could represent a potential therapeutic target. Further investigation in large cohort studies is needed to clarify the role of mTOR signaling in SE and to evaluate the effects of mTOR inhibitors and immunotherapies on outcomes in patients with SE/RSE."
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43039353",
+  "title": "Esophageal atresia and co-occurring major anomalies in Denmark 1994-2021: A nationwide register-based study.",
+  "doi": "10.1055/a-3003-6057",
+  "source": "PubMed",
+  "journal": "Eur J Pediatr Surg",
+  "rank": "",
+  "country": "Copenhagen",
+  "institution": "Copenhagen University Hospital Rigshospitalet",
+  "corr_author": "Christiansen M",
+  "corr_email": "",
+  "summary": "- 研究目的：评估丹麦1994-2021年食管闭锁（EA）出生患病率趋势、共存重大先天畸形谱及异常定义对注册估计的影响。\n- 核心发现/数据：在1,696,357名筛查婴儿中诊断442例EA，出生患病率为2.61/10,000筛查活产（95%CI 2.37-2.86），年增长约1.6%（95%CI 0.4-2.9%，p=0.0073）。18.3%为综合征型；非综合征型中47.6%至少合并1种重大畸形，最常见为心血管畸形。排除房/室间隔缺损后，心脏畸形总体记录为8.8%（综合征型28.4%、非综合征型4.4%）。\n- 临床启示：非综合征型EA近半数合并其他重大畸形，支持系统化多系统评估；房/室间隔缺损是否纳入会显著影响心脏畸形估计，注册研究比较时需注意。",
+  "abstract": "Esophageal atresia (EA) frequently co-occurs with additional major congenital anomalies. Long-term national trends and the influence of anomaly definitions on registry estimates remain incompletely characterized. We conducted a nationwide, register-based cohort study of infants born in Den-mark during 1994-2021, who participated in the neonatal screening program, which has near-complete coverage. Infants were identified using ICD-10-DK codes in linked national registries. Associated major congenital anomalies were classified with reference to EURO-CAT guidance. Temporal trends were assessed using Poisson regression models. Pheno-types were classified as syndromic or non-syndromic; non-syndromic cases were further classified as isolated or with co-occurring major anomalies. Among 1,696,357 screened infants, 442 were diagnosed with EA, corresponding to a birth prevalence of 2.61 per 10,000 screened live births (95% CI 2.37 - 2.86). EA preva-lence increased by an estimated 1.6% annually (95% CI 0.4-2.9%; p=0.0073). Syndromic EA accounted for 18.3% of cases, with relatively stable proportions over time. Among non-syndromic cases, 47.6% had at least one co-occurring major anomaly, most commonly car-diovascular anomalies. After excluding atrial and ventricular septal defects, cardiac anoma-lies were recorded in 8.8% overall (28.4% of syndromic and 4.4% of non-syndromic cases). EA prevalence among screened live-born infants was consistent with international estimates and showed a modest model-based increase over time. Nearly half of non-syndromic infants had an additional major anomaly, supporting systematic multisystem assessment. Cardiac-anomaly estimates were strongly influenced by inclusion of atrial and ventricular septal de-fects, which should be considered when comparing registry studies."
+ },
+ {
+  "date": "2026-11-17",
+  "pmid": "43038844",
+  "title": "Antimicrobial Management of Surgical Necrotizing Enterocolitis: A Multi-Institutional Analysis.",
+  "doi": "10.1016/j.jss.2026.10.043",
+  "source": "PubMed",
+  "journal": "J Surg Res",
+  "rank": "中科院医学3区(外科4区) · IF 1.6 · JCR Q3",
+  "country": "Pennsylvania",
+  "institution": "University of Pittsburgh Medical Center",
+  "corr_author": "Waltz P",
+  "corr_email": "waltzpk2@upmc.edu",
+  "summary": "- 研究目的：评估外科坏死性小肠结肠炎患儿抗菌药物管理实践与临床结局之间的关联。\n- 核心发现/数据：这项10家儿童医院2010—2019年的回顾性队列纳入306例新生儿（中位胎龄26周、出生体重850 g、诊断年龄8.5周），初始和术后分别使用94种和107种方案、涉及15种抗菌药物，67%的患儿围术期方案不同；最常用为氨苄西林、克林霉素、庆大霉素和万古霉素，34%于本次住院期间死亡。没有任何初始抗菌药物与死亡率相关；术后抗生素疗程>7天与<7天相比未显著改善院内生存（OR 0.86，P=0.93），术后抗菌药物选择与肠内自主、造口并发症、神经发育损害或胆汁淤积均无显著关联；抗真菌药使用与晚期死亡风险升高相关（OR 5.22，P=0.023），可能反映基础疾病严重程度。\n- 临床启示：外科坏死性小肠结肠炎的抗菌药物管理差异很大，尚无单一药物或更长疗程被证实改善生存，临床应避免无依据延长疗程并加强抗菌药物规范化管理。仍需前瞻性随机研究明确最佳抗感染方案。",
+  "abstract": "Evidence-based antimicrobial regimens are lacking for surgical necrotizing enterocolitis. We evaluated the association between antimicrobial practices and outcomes. We conducted a retrospective cohort analysis of infants with surgical necrotizing enterocolitis (2010-2019) at ten children's hospitals. Demographics, antimicrobial choice, and postoperative outcomes were assessed using multivariable regression. Among 306 neonates (median gestational age 26 wk [interquartile range 25-29], birth weight 850 g [680-1100], age at diagnosis 8.5 wk [3-21]), 15 antimicrobials were used in 94 initial regimens. Postoperatively, 15 were administered in 107 regimens. Pre- and postoperative regimens differed in 67%. The most frequently used antibiotics were ampicillin, clindamycin, gentamicin, and vancomycin. Antifungals were often given to those with lower weight at diagnosis. 34% died during the index admission. No initial antimicrobial agent was associated with mortality. Excluding early deaths, patients received a median of 14 d of postoperative antibiotics. The duration of postoperative antibiotics (>7 d versus < 7 d) was not significantly associated with in-hospital mortality (odds ratio 0.86, P = 0.93). Adjusted regression analyses demonstrated no associations between postoperative antimicrobial choice and enteral autonomy, stoma complications, neurodevelopmental impairment, or cholestasis. Antifungal use was associated with higher odds of late mortality (odds ratio 5.22, P = 0.023), likely secondary to underlying illness severity. Antimicrobial management varied widely. No individual antimicrobial agent improved survival; however, binary analysis of antimicrobial exposure limited conclusions. Longer antimicrobial duration was not associated with improved survival. Prospective randomized studies may help define optimal antibiotic management."
  }
 ]
