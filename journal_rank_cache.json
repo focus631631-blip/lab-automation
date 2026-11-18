@@ -1862,5 +1862,17 @@
  "bjog : an international journal of obstetrics and gynaecology": {
   "badge": "中科院医学2区(妇产科学1区) · IF 4.8 · JCR Q1",
   "_ts": "2026-11-17"
+ },
+ "the american journal of tropical medicine and hygiene": {
+  "badge": "中科院医学4区(热带医学3区/公共卫生、环境卫生与职业卫生4区) · IF 1.9 · JCR Q3",
+  "_ts": "2026-11-18"
+ },
+ "pediatric neurosurgery": {
+  "badge": "中科院医学4区(临床神经病学4区/儿科4区/外科4区) · IF 1.3 · JCR Q3",
+  "_ts": "2026-11-18"
+ },
+ "plos computational biology": {
+  "badge": "中科院生物学2区(生化研究方法2区/数学与计算生物学2区) · IF 3.6 · JCR Q1",
+  "_ts": "2026-11-18"
  }
 }
