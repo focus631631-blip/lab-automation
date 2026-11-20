@@ -1,36 +1,6 @@
 [
  {
   "date": "2026-08-13",
-  "pmid": "42583473",
-  "title": "Chronic gastrointestinal symptoms in adulthood revealing congenital intestinal malrotation with midgut volvulus: a case report.",
-  "doi": "10.1093/jscr/rjag693",
-  "source": "PubMed",
-  "journal": "J Surg Case Rep",
-  "rank": "中科院医学4区(外科4区) · IF 0.5",
-  "country": "Palestine",
-  "institution": "Alia Governmental Hospital",
-  "corr_author": "Jabari AY",
-  "corr_email": "",
-  "summary": "- 研究目的：报告一例成年期因先天性肠旋转不良伴中肠扭转而表现为慢性胃肠道症状的病例，以提高临床认识。\n- 核心发现/数据：48岁男性，有4年复发性绞痛和非胆汁性呕吐史，近3个月加重至每日呕吐近10次；增强CT示近端十二指肠明显扩张、中段十二指肠移行带提示部分梗阻，上消化道造影确诊中肠旋转不良伴不全扭转；行Ladd手术后好转。成人肠旋转不良约占所有病例的0.2%-0.5%。\n- 临床启示：对慢性不明原因腹痛和呕吐的成人患者，应考虑中肠旋转不良的可能，早期诊断可预防扭转和肠缺血等危及生命的并发症。",
-  "abstract": "Intestinal malrotation is a congenital anomaly of midgut rotation and fixation that typically manifests in infancy, with most cases diagnosed within the first year of life. Although rare, accounting for ~0.2%-0.5% of all malrotation cases, intestinal malrotation can present in adults, with nonspecific symptoms that may delay diagnosis. We report the case of a 48-year-old male with a four-year history of recurrent colicky abdominal pain and non-bilious vomiting that progressively worsened over the preceding three months, with vomiting increasing to nearly ten episodes daily. A contrast-enhanced abdominal computed tomography demonstrated marked dilatation of the proximal duodenum with a transition point at the mid-duodenum suggestive of a partial obstruction. Upper gastrointestinal fluoroscopy confirmed midgut malrotation with an incomplete volvulus. The patient subsequently underwent a Ladd procedure. Adult midgut malrotation should be considered in patients with chronic, unexplained abdominal pain and vomiting. Early diagnosis is essential to prevent life-threatening complications such as a volvulus and bowel ischemia."
- },
- {
-  "date": "2026-08-13",
-  "pmid": "42586411",
-  "title": "Revisiting the Association of Preoperative Steroids, Severe Neutropenia, and Prophylactic Antibiotics on Pediatric Port Infections.",
-  "doi": "10.1016/j.jpedsurg.2026.163382",
-  "source": "JPS 圣刊",
-  "journal": "J Pediatr Surg",
-  "rank": "中科院医学2区(儿科1区/外科2区) · IF 2.3 · JCR Q2",
-  "country": "美国",
-  "institution": "Children's Hospital of Philadelphia",
-  "corr_author": "Katz OL",
-  "corr_email": "katzo@chop.edu",
-  "summary": "- 研究目的：探讨术前类固醇使用、严重中性粒细胞减少及预防性抗生素对儿童输液港感染风险的影响。\n- 核心发现/数据：1566例输液港置入中，30天感染率为5.6%，31.0%的感染港需取出。严重中性粒细胞减少患儿感染风险显著增加（aOR 1.832），未接受预防性抗生素者风险更高（aOR 2.126），而接受抗生素预防者风险不显著（p=0.7866）；类固醇使用增加感染（aOR 1.705）及取出风险（aOR 3.592）。\n- 临床启示：严重中性粒细胞减少和类固醇使用是儿童输液港感染的危险因素，预防性抗生素可降低风险，提示对严重中性粒细胞减少患儿应考虑延迟置港。",
-  "abstract": "The impact of preoperative absolute neutrophil count (ANC), steroids, and prophylactic antibiotics on port infection risk remains controversial. As infections represent a significant complication of pediatric port placement, we sought to identify specific risk factors associated with port infection at our institution. Ports placed from 2013-2024 at our children's hospital were retrospectively reviewed. Exclusion criteria was absence of 72-hour preoperative ANC data. Severe neutropenia was defined as ANC<500 cells/mm Of 1566 ports meeting inclusion criteria, indications were liquid malignancy (44.3%), solid tumors (42.2%), and benign diagnoses (13.5%); 16.4% were placed in context of severe neutropenia. The overall 30-day port infection rate was 5.6%. Of infected ports, 31.0% required removal. Children with severe neutropenia were significantly more likely to develop port-associated infections (aOR 1.832 [1.010-3.325], p=0.0464). This risk persisted in those who did not receive prophylactic antibiotics (aOR 2.126 [1.064-4.249], p=0.0328) but became non-significant in the subgroup receiving antibiotic prophylaxis (p=0.7866). Steroid use was associated with increased odds of port infection (aOR 1.705 [1.064-2.734], p=0.0266) and removal (aOR 3.592 [1.570-8.216], p=0.0025). In a large-scale cohort of pediatric port placement, steroids and severe neutropenia increased the odds of port infection while prophylactic antibiotics helped mitigate this risk. These findings demonstrate a potential protective benefit of prophylactic antibiotic use and support consideration of delayed port placement in severely neutropenic children. Prospective studies are warranted to clarify these relationships and inform clinical standard practice recommendations in children."
- },
- {
-  "date": "2026-08-13",
   "pmid": "42586410",
   "title": "Utility of Large Language Models in Pediatric Trauma Triage: An Age-Stratified Analysis of Prompt Engineering.",
   "doi": "10.1016/j.jpedsurg.2026.163385",
@@ -14998,5 +14968,35 @@
   "corr_email": "",
   "summary": "- 研究目的：总结Mowat-Wilson综合征（MWS）患儿肠道功能障碍的临床及病理特征。\n- 核心发现/数据：回顾性纳入2023年2月至12月诊治的37例MWS患儿。初步发现，MWS合并先天性巨结肠（HSCR）者较单纯HSCR患儿胃肠道症状更重、结肠病理损伤更明显。其狭窄段结肠表现为血管密度增高、occludin表达降低。\n- 临床启示：临床应关注MWS患儿合并HSCR及肠道功能障碍的风险，并重视结肠血管密度及occludin表达等病理指标对病情严重程度的提示意义。",
   "abstract": "To characterize  A total of 37 children with MWS diagnosed and treated in the Department of General Surgery, Capital Center for Children's Health, Capital Medical University, from February to December 2023 were retrospectively enrolled, and their  Among the 37 children with MWS,  These findings preliminarily suggest that children with MWS complicated by HSCR have more severe gastrointestinal symptoms and colonic pathological injury than children with isolated HSCR, characterized by increased colonic vascular density and reduced occludin expression in the stenotic segments."
+ },
+ {
+  "date": "2026-11-20",
+  "pmid": "43062181",
+  "title": "Age-Stratified Sirolimus Trough Concentrations in Pediatric Vascular Malformations: A Real-World Retrospective Study.",
+  "doi": "10.1097/FTD.0000000000001554",
+  "source": "PubMed",
+  "journal": "Ther Drug Monit",
+  "rank": "中科院医学4区(医学实验技术3区/毒理学3区/药学4区) · IF 2.3 · JCR Q2",
+  "country": "韩国",
+  "institution": "Asan Medical Center Children's Hospital",
+  "corr_author": "Kim DY",
+  "corr_email": "",
+  "summary": "- 研究目的：评估西罗莫司在儿童血管畸形患者中按年龄分层的药物暴露、药代动力学变异及长期治疗特征。\n- 核心发现/数据：本研究纳入144例<19岁患者，共2054次治疗药物监测，中位随访18.3个月；新生儿（≤1月）个体间变异最高（CV 61.6%），青少年较低（40.0%，P<0.001）。73.4%的谷浓度处于4–10 ng/mL目标范围，患者平均处于治疗范围的时间占70.9%，新生儿超治疗浓度（>15 ng/mL）最常见（6.6%）。31.9%患者接受≥24个月长期治疗（中位35.1个月）；44例随访MRI患者中84.1%病情改善或稳定。\n- 临床启示：低龄患儿药代动力学变异更大，需更密切监测和谨慎调整剂量；西罗莫司在儿童各年龄组总体可长期耐受，但本研究未系统采集毒性数据，仍需前瞻性PK-PD研究优化谷浓度目标和个体化给药。",
+  "abstract": "Sirolimus is increasingly being used off-label to treat pediatric vascular malformations. In this study, the age-stratified drug exposure, pharmacokinetic variability, and long-term treatment characteristics of sirolimus were evaluated in a real-world pediatric population. In this study, 144 patients (younger than 19 years) with vascular malformations who were treated with sirolimus at a single center (July 2018 and March 2025) were retrospectively analyzed. A total of 2054 therapeutic drug monitoring measurements were obtained. The patients were stratified into 6 age groups (1 month and younger to 12-18 years). The outcomes included trough concentration, interindividual variability (coefficient of variation), target range attainment, treatment duration, and MRI-based response. The median follow-up was 18.3 months (range, 0.3-74.1 months). Neonates (1 month and younger) showed the highest interindividual variability (coefficient of variation = 61.6%), with lower variability observed in adolescents (40.0%, P < 0.001). Overall, 73.4% of the trough concentrations were within the target range (4-10 ng/mL), and the mean duration within the therapeutic range per patient was 70.9%. Supratherapeutic levels (>15 ng/mL) were most frequent in neonates (6.6%). Prolonged therapy (≥24 months) was observed in 31.9% of patients, with a median duration of 35.1 months. Among the 44 patients who underwent follow-up MRI, 84.1% showed disease improvement or stability. Sustained long-term treatment continuity suggests that sirolimus was generally tolerated across pediatric age groups, although direct toxicity data were not systematically captured in this study. Younger patients exhibited greater pharmacokinetic variability, necessitating closer monitoring and cautious dose adjustment. Prospective PK-PD studies incorporating standardized clinical outcomes are needed to define optimal trough targets and individualized dosing strategies."
+ },
+ {
+  "date": "2026-11-20",
+  "pmid": "43061672",
+  "title": "Prenatally Diagnosed Velamentous Cord Insertion (VCI) With Planned Cesarean Delivery: A Case Report and Review of the Literature.",
+  "doi": "10.7759/cureus.119967",
+  "source": "PubMed",
+  "journal": "Cureus",
+  "rank": "中科院医学4区(医学：内科4区)",
+  "country": "GRC",
+  "institution": "General Hospital of Ioannina G. Hatzikosta",
+  "corr_author": "Zacharias N",
+  "corr_email": "",
+  "summary": "- 研究目的：通过一例产前诊断帆状脐带插入（VCI）并计划剖宫产的病例及文献回顾，探讨VCI的产前诊断与个体化分娩管理。\n- 核心发现/数据：患者为33岁初产妇，21周产前诊断VCI，因心律失常需心脏起搏器病史于37周在全身麻醉下计划剖宫产，分娩一例2160 g男婴，母婴术后恢复顺利，产后40天随访健康。VCI是罕见胎盘异常，脐血管穿越胎膜后连接胎盘，增加血管受压和损伤风险，可导致胎儿生长受限和早产，但许多妊娠结局良好。\n- 临床启示：VCI并非剖宫产的绝对指征，应结合全面的母胎临床评估制定个体化分娩计划；产前诊断对风险分层和分娩方式决策具有重要价值。",
+  "abstract": "Velamentous cord insertion (VCI) is a rare placental abnormality where umbilical vessels traverse fetal membranes before connecting to the placenta, increasing the risk of compression and injury. Although velamentous cord insertion can lead to complications like fetal growth restriction and preterm birth, many pregnancies result in favorable outcomes. A case is presented of a 33-year-old primigravida with prenatally diagnosed velamentous cord insertion at 21 weeks' gestation. The patient underwent a planned cesarean delivery at 37 weeks due to her medical history of arrhythmias requiring a cardiac pacemaker. The cesarean was performed under general anesthesia, yielding a 2,160 g male neonate, with postoperative recovery being uneventful for both mother and child. Follow-up at 40 days postpartum showed the patient was in good health. The report underscores the importance of prenatal diagnosis and individualized delivery planning, emphasizing that velamentous cord insertion does not automatically necessitate cesarean delivery; decisions should be based on comprehensive maternal and fetal clinical evaluations."
  }
 ]
