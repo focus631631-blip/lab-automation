@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-08-14",
-  "pmid": "42596043",
-  "title": "Structural Covariance Analysis of Altered Brain Development in Neonates With Congenital Heart Disease After Surgery.",
-  "doi": "10.1002/jmri.70499",
-  "source": "PubMed",
-  "journal": "J Magn Reson Imaging",
-  "rank": "",
-  "country": "英国",
-  "institution": "Centre for the Developing Brain",
-  "corr_author": "Bonthrone AF",
-  "corr_email": "",
-  "summary": "- 研究目的：利用结构协变成分（SCC）分析，评估先天性心脏病（CHD）新生儿心脏干预术后脑区协调发育模式与健康对照的差异，以及围术期变化和危险因素影响。\n- 核心发现/数据：40个SCC中16个在CHD术后新生儿与对照间存在显著差异，涉及白质、皮层、深部灰质、脑干及脑脊液区域；术前至术后MRI显示广泛且多脑区的形态学改变。围术期变化与手术年龄、体外循环时间及术后PICU住院时长存在相关（经FDR校正，p<0.05）。\n- 临床启示：CHD新生儿在心脏干预期间脑发育存在区域特异性的改变，提示围术期脑成熟易受多因素影响，临床应重视神经影像监测与围术期风险管控。",
-  "abstract": "Brain development is altered in neonates with congenital heart disease (CHD), with well-characterised reductions in regional brain volumes and enlargement of CSF spaces. However, perioperative morphological changes remain incompletely understood. To identify brain regions showing spatial patterns of coordinated expansion and contraction that differ between neonates with CHD after cardiac intervention and controls, assess perioperative changes and effects of perioperative risk factors, using Structural Covariance Component (SCC) analysis. Prospective. Forty-one neonates with CHD (male = 20) who underwent cardiac surgery or catheterization and 359 healthy neonates (male = 185). 3T T2-weighted turbo-spin-echo sequence. Images were motion-corrected and reconstructed using a neonatal algorithm. Jacobian determinants calculated from non-linear image registration to a template were input into an Independent Component Analysis to identify SCCs (N = 40). SCC weightings were extracted, reflecting the degree to which the covariance pattern is expressed per neonate. Postoperative SCC weightings were compared to those of controls using a general linear model or robust regression. Perioperative change was assessed using a linear mixed effects model, and associations between perioperative differences and age at surgery, cardiopulmonary bypass duration, and postoperative pediatric intensive care unit stay were assessed using partial Spearman's rank correlation. Analyses were adjusted for covariates and corrected for multiple comparisons using False Discovery Rate, significant at p < 0.05. Sixteen of the 40 SCCs showed significant differences between neonates with CHD after surgery and controls, including white matter, cortical- and deep gray matter, brainstem, and CSF (f This work highlights region-specific postoperative alterations and perioperative changes in brain morphology of neonates with CHD. 1. Stage 3. Neonates with congenital heart disease (CHD) show differences in brain development compared with healthy newborns, but how these differences evolve around the time of cardiac intervention is not well understood. This study examined how brain regions develop together in neonates with CHD after surgery compared with healthy neonates, assessed changes between pre‐ and postoperative scans and whether these were related to clinical risk factors. The results show widespread alterations in coordinated development of brain regions in neonates with CHD, as well as changes from pre‐to‐postoperative MRI, indicating that brain development around cardiac intervention is altered and involves multiple brain regions."
- },
- {
-  "date": "2026-08-14",
   "pmid": "42595840",
   "title": "Machine learning models for predicting neonatal bacterial infections: a retrospective cohort study.",
   "doi": "10.1007/s00431-026-07315-5",
@@ -14998,5 +14983,20 @@
   "corr_email": "",
   "summary": "- 研究目的：报道一例儿童胰胆管梗阻病例中，点床超声（POCUS）识别哨兵肠袢作为诊断线索的价值与局限。\n- 核心发现/数据：患儿为3岁女孩，因持续腹痛就诊，初期归因于便秘。POCUS发现哨兵肠袢，进一步检查提示其与胆总管囊肿并发胰胆管梗阻相关。该发现使诊断评估转向邻近胰胆系统病变，但哨兵肠袢本身非特异且诊断性能尚不确定。\n- 临床启示：POCUS发现哨兵肠袢时，应警惕邻近炎症或梗阻，并将评估扩展至胰胆系统。鉴于其非特异性，需谨慎解释并结合进一步影像学检查。",
   "abstract": "The sentinel loop is a localized area of dilated bowel indicating localized abdominal inflammation, traditionally identified on plain films and computed tomography. Despite its diagnostic importance, sentinel loops have not been extensively characterized using point-of-care ultrasound (POCUS) in pediatric populations. We report a case of a 3-year-old girl who presented with persistent abdominal pain, initially attributed to constipation. POCUS identified a sentinel loop associated with a choledochal cyst complicated by pancreatobiliary obstruction, an uncommon underlying pathology. Sonographic recognition of the sentinel loop redirected the diagnostic evaluation toward adjacent pathology in this case, illustrating its potential value as a contextual POCUS finding while underscoring the need for cautious interpretation given its nonspecificity and uncertain diagnostic performance."
+ },
+ {
+  "date": "2026-11-24",
+  "pmid": "43076156",
+  "title": "Stratified In-Hospital Outcomes in Extremely Preterm Neonates Across Three Campuses: A Retrospective Observational Study.",
+  "doi": "10.3791/74082",
+  "source": "PubMed",
+  "journal": "J Vis Exp",
+  "rank": "",
+  "country": "Huazhong University of Science and Technology",
+  "institution": "Maternal and Child Health Hospital of Hubei Province",
+  "corr_author": "Liu H",
+  "corr_email": "liuhongyan027@163.com",
+  "summary": "- 研究目的：评估胎龄<28周极早产儿在三个院区的住院结局及营养状态，并按胎龄和出生体重分层分析。\n- 核心发现/数据：共纳入174例，120例存活出院（69.0%），53例治疗撤除（30.5%），1例院内死亡（0.6%",
+  "abstract": "This retrospective study analyzed data from 174 extremely preterm neonates with a gestational age of <28 weeks who were admitted to three hospital campuses between March 2020 and December 2024, and evaluated their in-hospital outcomes and nutritional status across gestational age and birth weight strata. The neonates were divided into a discharge-survival group and a treatment-withdrawal/death group according to discharge disposition. Among the 174 neonates, 120 survived to discharge (69.0%), 53 underwent treatment withdrawal (30.5%), and 1 died in hospital (0.6%); the composite group was not interpreted as a mortality endpoint. In an exploratory logistic regression adjusted for 1-min Apgar score, delivery mode, mode of conception, antenatal corticosteroid use, and maternal age, greater gestational age was associated with lower odds of treatment withdrawal/death (adjusted odds ratio [aOR] per week, 0.618; 95% confidence interval [CI], 0.441-0.865; p = 0.005), as was a higher 1-min Apgar score (aOR per point, 0.693; 95% CI, 0.562-0.855; p < 0.001). The birth-weight association did not reach statistical significance in the alternative adjusted model (aOR per 100 g, 0.837; 95% CI, 0.694-1.009; p = 0.062). Patent ductus arteriosus (PDA) was more frequently documented among survivors than among neonates in the treatment-withdrawal/death group (36.7% vs 20.4%, p = 0.032), whereas intraventricular hemorrhage/periventricular leukomalacia (IVH/PVL) was more common in the latter group (42.6% vs 19.2%, p = 0.001); neither necrotizing enterocolitis nor sepsis differed significantly between outcome groups. Recorded severity of bronchopulmonary dysplasia (BPD) varied across risk strata among survivors, but uniform assessment dates were not documented. Neither the recorded achievement rate nor time to full enteral feeding differed significantly across campuses. These findings describe discharge disposition within a single hospital system; morbidity documentation and exploratory comparisons of feeding require interpretation in relation to observation time, endpoint definitions, and residual confounding."
  }
 ]
