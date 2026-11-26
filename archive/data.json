@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-08-18",
-  "pmid": "42606588",
-  "title": "Does laparoscopic-assisted transanal endorectal pull-through improve outcomes compared with transanal endorectal pull-through in Hirschsprung disease? A systematic review and meta-analysis.",
-  "doi": "10.1007/s00383-026-06577-2",
-  "source": "PubMed",
-  "journal": "Pediatr Surg Int",
-  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
-  "country": "Madhya Pradesh",
-  "institution": "Netaji Subhash Chandra Bose Medical College",
-  "corr_author": "Sisodiya RS",
-  "corr_email": "rssisodiyanscbpediasurgery@gmail.com",
-  "summary": "- 研究目的：比较经肛门内括约肌切除术（TERPT）与腹腔镜辅助经肛门内括约肌切除术（LA-TERPT）在先天性巨结肠患儿中的术后并发症及长期功能结局是否存在优劣差异。\n- 核心发现/数据：共纳入23项研究、1668例患儿（TERPT 980例，LA-TERPT 688例）。两组在便秘（log RR=0.11）、污便（log RR=0.05）、大便失禁（log RR=0.05）、HAEC（log RR=0.09）、BFS>17（log RR=-0.08）、吻合口狭窄（log RR=0.28）和吻合口漏（log RR=0.06）方面均无显著差异；TERPT的手术时间显著更短（MD=-43.25分钟），术后住院时间相当（MD=0.20天）。\n- 临床启示：目前证据不支持两种术式在功能结局上孰优孰劣，手术方式选择应依据疾病特点、技术因素和外科医生经验，需谨慎解读现有低至中等确定性证据。",
-  "abstract": "TERPT and LA-TERPT are widely used minimally invasive procedures for HD treatment. However, the comparative superiority of either technique in terms of postoperative complications and long-term functional outcomes remains uncertain. An SRMA was conducted in accordance with PRISMA 2020 guidelines and prospectively registered in PROSPERO (CRD420261378340). PubMed/MEDLINE, Embase, Scopus, Web of Science, Google Scholar, and trial registries were searched from inception to May 3, 2026. Comparative studies evaluating TERPT and LA-TERPT in children with HD were included. The primary outcomes were constipation, soiling, fecal incontinence, BFS, HAEC, anastomotic stricture, and anastomotic leak. Secondary outcomes included operative time and hospital stay. A random-effects meta-analysis was performed using log risk ratios (RRs) or mean differences (MDs) with 95% confidence intervals (CIs). Twenty-three studies involving 1,668 children with HD were included, comprising 980 TERPT and 688 LA-TERPT procedures. No significant differences were observed between TERPT and LA-TERPT for constipation (log RR = 0.11), soiling (log RR = 0.05), fecal incontinence (log RR = 0.05), HAEC (log RR = 0.09), BFS > 17 (log RR = - 0.08), anastomotic stricture (log RR = 0.28), or anastomotic leak (log RR = 0.06). TERPT was associated with a significantly shorter operative time (MD = -43.25 min). Post-op hospital stay was comparable between groups (MD = 0.20 days). Most outcomes showed low heterogeneity, whereas operative time and hospital stay showed substantial heterogeneity. This SRMA found no clear evidence that either TERPT or LA-TERPT yields superior postoperative or functional outcomes in children with RSHD. However, the available evidence is largely observational and has low to moderate certainty, so it should be interpreted cautiously. Until higher-quality evidence becomes available, the choice of surgical approach should be guided by disease characteristics, technical considerations, and surgeon expertise."
- },
- {
-  "date": "2026-08-18",
   "pmid": "42607867",
   "title": "Rates of post-operative complications in Hirschsprung Disease: A study by the Canadian Consortium for Research in Pediatric Surgery (CanCORPS) with suggested management-based stricture classification.",
   "doi": "10.1016/j.jpedsurg.2026.163389",
@@ -14998,5 +14983,20 @@
   "corr_email": "",
   "summary": "- 研究目的：总结膈肌破裂、疝、囊肿及肿瘤的病理生理、典型病例及影像学表现。\n- 核心发现/数据：本文综述创伤性膈疝，强调其为钝性和穿透性创伤后罕见但重要且易被低估的并发症；同时涵盖成人非创伤性疝，包括自发性、先天性、肋间、食管裂孔、Bochdalek、Morgagni及医源性疝，并描述原发和继发累及膈肌的囊肿与肿瘤。摘要未提供具体发生率、样本量等定量数据，重点讨论疝发生的病理生理、本机构病例以及胸片和CT表现。\n- 临床启示：临床应提高对创伤性膈疝的识别，并结合胸片和CT进行及时评估；对成人非创伤性膈疝及膈肌囊肿、肿瘤需注意鉴别诊断和规范管理。",
   "abstract": "This section of the symposium first addresses traumatic diaphragmatic hernia, a rare but important and underrecognized consequence of blunt and penetrating trauma. We next discuss nontraumatic hernia in adults, including spontaneous and congenital hernia, intercostal hernia, hiatal hernia, Bochdalek hernia, Morgagni hernia, and iatrogenic hernia. Finally, cysts and tumors that primarily and secondarily involve the diaphragm are described. For all these entities, we discuss the pathophysiology that leads to the development of a hernia, provide example cases from our institution, and describe the findings on chest radiographs and computed tomography scans."
+ },
+ {
+  "date": "2026-11-26",
+  "pmid": "43095791",
+  "title": "Outcomes of trial of labor after two cesarean deliveries: a single-center retrospective cohort study.",
+  "doi": "10.1080/14767058.2026.2744005",
+  "source": "PubMed",
+  "journal": "J Matern Fetal Neonatal Med",
+  "rank": "",
+  "country": "德国",
+  "institution": "Clinic St. Hedwig of the Order of St. John",
+  "corr_author": "Köninger A",
+  "corr_email": "",
+  "summary": "- 研究目的：比较两次剖宫产后试产（TOLA2C）与择期重复剖宫产（ERCD）的母婴结局，并描述TOLA2C成功与失败患者的母体和产科特征。\n- 核心发现/数据：本研究纳入333名有≥2次剖宫产史孕妇，其中295名（88.6%）行ERCD，38名（11.4%）尝试TOLA2C；TOLA2C阴道分娩成功率为60.5%（23/38），39.5%（15/38）需非计划剖宫产。TOLA2C组子宫瘢痕裂开1例（2.6%），ERCD组10例（3.4%），ERCD组完全子宫破裂1例（0.3%），均无母儿死亡相关；两组母儿并发症无显著差异。但TOLA2C样本量小且存在选择偏倚，不能据此得出等效性或比较安全性结论。\n- 临床启示：在设备齐全的产科中心，经个体化咨询并严格筛选后，可考虑对有两次剖宫产史的女性尝试TOLA2C。需充分告知子宫破裂等风险，并强调该研究不足以证明其与ERCD等效安全。",
+  "abstract": "The global rise in cesarean delivery (CD) rates has led to an increasing number of women with multiple prior CDs. Despite growing evidence in support of trial of labor after two CD (TOLA2C), its adoption remains limited in many settings owing to concerns regarding potential complications, particularly uterine rupture. This study aimed to compare maternal and neonatal outcomes between trial of labor after two cesarean sections (TOLA2C) and elective repeat cesarean delivery (ERCD) within a single institution and to characterize maternal and obstetric features among women with successful and failed TOLA2C. This retrospective cohort study included 333 women with two or more previous CDs who gave birth between January 2021 and December 2023. Women with multiple pregnancies were excluded. Patients were categorized according to the intended mode of delivery into ERCD and TOLA2C groups. Maternal characteristics, birth outcomes, and complications were extracted from digital medical records. Continuous variables were summarized using means with standard deviations and medians with interquartile ranges, and categorical variables as frequencies and percentages. Group comparisons were performed using the Wilcoxon-Mann-Whitney test, Welch's two-sample t-test, chi-square test, or Fisher's exact test, as appropriate. A p value <0.05 was considered statistically significant. In total, 333 women met the eligibility criteria for the study. Among them, 295 (88.6%) underwent ERCD, whereas 38 (11.4%) attempted TOLA2C. The success rate of TOLA2C was 60.5% (23/38), whereas 39.5% (15/38) required an unplanned CD. Uterine scar dehiscence was identified in one woman undergoing TOLA2C (2.6%) and in 10 women undergoing ERCD (3.4%), whereas complete uterine rupture occurred in one woman with schedulded ERCD (0.3%). No uterine scar event was associated with maternal or neonatal death. No maternal deaths or embolic events were reported, one hysterectomy and one case of intrauterine infection occurred. Overall, there were no significant differences in maternal or neonatal complications between the two groups. Among women with two prior cesarean deliveries in our study population, TOLA2C resulted in vaginal birth in 60.5% of attempts. No statistically significant differences in the evaluated maternal and neonatal complications were detected between TOLA2C and ERCD; however, the small TOLA2C sample and potential selection bias preclude conclusions regarding equivalence or comparative safety. TOLA2C may be considered in appropriately selected women following individualized counseling in adequately equipped obstetric centers."
  }
 ]
