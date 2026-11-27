@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-08-18",
-  "pmid": "42608615",
-  "title": "Initial CPAP of 5 versus 8 cmH",
-  "doi": "10.1007/s00431-026-07322-6",
-  "source": "PubMed",
-  "journal": "Eur J Pediatr",
-  "rank": "中科院医学3区(儿科2区) · IF 2.9 · JCR Q1",
-  "country": "意大利",
-  "institution": "NICU \"V. Buzzi\" Children's Hospital",
-  "corr_author": "Bresesti I",
-  "corr_email": "ilia.bresesti@gmail.com",
-  "summary": "- 研究目的：评估在产房稳定极早产儿时，比较初始CPAP 5 cmH₂O与8 cmH₂O两种策略的可行性和安全性，并探索其早期生理效应。\n- 核心发现/数据：该试点随机对照试验显示，对孕26+0至29+6周、出生需呼吸支持的极早产儿，两种初始CPAP策略均可行且未报告严重不良事件；较高初始CPAP（8 cmH₂O）组达到FiO₂阈值（启动表面活性物质治疗）的时间更晚，提示可能需借助肺超声等工具指导个体化呼吸支持。\n- 临床启示：两种初始CPAP水平在产房极早产儿复苏中均安全可行，但较高初始CPAP可能延迟表面活性物质使用时机，临床应结合肺超声等评估手段优化个体化支持。",
-  "abstract": "The objective was to evaluate the feasibility and safety of conducting a randomised controlled trial comparing two initial continuous positive airway pressure (CPAP) levels during delivery room (DR) stabilisation of very preterm infants at risk for respiratory distress syndrome (RDS) and to explore their early physiological respiratory effects. In this pilot randomised controlled trial conducted at a tertiary neonatal intensive care unit, preterm infants born between 26 + 0 and 29 + 6 weeks' gestation requiring respiratory support at birth were randomised to receive CPAP at either 5 cmH  This pilot randomised trial demonstrated that comparing two initial CPAP strategies during DR stabilisation of very preterm infants is feasible and no significant adverse events have been reported. While higher initial CPAP was associated with delayed achievement of the FiO • CPAP is a cornerstone of respiratory support for very preterm infants in the DR, but the optimal initial distending pressure remains uncertain. • Higher CPAP levels may improve lung recruitment, although concerns persist regarding air leaks and potential harm. • In this pilot trial, both 5 and 8 cmH2O initial CPAP levels were feasible and safe during DR stabilisation of very preterm infants. • Higher initial CPAP was associated with delayed surfactant threshold achievement, highlighting the potential role of additional tools such as lung ultrasound to tailor and guide individualised respiratory support."
- },
- {
-  "date": "2026-08-18",
   "pmid": "42608729",
   "title": "Stromme syndrome presenting with classic microcephaly and apple-peel intestinal atresia in a neonate: a genetically confirmed case report.",
   "doi": "10.1186/s40748-026-00287-2",
@@ -14998,5 +14983,20 @@
   "corr_email": "Mehrdad.nikfarjam@gmail.com",
   "summary": "- 研究目的：评估Nikfarjam转流术（部分胃切除、胃空肠吻合、肝管空肠吻合、减压性十二指肠空肠吻合及Braun吻合）治疗壶腹下十二指肠梗阻的症状缓解效果及后续转换为胰十二指肠切除术的可行性。\n- 核心发现/数据：连续5例患者接受该术式，其中3例胰腺导管腺癌、1例胰腺神经内分泌肿瘤、1例良性环状胰腺伴胆总管囊肿；1例后续转换为胰十二指肠切除术。初步结果显示所有患者均获得症状缓解，且无患者需要再次干预。\n- 临床启示：对于壶腹下十二指肠梗阻，该双转流加减压性十二指肠空肠吻合可缓解症状，并有助于预防胆道反流性胆管炎和十二指肠扩张，同时保留向胰十二指肠切除术转换的路径。",
   "abstract": "Gastric outlet obstruction (GOO) in pancreatic cancer involving the first and second parts of the duodenum is typically palliated via endoscopic stenting or surgical gastrojejunostomy, often combined with biliary drainage. Infra-ampullary obstruction of the third and fourth parts of the duodenum is a distinct and poorly described problem. When biliary stenting has been performed, distal duodenal obstruction can drive reflux of enteric content into the bile duct and subsequent cholangitis, whilst food stasis and distension of the proximal duodenum promote nausea. A conventional gastrojejunostomy may not relieve these issues and endoscopic duodenal stenting may be technically challenging and often not durable. We describe the Nikfarjam bypass comprising partial gastrectomy with antecolic gastrojejunostomy, bile-duct excision with hepaticojejunostomy to the same jejunal loop as a duodenojejunostomy to vent the de-functioned duodenum and prevent stump blow-out, combined with a Braun entero-enterostomy. The configuration is also designed to facilitate later conversion to pancreaticoduodenectomy with a single additional pancreatic anastomosis, should the tumour become resectable. We report five consecutive patients. Five patients (three pancreatic adenocarcinoma, one pancreatic neuroendocrine tumour, one benign annular pancreas with choledochal cyst) underwent Nikfarjam bypass. One patient was subsequently converted to pancreaticoduodenectomy. In this initial experience, symptom relief was achieved and no patient required re-intervention. In this preliminary case series, this double bypass with decompressing duodenojejunostomy provided symptom relief for infra-ampullary duodenal obstruction. The core principle of the reconstruction is to prevent biliary-reflux cholangitis and duodenal distension whilst preserving a straightforward path to resection."
+ },
+ {
+  "date": "2026-11-27",
+  "pmid": "43099811",
+  "title": "The Transition of Feeding and Swallowing Difficulties From Birth to Adult Age in 23 Cri du Chat Syndrome Patients.",
+  "doi": "10.1002/ajmg.a.70370",
+  "source": "PubMed",
+  "journal": "Am J Med Genet A",
+  "rank": "中科院生物学3区(遗传学4区) · IF 1.7 · JCR Q4",
+  "country": "意大利",
+  "institution": "Università Cattolica del Sacro Cuore",
+  "corr_author": "Zampino G",
+  "corr_email": "",
+  "summary": "- 研究目的：描述23例猫叫综合征（Cri du chat综合征）患者从出生至成年期喂养和吞咽困难的发生率及演变过程。\n- 核心发现/数据：共纳入23例患者（10例男性；平均年龄34.3岁，标准差8.3岁；中位年龄34岁；年龄范围18–50岁）。喂养和吞咽困难在新生儿期即出现（96%），并持续终生；成年期患者明显依赖照护者，对家庭照护负担产生显著影响。\n- 临床启示：临床应重视猫叫综合征患者喂养和吞咽困难的早期识别及终身管理，并引入预防性支持措施，以改善患者管理并减轻家庭照护负担。",
+  "abstract": "Cri du chat syndrome (CdCs) is a rare genetic disorder caused by deletions of various sizes in the short arm of chromosome 5. The clinical course of CdCs involves neurodevelopmental and communication features, including feeding and swallowing difficulties. Dysphagia is common in CdCs, with reported deficits meeting criteria for pediatric feeding and swallowing disorder, yet characteristics and symptom progression from birth to adulthood have not been studied in depth. The aim of this article is to describe the prevalence and evolution of feeding and swallowing difficulties from birth to adult age. Adult patients with a confirmed cytogenetic and/or molecular diagnosis of CdCs were recruited from the Italian Cri du chat Association (ABC Associazione Bambini Cri du chat Onlus, Italy) over a 1-year period. Pathogenic variants, along with key information regarding oral-motor features, were collected. Twenty-three patients were included in this study (10 M; mean age 34.3 years; SD 8.3 years; median age 34 years; age range 18-50 years). None of them were siblings to other participants. All patients were of Italian origin. While the whole cohort underwent typical karyotyping, Array CGH was performed in 13 patients. In individuals with CdCs, feeding and swallowing difficulties begin in the neonatal period (96%) and persist throughout life. Adulthood is characterized by a marked dependence on carers and has a significant impact on the family's care burden. In the present study, we reported their prevalence and evolution from birth to adulthood. Our study may improve the patients' management and support the introduction of preventive supporting habits in this rare disease."
  }
 ]
