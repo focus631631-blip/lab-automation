@@ -1,21 +1,6 @@
 [
  {
   "date": "2026-08-19",
-  "pmid": "42610771",
-  "title": "Pediatric Postoperative Acute Kidney Injury After Noncardiac Surgery: A Systematic Review and Meta-Analysis.",
-  "doi": "10.1002/pan.70284",
-  "source": "PubMed",
-  "journal": "Paediatr Anaesth",
-  "rank": "",
-  "country": "瑞典",
-  "institution": "Uppsala University",
-  "corr_author": "Frithiof R",
-  "corr_email": "",
-  "summary": "- 研究目的：系统评价并汇总儿童非心脏手术后急性肾损伤（AKI）的发生率及其相关因素。\n- 核心发现/数据：共纳入27项研究（n=21,908），结果存在显著异质性；新生儿和肝移植受者的AKI发生率较高，且AKI与年龄更小、ASA分级更高相关，但相关数据有限。\n- 临床启示：儿童非心脏手术后AKI的发生率尚不确切，高危人群需重点关注；未来需在更广泛的儿科手术人群中开展前瞻性研究以准确评估风险。",
-  "abstract": "Postoperative acute kidney injury (AKI) is associated with substantial morbidity and mortality. Reliable estimates of AKI after surgery in children are lacking. To address this gap, we aimed to synthesize the available evidence on the incidence of AKI after pediatric noncardiac surgery. We searched PubMed, Cochrane and Web of Science for studies reporting the incidence of AKI, defined according to the Kidney Disease: Improving Global Outcomes (KDIGO) criteria, within 7 postoperative days. Observational studies and clinical trials including patients aged < 18 years were eligible. The review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, and certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. Twenty-seven studies (n = 21 908) were included. Considerable heterogeneity (I The reported incidence of postoperative AKI in children undergoing noncardiac surgery remains uncertain due to substantial heterogeneity and overrepresentation of high-risk populations. AKI incidence was high in neonates and liver transplant recipients and was associated with younger age and higher ASA class, although data were limited. Further prospective studies in broader pediatric surgical populations are needed to better assess the risk of postoperative AKI in children. PROSPERO registration no.: CRD42024518832."
- },
- {
-  "date": "2026-08-19",
   "pmid": "42609720",
   "title": "A Novel ",
   "doi": "10.1155/crpe/8646210",
@@ -14998,5 +14983,20 @@
   "corr_email": "",
   "summary": "- 研究目的：通过一例病例报告，强调在早期生命阶段识别Waardenburg-Shah综合征（Waardenburg综合征4型），避免仅关注Hirschsprung病而漏诊。\n- 核心发现/数据：Waardenburg综合征是一种罕见的遗传异质性神经嵴病，以感音神经性耳聋和色素异常为特征；Waardenburg-Shah综合征由Waardenburg综合征表现合并Hirschsprung病定义，源于神经嵴衍生细胞发育和迁移异常。摘要提及该综合征与基因突变相关，但可见摘要未提供具体突变类型及病例数据。\n- 临床启示：对表现为感音神经性耳聋、色素异常并合并Hirschsprung病的婴儿，应警惕Waardenburg-Shah综合征并进行早期遗传评估和多学科管理。",
   "abstract": "Waardenburg syndrome (WS) is a rare, genetically heterogeneous neurocristopathy characterized by sensorineural hearing loss and pigmentary abnormalities. Waardenburg-Shah syndrome, also referred to as WS Type 4, represents a distinct subtype defined by the association of WS features with Hirschsprung's disease, resulting from abnormal development and migration of neural crest-derived cells. Mutations in the"
+ },
+ {
+  "date": "2026-11-28",
+  "pmid": "43102646",
+  "title": "Clinical characteristics and surgical outcomes of patients with bronchial atresia: a multicenter study from the East Asia Pediatric Surgery Research Consortium.",
+  "doi": "10.1007/s00383-026-06729-4",
+  "source": "PubMed",
+  "journal": "Pediatr Surg Int",
+  "rank": "中科院医学3区(儿科3区/外科3区) · IF 1.8 · JCR Q2",
+  "country": "日本",
+  "institution": "Kobe University Graduate School of Medicine",
+  "corr_author": "Sugita K",
+  "corr_email": "ksugita@m.kufm.kagoshima-u.ac.jp",
+  "summary": "- 研究目的：评估支气管闭锁（BA）患者的临床特征和手术结局，以探讨最佳治疗策略。\n- 核心发现/数据：本研究纳入24例病理确诊并接受手术切除的BA患者，其中胸腔镜手术（TS）19例（79.2%）、开胸手术（TC）5例（20.8%），无中转。TS较TC显著降低术中出血中位数（3.0 vs. 35.0 mL，p=0.02）并缩短术后住院时间（6 vs. 11天，p=0.03），围手术期并发症率相当。术前感染仅见于≥3岁患者；TS亚组分析显示，<2岁早期手术（n=12）与≥2岁晚期手术（n=7）的围手术期安全性和并发症率相当。\n- 临床启示：TS是BA可行且微创的手术方式，可减少术中出血和住院时间；在2岁前择期行TS有助于预防年龄相关感染，同时保证手术安全。",
+  "abstract": "Bronchial atresia (BA) is a rare airway malformation. We aimed to evaluate the clinical characteristics and surgical outcomes of BA to investigate optimal treatment strategies. This retrospective multicenter study included 24 patients pathologically diagnosed with BA who underwent surgical resection at four centers (2005-2024). Outcomes of patients treated with thoracoscopic surgery (TS) and thoracotomy (TC) were compared. Patients in the TS group were stratified by age at surgery (Early < 2 years, n = 12 vs. Late ≥ 2 years, n = 7). TS and TC were performed in 19 (79.2%) and 5 (20.8%) patients, respectively, with no conversions. TS was associated with significantly lower median intraoperative blood loss (3.0 vs. 35.0 mL, p = 0.02) and shorter postoperative hospital stay (6 vs. 11 days, p = 0.03). The perioperative complication rates were comparable. Preoperative infection occurred exclusively in patients ≥ 3 years of age. A subgroup analysis showed that Early TS achieved comparable perioperative safety and complication rates to TS. TS is a feasible, minimally invasive approach for BA that significantly reduces intraoperative blood loss and hospital stay relative to TC. Elective TS before 2 years of age is a reasonable strategy to prevent age-dependent infection while ensuring surgical safety."
  }
 ]
